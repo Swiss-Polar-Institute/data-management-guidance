@@ -3,31 +3,39 @@
   sections:
     - title: Introduction
       url:
+    - title: Good data management practice
+      url:
+      sections:
+        - title: Where to store your data
+          url:
+        - title: File naming
+          url:
+        - title: Directory structure
+          url:
+        - title: Backing up your data
+          url:
     - title: Data management in the field
       url:
       sections:
         - title: Planning before you go
           url:
           sections:
+          - title: Questions to ask yourself
+            url:
           - title: Data Management Plan
             url:
-          - title: Data storage
-            url:
-          - title: Preparation for recording metadata
-            url:
-          - title: Preparation for collecting samples
-            url:
-        - title: In the field
+        - title: Data collection
           url:
           sections:
-            - title: Data collection
-              url:
-              sections:
-                - title: Automatic data collection
-                  url:
-                - title: Recording data by hand
-                  url:
-                - title: Obtaining data from sample analysis
-                  url:
-                - title: Recording metadata
-                  url:
+            - title: Automatic data collection
+                url:
+              - title: Recording data by hand
+                url:
+              - title: Obtaining data from sample analysis
+                url:
+              - title: Recording metadata
+                url:
+        - title: When you get home
+          url:
+          sections:
+
