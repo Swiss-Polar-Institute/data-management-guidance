@@ -1,0 +1,73 @@
+## Directory structure ##
+
+An organised directory structure will work wonders when it comes to looking for files you haven't been working on for a while. Think about a hierarchical structure that could be repeated across your work.
+
+A good example can be seen here.
+
+Some handy tips:
+
+    don't use spaces or special characters in directory names, instead split the sections using underscores ( _ ) or dashes ( - ) and words within sections using CamelCaps (starting each word with a capital letter). This can help with readability.
+    keep names short but meaningful: some file systems have limits on the number of characters in a full directory path so if you have several sub-directories this can become a problem.
+    avoid using acronyms.
+    your directories will be listed in alphabetical order. It is more useful to others looking for files to not have prefixes such as numbers or letters that order your directories.
+    if you are going to be storing millions of files, consider more hierarchical directories such as YYYY/MM/DD/yyyymmdd_data_file_name.
+
+## readme.txt ##
+
+Always include a readme file within a directory to describe its contents. This will help anyone coming to look at the files in the future, and will help jog your memory.
+
+The Gurdon Institute provides a very useful list of what to include here, summarised as follows:
+
+    summarise what is in the directory
+    use keywords for the project, data type or parameters so that they can be searched in the future
+    include the name of the person(s) who created the directory and their contact details
+    describe any changes made to the directory and when
+    make sure the file is written in text format (.txt) so that it can easily be read in the future.
+
+If you would like to write with formatting and equations, Markdown is a useful convention that can be used. Pandoc is a very useful tool to then convert Markdown into different file formats such as html, PDF etc. as you so wish. Remember to save the readme in text format though!
+
+## File naming ##
+
+Having an organised directory structure and standard procedure for file naming can be essential in helping to locate files in the future.
+
+Some filenaming tips (Borer et al., 2009):
+
+    Use a filename which is concise and accurately reflects what is contained within the file. Splitting it into separate parts, such as project, title, year or location of collection, year of collection, data type, version number and the file type can help to have a hierarchical name and standard naming procedure. Using keywords can help you find the file at a later date.
+    Stick to letters and numbers: special characters (non-ASCII characters) are unfortunately not well-supported in software and can cause problems.
+    Underscores ( _ ) and dashes ( - ) are conventionally used for separation of different parts of a filename. CamelCaps (starting each word with a capital letter) can be used to separate words within filename sections. Avoid using spaces because this can cause some problems with different filenames.
+    Versioning can be done using the date in the format YYYYMMDD. Placing the date at the start of the filename can be useful. If more granularity is useful, then version numbering such as v01_01, v01_02 can be used as well. Placing this at the end of the filename is useful.
+    Be consistent!
+
+Example 1	Example 2
+ace_meteorology_data_20170234-120000.csv	ace_meteorology_ProcessedWindData_201701.csv
+ace is the overaching project, meteorology is the sub-project, data signified that this is data rather than documentation, 20170234-120000 is the first timestamp of data in the file, .csv is the file type (comma-separated values)	ace is the overarching project, meteorology is the sub-project, ProcessedWindData is information about the data contained in the file, 201701 is the subset of data in the file (only data from January 2017), .csv is the file type (comma-separated values)
+
+## Data file formats ##
+
+Non-proprietary data file formats help to ensure the longevity of datasets (Borer et al., 2009). Text files such as comma-separated values (csv) are well-documented, easy to read by a variety of software and will be readable in the future. Using file formats that are specific to a certain piece of software, such as Excel files, have a higher probability of becoming unreadable in the future. As software versions change, they are not always backwards compatible, meaning that a file produced ten years ago may no longer be readable. Trends also change and now common software applications may not be widely used in the future.
+
+Consider storing any documentation about your data files in plain text files (.txt) that are very future proof.
+Data backup
+
+Ensuring you have several reliable copies of your data avoids data loss and gives you peace of mind.
+
+Make sure:
+
+    you have at least two, preferably three or more copies of your data;
+    that as far as possible, backups are automated. This avoids potential mistakes, minimises the chances of data loss, makes it much easier to do and ensures the backups are always done in the same way.
+    your data are backed up on a regular basis during collection, when you have completed data collection and after making any changes;
+    your data copies are in different places, eg. institution storage, cloud storage, external hard drives;
+    the devices you use are reliable;
+    that backed up versions of your data are identical to the primary copy. Whilst checking that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly.
+
+## Documenting backups ##
+It is important to document where the files have been backed up, when, how often, as well as how they can be accessed and restored if necessary.
+
+ ## Creating a backup schedule ##
+TODO
+
+## References ##
+
+Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009) ‘Some Simple Guidelines for Effective Data Management’, Ecological Society of America, 90(2), pp. 205–214. doi: 10.1890/0012-9623-90.2.205.
+
+Downie, A. (2019) Bite-sized RDM #5 - the readme file. https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file/ [Accessed 27th February 2020].
