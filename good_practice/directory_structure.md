@@ -18,14 +18,13 @@ Always include a readme file within a directory to describe its contents. This w
 
 The Gurdon Institute provides a very useful list of what to include here, summarised as follows:
 
-    summarise what is in the directory
-    use keywords for the project, data type or parameters so that they can be searched in the future
-    include the name of the person(s) who created the directory and their contact details
-    describe any changes made to the directory and when
-    make sure the file is written in text format (.txt) so that it can easily be read in the future.
+    - summarise what is in the directory
+    - use keywords for the project, data type or parameters so that they can be searched in the future
+    - include the name of the person(s) who created the directory and their contact details
+    - describe any changes made to the directory and when
+    - make sure the file is written in text format (.txt) so that it can easily be read in the future.
 
 If you would like to write with formatting and equations, Markdown is a useful convention that can be used. Pandoc is a very useful tool to then convert Markdown into different file formats such as html, PDF etc. as you so wish. Remember to save the readme in text format though!
-
 
 ## References ##
 
