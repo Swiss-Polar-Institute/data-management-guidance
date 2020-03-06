@@ -1,6 +1,33 @@
-- title:
+- title: Good data management practice for polar researchers
   url:
   sections:
-    - title:
+    - title: Introduction
       url:
-
+    - title: Data management in the field
+      url:
+      sections:
+        - title: Planning before you go
+          url:
+          sections:
+          - title: Data Management Plan
+            url:
+          - title: Data storage
+            url:
+          - title: Preparation for recording metadata
+            url:
+          - title: Preparation for collecting samples
+            url:
+        - title: In the field
+          url:
+          sections:
+            - title: Data collection
+              url:
+              sections:
+                - title: Automatic data collection
+                  url:
+                - title: Recording data by hand
+                  url:
+                - title: Obtaining data from sample analysis
+                  url:
+                - title: Recording metadata
+                  url:
