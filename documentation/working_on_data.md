@@ -30,6 +30,7 @@ Backups of any edited files should be done on a regular basis.
 ## Recording the provenance of your data ##
 
 TODO
+* always keep data and code that produces plots
 
 ### Capturing data provenance tools ###
 
