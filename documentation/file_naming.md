@@ -1,12 +1,14 @@
 # File naming #
 
-Having an organised directory structure and standard procedure for file naming can be essential in helping to locate files in the future.
+Having an organised directory structure and standard procedure for file naming can be essential in helping to locate files in the future. It also avoids a lot of confusion for anyone using the files.
+
+## Handy tips ##
 
 Some filenaming tips (Borer et al., 2009):
 
 * Use a filename which is concise and accurately reflects what is contained within the file. Splitting it into separate parts, such as project, title, year or location of collection, year of collection, data type, version number and the file type can help to have a hierarchical name and standard naming procedure. Using keywords can help you find the file at a later date.
 * Stick to letters and numbers: special characters (non-ASCII characters) are unfortunately not well-supported in software and can cause problems.
-* Underscores ( _ ) and dashes ( - ) are conventionally used for separation of different parts of a filename. CamelCaps (starting each word with a capital letter) can be used to separate words within filename sections. Avoid using spaces because this can cause some problems with different filenames.
+* Underscores ( _ ) and dashes ( - ) are conventionally used for separation of different parts of a filename. CamelCaps (starting each word with a capital letter) can be used to separate words within filename sections. Avoid using spaces because this can cause some problems with different systems.
 * Versioning can be done using the date in the format YYYYMMDD. Placing the date at the start of the filename can be useful. If more granularity is useful, then version numbering such as v01_01, v01_02 can be used as well. Placing this at the end of the filename is useful.
 * Be consistent!
 
@@ -31,3 +33,5 @@ ace_meteorology_ProcessedWindData_201701.csv
 ## Useful links ## 
 
 ## References ##
+
+Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009). Some Simple Guidelines for Effective Data Management, Ecological Society of America, 90(2), pp. 205–214. doi: 10.1890/0012-9623-90.2.205.
