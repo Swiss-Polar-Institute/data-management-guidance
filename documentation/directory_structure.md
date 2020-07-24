@@ -26,6 +26,8 @@ The Gurdon Institute provides a very useful list of what to include here, summar
 
 If you would like to write with formatting and equations, Markdown is a useful convention that can be used. Pandoc is a very useful tool to then convert Markdown into different file formats such as html, PDF etc. as you so wish. Remember to save the readme in text format though!
 
+## Useful links ## 
+
 ## References ##
 
 Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009) ‘Some Simple Guidelines for Effective Data Management’, Ecological Society of America, 90(2), pp. 205–214. doi: 10.1890/0012-9623-90.2.205.
