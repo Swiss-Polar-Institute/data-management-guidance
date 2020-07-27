@@ -7,6 +7,7 @@ Using open data file formats helps to ensure the longevity of datasets (Borer et
 ## Handy tips ##
 
 File formats should be (as described by MIT information on storing your data, CC BY-NC): 
+
 * open and documented
 * commonly used by the research community
 * unencrypted
@@ -14,10 +15,12 @@ File formats should be (as described by MIT information on storing your data, CC
 * use standard representation (ASCII, Unicode)
 
 For tabular data: 
+
 * csv files are an easy solution if you have minimal metadata contained within the file. Otherwise HDF5 is a good option.
 * if converting data from a proprietory format to an open format, ensure that no data or meaningful information is lost. If this is going to be the case, it is worth considering keeping both copies and thoroughly document the proprietary software needed to create and read the proprietary files (name, version, operating system; DataONE).
 
 For documentation: 
+
 * plain text (txt) files are simple and easily read.
 * for structured information, you could consider ODF, LaTeX or markdown for example.
 
