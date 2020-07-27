@@ -1,9 +1,10 @@
 # Data backup #
 
-Ensuring you have several reliable copies of your data avoids data loss and gives you peace of mind.
+Ensuring you have several reliable copies of your data avoids data loss and gives you peace of mind. Think carefully about the type of [data storage](storing_data.md) you use for your backups.
 
 Make sure:
  * you have at least two, preferably three or more copies of your data;
+ * data are backed up on at least two different [types of media](storing_data.md), particularly for preservation purposes;
  * that as far as possible, backups are automated. This avoids potential mistakes, minimises the chances of data loss, makes it much easier to do (it is less of a chore) and ensures the backups are always done in the same way;
  * data are backed up on a regular basis, but particularly during collection and after making any changes;
  * data copies are in different places, eg. institution storage, cloud storage, external hard drives;
