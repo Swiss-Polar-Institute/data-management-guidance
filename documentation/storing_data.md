@@ -33,13 +33,14 @@ Storing data on your personal computer or laptop is not recommended. Failure of 
 
 ### Portable media ###
 
-Portable hard drives are commonly used for [backing up](backing_up_data.md) data in the field. Some portable media types are not useful for long-term storage because they quickly degrade or become obsolete. 
+Portable hard drives are commonly used for [backing up](backing_up_data.md) data in the field but their use-case should be carefully considered. Some portable media types are not useful for long-term storage because they quickly degrade or become obsolete. 
 
 * Buy reputable makes of portable hard drives. If you are going to use a lot of them (for example, during a particular field season), by at least two different makes to avoid buying a "bad" batch. 
 * Consider buying several medium-sized hard drives rather than one large one. If one fails, at least you do not lose everything.
 * Take care of hard drives: remember that they are susceptible to physical damage and depending on how many times you write to them, may only last a few years.
 * Pendrives are easy to lose and shouldn't be considered as reliable for data backup. 
 * USB-3 devices offer faster speeds for copying data.
+* TODO security issues
 
 ### Cloud storage ###
 
