@@ -53,4 +53,4 @@ If you would like to write with formatting, Markdown is a useful convention that
 
 Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009). Some Simple Guidelines for Effective Data Management, Ecological Society of America, 90(2), pp. 205–214. doi: [10.1890/0012-9623-90.2.205](https://doi.org/10.1890/0012-9623-90.2.205).
 
-Downie, A. (2019) <em>Bite-sized RDM #5 - the readme file</em>. Retrieved from [https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file](https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file/) [Accessed 27th February 2020].
+Downie, A. (2019) Bite-sized RDM #5 - the readme file. <em>IT and Research Data Management at the Gurdon Institute</em>. Retrieved from [https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file](https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file/) [Accessed 27th February 2020].
