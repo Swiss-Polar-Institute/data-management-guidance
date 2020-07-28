@@ -2,9 +2,6 @@
 
 An organised directory structure will work wonders when it comes to looking for files you haven't been working on for a while. Think about a hierarchical structure that could be repeated across all of your projects.
 
-A good example can be seen here.
-TODO
-
 ## Handy tips ##
 
 * Don't use spaces or special characters in directory names, instead split the sections using underscores ( _ ) or dashes ( - ) and words within sections using CamelCaps (starting each word with a capital letter). This can help with readability.
@@ -13,6 +10,28 @@ TODO
 * Your directories will be listed in alphabetical order. It is more useful for others looking for files to not have prefixes such as numbers or letters that order your directories.
 * If you are going to be storing millions of files, you could consider a more hierarchical structure such as YYYY/MM/DD/yyyymmdd_data_file_name.
 * Include a readme file to describe what the directory contains.
+
+A good example can be seen here.
+
+```
+ProjectName
+├── RawData
+│   ├── FieldSiteA
+│   │   ├── 2018
+│   │   ├── 2019
+│   │   └── 2020
+│   ├── FieldSiteB
+│   │   ├── 2018
+│   │   ├── 2019
+│   │   └── 2020
+│   └── FieldSiteC
+│       ├── 2018
+│       ├── 2019
+│       └── 2020
+├── Documentation
+├── Plots
+└── readme.txt
+```
 
 ## readme.txt ##
 
@@ -34,4 +53,4 @@ If you would like to write with formatting, Markdown is a useful convention that
 
 Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009). Some Simple Guidelines for Effective Data Management, Ecological Society of America, 90(2), pp. 205–214. doi: 10.1890/0012-9623-90.2.205.
 
-Downie, A. (2019) Bite-sized RDM #5 - the readme file. https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file/ [Accessed 27th February 2020].
+Downie, A. (2019) Bite-sized RDM #5 - the readme file. Retrieved from https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file/ [Accessed 27th February 2020].
