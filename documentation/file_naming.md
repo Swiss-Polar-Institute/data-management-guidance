@@ -14,7 +14,7 @@ Some filenaming tips (Borer et al., 2009):
 
 ## Examples ##
 
-ace_meteorology_data_20170234-120000.csv	
+```ace_meteorology_data_20170234-120000.csv```	
 
 * ace is the overaching project
 * meteorology is the sub-project
@@ -22,9 +22,9 @@ ace_meteorology_data_20170234-120000.csv
 * 20170234-120000 is the first timestamp of data in the file
 * .csv is the file type (comma-separated values)	
 
-ace_meteorology_ProcessedWindData_201701.csv
+```ace_meteorology_ProcessedWindData_201701.csv```
 
-* ace is the overaching project
+* ace is the overarching project
 * meteorology is the sub-project
 * ProcessedWindData is information about the data contained in the file
 * 201701 is the subset of data in the file (only data from January 2017)
@@ -34,4 +34,4 @@ ace_meteorology_ProcessedWindData_201701.csv
 
 ## References ##
 
-Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009). Some Simple Guidelines for Effective Data Management, Ecological Society of America, 90(2), pp. 205–214. doi: 10.1890/0012-9623-90.2.205.
+Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009). Some Simple Guidelines for Effective Data Management, Ecological Society of America, 90(2), pp. 205–214. doi: [10.1890/0012-9623-90.2.205](https://doi.org/10.1890/0012-9623-90.2.205).
