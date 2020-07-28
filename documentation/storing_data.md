@@ -2,7 +2,7 @@
 
 Storing your data in an organised and secure manner, will save you a lot of time and hassle in the long run. It is worth investing time and effort in ensuring a coherent [directory structure](directory_structure.md), understandable [file names](file_naming.md), secure data storage and carefully thought-out [backups](backing_up_data.md).
 
-In this section we focus on where to store your data. Suggestions are <em>not</em> ordered by preference.
+In this section we focus on where to store your data. Suggestions are *not* ordered by preference.
 
 ## What to consider when deciding where to store your data ##
 
@@ -29,7 +29,7 @@ Remember that for [backups](backing_up_data.md) of data, it is important to have
 
 ### Personal computers ###
 
-Storing data on your personal computer or laptop is not recommended. Failure of the hard disk, theft or damage to the computer itself could mean loss of all the data. If using a personal computer to work on data, ensure that you have a master copy backed up elsewhere, that you work on a <em>copy</em> of the [raw data](working_on_data.md) and that any work you do is backed up on a regular basis. 
+Storing data on your personal computer or laptop is not recommended. Failure of the hard disk, theft or damage to the computer itself could mean loss of all the data. If using a personal computer to work on data, ensure that you have a master copy backed up elsewhere, that you work on a *copy* of the [raw data](working_on_data.md) and that any work you do is backed up on a regular basis. 
 
 ### Portable media ###
 
@@ -64,4 +64,4 @@ Wikipedia has a very handy [comparison of online backup options](https://en.wiki
 
 ## References ##
  
-The University of Edinburgh. Storage & security. <em>MANTRA Research Data Management Training</em>. Retrieved from [https://mantra.edina.ac.uk/storageandsecurity](https://mantra.edina.ac.uk/storageandsecurity) [Accessed on 28 July 2020].
+The University of Edinburgh. Storage & security. *MANTRA Research Data Management Training*. Retrieved from [https://mantra.edina.ac.uk/storageandsecurity](https://mantra.edina.ac.uk/storageandsecurity) [Accessed on 28 July 2020].

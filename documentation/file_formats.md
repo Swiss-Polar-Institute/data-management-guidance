@@ -34,8 +34,8 @@ Page 4 of EPFL's [Research Data Management Fast Guide](https://www.epfl.ch/campu
 
 Blumer, E.N., Chaptinel, J.J., Masson, A., Reichler, F., Samath, S., Varrato, F. and Milfort, F. (2019). EPFL Library Research Data Management Fastguides. Zenodo. doi: [10.5281/zenodo.3327830](https://doi.org/10.5281/zenodo.3327830)
 
-DataONE. Document and store data using stable file formats. <em>DataONE</em> Retrieved from [https://old.dataone.org/best-practices/document-and-store-data-using-stable-file-formats](https://old.dataone.org/best-practices/document-and-store-data-using-stable-file-formats) [Accessed on 24 July 2020]
+DataONE. Document and store data using stable file formats. *DataONE*. Retrieved from [https://old.dataone.org/best-practices/document-and-store-data-using-stable-file-formats](https://old.dataone.org/best-practices/document-and-store-data-using-stable-file-formats) [Accessed on 24 July 2020]
 
-MIT. Formats. <em>Data management</em>. Retrieved from [https://libraries.mit.edu/data-management/store/formats](https://libraries.mit.edu/data-management/store/formats/) [Accessed on 24 July 2020]
+MIT. Formats. *Data management*. Retrieved from [https://libraries.mit.edu/data-management/store/formats](https://libraries.mit.edu/data-management/store/formats/) [Accessed on 24 July 2020]
 
-Stanford Library. Best practices for file formats. <em>Stanford Libraries</em>. Retrieved from [https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats](https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats) [Accessed on 24 July 2020]
+Stanford Library. Best practices for file formats. *Stanford Libraries*. Retrieved from [https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats](https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats) [Accessed on 24 July 2020]
