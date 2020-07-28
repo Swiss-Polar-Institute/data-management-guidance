@@ -14,7 +14,10 @@ An organised directory structure will work wonders when it comes to looking for 
 A good example can be seen here.
 
 ~~~
-ProjectName
+ProjectName/
+├── Documentation
+├── Plots
+├── ProcessedData
 ├── RawData
 │   ├── FieldSiteA
 │   │   ├── 2018
@@ -28,9 +31,8 @@ ProjectName
 │       ├── 2018
 │       ├── 2019
 │       └── 2020
-├── Documentation
-├── Plots
-└── readme.txt
+├── readme.txt
+└── wip
 ~~~
 
 ## readme.txt ##
