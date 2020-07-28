@@ -42,13 +42,15 @@ Ask yourself the following questions:
 
 Primary storage, that is where the raw copy of your data will be saved, should be of a volume that more than covers the data that you plan to collect. Always ensure you have a buffer of at least 20 %, preferably more, and test how the files are stored thoroughly beforehand. If in doubt, have more storage rather than less.
 
-### How will the data be stored? ###
+### Data storage media ###
 
 Consider the [hardware](storing_data.md) that you need carefully, ensuring that it can withstand the conditions. If you don't know what to expect, find out from others that have been on a similar field trip or have previously been to the same location. 
 
 At permanent field camps or bases, familiarise yourself with to know what is and just as importantly, what is not available to you. 
 
 If your instrumentation and data storage are connected to an electrical supply, maybe you need to consider an external power supply such as a UPS, to keep them running in case of power loss.
+
+Plan how you will get your hardware to the field location with good time. Carefully check cargo restrictions to ensure that your hardware meets the requirements of carriage. Batteries that are in UPSs or other instrumentation are particularly regulated. When returning with portable media devices holding your collected data, think carefully how you get them back. Consider encryption of the device if it holds personal or sensitive data.
 
 ### Organising data files ###
 
@@ -65,9 +67,10 @@ If automatically collecting data, this is likely to be having a copy on the inst
 Don't forget to backup metadata and documentation as well - these are just as vital.  
 
 Depending on the circumstances, backups could be:
-* on networked storage if accessible
-* by sending files using a mobile or satellite connection from the instrument (will depend on situation and cost) to cloud (or other) storage
-* a number of portable hard drives
+* on networked storage if accessible;
+* by sending files using a mobile or satellite connection from the instrument (will depend on situation and cost) to cloud (or other) storage;
+* a number of portable hard drives;
+* if others are coming and going to a field site during the season, consider asking a responsible person to carry a copy of the data back to your institution. This provides a copy in a different location and means it could also be placed on secure networked storage as an extra precaution. This would be particularly useful if weather conditions at the field site make it difficult to keep portable media safe and in good condition.
 
 ### Accessing data in the field ###
 
