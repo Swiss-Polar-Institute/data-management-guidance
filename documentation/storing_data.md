@@ -40,7 +40,8 @@ Portable hard drives are commonly used for [backing up](backing_up_data.md) data
 * Take care of hard drives: remember that they are susceptible to physical damage and depending on how many times you write to them, may only last a few years.
 * Pendrives are easy to lose and shouldn't be considered as reliable for data backup. 
 * USB-3 devices offer faster speeds for copying data.
-* TODO security issues
+* If a hard drive is lost, it can be easily read by anyone. The hard drive should be encrypted if it holds any personal or sensitive data.
+* Regularly check any data that are held on portable media to ensure it can still be read. Always have other backups. 
 
 ### Cloud storage ###
 
