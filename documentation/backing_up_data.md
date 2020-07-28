@@ -57,4 +57,4 @@ Decide on a directory structure and file naming convention for your data and sti
 
 The University of Edinburgh. MANTRA Research Data Management Training. Storage & security. Retrieved from https://mantra.edina.ac.uk/storageandsecurity/ [Accessed on 28 July 2020].
 
-Wikipedia. <em>Checksum</em>. Retrieved from [https://en.wikipedia.org/wiki/Checksum](https://en.wikipedia.org/wiki/Checksum) [Accessed on 28 July 2020].
+Wikipedia. Checksum. <em>Wikipedia The Free Encyclopedia</em>. Retrieved from [https://en.wikipedia.org/wiki/Checksum](https://en.wikipedia.org/wiki/Checksum) [Accessed on 28 July 2020].
