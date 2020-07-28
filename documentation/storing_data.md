@@ -47,16 +47,22 @@ Portable hard drives are commonly used for [backing up](backing_up_data.md) data
 
 Cloud storage is becoming the norm in many cases, particularly where the data volume is getting into hundreds of GBs. There are many types of cloud storage that you can set up yourself or buy as a managed service, but there are a few considerations to take into account.
 
-* The physical location of the cloud storage can have implications for data access, storage of personal data and requirements that may come from your funders.
-* Access rights are also important. Consider who might have access to the data, if you use read-only or write access rights and where the data are physically stored. 
+* If you are storing personal data, it is essential to understand the location of the physical servers and ensure this complies with regulations.
+* Access rights are also important. Consider who might have access to the data, if you use read-only or write access rights and where the data are physically stored.
+* Check the privacy policy carefully. 
 * Some cloud storage providers charge not only for the data storage, but also for the number and size of copying data to and from the storage. It is important to think about how this could impact on your costs.
 * Some providers provide different levels of storage: consider if you want to have immediate access to your data or if you are happy to have it in "cold storage" where it may take a while to access it - this is often a low-cost option and good for long-term backups of data that you are not actively working on.
 * For managed systems, make sure that backups are done regularly.
 * For unmanaged systems, check how you will be able to copy and access data. Many systems require the use of command-line tools.
+* Speed of access to data (particularly when more than a few GBs) can be limited by your bandwidth - consider how you will access large volumes of data carefully.
+* Always check that you are able to move your data to another provider at a reasonable cost and in a reasonable time manner. This could happen if there are changes to the services that are provided, they go out of service or they no longer meet the requirements you need. Some providers may use proprietary formats which might make moving the data impossible.
+* Ensure the subscription is always maintained (if paid for) otherwise you may find your data are deleted.  
 
 Wikipedia has a very handy [comparison of online backup options](https://en.wikipedia.org/wiki/Comparison_of_online_backup_services). These would not normally be used for your day-to-day data storage for the data you are working on.
 
 ## Handy tips ##
 
+
 ## References ##
- Edinburgh
+ 
+The University of Edinburgh. MANTRA Research Data Management Training. Storage & security. Retrieved from https://mantra.edina.ac.uk/storageandsecurity/ [Accessed on 28 July 2020].
