@@ -50,10 +50,11 @@ If any of your data were produced using proprietary software it is particularly 
 ## Handy tips ##
 
 Decide on a directory structure and file naming convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create havoc with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on.
- 
 
 ## Useful links ## 
 
 ## References ##
-Edinburgh
-https://en.wikipedia.org/wiki/Checksum
+
+The University of Edinburgh. MANTRA Research Data Management Training. Storage & security. Retrieved from https://mantra.edina.ac.uk/storageandsecurity/ [Accessed on 28 July 2020].
+
+Wikipedia. <em>Checksum</em>. Retrieved from [https://en.wikipedia.org/wiki/Checksum](https://en.wikipedia.org/wiki/Checksum) [Accessed on 28 July 2020].
