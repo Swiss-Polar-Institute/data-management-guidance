@@ -13,7 +13,7 @@ An organised directory structure will work wonders when it comes to looking for 
 
 A good example can be seen here.
 
-```
+~~~
 ProjectName
 ├── RawData
 │   ├── FieldSiteA
@@ -31,7 +31,7 @@ ProjectName
 ├── Documentation
 ├── Plots
 └── readme.txt
-```
+~~~
 
 ## readme.txt ##
 

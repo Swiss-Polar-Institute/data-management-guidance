@@ -14,7 +14,9 @@ Some filenaming tips (Borer et al., 2009):
 
 ## Examples ##
 
-```ace_meteorology_data_20170234-120000.csv```	
+~~~~
+ace_meteorology_data_20170234-120000.csv
+~~~~	
 
 * ace is the overaching project
 * meteorology is the sub-project
@@ -22,7 +24,9 @@ Some filenaming tips (Borer et al., 2009):
 * 20170234-120000 is the first timestamp of data in the file
 * .csv is the file type (comma-separated values)	
 
-```ace_meteorology_ProcessedWindData_201701.csv```
+~~~~
+ace_meteorology_ProcessedWindData_201701.csv
+~~~~
 
 * ace is the overarching project
 * meteorology is the sub-project
