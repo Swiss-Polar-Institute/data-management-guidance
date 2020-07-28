@@ -26,13 +26,25 @@ Backups of any edited files should be done on a regular basis.
 
 * Git
 * Github
+* Gitlab
 
 ## Recording the provenance of your data ##
 
-TODO
-* always keep data and code that produces plots
+It is natural to keep notes of what you have done to data so that when writing up publications, you are able to explain your methods. It is often impossible to repeat data collection, which in polar research is also often extremely expensive. This "original" data is considered as [raw](#Raw data) and should be kept as such. But any [work that is done on a copy of this raw data](#Work on a copy of your raw data) should be carefully recorded.
+
+Journals are more and more asking for all supporting documentation, code, data and information about how plots and figures were generated, so organising to capture the full provenance of your data and research paper will save you time when you come to publish. 
+ 
+* Wherever possible, use scripts to do any manipulation of data, for applying algorithms, quality-checking and any other processes that work towards your final, output dataset. Scripts can be modified easily if you spot a mistake and then re-run, rather than having to run through all of your manual steps again.
+* Backup and keep different versions of your scripts so that you can see where possible errors are introduced into your data or processing.
+* Make sure you also document what you are doing: clearly state references to algorithms, which software you are using (including the version) as well as which decisions you have taken and why.
+* Ideally, you should be able to record the set-up of the computing environment that you have used to run the scripts: include details of the operating system, package names and versions. 
+* Always keep data and code that produces plots: this could not only save you time if you spot a mistake you want to correct but it could be required to publish it in a journal.
 
 ### Capturing data provenance tools ###
+
+Versioning tools are very handy for making incremental improvements to scripts and even versions of data in the case of Gitlab.
+
+Some tools also exist which allow you to record exactly what has happened to your dataset. 
 
 * Renku
 * WholeTale
