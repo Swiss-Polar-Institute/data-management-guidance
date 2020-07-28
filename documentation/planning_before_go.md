@@ -9,7 +9,15 @@ The sections that you need to think about below will depend on whether you are c
 * document your data or sample collection thoroughly
 * record metadata (information about data) about the data or sample collection 
 
-Think carefully about the following questions:
+The sections below will lead you through these points in more detail. Follow the links for more detailed information and helpful tips.
+
+## Preparing for data collection ##
+
+Collecting data in the field requires careful thinking beforehand, particularly if you are setting up an instrument in a remote environment that is difficult to reach to troubleshoot, move out of danger or to recover data from when the data storage is full. 
+
+We will also consider cases where you are working alongside instrumentation and collecting data by hand.
+
+Whilst planning, think carefully about the following questions:
 
 * how much data are you planning to collect?
 * do you understand how big each data file will be?
@@ -18,14 +26,6 @@ Think carefully about the following questions:
 * how will you organise the data files?
 * how will the data be backed-up in the field?
 * will you be able to access the data during collection?
-
-The sections below will lead you through these points in more detail. Follow the links for more detailed information and helpful tips.
-
-## Data storage ##
-
-Data storage is not generally a trivial point, particularly if you are setting up an instrument in a remote environment that is difficult to reach to troubleshoot, move out of danger or to recover data from when the data storage is full.
-
-We'll consider these points in more detail....
 
 ### How much data am I planning to collect? ###
 
@@ -81,6 +81,13 @@ If you are staying with your instrumentation, it is very likely you will be able
 If however you are setting up your instrumentation then expecting to leave it for a period of time, it is worth considering what access you (or others) might have to it. Running initial tests whilst still with the instrument in the field is essential. Once you are sure data are being collected as you expected, then it is useful to be able to access data from wherever you are. This could be across a network (for example if you are on a ship or at a base) or even using mobile or satellite communications. Even if you are not able to see *all* of the data being collected, a small daily file with a subset of the data could be enough for you to check that everything is going well or flag up issues. Of course this is of more use if someone is able to go and fix the problem for you, rather than if your instrument is very isolated. 
 
 For instruments that are very isolated and there is no possibility of being able to access them, consider if there is a way to remotely connect to the instrument. This might offer the possibility to restart it for example, or change settings.    
+
+## Preparing for sample collection ##
+
+## Documentation ##
+
+## Metadata ##
+
 
 ## Useful links ##
 
