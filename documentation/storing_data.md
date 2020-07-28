@@ -54,6 +54,8 @@ Cloud storage is becoming the norm in many cases, particularly where the data vo
 * For managed systems, make sure that backups are done regularly.
 * For unmanaged systems, check how you will be able to copy and access data. Many systems require the use of command-line tools.
 
+Wikipedia has a very handy [comparison of online backup options](https://en.wikipedia.org/wiki/Comparison_of_online_backup_services). These would not normally be used for your day-to-day data storage for the data you are working on.
+
 ## Handy tips ##
 
 ## References ##
