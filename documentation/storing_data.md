@@ -62,7 +62,6 @@ Wikipedia has a very handy [comparison of online backup options](https://en.wiki
 
 ## Handy tips ##
 
-
 ## References ##
  
-The University of Edinburgh. MANTRA Research Data Management Training. Storage & security. Retrieved from https://mantra.edina.ac.uk/storageandsecurity/ [Accessed on 28 July 2020].
+The University of Edinburgh. Storage & security. <em>MANTRA Research Data Management Training</em>. Retrieved from [https://mantra.edina.ac.uk/storageandsecurity](https://mantra.edina.ac.uk/storageandsecurity) [Accessed on 28 July 2020].
