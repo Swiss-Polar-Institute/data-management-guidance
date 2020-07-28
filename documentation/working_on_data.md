@@ -53,4 +53,4 @@ Some tools also exist which allow you to record exactly what has happened to you
 
 ## References ##
 
-Peng R. D. (2011). Reproducible research in computational science. Science (New York, N.Y.), 334(6060), 1226–1227. https://doi.org/10.1126/science.1213847
+Peng R. D. (2011). Reproducible research in computational science. Science (New York, N.Y.), 334(6060), 1226–1227. doi: [10.1126/science.1213847](https://doi.org/10.1126/science.1213847)
