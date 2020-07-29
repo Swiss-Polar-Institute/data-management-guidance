@@ -2,14 +2,19 @@
 
 Ensuring you have several reliable copies of your data avoids data loss and gives you peace of mind. Think carefully about the type of [data storage](storing_data.md) you use for your backups.
 
+It is important to remember that if you are working in the field, your backup set-up and schedule will differ from your backups that are done of other data and when working back at your institution. This is covered more detail in [planning](planning_before_go.md) and [working in the field](in_the_field.md) sections of the guide.
+
+## Handy tips ##
+
 Make sure:
 
-* you have at least two, preferably three or more copies of your data;
+* you have at least two, preferably three or more [copies](#how-much-and-how-often) of your data;
 * data are backed up on at least two different [types of media](storing_data.md), particularly for preservation purposes, such as institution storage, cloud storage, external hard drives;
 * that as far as possible, backups are automated. This avoids potential mistakes, minimises the chances of data loss, makes it much easier to do (it is less of a chore) and ensures the backups are always done in the same way;
-* data are backed up on a regular basis, but particularly during collection and after making any changes;
-* that backed up versions of your data are identical to the primary copy. Whilst checking that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
-* that you can easily restore your backups.
+* data are backed up on a [regular basis](#how-much-and-how-often), but particularly during collection and after making any changes;
+* that backed up versions of your data are identical to the primary copy. Whilst [checking](#checking-and-restoring-backups) that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
+* that you can easily [restore](#checking-and-restoring-backups) your backups;
+* decide on a [directory structure](storing_data.md) and [file naming](file_naming.md) convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create havoc with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on.
 
 ## Creating a backup schedule ##
 
@@ -33,7 +38,7 @@ For your regular backups, depending on how often you do your backups, you might 
 
 If data are being stored for preservation purposes then you need to take into account how the data have been collected, if they have been published openly anywhere and their importance for the future. This should be planned in a data management plan.
 
-Consider also that you might not realise it now, but these data could be part of a long-term study in the future. For example, you might start collecting a set of time series data for a one-off project. If this project gets another set of funding for a second year in a row, you will then have amassed two years' worth of data. Who knows if you might end up then setting up an observing programme at the same site with automated monitoring for the next ten years. Being able to read and access the initial "one-off" dataset years into the future can pay dividends and provide a nice opportunity for a publication that you might not originally have envisaged right back at the beginning.  
+Consider also that you might not realise it now, but these data could be part of a long-term study in the future. For example, you might start collecting a set of time series data for a one-off project. If this project gets another set of funding for a second year in a row, you will then have amassed two years' worth of data. Who knows if you might end up then setting up an observing programme at the same site with automated monitoring for the next ten years. Being able to read and access the initial "one-off" dataset years into the future can provide an opportunity for a publication that you might not originally have envisaged right back at the beginning.  
 
 ## Documenting backups ##
 
@@ -41,15 +46,25 @@ It is important to document where the files have been backed up, when, how often
 
 ## Checking and restoring backups ##
 
+### Checksums ###
+
 It is important to check the backup when it has been completed to ensure it contains the files you expect. Checksums are a unique identifier of a file: if it's content changes in any way, then it's checksum also changes. Comparing checksums of your original files and the backup is a very handy way to ensure that the backup contains the files you expect.  
+
+### File restoration ###
 
 Storage media can become obsolete, file permissions and access can be changed accidentally, and subscriptions to services are sometimes not renewed. There can be many possible ways in which file backups are lost. Regularly checking that you can still read and restore the data is important to ensure that there are no problems.
 
+Choosing a simple, well-understood, transparent and multi-platform tool will often make file restoration much simpler.
+
 If any of your data were produced using proprietary software it is particularly important to ensure that you can still read them on a regular basis. You may need a specific piece of software that requires a license (do you still have the license?) or even a specific version of software that might become outdated. Consider outputting data into an [open, documented format](file_formats.md) such as txt or csv - be aware that in this process you may lose some information or data, so it is always good practice to keep both sets of files. 
 
-## Handy tips ##
+## Backup tools ##
 
-Decide on a directory structure and file naming convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create havoc with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on.
+Many tools are available to help create backups. It is worth spending time finding one that meets your needs taking into account future, as well as current, needs. Of course it is essential to fully understand how the data are being saved and how they can be recovered.  
+
+Your institution may have tools or subscriptions to tools that can help. Data managers or librarians within your institution may also be able to offer recommendations. 
+
+Using a multi-platform tool (usable by Windows, Mac and Linux users) offers higher resilience, ensuring more possibilities for accessing the data in the future and allow access to other team members. 
 
 ## Useful links ## 
 
