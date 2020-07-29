@@ -14,7 +14,7 @@ Make sure:
 * data are backed up on a [regular basis](#how-much-and-how-often), but particularly during collection and after making any changes;
 * that backed up versions of your data are identical to the primary copy. Whilst [checking](#checking-and-restoring-backups) that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
 * that you can easily [restore](#checking-and-restoring-backups) your backups;
-* decide on a [directory structure](storing_data.md) and [file naming](file_naming.md) convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create havoc with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on.
+* decide on a [directory structure](storing_data.md) and [file naming](file_naming.md) convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on.
 
 ## Creating a backup schedule ##
 
