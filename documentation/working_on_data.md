@@ -6,7 +6,7 @@ Careful recording of how a dataset has been produced is important firstly so tha
 
 ## Raw data ##
 
-Your primary copy of the data, known as "raw" data, is that which comes directly from the instrument, sample analysis, or primary observation. This raw data should be saved as it is, backed up and aside from being copied elsewhere, **should never be touched**. The primary copy of the raw data should have read-only access so it can never be altered inadvertently. Never reorganise the primary copy of raw data files.
+Your primary copy of the data, known as "raw" data, is that which comes directly from the instrument, sample analysis, or primary observation. This raw data should be saved as it is, backed up and aside from being copied elsewhere, **should never be modified**. The primary copy of the raw data should have read-only access so it can never be altered inadvertently. Never reorganise the primary copy of raw data files.
 
 ## Work on a copy of your raw data ##
 
@@ -20,13 +20,14 @@ When working on processing, quality checking and making other changes to produce
 
 File versions can be named using the date (in the format YYYYMMDD) or version numbers, such as v01_01, v01_02. Including the date in this format, or version numbers that have leading zeros ensure that files are listed in order when viewing them.
 
-Backups of any edited files should be done on a regular basis.
+[Backups](backing_up_data.md) of any edited files should be done on a regular basis.
 
 ### Versioning tools ###
 
-* Git
-* Github
-* Gitlab
+* Git 
+* Git-LFS
+
+[Github](https://github.com/) is commonly used as a platform for software versioning and is becoming more widely used for versioning of other non-binary files as well.
 
 ## Recording the provenance of your data ##
 
@@ -35,19 +36,19 @@ It is natural to keep notes of what you have done to data so that when writing u
 Journals are more and more asking for all supporting documentation, code, data and information about how plots and figures were generated, so organising to capture the full provenance of your data and research paper will save you time when you come to publish. 
  
 * Wherever possible, use scripts to do any manipulation of data, for applying algorithms, quality-checking and any other processes that work towards your final, output dataset. Scripts can be modified easily if you spot a mistake and then re-run, rather than having to run through all of your manual steps again.
-* Backup and keep different versions of your scripts so that you can see where possible errors are introduced into your data or processing.
+* Backup and keep different [versions](#versioning-tools) of your code so that you can see where possible errors are introduced into your data or processing.
 * Make sure you also document what you are doing: clearly state references to algorithms, which software you are using (including the version) as well as which decisions you have taken and why.
 * Ideally, you should be able to record the set-up of the computing environment that you have used to run the scripts: include details of the operating system, package names and versions. 
 * Always keep data and code that produces plots: this could not only save you time if you spot a mistake you want to correct but it could be required to publish it in a journal.
 
 ### Capturing data provenance tools ###
 
-Versioning tools are very handy for making incremental improvements to scripts and even versions of data in the case of Gitlab.
+[Versioning tools](#versioning-tools) are very handy for making incremental improvements to code and even versions of data in the case of Git-LFS.
 
-Some tools also exist which allow you to record exactly what has happened to your dataset. 
+Some tools also exist which allow you to record exactly what has happened to your dataset, recording its provenance. 
 
-* Renku
-* WholeTale
+* [RENKU](https://datascience.ch/renku/)
+* [Whole Tale](https://wholetale.org/)
 
 ## Useful links ## 
 
