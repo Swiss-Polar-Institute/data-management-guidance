@@ -21,15 +21,20 @@ Remember that for [backups](backing_up_data.md) of data, it is important to have
 
 ### Networked data storage ###
 
-* Often, but not always backed up regularly (check this!), this is often a handy place to store your data for easy access. 
-* Check access rights: would you have a personal area of data storage, or would it be shared amongst your lab or a wider group? Think if you need the data to have restricted access, particularly if it is sensitive (protected species) or contains personal data. Access should also be limited to avoid changing or deleting files accidentally. Make sure that primary raw data are read-only.
+Networked data storage, often known as an institution file server, is often provided as standard by institutions. 
+
+* This is often a handy place to store your data for easy access whilst working at your institution.
+* It is often backed up on a regular basis, but familiarise yourself with the backup schedule. 
+* Check access rights: would you have a personal area of data storage, or would it be shared amongst your lab or a wider group? Think if you need the data to have restricted access, particularly if it is sensitive (protected species) or contains personal data. Access should also be limited to avoid changing or deleting files accidentally. Make sure that primary raw data are read-only for yourself and others.
 * It is worth checking if it is easy to allow external collaborators to access your data, although this is more often done through other means. 
 * Check what limits there are on the volume of storage: if you are collecting large volumes of data, you may need to budget for asking them for more data storage.
 * Consider that you may need to access the data from off-site from time to time and find out early on how to do this. Make sure it works, there is nothing worse than trying to access data (or other file) that you need in a hurry and not have what you need set up properly.
 
 ### Personal computers ###
 
-Storing data on your personal computer or laptop is not recommended. Failure of the hard disk, theft or damage to the computer itself could mean loss of all the data. If using a personal computer to work on data, ensure that you have a master copy backed up elsewhere, that you work on a *copy* of the [raw data](working_on_data.md) and that any work you do is backed up on a regular basis. 
+If using a personal computer to work on data, ensure that you have a master copy backed up elsewhere, that you work on a *copy* of the [raw data](working_on_data.md), and that any work you do is backed up on a regular basis.
+
+Failure of the hard disk, theft or damage to a personal computer or laptop itself could mean loss of all the data and associated files.  
 
 ### Portable media ###
 
@@ -39,7 +44,7 @@ Portable hard drives are commonly used for [backing up](backing_up_data.md) data
 * Consider buying several medium-sized hard drives rather than one large one. If one fails, at least you do not lose everything.
 * Take care of hard drives: remember that they are susceptible to physical damage and depending on how many times you write to them, may only last a few years.
 * Pendrives are easy to lose and shouldn't be considered as reliable for data backup. 
-* USB-3 devices offer faster speeds for copying data.
+* Consider how long it takes to back up your data and bear this in mind. If using an older device, USB-2 will be considerably slower than USB-3.
 * If a hard drive is lost, it can be easily read by anyone. The hard drive should be encrypted if it holds any personal or sensitive data.
 * Regularly check any data that are held on portable media to ensure it can still be read. Always have other backups. 
 
@@ -61,6 +66,8 @@ Cloud storage is becoming the norm in many cases, particularly where the data vo
 Wikipedia has a very handy [comparison of online backup options](https://en.wikipedia.org/wiki/Comparison_of_online_backup_services). These would not normally be used for your day-to-day data storage for the data you are working on.
 
 ## Handy tips ##
+
+Consider file size carefully so they are easy to work with. Many small files will take longer to copy and be harder to work with than a single file of the same total size. Equally, avoid creating files that are more than a few GBs because in some cases they can be difficult to read into memory. 
 
 ## References ##
  
