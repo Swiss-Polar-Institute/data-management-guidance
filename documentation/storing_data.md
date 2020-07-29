@@ -50,7 +50,7 @@ Portable hard drives are commonly used for [backing up](backing_up_data.md) data
 
 ### Cloud storage ###
 
-Cloud storage is becoming the norm in many cases, particularly where the data volume is getting into hundreds of GBs. There are many types of cloud storage that you can set up yourself or buy as a managed service, but there are a few considerations to take into account.
+Cloud storage is becoming the norm in many cases, particularly where the data volume is getting into hundreds of GBs. There are many types of cloud storage that you can set up yourself or buy as a managed service, but there are a few considerations to take into account. Many institutions now also offer this either as part of their standard storage or as an extra service, particularly for those dealing with larger volumes of data. Research data management staff in your institution may also be able to offer recommendations.
 
 * If you are storing personal data, it is essential to understand the location of the physical servers and ensure this complies with regulations.
 * Access rights are also important. Consider who might have access to the data, if you use read-only or write access rights and where the data are physically stored.
@@ -64,6 +64,8 @@ Cloud storage is becoming the norm in many cases, particularly where the data vo
 * Ensure the subscription is always maintained (if paid for) otherwise you may find your data are deleted.  
 
 Wikipedia has a very handy [comparison of online backup options](https://en.wikipedia.org/wiki/Comparison_of_online_backup_services). These would not normally be used for your day-to-day data storage for the data you are working on.
+
+Platforms such as [Zenodo](https://zenodo.org) are provided for publication of data and other digital resources, but when datasets have been completed (either in a raw or finalised state) it can be worth thinking about this option.
 
 ## Handy tips ##
 
