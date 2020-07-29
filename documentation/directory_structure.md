@@ -8,7 +8,7 @@ An organised directory structure will work wonders when it comes to looking for 
 * Keep names short but meaningful: some file systems have limits on the number of characters in a full directory path so if you have several sub-directories this can become a problem.
 * Avoid using acronyms.
 * Your directories will be most likely be listed in alphabetical order. Prefixes such as numbers or letters to order your directories are not helpful if they do not mean anything. Dates could be used if appropriate but the most important thing is to name them carefully so they are meaningful and provide good documentation in a [readme](#readmetxt). 
-* If you are going to store thousands or millions of files, could consider a more hierarchical structure such as YYYY/MM/DD/YYYYMMDD_data_file_name. Listing many files within one directory can take a long time, making them harder to work with.
+* If you are going to store thousands or millions of files, consider a more hierarchical structure such as YYYY/MM/DD/YYYYMMDD_data_file_name. Listing many files within one directory can take a long time, making them harder to work with.
 * Working in a separate directory to your raw or finalised files is good practice to avoid accidentally modifying them. Consider creating a work-in-progress ("wip") directory which could have different permissions and a different [backup schedule](backing_up_data.md). 
 * Include a readme file to describe what the directory contains.
 
