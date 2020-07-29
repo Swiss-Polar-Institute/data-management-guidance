@@ -2,7 +2,7 @@
 
 The first step of creating a Data Management Plan (DMP) will lead you through the process of thinking about the data involved in your project.
 
-The sections that you need to think about below will depend on whether you are collecting samples, data by hand, using an instrument to gather data in an automated manner, or a mixture of all of these. General principles are the same for all of these situations: 
+What you need to think about will depend on whether you are collecting samples, data by hand, using an instrument to gather data in an automated manner, or a mixture of all of these. General principles are the same for all of these situations: 
 * ensure you have enough [data storage](storing_data.md) or notebooks to record data;
 * ensure you can [back up](backing_up_data.md) your data in the field;
 * carefully plan how you organise your saved data or recording of samples so it is well thought-out;

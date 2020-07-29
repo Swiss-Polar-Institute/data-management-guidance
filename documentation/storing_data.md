@@ -69,7 +69,7 @@ Platforms such as [Zenodo](https://zenodo.org) are provided for publication of d
 
 ## Handy tips ##
 
-Consider file size carefully so they are easy to work with. Many small files will take longer to copy and be harder to work with than a single file of the same total size. Equally, avoid creating files that are more than a few GBs because in some cases they can be difficult to read into memory. 
+Consider file size carefully so they are easy to work with. Many small files will take longer to copy and be harder to work with than a single file of the same total size. Copying lots of smaller files to [cloud storage](#cloud-storage) can also increase the cost. Equally, avoid creating files that are more than a few GBs because in some cases they can be difficult to read into memory. 
 
 ## References ##
  
