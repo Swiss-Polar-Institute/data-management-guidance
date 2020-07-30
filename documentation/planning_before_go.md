@@ -26,6 +26,10 @@ Whilst planning, think carefully about the following questions:
 * will you be able to access the data during collection?
 * what do you need to know about how your data were collected?
 
+### Recording data by hand ###
+
+TODO
+
 ### How much data are you planning to collect? ###
 
 Ask yourself the following questions to be able to plan how much data storage you need in the field.
