@@ -106,10 +106,15 @@ For instruments that are very isolated and there is no possibility of being able
 
 ## Preparing for sample collection ##
 
-## Documentation ##
+TODO
 
 ## Metadata ##
 
+TODO
+
+## Documentation ##
+
+TODO
 
 ## Useful links ##
 

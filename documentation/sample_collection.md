@@ -47,11 +47,11 @@ If working with alcohol for sample preservation, use pencil to label your sample
 
 Carefully consider how your samples are going to be stored and transported to make sure they will not come into contact with any chemicals or conditions that may damage the labelling.
 
-## Recording information about sample collection (metadata) ##
+## Recording information about sample collection ([metadata](metadata.md)) ##
 
-Without information about how, where and when samples are collected, it is not possible to interpret results correctly. Recording this information, known as *metadata*, is essential and should be considered as the important as the samples themselves.
+Without information about how, where and when samples are collected, it is not possible to interpret results correctly. Recording this information, known as [*metadata*](metadata.md), is essential and should be considered as the important as the samples themselves.
 
- 
+TODO
 
 ## Helpful tips ##
 
