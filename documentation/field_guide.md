@@ -1,5 +1,5 @@
 ---
-Title: Data management in the field
-Author: Jen Thomas, Swiss Polar Institute
-Date: July 2020
-...
+title: Data management in the field
+author: Jen Thomas, Swiss Polar Institute
+date: July 2020
+---
