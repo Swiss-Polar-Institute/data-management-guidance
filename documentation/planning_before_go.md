@@ -2,6 +2,7 @@
 # Before you go #
 
 What you need to think about will depend on whether you are collecting samples, data by hand, using an instrument to gather data in an automated manner, or a mixture of all of these. General principles are the same for all of these situations: 
+
 * ensure you have enough [data storage](storing_data.md) or notebooks to record data;
 * ensure you can [back up](backing_up_data.md) your data in the field;
 * carefully plan how you organise your saved data or recording of samples so it is well thought-out;
@@ -62,6 +63,7 @@ Primary storage, that is where the raw copy of your data will be saved, should b
 Consider the [hardware](storing_data.md) that you need carefully, ensuring that it can withstand the conditions. If you don't know what to expect, find out from others that have been on a similar field trip or have previously been to the same location. 
 
 At permanent field camps, bases or on ships, familiarise yourself with what is and just as importantly, what is not available to you. Consider: 
+
 * network (your access, speed, security arrangements and restrictions)
 * internet connection (your access and bandwidth)
 * data storage - this might or might not be available, but you still need some portable media or a good internet connection to be able to take the data home
@@ -87,6 +89,7 @@ If automatically collecting data, you will likely have the primary copy of the d
 Don't forget to backup metadata and documentation as well - these are just as vital.  
 
 Depending on the circumstances, backups could be:
+
 * on networked storage if accessible;
 * by sending files using a mobile or satellite connection from the instrument (will depend on situation and cost) to cloud (or other) storage;
 * a number of portable hard drives;
@@ -96,7 +99,8 @@ Wherever possible, automate your backups - this makes the backups much less of a
 
 ### Accessing data in the field ###
 
-Being able to access your data in the field is extremely useful and cannot be underestimated. In particular it allows you to: 
+Being able to access your data in the field is extremely useful and cannot be underestimated. In particular it allows you to:
+ 
 * check the instrument is running as expected;
 * confirm data files are being saved;
 * look for interesting features in the data that might indicate problems with the instrument. 
