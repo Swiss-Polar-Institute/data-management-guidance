@@ -1,6 +1,7 @@
 # What is data management? #
 
 * Research data: raw data, processed data, associated files, supporting data, code, documentation.....
+* All kinds of data: images, spreadsheets, data files, supporting data files
 
 # Why good data management is important #
 

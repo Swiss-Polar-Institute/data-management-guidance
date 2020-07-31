@@ -1,1 +1,2 @@
-pandoc --pdf-engine=xelatex -V linkcolor:blue -f markdown documentation/* -o test.pdf && okular test.pdf
+#!/usr/bin/env bash
+pandoc --pdf-engine=xelatex -V linkcolor:blue -f markdown documentation/field_guide.md documentation/planning_before_go.md documentation/in_the_field.md documentation/return_from_field.md documentation/storing_data.md documentation/directory_structure.md documentation/file_naming.md documentation/file_formats.md documentation/backing_up_data.md documentation/working_on_data.md documentation/sample_collection.md   -o test.pdf && okular test.pdf
