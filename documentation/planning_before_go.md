@@ -72,7 +72,7 @@ Don't forget the return journey: when returning with portable media devices hold
 
 ### Organising data files ###
 
-Think carefully about the [directory structure](directory_structure.md) and [filenames](file_naming.md) you use, particularly if you are collecting data automatically. 
+Think carefully about the [directory structure](#Directory structure) and [filenames](#File naming) you use, particularly if you are collecting data automatically. 
 
 ### Backing up data in the field ###
 
