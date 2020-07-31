@@ -42,6 +42,8 @@ Journals are more and more asking for all supporting documentation, code, data a
 * Ideally, you should be able to record the set-up of the computing environment that you have used to run the scripts: include details of the operating system, package names and versions. 
 * Always keep data and code that produces plots: this could not only save you time if you spot a mistake you want to correct but it could be required to publish it in a journal.
 
+Refer to the [metadata](metadata.md) section for full details of what information should be captured to properly describe the provenance of your data and samples.
+
 ### Capturing data provenance tools ###
 
 [Versioning tools](#versioning-tools) are very handy for making incremental improvements to code and even versions of data in the case of Git-LFS.
