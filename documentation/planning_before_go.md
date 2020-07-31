@@ -122,31 +122,47 @@ The main things to prepare if you are going to be collecting samples are:
 * what additional documentation you will maintain;
 * how your metadata files are going to be stored and backed up whilst in the field.
 
-TODO
-
 ## [Metadata](metadata.md) ##
 
-TODO 
+Prepare carefully how you are going to record [metadata](metadata.md) and see this section of the guide for detailed documentation about what is useful to record.
+
+### For data and sample collection ###
+
+The most important thing is to be able to determine where and when you collected your data or samples. Make sure you know in advance: 
+
+* how you are going to record the location - if your instrument will always be in the same place you can use a hand-held GPS to record its position. If you are collecting data or samples in several distinct locations, a hand-held GPS will be useful to do this. If your platform is moving, for example you are on a ship or an aircraft, and you are constantly collecting data, you should have a device constantly recording the location of the platform. 
+* understand how accurate your recording of the location should be to be meaningful for your experiment. 
+* ensure you always have more than one source of location, particularly on a moving platform.
+* be aware that local conditions such as mountainous or tree-covered terrain can affect the accuracy of your location. 
+* note the source of location data (device name, type, manufacturer, version and serial number).
+
+* it is good practice to record all science work in UTC to avoid confusion with time zones. 
+* depending on the accuracy required for your particular experiment, ensure your timing device is set accurately. Record if you note the time to the nearest day, hour, minute or second.
+* note the source of time (device name, type, manufacturer, version and serial number).
+* if using networked computers or instruments, try to ensure that they are all synced to ensure there is no offset. 
+* properly understand if there is any offset between the instruments / devices recording location, time and your data itself. It is likely that you will need to match up data points to the location using time.
+
+### Instrumentation and computers ###
+
+Keep a detailed record of instrumentation that you use for primary and secondary datasets, sample collection and saving / backing up data. Note: 
+
+* name
+* type
+* manufacturer
+* version
+* serial number
+
+If at all possible, record this information in advance before going to the field.
 
 ## Documentation ##
 
-TODO
+Carefully prepare template documents that you can take and complete whilst in the field. 
 
-* What information to record
-- calibration
-- setup
-- how data are collected (how they are saved)
-- any notes about things that may have happened during data collection that may affect instrument, data recording, results
--
-* How to record it
-- handwritten
-- electronic lab notebook
-- backup
+For metadata and documentation this can be a simple [readme.txt](#readmetxt) files with headers to remind you which information you need to record.
 
+When recording data by hand, or collecting information about sample collection, this is more likely to be done in a spreadsheet. It saves a lot time and will hopefully prevent anything being forgotten, if you are able to prepare this in advance as well. 
 
-## Useful links ##
-
-Data Management Plans
+Be prepared to [document](metadata.md) as much as you can in the field and take [good care](backing_up_data.md) of these notes. 
 
 ## References
 
