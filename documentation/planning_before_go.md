@@ -115,20 +115,41 @@ For instruments that are very isolated and there is no possibility of being able
 
 ## Preparing for sample collection ##
 
+The main things to prepare if you are going to be collecting samples are: 
+
+* a carefully planned numbering and labelling scheme;
+* a plan of what metadata you want to know about the samples you have collected;
+* what additional documentation you will maintain;
+* how your metadata files are going to be stored and backed up whilst in the field.
+
 TODO
 
-## Metadata ##
+## [Metadata](metadata.md) ##
 
-TODO
+TODO 
 
 ## Documentation ##
 
 TODO
+
+* What information to record
+- calibration
+- setup
+- how data are collected (how they are saved)
+- any notes about things that may have happened during data collection that may affect instrument, data recording, results
+-
+* How to record it
+- handwritten
+- electronic lab notebook
+- backup
+
 
 ## Useful links ##
 
 Data Management Plans
 
 ## References
+
+
 
 \newpage
