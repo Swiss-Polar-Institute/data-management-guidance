@@ -111,7 +111,9 @@ For instruments that are very isolated and there is no possibility of being able
 
 ### Preparing for recording data by hand ###
 
-TODO
+If recording data by hand directly into a notebook, think carefully about how you are going to backup this information. If at all possible, plan to digitise these notes into a spreadsheet or appropriate file as soon as possible in the field. If you will not be able to use a laptop in the field perhaps due to lack of electricity supply, then consider other methods. This could be taking a camera and carefully photographing your notes. Photographs of hand-written notes (or scans once you get back to your institution) are very useful in case you happen to mis-transcribe some information and need to go back to them.
+
+Think carefully about the data you would like to record and prepare the files that you will record them in, in advance. It is always useful to do a test-run to make sure you include everything you need.
 
 ## Preparing for sample collection ##
 
