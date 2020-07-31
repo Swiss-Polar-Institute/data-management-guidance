@@ -11,7 +11,7 @@ What you need to think about will depend on whether you are collecting samples, 
 
 The sections below will lead you through these points in more detail. Follow the links for more detailed information and helpful tips.
 
-## Preparing for data collection ##
+## Preparing for data collection from an instrument ##
 
 Collecting data in the field requires careful thinking beforehand, particularly if you are setting up an instrument in a remote environment that is difficult to reach to troubleshoot, move out of danger or to recover data from when the data storage is full. 
 
@@ -27,10 +27,6 @@ Whilst planning, think carefully about the following questions:
 * how will the data be backed-up in the field?
 * will you be able to access the data during collection?
 * what do you need to know about how your data were collected?
-
-### Recording data by hand ###
-
-TODO
 
 ### How much data are you planning to collect? ###
 
@@ -113,6 +109,10 @@ If however you are setting up your instrumentation then expecting to leave it fo
 
 For instruments that are very isolated and there is no possibility of being able to access them, consider if there is a way to remotely connect to the instrument. This might offer the possibility to restart it for example, or change crucial settings.    
 
+### Preparing for recording data by hand ###
+
+TODO
+
 ## Preparing for sample collection ##
 
 The main things to prepare if you are going to be collecting samples are: 
@@ -121,6 +121,7 @@ The main things to prepare if you are going to be collecting samples are:
 * a plan of what metadata you want to know about the samples you have collected;
 * what additional documentation you will maintain;
 * how your metadata files are going to be stored and backed up whilst in the field.
+
 
 ## [Metadata](metadata.md) ##
 

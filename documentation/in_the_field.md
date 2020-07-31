@@ -1,9 +1,7 @@
 
 # In the field #
 
-## Data collection ##
-
-### Automatic data collection ###
+## Data collection from an instrument ####
 
 Wherever data is collected from an instrument, automation and careful setup are key. Much of your setup should already be planned and in place before you begin work in the field. Refer to the [planning](planning_before_go.md) section for what to think about and prepare before you arrive in the field.
 
@@ -41,7 +39,6 @@ If adding to a data file, with new observations, using the date to denote differ
 
 If you are running samples through instrumentation for analysis, consider what works best for you: are you able to have a laptop or computer in the lab, or will you be noting the values by hand?
 
-#### Automated data collection ####
 
 TODO
 
