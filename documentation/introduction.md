@@ -8,3 +8,7 @@
 * Information and a reminder for your future self.
 * Investing time in good preparation and management of data files, software, documentation and associated files saves a lot of time in the long run.
 
+# What this guide covers #
+
+* General overview of useful tips about various aspects of data management
+* Data management in the field
