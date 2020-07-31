@@ -1,3 +1,4 @@
+
 # Directory structure #
 
 An organised directory structure will work wonders when it comes to looking for files you haven't been working on for a while. Think about a hierarchical structure that could be repeated across all of your projects and one that can be easily navigated by others.

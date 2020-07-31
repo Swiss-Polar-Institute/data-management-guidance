@@ -1,3 +1,4 @@
+
 # Introduction #
 
 ## Benefits of good data management ##
@@ -11,3 +12,5 @@
 * All kinds of data: images, spreadsheets, data files, supporting data files
 * General overview of useful tips about various aspects of data management
 * Data management in the field
+
+\newpage

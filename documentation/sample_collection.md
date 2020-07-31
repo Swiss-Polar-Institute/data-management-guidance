@@ -1,3 +1,4 @@
+
 # Collecting samples #
 
 Obtaining accurate results from your experiment when analysing samples, depends on "proper collection, processing and handling of samples" (Smith et al., 2015), planning for which begins before sample collection. 

@@ -1,3 +1,4 @@
+
 # Data file formats #
 
 The format of the files you use to store data and documentation will directly impact how this information can be used by yourself and others in the future (Stanford Library, 2020)
