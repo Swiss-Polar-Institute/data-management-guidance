@@ -120,8 +120,9 @@ The main things to prepare if you are going to be collecting samples are:
 * a carefully planned numbering and labelling scheme;
 * a plan of what metadata you want to know about the samples you have collected;
 * what additional documentation you will maintain;
-* how your metadata files are going to be stored and backed up whilst in the field.
-
+* how your metadata files are going to be stored and backed up whilst in the field;
+* check permit requirements: they may insist on certain information being kept about the samples and it is likely you will need to report what you have collected. Be aware of this before you go to avoid any doubt in the field;
+* check border crossing and entry requirements for the transport of your samples on return: it is likely you will need to present a list of samples with information about what they contain. If you are able to maintain this record during your fieldwork it will save a lot of time at the end of your fieldwork when you are in a rush to pack. However it is important to carefully check and understand exactly what you need before you go - at a remote field site you might not be able to access this information.
 
 ## [Metadata](metadata.md) ##
 
