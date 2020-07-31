@@ -50,11 +50,7 @@ Carefully consider how your samples are going to be stored and transported to ma
 
 ## Recording information about sample collection ([metadata](metadata.md)) ##
 
-Without information about how, where and when samples are collected, it is not possible to interpret results correctly. Recording this information, known as [*metadata*](metadata.md), is essential and should be considered as the important as the samples themselves.
-
-TODO
-
-## Helpful tips ##
+Without [information about how, where and when samples are collected, stored, processed and curated](metadata.md), it is not possible to interpret results correctly. Recording this information, known as [*metadata*](metadata.md), is essential and should be considered as the important as the samples themselves.
 
 ## References ##
 

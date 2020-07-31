@@ -29,6 +29,8 @@ Of course there may be others who would like to do a **similar study* or try to 
 
 ## Levels of metadata ##
 
+Information will need to be captured at different levels. 
+
 **Samples**
 
 * Details of how they were collected. Include where, when, by whom, methods, particular conditions that might affect their collection or resulting data. Also note specific details of any instruments (include manufacturer, version, serial number).
@@ -40,6 +42,8 @@ Of course there may be others who would like to do a **similar study* or try to 
 Ideally someone should be able to follow their whole life history from collection to data and be able to find them in their final resting place (or know that they no longer exist).
 
 **Data files**
+
+* 
 
 
 
