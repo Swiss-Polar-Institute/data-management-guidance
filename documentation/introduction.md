@@ -1,4 +1,3 @@
-\newpage
 
 # Introduction #
 
@@ -19,7 +18,3 @@ Research data includes raw data (directly recorded by hand or from an instrument
 This guide is applicable to all file types and "kinds" of data. 
 
 We also consider good practice (from a data management point of view) of sample collection. This section has a particular focus on numbering and collection of metadata about samples.
-
-
-
-\newpage

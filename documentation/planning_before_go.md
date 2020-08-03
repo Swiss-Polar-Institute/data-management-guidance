@@ -169,7 +169,3 @@ When recording data by hand, or collecting information about sample collection, 
 Be prepared to [document](metadata.md) as much as you can in the field and take [good care](backing_up_data.md) of these notes. 
 
 ## References
-
-
-
-\newpage

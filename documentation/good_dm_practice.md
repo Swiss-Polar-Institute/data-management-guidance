@@ -1,4 +1,4 @@
 
-# Data management - good practice #
-
-\newpage
+---
+Title: Data management - good practice
+...
