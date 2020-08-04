@@ -1,21 +1,21 @@
 
 ## Data backup
 
-Ensuring you have several reliable copies of your data avoids data loss and gives you peace of mind. Think carefully about the type of [data storage](storing_data.md) you use for your backups.
+Ensuring you have several reliable copies of your data avoids data loss and gives you peace of mind. Think carefully about the type of [data storage](#storing-data) you use for your backups.
 
-It is important to remember that if you are working in the field, your backup set-up and schedule will differ from your backups that are done of other data and when working back at your institution. This is covered more detail in [planning](planning_before_go.md) and [working in the field](in_the_field.md) sections of the guide.
+It is important to remember that if you are working in the field, your backup set-up and schedule will differ from your backups that are done of other data and when working back at your institution. This is covered more detail in [planning](#before-you-go) and [working in the field](#in-the-field) sections of the guide.
 
 ### Handy tips
 
 Make sure:
 
 * you have at least two, preferably three or more [copies](#how-much-and-how-often) of your data;
-* data are backed up on at least two different [types of media](storing_data.md), particularly for preservation purposes, such as institution storage, cloud storage, external hard drives;
+* data are backed up on at least two different [types of media](#storing-data), particularly for preservation purposes, such as institution storage, cloud storage, external hard drives;
 * that as far as possible, backups are automated. This avoids potential mistakes, minimises the chances of data loss, makes it much easier to do (it is less of a chore) and ensures the backups are always done in the same way;
 * data are backed up on a [regular basis](#how-much-and-how-often), but particularly during collection and after making any changes;
 * that backed up versions of your data are identical to the primary copy. Whilst [checking](#checking-and-restoring-backups) that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
 * that you can easily [restore](#checking-and-restoring-backups) your backups;
-* decide on a [directory structure](storing_data.md) and [file naming](file_naming.md) convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on.;
+* decide on a [directory structure](#storing-data) and [file naming](#file-naming) convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on.;
 * if you will be backing up tens of GB or more of data, bear in mind how long a backup will take and bear that in mind when deciding how you will arrange your backup schedule. 
 
 ### Creating a backup schedule
@@ -58,7 +58,7 @@ Storage media can become obsolete, file permissions and access can be changed ac
 
 Choosing a simple, well-understood, transparent and multi-platform tool will often make file restoration much simpler.
 
-If any of your data were produced using proprietary software it is particularly important to ensure that you can still read them on a regular basis. You may need a specific piece of software that requires a license (do you still have the license?) or even a specific version of software that might become outdated. Consider outputting data into an [open, documented format](file_formats.md) such as txt or csv - be aware that in this process you may lose some information or data, so it is always good practice to keep both sets of files. 
+If any of your data were produced using proprietary software it is particularly important to ensure that you can still read them on a regular basis. You may need a specific piece of software that requires a license (do you still have the license?) or even a specific version of software that might become outdated. Consider outputting data into an [open, documented format](#data-file-formats) such as txt or csv - be aware that in this process you may lose some information or data, so it is always good practice to keep both sets of files. 
 
 ### Backup tools
 
@@ -67,8 +67,6 @@ Many tools are available to help create backups. It is worth spending time findi
 Your institution may have tools or subscriptions to tools that can help. Data managers or librarians within your institution may also be able to offer recommendations. 
 
 Using a multi-platform tool (usable by Windows, Mac and Linux users) offers higher resilience, ensuring more possibilities for accessing the data in the future and allow access to other team members. 
-
-### Useful links
 
 ### References
 
