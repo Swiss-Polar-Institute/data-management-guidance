@@ -21,7 +21,7 @@ When working on processing, quality checking and making other changes to produce
 
 File versions can be named using the date (in the format YYYYMMDD) or version numbers, such as v01_01, v01_02. Including the date in this format, or version numbers that have leading zeros ensure that files are listed in order when viewing them.
 
-[Backups](backing_up_data.md) of any edited files should be done on a regular basis.
+[Backups](#backing-up-data) of any edited files should be done on a regular basis.
 
 #### Versioning tools
 
@@ -32,7 +32,7 @@ File versions can be named using the date (in the format YYYYMMDD) or version nu
 
 ### Recording the provenance of your data
 
-It is natural to keep notes of what you have done to data so that when writing up publications, you are able to explain your methods. It is often impossible to repeat data collection, which in polar research is also often extremely expensive. This "original" data is considered as [raw](#Raw data) and should be kept as such. But any [work that is done on a copy of this raw data](#Work on a copy of your raw data) should be carefully recorded.
+It is natural to keep notes of what you have done to data so that when writing up publications, you are able to explain your methods. It is often impossible to repeat data collection, which in polar research is also often extremely expensive. This "original" data is considered as [raw](#raw-data) and should be kept as such. But any [work that is done on a copy of this raw data](#work-on-a-copy-of-your-raw-data) should be carefully recorded.
 
 Journals are more and more asking for all supporting documentation, code, data and information about how plots and figures were generated, so organising to capture the full provenance of your data and research paper will save you time when you come to publish. 
  
@@ -42,7 +42,7 @@ Journals are more and more asking for all supporting documentation, code, data a
 * Ideally, you should be able to record the set-up of the computing environment that you have used to run the scripts: include details of the operating system, package names and versions. 
 * Always keep data and code that produces plots: this could not only save you time if you spot a mistake you want to correct but it could be required to publish it in a journal.
 
-Refer to the [metadata](metadata.md) section for full details of what information should be captured to properly describe the provenance of your data and samples.
+Refer to the [metadata](#metadata) section for full details of what information should be captured to properly describe the provenance of your data and samples.
 
 #### Capturing data provenance tools
 
