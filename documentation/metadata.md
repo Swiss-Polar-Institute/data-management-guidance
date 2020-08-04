@@ -60,11 +60,11 @@ Ideally someone should be able to follow their whole life history from collectio
 **Data file manipulation and processing**
 
 * Wherever possible, use scripts to manipulate your data files as this creates a precise copy of exactly what you have done whilst working on your data. Of course it is also good practice to keep human-readable notes to go alongside this. 
-* Read more about [working on your data](working_on_data.md) which has more details on capturing the [provenance of your data](#Recording the provenance of your data).
+* Read more about [working on your data](#working-on-your-data) which has more details on capturing the [provenance of your data](#recording-the-provenance-of-your-data).
 
 **Datasets**
 
-* Keep full details of the [provenance of your dataset](#Recording the provenance of your data).
+* Keep full details of the [provenance of your dataset](#recording-the-provenance-of-your-data).
 * Also note details of to whom the data belong (person, if applicable, and organisation). Full details of authors, contributors and funders are normally asked for when publishing a dataset.
 * Put the dataset in the context of the wider project.
 
@@ -109,4 +109,4 @@ Merriam-Webster. *Metadata*. Merriam-Webster.com Dictionary. Retrieved from: [ht
 
 Smith, P. G., Morrow, R. H. and Ross, D. A. (eds) (2015) Field trials of health interventions: a toolbox. 3rd edn. Oxford: Oxford University Press.
 
-The University of Edinburgh. MANTRA Research Data Management Training. Documentation, metadata, citation. Retrieved from [https://mantra.edina.ac.uk/documentation_metadata_citation/](https://mantra.edina.ac.uk/documentation_metadata_citation/) Accessed on 31 July 2020.
+The University of Edinburgh. MANTRA Research Data Management Training. Documentation, metadata, citation. Retrieved from [https://mantra.edina.ac.uk/documentation_metadata_citation/](https://mantra.edina.ac.uk/documentation_metadata_citation/). Accessed on 31 July 2020.
