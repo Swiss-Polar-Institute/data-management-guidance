@@ -1,7 +1,7 @@
 
 ## Storing data
 
-Storing your data in an organised and secure manner, will save you a lot of time and hassle in the long run. It is worth investing time and effort in ensuring a coherent [directory structure](directory_structure.md), understandable [file names](file_naming.md), secure data storage and carefully thought-out [backups](backing_up_data.md).
+Storing your data in an organised and secure manner, will save you a lot of time and hassle in the long run. It is worth investing time and effort in ensuring a coherent [directory structure](#directory-structure), understandable [file names](#file-naming), secure data storage and carefully thought-out [backups](#data-backup).
 
 In this section we focus on where to store your data. Suggestions are *not* ordered by preference.
 
@@ -18,7 +18,7 @@ Thinking carefully about what you need to be able to do with your data will help
 
 ### Types of storage media
 
-Remember that for [backups](backing_up_data.md) of data, it is important to have them in multiple places and on different types of media. Different types of media offer solutions to different problems and therefore you will need to consider using more than one. 
+Remember that for [backups](#data-backup) of data, it is important to have them in multiple places and on different types of media. Different types of media offer solutions to different problems and therefore you will need to consider using more than one. 
 
 #### Networked data storage
 
@@ -33,13 +33,13 @@ Networked data storage, often known as an institution file server, is often prov
 
 #### Personal computers
 
-If using a personal computer to work on data, ensure that you have a master copy backed up elsewhere, that you work on a *copy* of the [raw data](working_on_data.md), and that any work you do is backed up on a regular basis.
+If using a personal computer to work on data, ensure that you have a master copy backed up elsewhere, that you work on a *copy* of the [raw data](#working-on-your-data), and that any work you do is backed up on a regular basis.
 
 Failure of the hard disk, theft or damage to a personal computer or laptop itself could mean loss of all the data and associated files.  
 
 #### Portable media
 
-Portable hard drives are commonly used for [backing up](backing_up_data.md) data in the field but their use-case should be carefully considered. Some portable media types are not useful for long-term storage because they quickly degrade or become obsolete. 
+Portable hard drives are commonly used for [backing up](#data-backup) data in the field but their use-case should be carefully considered. Some portable media types are not useful for long-term storage because they quickly degrade or become obsolete. 
 
 * Buy reputable makes of portable hard drives. If you are going to use a lot of them (for example, during a particular field season), by at least two different makes to avoid buying a "bad" batch. 
 * Consider buying several medium-sized hard drives rather than one large one. If one fails, at least you do not lose everything.
