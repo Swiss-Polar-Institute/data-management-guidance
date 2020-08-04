@@ -15,4 +15,6 @@ documentclass:
 - report
 header-includes:
   - \usepackage{titlesec}
+  - \titleformat{\chapter}{\normalfont\bfseries\Huge}{\thechapter.}{10pt}{}
+  - \newpagestyle{mystyle}{\sethead[][\thechapter.\enspace\chaptertitle][]{}{\thesection~\sectiontitle}{}\setfoot{}{\thepage}{}}
 ---
