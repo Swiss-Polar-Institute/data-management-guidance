@@ -11,4 +11,8 @@ geometry:
 - heightrounded
 classoption:
 - oneside
+documentclass:
+- report
+header-includes:
+  - \usepackage{titlesec}
 ---

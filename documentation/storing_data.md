@@ -1,5 +1,5 @@
 
-## Storing data 
+## Storing data
 
 Storing your data in an organised and secure manner, will save you a lot of time and hassle in the long run. It is worth investing time and effort in ensuring a coherent [directory structure](directory_structure.md), understandable [file names](file_naming.md), secure data storage and carefully thought-out [backups](backing_up_data.md).
 
