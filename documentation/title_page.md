@@ -9,4 +9,6 @@ geometry:
 - bottom=25mm
 - right=20mm
 - heightrounded
+classoption:
+- oneside
 ---
