@@ -5,8 +5,8 @@
 
 What you need to think about will depend on whether you are collecting samples, data by hand, using an instrument to gather data in an automated manner, or a mixture of all of these. General principles are the same for all of these situations: 
 
-* ensure you have enough [data storage](storing_data.md) or notebooks to record data;
-* ensure you can [back up](backing_up_data.md) your data in the field;
+* ensure you have enough [data storage](#storing-data) or notebooks to record data;
+* ensure you can [back up](#backing-up-data) your data in the field;
 * carefully plan how you organise your saved data or recording of samples so it is well thought-out;
 * document your data or sample collection thoroughly;
 * record metadata (information about data) about the data or sample collection. 
@@ -58,7 +58,7 @@ Primary storage, that is where the raw copy of your data will be saved, should b
 
 #### Data storage media
 
-Consider the [hardware](storing_data.md) that you need carefully, ensuring that it can withstand the conditions. If you don't know what to expect, find out from others that have been on a similar field trip or have previously been to the same location. 
+Consider the [hardware](#storing-data) that you need carefully, ensuring that it can withstand the conditions. If you don't know what to expect, find out from others that have been on a similar field trip or have previously been to the same location. 
 
 At permanent field camps, bases or on ships, familiarise yourself with what is and just as importantly, what is not available to you. Consider: 
 
@@ -74,13 +74,13 @@ Don't forget the return journey: when returning with portable media devices hold
 
 #### Organising data files
 
-Think carefully about the [directory structure](#Directory structure) and [filenames](#File naming) you use, particularly if you are collecting data automatically. 
+Think carefully about the [directory structure](#directory-structure) and [filenames](#file-naming) you use, particularly if you are collecting data automatically. 
 
 #### Backing up data in the field
 
-Always ensure you can [back up](backing_up_data.md) your data or metadata whilst in the field.
+Always ensure you can [back up](#backing-up-data) your data or metadata whilst in the field.
 
-If you are manually collecting data, it is likely your primary copy will be on your laptop. Maintain at least two separate backups on separate hard drives, or one on any other kind of [storage media](storing_data.md) if it is available. 
+If you are manually collecting data, it is likely your primary copy will be on your laptop. Maintain at least two separate backups on separate hard drives, or one on any other kind of [storage media](#storing-data) if it is available. 
 
 If automatically collecting data, you will likely have the primary copy of the data on the instrument, or the computer or primary data storage to which it is directly connected. If it is possible to back it up to some kind of networked storage particularly on a base or ship, this would be ideal, otherwise make sure you have the means to have at least two other regular backups of the data.
 
@@ -128,9 +128,9 @@ The main things to prepare if you are going to be collecting samples are:
 * check permit requirements: they may insist on certain information being kept about the samples and it is likely you will need to report what you have collected. Be aware of this before you go to avoid any doubt in the field;
 * check border crossing and entry requirements for the transport of your samples on return: it is likely you will need to present a list of samples with information about what they contain. If you are able to maintain this record during your fieldwork it will save a lot of time at the end of your fieldwork when you are in a rush to pack. However it is important to carefully check and understand exactly what you need before you go - at a remote field site you might not be able to access this information.
 
-### [Metadata](metadata.md)
+### [Metadata](#metadata)
 
-Prepare carefully how you are going to record [metadata](metadata.md) and see this section of the guide for detailed documentation about what is useful to record.
+Prepare carefully how you are going to record [metadata](#metadata) and see this section of the guide for detailed documentation about what is useful to record.
 
 #### For data and sample collection
 
@@ -168,4 +168,4 @@ For metadata and documentation this can be a simple [readme.txt](#readmetxt) fil
 
 When recording data by hand, or collecting information about sample collection, this is more likely to be done in a spreadsheet. It saves a lot time and will hopefully prevent anything being forgotten, if you are able to prepare this in advance as well. 
 
-Be prepared to [document](metadata.md) as much as you can in the field and take [good care](backing_up_data.md) of these notes. 
+Be prepared to [document](#metadata) as much as you can in the field and take [good care](#backing-up-data) of these notes. 
