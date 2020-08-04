@@ -1,9 +1,9 @@
 
-# Directory structure #
+## Directory structure
 
 An organised directory structure will work wonders when it comes to looking for files you haven't been working on for a while. Think about a hierarchical structure that could be repeated across all of your projects and one that can be easily navigated by others.
 
-## Handy tips ##
+### Handy tips
 
 * Don't use spaces or special characters in directory names as these cannot always be handled easily. Instead, consider splitting the sections using underscores ( _ ) or dashes ( - ) and writing words within sections using CamelCaps (starting each word with a capital letter). This can help with readability.
 * Keep names short but meaningful: some file systems have limits on the number of characters in a full directory path so if you have several sub-directories this can become a problem.
@@ -37,7 +37,7 @@ ProjectName/
 └── wip
 ~~~
 
-## readme.txt ##
+### readme.txt
 
 **Always** include a readme file within a directory to describe its contents. This will help anyone coming to look at the files in the future, and will help jog your memory as well. 
 
@@ -51,9 +51,7 @@ The Gurdon Institute (Downie, 2019) provides a very useful list of what to inclu
 
 If you would like to write with formatting, Markdown is a useful convention that can be used. Pandoc is a very useful tool to then convert Markdown into different file formats such as HTML, PDF etc. as you so wish. Remember to save the readme in text format though so that it can be easily opened in years to come.
 
-## Useful links ## 
-
-## References ##
+### References
 
 Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009). Some Simple Guidelines for Effective Data Management, Ecological Society of America, 90(2), pp. 205–214. doi: [10.1890/0012-9623-90.2.205](https://doi.org/10.1890/0012-9623-90.2.205).
 

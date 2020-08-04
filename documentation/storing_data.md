@@ -1,11 +1,11 @@
 
-# Storing data # 
+## Storing data 
 
 Storing your data in an organised and secure manner, will save you a lot of time and hassle in the long run. It is worth investing time and effort in ensuring a coherent [directory structure](directory_structure.md), understandable [file names](file_naming.md), secure data storage and carefully thought-out [backups](backing_up_data.md).
 
 In this section we focus on where to store your data. Suggestions are *not* ordered by preference.
 
-## What to consider when deciding where to store your data ##
+### What to consider when deciding where to store your data
 
 Thinking carefully about what you need to be able to do with your data will help you to select where is best to store your data.
 
@@ -16,11 +16,11 @@ Thinking carefully about what you need to be able to do with your data will help
 * What budget do you have for data storage?
 * Are your data sensitive?
 
-## Types of storage media ##
+### Types of storage media
 
 Remember that for [backups](backing_up_data.md) of data, it is important to have them in multiple places and on different types of media. Different types of media offer solutions to different problems and therefore you will need to consider using more than one. 
 
-### Networked data storage ###
+#### Networked data storage
 
 Networked data storage, often known as an institution file server, is often provided as standard by institutions. 
 
@@ -31,13 +31,13 @@ Networked data storage, often known as an institution file server, is often prov
 * Check what limits there are on the volume of storage: if you are collecting large volumes of data, you may need to budget for asking them for more data storage.
 * Consider that you may need to access the data from off-site from time to time and find out early on how to do this. Make sure it works, there is nothing worse than trying to access data (or other file) that you need in a hurry and not have what you need set up properly.
 
-### Personal computers ###
+#### Personal computers
 
 If using a personal computer to work on data, ensure that you have a master copy backed up elsewhere, that you work on a *copy* of the [raw data](working_on_data.md), and that any work you do is backed up on a regular basis.
 
 Failure of the hard disk, theft or damage to a personal computer or laptop itself could mean loss of all the data and associated files.  
 
-### Portable media ###
+#### Portable media
 
 Portable hard drives are commonly used for [backing up](backing_up_data.md) data in the field but their use-case should be carefully considered. Some portable media types are not useful for long-term storage because they quickly degrade or become obsolete. 
 
@@ -49,7 +49,7 @@ Portable hard drives are commonly used for [backing up](backing_up_data.md) data
 * If a hard drive is lost, it can be easily read by anyone. The hard drive should be encrypted if it holds any personal or sensitive data.
 * Regularly check any data that are held on portable media to ensure it can still be read. Always have other backups. 
 
-### Cloud storage ###
+#### Cloud storage
 
 Cloud storage is becoming the norm in many cases, particularly where the data volume is getting into hundreds of GBs. There are many types of cloud storage that you can set up yourself or buy as a managed service, but there are a few considerations to take into account. Many institutions now also offer this either as part of their standard storage or as an extra service, particularly for those dealing with larger volumes of data. Research data management staff in your institution may also be able to offer recommendations.
 
@@ -68,10 +68,10 @@ Wikipedia has a very handy [comparison of online backup options](https://en.wiki
 
 Platforms such as [Zenodo](https://zenodo.org) are provided for publication of data and other digital resources, but when datasets have been completed (either in a raw or finalised state) it can be worth thinking about this option.
 
-## Handy tips ##
+### Handy tips
 
 Consider file size carefully so they are easy to work with. Many small files will take longer to copy and be harder to work with than a single file of the same total size. Copying lots of smaller files to [cloud storage](#cloud-storage) can also increase the cost. Equally, avoid creating files that are more than a few GBs because in some cases they can be difficult to read into memory. 
 
-## References ##
+### References
  
 The University of Edinburgh. Storage & security. *MANTRA Research Data Management Training*. Retrieved from [https://mantra.edina.ac.uk/storageandsecurity](https://mantra.edina.ac.uk/storageandsecurity) [Accessed on 28 July 2020].

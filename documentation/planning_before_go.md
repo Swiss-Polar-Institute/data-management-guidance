@@ -1,5 +1,7 @@
 
-# Before you go #
+# Field guide 
+
+## Before you go
 
 What you need to think about will depend on whether you are collecting samples, data by hand, using an instrument to gather data in an automated manner, or a mixture of all of these. General principles are the same for all of these situations: 
 
@@ -11,7 +13,7 @@ What you need to think about will depend on whether you are collecting samples, 
 
 The sections below will lead you through these points in more detail. Follow the links for more detailed information and helpful tips.
 
-## Preparing for data collection from an instrument ##
+### Preparing for data collection from an instrument
 
 Collecting data in the field requires careful thinking beforehand, particularly if you are setting up an instrument in a remote environment that is difficult to reach to troubleshoot, move out of danger or to recover data from when the data storage is full. 
 
@@ -28,7 +30,7 @@ Whilst planning, think carefully about the following questions:
 * will you be able to access the data during collection?
 * what do you need to know about how your data were collected?
 
-### How much data are you planning to collect? ###
+#### How much data are you planning to collect?
 
 Ask yourself the following questions to be able to plan how much data storage you need in the field.
 
@@ -54,7 +56,7 @@ In the event of bad weather and not being able to access the instrument or other
 
 Primary storage, that is where the raw copy of your data will be saved, should be of a volume that more than covers the data that you plan to collect. Always ensure you have a buffer of at least 20 %, preferably more, and test how the files are stored thoroughly beforehand. If in doubt, have more storage rather than less.
 
-### Data storage media ###
+#### Data storage media
 
 Consider the [hardware](storing_data.md) that you need carefully, ensuring that it can withstand the conditions. If you don't know what to expect, find out from others that have been on a similar field trip or have previously been to the same location. 
 
@@ -70,11 +72,11 @@ Plan how you will get your hardware to the field location with good time. Carefu
 
 Don't forget the return journey: when returning with portable media devices holding your collected data, think carefully how you get them back. Consider encryption of the device if it holds personal or sensitive data.
 
-### Organising data files ###
+#### Organising data files
 
 Think carefully about the [directory structure](#Directory structure) and [filenames](#File naming) you use, particularly if you are collecting data automatically. 
 
-### Backing up data in the field ###
+#### Backing up data in the field
 
 Always ensure you can [back up](backing_up_data.md) your data or metadata whilst in the field.
 
@@ -93,7 +95,7 @@ Depending on the circumstances, backups could be:
 
 Wherever possible, automate your backups - this makes the backups much less of a chore at the end of a long day and makes them much easier to verify.
 
-### Accessing data in the field ###
+#### Accessing data in the field
 
 Being able to access your data in the field is extremely useful and cannot be underestimated. In particular it allows you to:
  
@@ -109,13 +111,13 @@ If however you are setting up your instrumentation then expecting to leave it fo
 
 For instruments that are very isolated and there is no possibility of being able to access them, consider if there is a way to remotely connect to the instrument. This might offer the possibility to restart it for example, or change crucial settings.    
 
-### Preparing for recording data by hand ###
+#### Preparing for recording data by hand
 
 If recording data by hand directly into a notebook, think carefully about how you are going to backup this information. If at all possible, plan to digitise these notes into a spreadsheet or appropriate file as soon as possible in the field. If you will not be able to use a laptop in the field perhaps due to lack of electricity supply, then consider other methods. This could be taking a camera and carefully photographing your notes. Photographs of hand-written notes (or scans once you get back to your institution) are very useful in case you happen to mis-transcribe some information and need to go back to them.
 
 Think carefully about the data you would like to record and prepare the files that you will record them in, in advance. It is always useful to do a test-run to make sure you include everything you need.
 
-## Preparing for sample collection ##
+### Preparing for sample collection
 
 The main things to prepare if you are going to be collecting samples are: 
 
@@ -126,11 +128,11 @@ The main things to prepare if you are going to be collecting samples are:
 * check permit requirements: they may insist on certain information being kept about the samples and it is likely you will need to report what you have collected. Be aware of this before you go to avoid any doubt in the field;
 * check border crossing and entry requirements for the transport of your samples on return: it is likely you will need to present a list of samples with information about what they contain. If you are able to maintain this record during your fieldwork it will save a lot of time at the end of your fieldwork when you are in a rush to pack. However it is important to carefully check and understand exactly what you need before you go - at a remote field site you might not be able to access this information.
 
-## [Metadata](metadata.md) ##
+### [Metadata](metadata.md)
 
 Prepare carefully how you are going to record [metadata](metadata.md) and see this section of the guide for detailed documentation about what is useful to record.
 
-### For data and sample collection ###
+#### For data and sample collection
 
 The most important thing is to be able to determine where and when you collected your data or samples. Make sure you know in advance: 
 
@@ -146,7 +148,7 @@ The most important thing is to be able to determine where and when you collected
 * if using networked computers or instruments, try to ensure that they are all synced to ensure there is no offset. 
 * properly understand if there is any offset between the instruments / devices recording location, time and your data itself. It is likely that you will need to match up data points to the location using time.
 
-### Instrumentation and computers ###
+#### Instrumentation and computers
 
 Keep a detailed record of instrumentation that you use for primary and secondary datasets, sample collection and saving / backing up data. Note: 
 
@@ -158,7 +160,7 @@ Keep a detailed record of instrumentation that you use for primary and secondary
 
 If at all possible, record this information in advance before going to the field.
 
-## Documentation ##
+### Documentation
 
 Carefully prepare template documents that you can take and complete whilst in the field. 
 
@@ -167,5 +169,3 @@ For metadata and documentation this can be a simple [readme.txt](#readmetxt) fil
 When recording data by hand, or collecting information about sample collection, this is more likely to be done in a spreadsheet. It saves a lot time and will hopefully prevent anything being forgotten, if you are able to prepare this in advance as well. 
 
 Be prepared to [document](metadata.md) as much as you can in the field and take [good care](backing_up_data.md) of these notes. 
-
-## References

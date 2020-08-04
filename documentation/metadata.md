@@ -1,5 +1,5 @@
 
-# Metadata
+## Metadata
 
 Metadata is the "data that provides information about the data" (Merriam Webster, 2020).
 
@@ -7,7 +7,7 @@ Without information about how data and samples were collected, final results can
 
 Will you remember in 10 years what a particular acronym was? Do you remember why a sample was collected in an unexpected location? Would someone else know that a set of particular air filters may have picked up abnormally high levels of a particular particle because at the time you passed through a plume of smoke?  
 
-## How is metadata used? ##
+### How is metadata used?
 
 **For yourself:** 
 
@@ -27,7 +27,7 @@ It is often a requirement of funders, and is good practice, to **publish your da
 
 Of course there may be others who would like to do a **similar study* or try to **replicate your results**.
 
-## Levels of metadata ##
+### Levels of metadata
 
 Information will be captured at different stages of your project. 
 
@@ -75,7 +75,7 @@ It is easy to lose information and context of data and samples when they have co
 * Maintaining a good description of a project to which your dataset and samples will contribute is useful background information for anyone who might need or want to use them in the future. 
 * Include what the study set out to do, how it contributes new knowledge to the field, what the research questions/hypotheses were, what methodologies were used, and which instruments and measures were used (The University of Edinburgh).
 
-## Machine-readable metadata ##
+### Machine-readable metadata
 
 If we structure and document our data correctly, it can be easily read by machines (i.e computers). It is important for humans to be able to understand if a dataset is fit for their purpose, something normally achieved by reading documentation. However it is possible to make metadata machine-readable as well to ensure that datasets are more easily findable in searches, are easier to combine with other datasets and also meet community standards to be able to compare like-for-like more easily. 
 
@@ -85,7 +85,7 @@ Some machine-readable metadata schemas to consider are:
 * [Frictionless Data]() - good for describing data files as well as the dataset as a whole
 * [DataCite]() - often used for dataset Digital Object Identifiers (DOIs)
 
-## Controlled vocabularies ##
+### Controlled vocabularies
 
 A controlled vocabulary normally provides a set of keywords or parameter names that have a specific definition and unique identifier. Using these vocabularies where they exist and are applicable in your discipline is useful because it makes datasets much more comparable and understandable, particularly when working across domains.
 
@@ -99,7 +99,7 @@ Some commonly used ones are:
 
 It is very difficult to have complete and exhaustive lists as science is constantly evolving, so many of these sets of controlled vocabularies allow users to request additions. Do consider doing this if there is a term that you would like to be added. 
 
-## References ##
+### References
 
 Cambridge University Press. *Litter*. Cambridge Essential Dictionary. Retrieved from: [https://dictionary.cambridge.org/dictionary/essential-british-english/litter](https://dictionary.cambridge.org/dictionary/essential-british-english/litter). Accessed 31 July 2020.
  

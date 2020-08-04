@@ -1,11 +1,11 @@
 
-# Data file formats #
+## Data file formats
 
 The format of the files you use to store data and documentation will directly impact how this information can be used by yourself and others in the future (Stanford Library, 2020)
 
 Using open data file formats helps to ensure the longevity of datasets (Borer et al., 2009). Open file formats are well-documented and easy to read by a variety of software and are more future-proof. Using file formats that are closed and specific to a certain piece of software (proprietary), have a higher probability of becoming unreadable in the future. As software versions change, they are not always backwards compatible, meaning that a file produced ten years ago may no longer be readable. Trends also change and now-common software applications may not be widely used in the future.
 
-## Handy tips ##
+### Handy tips
 
 File formats should be (as described by MIT information on storing your data, CC BY-NC): 
 
@@ -28,13 +28,13 @@ For documentation:
 
 For other types of data (such as media or geospatial, for example) consult EPFL's [Research Data Management Fast Guide](https://www.epfl.ch/campus/library/wp-content/uploads/2019/09/EPFL_Library_RDM_FastGuide_All.pdf#page=4).
 
-## Useful links ## 
+### Useful links
 
 Page 4 of EPFL's [Research Data Management Fast Guide](https://www.epfl.ch/campus/library/wp-content/uploads/2019/09/EPFL_Library_RDM_FastGuide_All.pdf#page=4) has a useful summary of appropriate file formats to use for different types of data.
 
 Frictionless Data [table schema](https://specs.frictionlessdata.io/table-schema/) and [data package](https://specs.frictionlessdata.io/data-package/) schemas are very useful for describing tabular data and datasets respectively.  
 
-## References ##
+### References
 
 Blumer, E.N., Chaptinel, J.J., Masson, A., Reichler, F., Samath, S., Varrato, F. and Milfort, F. (2019). EPFL Library Research Data Management Fastguides. Zenodo. doi: [10.5281/zenodo.3327830](https://doi.org/10.5281/zenodo.3327830)
 

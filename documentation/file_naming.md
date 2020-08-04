@@ -1,9 +1,9 @@
 
-# File naming #
+## File naming
 
 Having an organised directory structure and standard procedure for file naming can be essential in helping to locate files in the future. It also avoids a lot of confusion for anyone using the files.
 
-## Handy tips ##
+### Handy tips
 
 Some filenaming tips (Borer et al., 2009):
 
@@ -13,7 +13,7 @@ Some filenaming tips (Borer et al., 2009):
 * Versioning can be done using the date in the format YYYYMMDD. Placing the date at the start of the filename can be useful. If more granularity is useful, then version numbering such as v01_01, v01_02 can be used as well. Placing this at the end of the filename is useful although if you are getting into detailed versioning such as this, you should consider using a [versioning tool](working_on_data.md).
 * Be consistent!
 
-## Examples ##
+### Examples
 
 ~~~~
 ace_meteorology_data_20170234-120000.csv
@@ -35,8 +35,6 @@ ace_meteorology_ProcessedWindData_201701.csv
 * 201701 is the subset of data in the file (only data from January 2017)
 * .csv is the file type (comma-separated values)
 
-## Useful links ## 
-
-## References ##
+### References
 
 Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009). Some Simple Guidelines for Effective Data Management, Ecological Society of America, 90(2), pp. 205–214. doi: [10.1890/0012-9623-90.2.205](https://doi.org/10.1890/0012-9623-90.2.205).
