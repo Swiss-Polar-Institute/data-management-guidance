@@ -1,6 +1,4 @@
 
-# Field guide 
-
 ## Before you go
 
 What you need to think about will depend on whether you are collecting samples, data by hand, using an instrument to gather data in an automated manner, or a mixture of all of these. General principles are the same for all of these situations: 

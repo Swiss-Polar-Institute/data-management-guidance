@@ -17,24 +17,24 @@ A good example can be seen here.
 
 ~~~
 ProjectName/
-├── Documentation
-├── Plots
-├── ProcessedData
-├── RawData
-│   ├── FieldSiteA
-│   │   ├── 2018
-│   │   ├── 2019
-│   │   └── 2020
-│   ├── FieldSiteB
-│   │   ├── 2018
-│   │   ├── 2019
-│   │   └── 2020
-│   └── FieldSiteC
-│       ├── 2018
-│       ├── 2019
-│       └── 2020
-├── readme.txt
-└── wip
+|-- Documentation
+|-- Plots
+|-- ProcessedData
+|-- RawData
+|   |-- FieldSiteA
+|   |   |-- 2018
+|   |   |-- 2019
+|   |   |-- 2020
+|   |-- FieldSiteB
+|   |   |-- 2018
+|   |   |-- 2019
+|   |   |-- 2020
+|   |-- FieldSiteC
+|       |-- 2018
+|       |-- 2019
+|       |-- 2020
+|-- readme.txt
+|-- wip
 ~~~
 
 ### readme.txt
