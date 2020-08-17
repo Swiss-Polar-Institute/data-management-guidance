@@ -1,15 +1,48 @@
 
 ## Before you go
 
-What you need to think about will depend on whether you are collecting samples, data by hand, using an instrument to gather data in an automated manner, or a mixture of all of these. General principles are the same for all of these situations: 
+The main points to plan are the same, whether you are collecting samples, data by hand, using an instrument to gather data in an automated manner, or a mixture of all of these: 
 
-* ensure you have enough [data storage](#storing-data) or notebooks to record data;
-* ensure you can [back up](#backing-up-data) your data in the field;
-* carefully plan how you organise your saved data or recording of samples so it is well thought-out;
-* document your data or sample collection thoroughly;
-* record metadata (information about data) about the data or sample collection. 
+* carefully plan how you **organise** your saved data or recording of samples so it is well thought-out;
+* ensure you have enough **[data storage](#storing-data)** or notebooks to record data;
+* ensure you can **[back up](#backing-up-data)** your data in the field;
+* plan which **metadata** (information about data) you will record about the data or sample collection;
+* understand what information you need to **document** your data or sample collection thoroughly.
 
-The sections below will lead you through these points in more detail. Follow the links for more detailed information and helpful tips.
+The sections below will lead you through these points in more detail. Follow the links to the relevant sectionsfor more detailed information and context.
+
+### On site
+
+In addition to these points, it is important to find out about what **is** and what **is not** available to you where you might be undertaking your field work. This will affect how you save, backup and possibly access data. 
+
+#### Network 
+
+Having a connection to the local network can be useful for having automated backups (if there is also storage), collaborate more easily with others, view your data without having to access your instrument (very useful in bad weather) and depending on the organisation, might mean your data can be backed-up directly to your institution after the fieldwork.
+
+**Questions to ask**:
+
+* Do you have access to a local network? If so, is this from a computer based at the site, or can you connect your computer? 
+* Can your instrument be connected to the network? Is there network where the instrument will be based, or do you need to think about taking longer cables? Is it too far away from a network point?
+* What is the speed of the network?
+* Are network cables provided?
+* Is there someone who can assist in connecting your computer or instrumentation to the network, or do you need to know how to do this?
+
+#### Data storage
+ 
+Network-attached storage may be provided and therefore would offer another means of managed data backup. It is likely to be more secure than a portable hard disk if the infrastructure is well-managed. 
+
+**Questions to ask**:
+
+* Are you able to backup data to the network-attached storage? If so, what capacity would be available to you?
+* Do you have read access to look at your data?
+* Is access to read data available any time? Is this possible through your computer or is it through a computer based on the site?
+* Is there someone who can assist in setting up your access to the data storage, or do you need to know how to do this?
+
+#### Power and electricity supply
+
+#### Support
+
+####
 
 ### Preparing for data collection from an instrument
 
