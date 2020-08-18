@@ -41,7 +41,7 @@ These digitised data files should be considered as any other data file: consider
 
 If adding to a data file with new observations, using the date to denote different versions of the file is helpful eg., project_datatype_observations_YYYYMMDD.csv
 
-If automatically collecting data, you will likely have the primary copy of the data on the instrument, or the computer or primary data storage to which it is directly connected. If it is possible to back it up to some kind of networked storage particularly on a base or ship, this would be ideal, otherwise make sure you have the means to have at least two other regular backups of the data on different storage media. Keep them in different locations whilst in the field. 
+If automatically collecting data, you will likely have the primary copy of the data on the instrument, or the computer or primary data storage to which it is directly connected. If it is possible to back it up to some kind of networked storage particularly on a base or ship, this would be ideal, otherwise make sure you have the means to have at least two other regular backups of the data on different storage media. Keep them in different locations whilst in the field.
 
 ### [Sample collection](#collecting-samples)
 

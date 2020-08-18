@@ -107,40 +107,44 @@ Think carefully about the [directory structure](#directory-structure) and [filen
 
 #### Backing up data in the field
 
-Always ensure you can [back up](#backing-up-data) your data and metadata whilst in the field. Plan carefully to make sure these backups are automated as far as possible. Test out each method of backup carefully before you leave to ensure the method and the hardware (if applicable) work properly. Don't forget to test recovering backups as well. 
-
-Don't forget to backup metadata and documentation as well - these are just as vital.  
+Always ensure you can [back up](#backing-up-data) your data and metadata whilst in the field. Plan carefully to make sure these backups are automated as far as possible, making it much less of a chore and harder to make a mistake. Test out each method of backup carefully before you leave to ensure the method and the hardware (if applicable) work properly. Don't forget to test recovering backups as well. 
 
 Depending on the circumstances, backups could be:
 
-* on networked storage if accessible;
-* by sending files using a mobile or satellite connection from the instrument (will depend on situation and cost) to cloud (or other) storage;
-* a number of portable hard drives;
-* if others are coming and going to a field site during the season, consider asking a responsible person to carry a copy of the data back to your institution. This gives you a copy in a different location and means it could also be placed on secure networked storage as an extra precaution. It would be particularly useful if weather conditions at the field site make it difficult to keep portable media safe and in good condition.
+* a number of [portable hard drives](#portable-media), held by different members of the team wherever possible;
+* if others are coming and going to a field site during the season, consider asking a responsible person to carry a copy of the data back to your institution. This gives you a copy in a different location and means it could also be placed on secure networked storage as an extra precaution. It would be particularly useful if weather conditions at the field site make it difficult to keep portable media safe and in good condition;
+* on network-attached storage if accessible;
+* by sending files using a mobile or satellite connection from the instrument (will depend on situation and cost) to cloud (or other) storage.
 
-Wherever possible, automate your backups - this makes the backups much less of a chore at the end of a long day and makes them much easier to verify.
+Using on-site options such as network-attached storage or sending files via the Internet are really a bonus option, so always plan to have a backup plan in place, in case this doesn't work out. 
 
 #### Accessing data in the field
 
 Being able to access your data in the field is extremely useful and cannot be underestimated. In particular it allows you to:
  
 * check the instrument is running as expected;
-* confirm data files are being saved;
-* look for interesting features in the data that might indicate problems with the instrument. 
+* confirm data files are being saved as expected;
+* look for interesting features in the data that might indicate problems. Knowing about them in near-real time cna be hugely advantageous when quality checking and processing data. 
 
 Setting up quick visualisations of data files saves a lot of time and can tell you a lot with a quick glance.
 
-If you are staying with your instrumentation, it is very likely you will be able to set-up the instrument, do some tests and maybe see the data being collected. Checking the data files periodically means you can spot obvious issues with the instrument early and ensure data are being saved as you expected (parameters, file format).
+If you are staying with your instrumentation, it is very likely you will be able to set-up the instrument, do some tests and maybe see the data being collected. Checking the data files periodically means you can spot obvious issues with the instrument early and ensure data are being saved as you expected (parameters, file format, frequency of records).
 
 If however you are setting up your instrumentation then expecting to leave it for a period of time, it is worth considering what access you (or others) might have to it. Running initial tests whilst still with the instrument in the field is essential. Once you are sure data are being collected as you expected, then it is useful to be able to access data periodically from wherever you are. This could be across a network (for example if you are on a ship or at a base) or even using mobile or satellite communications if the instrument is isolated. Even if you are not able to see *all* of the data being collected, a small daily file with a subset of the data could be enough for you to check that everything is going well or flag up issues. Of course this is of more use if you or someone else is then able to go and fix the problem. 
 
-For instruments that are very isolated and there is no possibility of being able to access them, consider if there is a way to remotely connect to the instrument. This might offer the possibility to restart it for example, or change crucial settings.    
+For instruments that are very isolated and there is no possibility of being able to access them, consider if there is a way to remotely connect to the instrument. This might offer the possibility to restart it for example, or change crucial settings. Set this up and test thoroughly beforehand.    
 
-#### Preparing for recording data by hand
+### Preparing for recording data by hand
 
-If recording data by hand directly into a notebook, think carefully about how you are going to backup this information. If at all possible, plan to digitise these notes into a spreadsheet or appropriate file as soon as possible in the field. If you will not be able to use a laptop in the field perhaps due to lack of electricity supply, then consider other methods. This could be taking a camera and carefully photographing your notes. Photographs of hand-written notes (or scans once you get back to your institution) are very useful in case you happen to mis-transcribe some information and need to go back to them.
+If recording data by hand directly into a notebook, think carefully what you would like to record. Keep separate notes (documentation and [metadata](#metadata)) about how your measurements will be recorded, units and any parameter abbreviations you will use in the field. 
 
-Think carefully about the data you would like to record and prepare the files that you will record them in, in advance. It is always useful to do a test-run to make sure you include everything you need.
+#### Data backup and digitisation
+
+Plan to digitise your data and notes as soon as possible in the field as a form of backup but also to make it easier to check your data collection. 
+
+If using a spreadsheet into which your hand-recorded notes will be copied, prepare the file template in advance and have a test-run of data collection and digitising of data. Where possible and appropriate, use drop-down lists of specified terms within your spreadsheet ([example for Excel](https://www.excelefficiency.com/create-drop-down-lists-in-excel/)) to keep data entry consistent. This will allow quick data validation and save a lot of time cleaning data. As when collecting data from an instrument, early digitisation also offers the opportunity to produce some quick visualisations or numerical checks of data.
+
+If you will not be able to use a laptop in the field perhaps due to lack of electricity supply, then consider other methods. This could be taking a camera and carefully photographing your notes and data. Photographs of hand-written notes (or scans once you get back to your institution) are very useful in case you happen to mis-transcribe some information and need to go back to them, as well as being a vital backup.
 
 ### Preparing for sample collection
 
