@@ -1,6 +1,8 @@
 
 ## Before you go
 
+Collecting data in the field requires careful thinking beforehand, particularly if you are setting up an instrument in a remote environment that is difficult to reach to troubleshoot, move out of danger or to recover data from when the data storage is full. 
+
 The main points to plan are the same, whether you are collecting samples, data by hand, using an instrument to gather data in an automated manner, or a mixture of all of these: 
 
 * carefully plan how you **organise** your saved data or recording of samples so it is well thought-out;
@@ -40,21 +42,17 @@ Network-attached storage may be provided and therefore would offer another means
 
 #### Power and electricity supply
 
+In addition to the power supply needed for your instrumentation, you may need to consider what is available to power extra data storage and associated UPSs. 
+
 #### Support
 
-####
+Some camps or bases might be able to provide some support or have strict rules about connecting to local networks. It really helps to understand these before you arrive. 
 
 ### Preparing for data collection from an instrument
-
-Collecting data in the field requires careful thinking beforehand, particularly if you are setting up an instrument in a remote environment that is difficult to reach to troubleshoot, move out of danger or to recover data from when the data storage is full. 
-
-We will also consider cases where you are working alongside instrumentation, collecting data by hand or collecting samples.
 
 Whilst planning, think carefully about the following questions:
 
 * how much data are you planning to collect?
-* do you understand how big each data file will be?
-* how will the data be stored?
 * do you have enough data storage for the planned data collection, plus extra for unforeseen circumstances?
 * how will you organise the data files?
 * how will the data be backed-up in the field?
@@ -63,57 +61,53 @@ Whilst planning, think carefully about the following questions:
 
 #### How much data are you planning to collect?
 
-Ask yourself the following questions to be able to plan how much data storage you need in the field.
+It is important to have a good understanding of your instrument, associated software and how the files are saved. 
 
 **Which data do I need to save?**  
 
-Some software automatically writes "false" data from variables which is not actually being collected, and therefore should not be recorded in the data file. This easily causes confusion for yourself and others in the future, wondering what the data are.  
+Some software automatically writes "false" data from variables which is not actually being collected, and therefore should not be recorded in the data file. This easily causes confusion for yourself and others in the future, wondering what the data are. Make sure you know how to "select" which variables are saved into the data files.  
     
-If data storage is limited, maybe you need to consider which periods of time are more crucial (ie. data collection only at night, or for five minutes every hour, one-minute resolution instead of one-second), but all of this should be considered with your experiment in mind to ensure it is not compromised. Don't forget to take into account local sunrise and sunset times if this is important, particularly if the instrument is going to be installed on a moving platform such as a ship.
+If data storage is limited, maybe you need to consider which periods of time are more crucial (ie. data collection only at night, or for five minutes every hour, one-minute resolution instead of one-second). All of this should be considered with your experiment in mind to ensure it is not compromised. Don't forget to take into account local sunrise and sunset times if this is an important factor, particularly if the instrument is going to be installed on a moving platform such as a ship.
 
 **Do I really understand how big each data file will be?**  
 
-Perhaps the instrument settings have changed since the last fieldwork setup, so the size of the files produced could be different. Have a proper test-run before going into the field.
+File sizes vary depending on the configuration of the instrument, the number of variables recorded, and importantly, the data themselves (i.e. more background noise can produce higher figures and therefore more bytes). Ensure you configure the instrument for your needs in case settings have changed since you last used it. Have a proper test-run before going into the field with the same settings you will use in the field and compare test data with other similar data wherever possible.
 
 **How do I calculate how much data I am going to collect?**  
 
 Once you know how much a data file produces and how many data files you will produce (one per hour, one per day?), think about how many MB, GB or TB per day that you will generate, then multiply that calculation by the number of days you expect to be collecting data for.
 
+Always round estimates up. It is better to overestimate. 
+
 **Do I have enough data storage for the planned data collection, plus extra for unforseen circumstances?**  
 
-You will likely need to undertake initial set-up tests in the field before or during deployment which could use up vital storage space. 
+You will likely need to undertake initial set-up tests in the field before or during deployment which could use up extra storage space. This is important to do, so budget space accordingly. 
 
-In the event of bad weather and not being able to access the instrument or other unforeseen circumstances such as your field season being extended, data may be collected over a longer period. Don't miss out on the opportunity for additional data collection if it becomes available just because you don't have big enough data storage!
+In the event of bad weather and not being able to access the instrument or other unforeseen circumstances such as your field season being extended, data may be collected over a longer period. Don't miss out on the opportunity for additional or opportunistic data collection if it becomes available, just because you don't have big enough data storage!
 
-Primary storage, that is where the raw copy of your data will be saved, should be of a volume that more than covers the data that you plan to collect. Always ensure you have a buffer of at least 20 %, preferably more, and test how the files are stored thoroughly beforehand. If in doubt, have more storage rather than less.
+Primary storage, that is where the raw copy of your data will be saved initially, should be of a volume that more than covers the data that you plan to collect. Always ensure you have a buffer of at least 20 %, preferably more, and test how the files are stored thoroughly beforehand. If in doubt, have more storage rather than less.
 
 #### Data storage media
 
-Consider the [hardware](#storing-data) that you need carefully, ensuring that it can withstand the conditions. If you don't know what to expect, find out from others that have been on a similar field trip or have previously been to the same location. 
+Carefully consider the [hardware](#storing-data) on which your data will be stored, ensuring that it can withstand the conditions where it will be. If you don't know what to expect, find out from others that have been on a similar field trip or have previously been to the same location. 
 
-At permanent field camps, bases or on ships, familiarise yourself with what is and just as importantly, what is not available to you. Consider: 
+At permanent field camps, bases or on ships, familiarise yourself with what is and just as importantly, what is not available to you for data storage. Consider: 
 
 * network (your access, speed, security arrangements and restrictions)
 * internet connection (your access and bandwidth)
-* data storage - this might or might not be available, but you still need some portable media or a good internet connection to be able to take the data home
+* data storage - this might or might not be available, but you still need some portable media or a good internet connection to be able to take the data home and do backups
 
-If your instrumentation and data storage are connected to an electrical supply, maybe you need to consider an external power supply such as a UPS, to keep them running in case of power loss.
+See the main section about [data storage media](#storing-data) and the earlier section of this chapter about [what might be available to you on site](#on-site), for more information. 
 
-Plan how you will get your hardware to the field location with good time. Carefully check cargo restrictions to ensure that your hardware meets the requirements of carriage. Batteries that are in UPSs or other instrumentation are particularly regulated. 
-
-Don't forget the return journey: when returning with portable media devices holding your collected data, think carefully how you get them back. Consider encryption of the device if it holds personal or sensitive data.
+If your instrumentation and data storage are connected to an electrical supply, maybe you need to consider an external power supply such as a UPS, to keep them running in case of power loss. In this case, find out details of the [electricity supply](#power-and-electricity-supply) where your instrumentation and data storage will be located, to ensure compatibility.
 
 #### Organising data files
 
-Think carefully about the [directory structure](#directory-structure) and [filenames](#file-naming) you use, particularly if you are collecting data automatically. 
+Think carefully about the [directory structure](#directory-structure) and [filenames](#file-naming) you use, particularly if you are collecting data automatically. Refer to the relevant sections on this for more information and where possible, set up the instrument accordingly beforehand.
 
 #### Backing up data in the field
 
-Always ensure you can [back up](#backing-up-data) your data or metadata whilst in the field.
-
-If you are manually collecting data, it is likely your primary copy will be on your laptop. Maintain at least two separate backups on separate hard drives, or one on any other kind of [storage media](#storing-data) if it is available. 
-
-If automatically collecting data, you will likely have the primary copy of the data on the instrument, or the computer or primary data storage to which it is directly connected. If it is possible to back it up to some kind of networked storage particularly on a base or ship, this would be ideal, otherwise make sure you have the means to have at least two other regular backups of the data.
+Always ensure you can [back up](#backing-up-data) your data and metadata whilst in the field. Plan carefully to make sure these backups are automated as far as possible. Test out each method of backup carefully before you leave to ensure the method and the hardware (if applicable) work properly. Don't forget to test recovering backups as well. 
 
 Don't forget to backup metadata and documentation as well - these are just as vital.  
 
@@ -200,3 +194,12 @@ For metadata and documentation this can be a simple [readme.txt](#readmetxt) fil
 When recording data by hand, or collecting information about sample collection, this is more likely to be done in a spreadsheet. It saves a lot time and will hopefully prevent anything being forgotten, if you are able to prepare this in advance as well. 
 
 Be prepared to [document](#metadata) as much as you can in the field and take [good care](#backing-up-data) of these notes. 
+
+### Travel and customs
+
+Plan how you will get your hardware to the field location with good time. Carefully check cargo restrictions to ensure that your hardware meets the requirements of carriage. Batteries that are in UPSs or other instrumentation are particularly regulated. 
+
+Don't forget the return journey: when returning with portable media devices holding your collected data, think carefully how you get them back. Consider encryption of the device if it holds personal or sensitive data.
+
+TODO samples
+TODO countries being transited
