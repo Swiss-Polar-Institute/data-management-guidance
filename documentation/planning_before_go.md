@@ -159,35 +159,57 @@ The main things to prepare if you are going to be collecting samples are:
 
 ### [Metadata](#metadata)
 
-Prepare carefully how you are going to record [metadata](#metadata) and see this section of the guide for detailed documentation about what is useful to record.
+Prepare carefully how you are going to record [metadata](#metadata) and see this section of the guide for detailed documentation about what information should be recorded.
 
-#### For data and sample collection
+The most important thing is to be able to determine where and when you collected your data or samples. 
 
-The most important thing is to be able to determine where and when you collected your data or samples. Make sure you know in advance: 
+#### Key points: "where"
+Make sure you know in advance: 
 
 * how you are going to record the location - if your instrument will always be in the same place you can use a hand-held GPS to record its position. If you are collecting data or samples in several distinct locations, a hand-held GPS will be useful to do this. If your platform is moving, for example you are on a ship or an aircraft, and you are constantly collecting data, you should have a device constantly recording the location of the platform. 
 * understand how accurate your recording of the location should be to be meaningful for your experiment. 
 * ensure you always have more than one source of location, particularly on a moving platform.
 * be aware that local conditions such as mountainous or tree-covered terrain can affect the accuracy of your location. 
-* note the source of location data (device name, type, manufacturer, version and serial number).
+* note the source of location data (device name, type, manufacturer, version and serial number; see [instrumentation](#instrumentation-and-computers) section below for details).
+
+#### Key points: "when"
 
 * it is good practice to record all science work in UTC to avoid confusion with time zones. 
 * depending on the accuracy required for your particular experiment, ensure your timing device is set accurately. Record if you note the time to the nearest day, hour, minute or second.
 * note the source of time (device name, type, manufacturer, version and serial number).
 * if using networked computers or instruments, try to ensure that they are all synced to ensure there is no offset. 
-* properly understand if there is any offset between the instruments / devices recording location, time and your data itself. It is likely that you will need to match up data points to the location using time.
+* if working as part of a larger project, particularly where data and sample collection is simulataneous among teams, ensure you are all working from the same time source.
+* properly understand if there is any offset between the instruments / devices recording location, time and your data itself. If on a moving platform, it is likely that you will need to match up data points to the location using time.
 
 #### Instrumentation and computers
 
-Keep a detailed record of instrumentation that you use for primary and secondary datasets, sample collection and saving / backing up data. Note: 
+Keep a detailed record of instrumentation that you use for primary and secondary datasets, sample collection and saving / backing up data. If at all possible, record this information in advance before going to the field and remember to take it with you.
+
+For instrumentation, record: 
 
 * name
 * type
 * manufacturer
-* version
+* version / model
 * serial number
 
-If at all possible, record this information in advance before going to the field.
+Good documentation of instrumentation is important, particularly if there are any issues. Keep the details to hand in the field and with anyone who is able to offer support back at your institution: this makes it much easier to contact the manufacturer for support whilst in the field, or afterwards when trying to solve problems. 
+
+During an expedition, it is possible that part of the instrumentation might change: for instance, a new sensor could be added, or swapped if one fails. Always ensure you record: 
+
+* date installed 
+* date removed
+* details of problems (if there were any)
+* location of installation on the platform or on parent instrument (eg. side of ship, height on mast, which part of CTD rosette)
+* which data files each instrument corresponds to
+
+For computers and software, record: 
+
+* operating system name and version
+* software name and version
+* any particular set-up
+
+Prepare file templates (spreadsheets are ideal) for collecting this information before you go in the field so nothing is forgotten.
 
 ### Documentation
 
