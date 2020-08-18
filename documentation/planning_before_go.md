@@ -87,6 +87,10 @@ In the event of bad weather and not being able to access the instrument or other
 
 Primary storage, that is where the raw copy of your data will be saved initially, should be of a volume that more than covers the data that you plan to collect. Always ensure you have a buffer of at least 20 %, preferably more, and test how the files are stored thoroughly beforehand. If in doubt, have more storage rather than less.
 
+**Metadata and documentation**
+
+More information will follow below about planning for recording [metadata](#metadata) and [documentation](#documentation) in the field, but we must point out here, that it is important also to ensure you have enough data storage for these important aspects of your data collection. This could include spreadsheets containing notes and supplementary data, photographs of experiment setups, digitised hand-written notes or anything else that could be useful. Use of photographs and video could be particularly large in terms of data storage and backups, so it is worth bearing in mind. 
+
 #### Data storage media
 
 Carefully consider the [hardware](#storing-data) on which your data will be stored, ensuring that it can withstand the conditions where it will be. If you don't know what to expect, find out from others that have been on a similar field trip or have previously been to the same location. 
@@ -145,6 +149,8 @@ Plan to digitise your data and notes as soon as possible in the field as a form 
 If using a spreadsheet into which your hand-recorded notes will be copied, prepare the file template in advance and have a test-run of data collection and digitising of data. Where possible and appropriate, use drop-down lists of specified terms within your spreadsheet ([example for Excel](https://www.excelefficiency.com/create-drop-down-lists-in-excel/)) to keep data entry consistent. This will allow quick data validation and save a lot of time cleaning data. As when collecting data from an instrument, early digitisation also offers the opportunity to produce some quick visualisations or numerical checks of data.
 
 If you will not be able to use a laptop in the field perhaps due to lack of electricity supply, then consider other methods. This could be taking a camera and carefully photographing your notes and data. Photographs of hand-written notes (or scans once you get back to your institution) are very useful in case you happen to mis-transcribe some information and need to go back to them, as well as being a vital backup.
+
+See the section above about [planning data storage](#how-much-data-are-you-planning-to-collect) to ensure you are prepared. 
 
 ### Preparing for sample collection
 
@@ -213,19 +219,16 @@ Prepare file templates (spreadsheets are ideal) for collecting this information 
 
 ### Documentation
 
-Carefully prepare template documents that you can take and complete whilst in the field. 
+Much of the specific [metadata](#metadata) to be recorded has been described in detail above. Carefully prepare template documents that you can take and complete whilst in the field. 
 
-For metadata and documentation this can be a simple [readme.txt](#readmetxt) files with headers to remind you which information you need to record.
+For further documentation this can be a simple [readme.txt](#readmetxt) files with headers to remind you which information you need to record.
 
-When recording data by hand, or collecting information about sample collection, this is more likely to be done in a spreadsheet. It saves a lot time and will hopefully prevent anything being forgotten, if you are able to prepare this in advance as well. 
-
-Be prepared to [document](#metadata) as much as you can in the field and take [good care](#backing-up-data) of these notes. 
+Notes, diagrams, photographs and any other forms of documentation should be backed up alongside your data.
 
 ### Travel and customs
 
-Plan how you will get your hardware to the field location with good time. Carefully check cargo restrictions to ensure that your hardware meets the requirements of carriage. Batteries that are in UPSs or other instrumentation are particularly regulated. 
+Plan how you will get your data storage (and related) hardware to and from the field location with good time. Carefully check cargo restrictions to ensure that your hardware meets the requirements of carriage. Batteries that are in UPSs or other instrumentation are particularly regulated. Import regulations should also be carefully checked. Finally, don't forget to consider the regulations of countries through which you will be transiting, as well as your means of transport. 
 
-Don't forget the return journey: when returning with portable media devices holding your collected data, think carefully how you get them back. Consider encryption of the device if it holds personal or sensitive data.
+Don't forget to plan for the return journey: when returning with portable media devices holding your carefully-collected data, think carefully about how you will get them back. Consider encryption of the device if it holds personal or sensitive data and if someone else is travelling back to the same location, consider carrying separate copies of the data.
 
-TODO samples
-TODO countries being transited
+As previously discussed in the section about [preparation for sample collection](#preparing-for-sample-collection), it is important to understand the requirements of customs and other permits that are required so you can record such information ([metadata](#metadata)) whilst in the field, avoiding a rush at the end of your field work to complete such documentation.
