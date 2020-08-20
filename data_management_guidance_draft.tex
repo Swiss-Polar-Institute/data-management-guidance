@@ -28,9 +28,6 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt plus 2pt minus 1pt}
 }
-\usepackage{titlesec}
-\titleformat{\chapter}{\normalfont\bfseries\Huge}{\thechapter.}{10pt}{}
-\newpagestyle{mystyle}{\sethead[][\thechapter.\enspace\chaptertitle][]{}{\thesection~\sectiontitle}{}\setfoot{}{\thepage}{}}
 \usepackage{xcolor}
 \usepackage{hyperref}
 \hypersetup{
@@ -53,7 +50,9 @@
 \def\fps@figure{htbp}
 \makeatother
 
-
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\bfseries\Huge}{\thechapter.}{10pt}{}
+\newpagestyle{mystyle}{\sethead[][\thechapter.\enspace\chaptertitle][]{}{\thesection~\sectiontitle}{}\setfoot{}{\thepage}{}}
 
 \title{Data management in the field}
 \author{Jen Thomas, Swiss Polar Institute}
