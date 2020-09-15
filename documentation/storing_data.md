@@ -45,7 +45,7 @@ Portable hard drives are commonly used for [backing up](#data-backup) data in th
 * Consider buying several medium-sized hard drives rather than one large one. If one fails, at least you do not lose everything.
 * Take care of hard drives: remember that they are susceptible to physical damage and depending on how many times you write to them, may only last a few years.
 * Pendrives are easy to lose and shouldn't be considered as reliable for data backup. 
-* Consider how long it takes to back up your data and bear this in mind. If using an older device, USB-2 will be considerably slower than USB-3.
+* Consider how long it takes to back up your data and bear this in mind. If using an older device, it may have USB-2 only which is considerably slower than USB-3.
 * If a hard drive is lost, it can be easily read by anyone. The hard drive should be encrypted if it holds any personal or sensitive data.
 * Regularly check any data that are held on portable media to ensure it can still be read. Always have other backups. 
 
@@ -88,5 +88,7 @@ TODO
 Chan, A. (2020). alexwlchan. *S3 keys are not file paths*. Retrieved from [https://alexwlchan.net/2020/08/s3-keys-are-not-file-paths/](https://alexwlchan.net/2020/08/s3-keys-are-not-file-paths/) [Accessed on 15 September 2020].
  
 Chan, A. (2020). alexwlchan. *S3 prefixes are not directories*. Retrieved from [https://alexwlchan.net/2020/08/s3-prefixes-are-not-directories/](https://alexwlchan.net/2020/08/s3-prefixes-are-not-directories/) [Accessed on 15 September 2020]. 
+
+Craig-Wood. N. Rclone. (2014-2020). [https://rclone.org](https://rclone.org)
 
 The University of Edinburgh. Storage & security. *MANTRA Research Data Management Training*. Retrieved from [https://mantra.edina.ac.uk/storageandsecurity](https://mantra.edina.ac.uk/storageandsecurity) [Accessed on 28 July 2020].
