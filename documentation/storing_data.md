@@ -64,13 +64,21 @@ Cloud storage is becoming the norm in many cases, particularly where the data vo
 * Always check that you are able to move your data to another provider at a reasonable cost and in a reasonable time manner. This could happen if there are changes to the services that are provided, they go out of service or they no longer meet the requirements you need. Some providers may use proprietary formats which might make moving the data impossible.
 * Ensure the subscription is always maintained (if paid for) otherwise you may find your data are deleted.  
 
-Wikipedia has a very handy [comparison of online backup options](https://en.wikipedia.org/wiki/Comparison_of_online_backup_services). These would not normally be used for your day-to-day data storage for the data you are working on.
+Wikipedia has a very handy [comparison of online backup options](https://en.wikipedia.org/wiki/Comparison_of_online_backup_services). These would not normally be used for day-to-day data storage for the data you are working on.
 
 Platforms such as [Zenodo](https://zenodo.org) are provided for publication of data and other digital resources, but when datasets have been completed (either in a raw or finalised state) it can be worth thinking about this option.
 
-### Handy tips
+### File organisation
 
-Consider file size carefully so they are easy to work with. Many small files will take longer to copy and be harder to work with than a single file of the same total size. Copying lots of smaller files to [cloud storage](#cloud-storage) can also increase the cost. Equally, avoid creating files that are more than a few GBs because in some cases they can be difficult to read into memory. 
+It is important to strike a balance between the number of files you produce and their size. Consider the size of data files and the number of files you store in a directory. 
+
+#### File size
+
+Consider file size carefully so they are easy to work with for yourself, future users and applications. Many small files will take longer to copy and be harder to work with than a single file of the same total size.  Equally, avoid creating files that are more than 1 GB because in some cases they can be difficult to read into memory. Copying lots of smaller files to [cloud storage](#cloud-storage) can also increase the cost which maybe a factor.
+
+#### Number of files in a directory
+
+TODO  
 
 ### References
  
