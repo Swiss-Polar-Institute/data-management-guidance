@@ -18,7 +18,7 @@ File formats should be (as described by MIT information on storing your data, CC
 For tabular data: 
 
 * CSV files are an easy solution if you have minimal metadata contained within the file. Otherwise HDF5 is a good option.
-* if converting data from a proprietory format to an open format, ensure that no data or meaningful information is lost. If this is going to be the case, it is worth considering keeping both copies and thoroughly document the proprietary software needed to create and read the proprietary files (name, version, operating system; DataONE).
+* if converting data from a proprietary format to an open format, ensure that no data or meaningful information is lost. If this is going to be the case, it is worth considering keeping both copies and thoroughly document the proprietary software needed to create and read the proprietary files (name, version, operating system; DataONE).
 
 For documentation: 
 
