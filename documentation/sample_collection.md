@@ -3,7 +3,7 @@
 
 Obtaining accurate results from your experiment when analysing samples, depends on "proper collection, processing and handling of samples" (Smith et al., 2015), planning for which begins before sample collection. 
 
-Our main aims when considering good practise for collection of samples are: 
+Our main aims when considering good practice for collection of samples are: 
 
 * accurate labelling of samples;
 * quickly identifying or finding a sample;

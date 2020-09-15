@@ -17,7 +17,7 @@ Check that data files contain data for the parameters you expect in the correct 
 
 If you are able to access your data whilst in the field, take advantage of being able to check files are being saved correctly and that they can be read.  Consult the software documentation for how is best to do this, to avoid problems which will differ between operating systems and software. Avoid interfering with the file-writing process, so it is best to test or check files that belong to a secondary copy if possible.
 
-For data that is being recorded continuously, it would be good practise to check files at least once a day, or more often if time allows. Events such as bad weather may mean you need to check the data more regularly.
+For data that is being recorded continuously, it would be good practice to check files at least once a day, or more often if time allows. Events such as bad weather may mean you need to check the data more regularly.
 
 If you are able to visualise your data in some way, this is a very nice way to spot anomalies in the data which may in turn help you spot an instrument problem which you might subsequently be able to fix to get your data collection back on track.
 
@@ -33,7 +33,7 @@ Check the integrity of your backups on a regular basis: make sure the files that
 
 ### Recording data by hand
 
-If collecting data in a notebook by hand, it is good practise to [digitise the data](#data-backup-and-digitisation) as soon as possible. Digitised data files, metadata and documentation should be considered as valuable as any other data file: consider the [file name](#file-naming), [directory structure](#directory-structure) and [backups](#backing-up-data).
+If collecting data in a notebook by hand, it is good practice to [digitise the data](#data-backup-and-digitisation) as soon as possible. Digitised data files, metadata and documentation should be considered as valuable as any other data file: consider the [file name](#file-naming), [directory structure](#directory-structure) and [backups](#backing-up-data).
 
 #### [Backing up](#backing-up-data) or [digitising your data](#data-backup-and-digitisation)
 
