@@ -13,7 +13,8 @@ Thinking carefully about what you need to be able to do with your data will help
 * Do other people need access to your data?
 * What is the volume of your data?
 * How long do you want to use the particular storage for?
-* What budget do you have for data storage?
+* What budget do you have for data storage? 
+* How much does the data storage cost?
 * Are your data sensitive?
 
 ### Types of storage media
@@ -29,7 +30,7 @@ Networked data storage, often known as an institution file server, is often prov
 * Check if recovery of previous versions of files is necessary (it might only be possible if a hard drive is corrupt for example, rather than if you overwrite a file by mistake). Find out if you are able to recover previous versions of files yourself, or if you need the help of an administrator.
 * Check access rights: would you have a personal area of data storage, or would it be shared amongst your lab or a wider group? Think if you need the data to have restricted access, particularly if it is sensitive (protected species) or contains personal data. Access should also be limited to avoid changing or deleting files accidentally. Make sure that primary raw data are read-only for yourself and others.
 * It is worth checking if it is easy to allow external collaborators to access your data, although this is more often done through other means. 
-* Check what limits there are on the volume of storage: if you are collecting large volumes of data, you may need to budget for asking them for more data storage.
+* Check what limits there are on the volume of storage: if you are collecting large volumes of data, you may need to budget for asking for more data storage. 
 * Consider that you may need to access the data from off-site from time to time and find out early on how to do this. Make sure it works, there is nothing worse than trying to access data (or other file) that you need in a hurry and not have what you need set up properly.
 
 #### Personal computers
