@@ -79,7 +79,7 @@ Once you know how much a data file produces and how many data files you will pro
 
 Always round estimates up. It is better to overestimate. 
 
-**Do I have enough data storage for the planned data collection, plus extra for unforseen circumstances?**  
+**Do I have enough data storage for the planned data collection, plus extra for unforeseen circumstances?**  
 
 You will likely need to undertake initial set-up tests in the field before or during deployment which could use up extra storage space. This is important to do, so budget space accordingly. 
 
@@ -206,7 +206,7 @@ During an expedition, it is possible that part of the instrumentation might chan
 * date installed 
 * date removed
 * details of problems (if there were any)
-* location of installation on the platform or on parent instrument (eg. side of ship, height on mast, which part of CTD rosette)
+* location of installation on the platform or on parent instrument (e.g. side of ship, height on mast, which part of CTD rosette)
 * which data files each instrument corresponds to
 
 For computers and software, record: 

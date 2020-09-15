@@ -3,7 +3,7 @@
 
 Here we focus on ensuring data security (not losing raw or processed data), integrity (not changing raw data files) and capturing the provenance of datasets. 
 
-Careful recording of how a dataset has been produced is important firstly so that you or someone else can understand what has been done. Documenting steps as you go along is a useful reminder for when it comes to writing up your work for publication or for when you go back to what you were doing after a long field season away. Making this information clearly available alongside the dataset to someone else such as a future user of your data, would allow them to reproduce your work. Reproducibility is becoming ever more important to ensure scientific validiy (Peng, 2012).  
+Careful recording of how a dataset has been produced is important firstly so that you or someone else can understand what has been done. Documenting steps as you go along is a useful reminder for when it comes to writing up your work for publication or for when you go back to what you were doing after a long field season away. Making this information clearly available alongside the dataset to someone else such as a future user of your data, would allow them to reproduce your work. Reproducibility is becoming ever more important to ensure scientific validity (Peng, 2012).  
 
 ### Raw data
 

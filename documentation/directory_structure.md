@@ -50,7 +50,7 @@ The Gurdon Institute (Downie, 2019) provides a very useful list of what to inclu
 * describe any changes made to the directory and when
 * make sure the file is written in text format (.txt) so that it can easily be read in the future.
 
-If you would like to write with formatting, Markdown is a useful convention that can be used. Pandoc is a very useful tool to then convert Markdown into different file formats such as HTML, PDF etc. as you so wish. Remember to save the readme in text format though so that it can be easily opened in years to come.
+If you would like to write with formatting, Markdown is a useful convention that can be used. ``Pandoc`` is a very useful tool to then convert Markdown into different file formats such as HTML, PDF etc. as you so wish. Remember to save the readme in text format though so that it can be easily opened in years to come.
 
 ### References
 

@@ -37,7 +37,7 @@ In some experiments, more than one sample will be taken at the same time and und
 
 * The space that you have on your sample container.
 * You might be able to label containers before sample collection - be very aware of mistakes that can be made if for some reason you need to put a sample in the "wrong" or a "wrongly labelled" container.
-* Some groups may use a barcoding system to record and label samples. There are various costs associated with setting up and maintaining such a system, but it may be worth consideration and the investment if you are going to be collecting thousands of samples (Copp et al., 2014).  
+* Some groups may use a bar coding system to record and label samples. There are various costs associated with setting up and maintaining such a system, but it may be worth consideration and the investment if you are going to be collecting thousands of samples (Copp et al., 2014).  
 
 ### Labelling
 
