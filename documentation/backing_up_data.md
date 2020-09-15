@@ -15,7 +15,7 @@ Make sure:
 * data are backed up on a [regular basis](#how-much-and-how-often), but particularly during collection and after making any changes;
 * that backed up versions of your data are identical to the primary copy. Whilst [checking](#checking-and-restoring-backups) that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
 * that you can easily [restore](#checking-and-restoring-backups) your backups;
-* decide on a [directory structure](#storing-data) and [file naming](#file-naming) convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on.;
+* decide on a [directory structure](#storing-data) and [file naming](#file-naming) convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on;
 * if you will be backing up tens of GB or more of data, bear in mind how long a backup will take and bear that in mind when deciding how you will arrange your backup schedule. 
 
 ### Creating a backup schedule
@@ -34,7 +34,7 @@ It is important to consider how much space each backup will take and therefore h
 
 #### Retention of backups
 
-If using managed data storage such as from your institution, be sure to understand how often backups are done and for how long these are retained.
+If using managed data storage such as from your institution, be sure to understand how often backups are done and for how long these are retained. It is also important to be able to [restore your files easily](#file-restoration).
 
 For your regular backups, depending on how often you do your backups, you might decide to have a backup cycle where you do one per month and retain them for six months, for example.  
 
@@ -50,7 +50,9 @@ It is important to document where the files have been backed up, when, how often
 
 #### Checksums
 
-It is important to check the backup when it has been completed to ensure it contains the files you expect. Checksums are a unique identifier of a file: if it's content changes in any way, then it's checksum also changes. Comparing checksums of your original files and the backup is a very handy way to ensure that the backup contains the files you expect.  
+It is important to check the backup when it has been completed to ensure it contains the files you expect. Checksums are a unique identifier of a file: if it's content changes in any way, then it's checksum also changes. Comparing checksums of your original files and the backup is a very handy way to ensure that the backup contains the files you expect. 
+
+[md5sum](https://en.wikipedia.org/wiki/Md5sum) and [sha1sum](https://en.wikipedia.org/wiki/Sha1sum) are two examples of computer programs that compute checksums of files and would be suitable for this purpose.  
 
 #### File restoration
 
@@ -73,3 +75,7 @@ Using a multi-platform tool (usable by Windows, Mac and Linux users) offers high
 The University of Edinburgh. MANTRA Research Data Management Training. Storage & security. Retrieved from https://mantra.edina.ac.uk/storageandsecurity/ [Accessed on 28 July 2020].
 
 Wikipedia. Checksum. *Wikipedia The Free Encyclopedia*. Retrieved from [https://en.wikipedia.org/wiki/Checksum](https://en.wikipedia.org/wiki/Checksum) [Accessed on 28 July 2020].
+
+Wikipedia. md5sum.  *Wikipedia The Free Encyclopedia*. Retrieved from [https://en.wikipedia.org/wiki/Md5sum](https://en.wikipedia.org/wiki/Md5sum) [Accessed on 15 September 2020].
+
+Wikipedia. sha1sum.  *Wikipedia The Free Encyclopedia*. Retrieved from [https://en.wikipedia.org/wiki/Sha1sum](https://en.wikipedia.org/wiki/Sha1sum) [Accessed on 15 September 2020].
