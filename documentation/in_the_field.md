@@ -39,7 +39,7 @@ If collecting data in a notebook by hand, it is good practise to [digitise the d
 
 Ideally hand-written data should be digited as soon as possible after data collection and at least once a day. A simple first backup can be done by photographing your notes in case the unthinkable happens and you lose your notebook. Recording hand-written notes in a structured manner such as in a spreadsheet though, cannot be underestimated and this should be done as regularly as possible as well (at least daily). This means you can embellish any shorthand you have used before you forget what it means, or follow up on anything you needed to query. In particular in cases where you might be recording species observed for example, you can follow up on any missing identifications before you forget key details. See the previous chapter about what to [prepare before you go](#preparing-for-data-collection-by-hand) for details of what you can prepare in advance to save time in the field.
 
-If adding to a data file with new observations, using the date to denote different versions of the file is helpful eg., project_datatype_observations_YYYYMMDD.csv
+If adding to a data file with new observations, using the date to denote different versions of the file is helpful eg., ``project_datatype_observations_YYYYMMDD.csv``
 
 Don't forget to [backup](#backing-up-data) your digitised data as well.
 

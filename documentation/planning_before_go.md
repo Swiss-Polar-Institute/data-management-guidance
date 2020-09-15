@@ -11,7 +11,7 @@ The main points to plan are the same, whether you are collecting samples, data b
 * plan which **metadata** (information about data) you will record about the data or sample collection;
 * understand what information you need to **document** your data or sample collection thoroughly.
 
-The sections below will lead you through these points in more detail. Follow the links to the relevant sectionsfor more detailed information and context.
+The sections below will lead you through these points in more detail. Follow the links to the relevant sections for more detailed information and context.
 
 ### On site
 
@@ -42,7 +42,7 @@ Network-attached storage may be provided and therefore would offer another means
 
 #### Power and electricity supply
 
-In addition to the power supply needed for your instrumentation, you may need to consider what is available to power extra data storage and associated UPSs. 
+In addition to the power supply needed for your instrumentation, you may need to consider what is available to power extra data storage and associated UPSs (uninterrupted power supply; keeps instrumentation running using batter power for a short period if the main supply fails). 
 
 #### Support
 
@@ -128,7 +128,7 @@ Being able to access your data in the field is extremely useful and cannot be un
  
 * check the instrument is running as expected;
 * confirm data files are being saved as expected;
-* look for interesting features in the data that might indicate problems. Knowing about them in near-real time cna be hugely advantageous when quality checking and processing data. 
+* look for interesting features in the data that might indicate problems. Knowing about them in near-real time can be hugely advantageous when quality checking and processing data. 
 
 Setting up quick visualisations of data files saves a lot of time and can tell you a lot with a quick glance.
 
@@ -144,11 +144,11 @@ If recording data by hand directly into a notebook, think carefully what you wou
 
 #### Data backup and digitisation
 
-Plan to digitise your data and notes as soon as possible in the field as a form of backup but also to make it easier to check your data collection. 
+Scan, photograph or type-up your hand-collected data and notes as soon as possible in the field as a form of backup but also to make it easier to check your data collection. 
 
 If using a spreadsheet into which your hand-recorded notes will be copied, prepare the file template in advance and have a test-run of data collection and digitising of data. Where possible and appropriate, use drop-down lists of specified terms within your spreadsheet ([example for Excel](https://www.excelefficiency.com/create-drop-down-lists-in-excel/)) to keep data entry consistent. This will allow quick data validation and save a lot of time cleaning data. As when collecting data from an instrument, early digitisation also offers the opportunity to produce some quick visualisations or numerical checks of data.
 
-If you will not be able to use a laptop in the field perhaps due to lack of electricity supply, then consider other methods. This could be taking a camera and carefully photographing your notes and data. Photographs of hand-written notes (or scans once you get back to your institution) are very useful in case you happen to mis-transcribe some information and need to go back to them, as well as being a vital backup.
+If you will not be able to use a laptop in the field perhaps due to lack of electricity supply, then consider other methods. This could be taking a camera and carefully photographing your notes and data. Photographs of hand-written notes (or scans once you get back to your institution) are very useful in case you happen to mistranscribe some information and need to go back to them, as well as being a vital backup.
 
 See the section above about [planning data storage](#how-much-data-are-you-planning-to-collect) to ensure you are prepared. 
 
@@ -184,7 +184,7 @@ Make sure you know in advance:
 * depending on the accuracy required for your particular experiment, ensure your timing device is set accurately. Record if you note the time to the nearest day, hour, minute or second.
 * note the source of time (device name, type, manufacturer, version and serial number).
 * if using networked computers or instruments, try to ensure that they are all synced to ensure there is no offset. 
-* if working as part of a larger project, particularly where data and sample collection is simulataneous among teams, ensure you are all working from the same time source.
+* if working as part of a larger project, particularly where data and sample collection is simultaneous among teams, ensure you are all working from the same time source.
 * properly understand if there is any offset between the instruments / devices recording location, time and your data itself. If on a moving platform, it is likely that you will need to match up data points to the location using time.
 
 #### Instrumentation and computers
