@@ -86,7 +86,7 @@ will make life a lot easier for your future self and others.
 In this guide we cover good research data management practice with a
 focus on field work, although the general guidelines are applicable in
 any circumstances. The first part of the guide is general and can be
-applied throughout all stages of the research lifecycle.
+applied throughout all stages of the research life cycle.
 
 The second part is a guide for data management in the field and is
 broken into three sections: planning data management for fieldwork, some
@@ -98,16 +98,16 @@ that the reader is familiar with this before reading the field guide.
 \hypertarget{scope}{%
 \subsection{Scope}\label{scope}}
 
-Research data includes raw data (directly recorded by hand or from an
-instrument), processed data (any files that have been modified in any
-way), documentation, metadata, supporting data files, code, plots and
-any other files associated with your research.
+Research data includes raw data directly recorded by hand or from an
+instrument, processed data which are any files that have been modified,
+documentation, metadata, supporting data files, code, plots and any
+other files associated with your research.
 
 This guide is applicable to all file types and ``kinds'' of data.
 
-We also consider good practice (from a data management point of view) of
-sample collection. This section has a particular focus on numbering and
-collection of metadata about samples.
+We also consider good practice of sample collection from a data
+management point of view. This section has a particular focus on
+numbering and collection of metadata about samples.
 
 Finally, we consider field work, and more precisely polar field work
 (although the same principles apply anywhere) in the broad sense of not
@@ -115,6 +115,18 @@ working at your institution. It could be at a field camp, on a
 well-established base, on a ship or any other platform, the remote
 operation of an instrument and wherever else you might be taken by your
 research.
+
+\hypertarget{further-development-of-this-guide}{%
+\section{Further development of this
+guide}\label{further-development-of-this-guide}}
+
+We would greatly welcome feedback by way of comments, suggestions,
+corrections or ideas for further development of this guide. Ongoing
+development is done in a Github repository:
+\url{https://github.com/Swiss-Polar-Institute/data-management-guidance}.
+Feel free to get in touch using
+\href{https://github.com/Swiss-Polar-Institute/data-management-guidance/issues}{Github
+issues} or email \url{jenny.thomas@epfl.ch}.
 
 \hypertarget{data-management---good-practice}{%
 \part{Data management - good
@@ -154,6 +166,8 @@ will help you to select where is best to store your data.
 \item
   What budget do you have for data storage?
 \item
+  How much does the data storage cost?
+\item
   Are your data sensitive?
 \end{itemize}
 
@@ -177,8 +191,13 @@ often provided as standard by institutions.
   This is often a handy place to store your data for easy access whilst
   working at your institution.
 \item
-  It is often backed up on a regular basis, but familiarise yourself
-  with the backup schedule.
+  Always familiarise yourself with the backup schedule.
+\item
+  Check if recovery of previous versions of files is necessary (it might
+  only be possible if a hard drive is corrupt for example, rather than
+  if you overwrite a file by mistake). Find out if you are able to
+  recover previous versions of files yourself, or if you need the help
+  of an administrator.
 \item
   Check access rights: would you have a personal area of data storage,
   or would it be shared amongst your lab or a wider group? Think if you
@@ -193,7 +212,7 @@ often provided as standard by institutions.
 \item
   Check what limits there are on the volume of storage: if you are
   collecting large volumes of data, you may need to budget for asking
-  them for more data storage.
+  for more data storage.
 \item
   Consider that you may need to access the data from off-site from time
   to time and find out early on how to do this. Make sure it works,
@@ -235,12 +254,12 @@ obsolete.
   physical damage and depending on how many times you write to them, may
   only last a few years.
 \item
-  Pendrives are easy to lose and shouldn't be considered as reliable for
-  data backup.
+  Pen drives are easy to lose and shouldn't be considered as reliable
+  for data backup.
 \item
   Consider how long it takes to back up your data and bear this in mind.
-  If using an older device, USB-2 will be considerably slower than
-  USB-3.
+  If using an older device, it may have USB-2 only which is considerably
+  slower than USB-3.
 \item
   If a hard drive is lost, it can be easily read by anyone. The hard
   drive should be encrypted if it holds any personal or sensitive data.
@@ -266,17 +285,17 @@ institution may also be able to offer recommendations.
 \item
   If you are storing personal data, it is essential to understand the
   location of the physical servers and ensure this complies with
-  regulations.
+  regulations such as GDPR or of your institution.
 \item
   Access rights are also important. Consider who might have access to
-  the data, if you use read-only or write access rights and where the
-  data are physically stored.
+  the data, if you use read-only or write access rights.
 \item
   Check the privacy policy carefully.
 \item
   Some cloud storage providers charge not only for the data storage, but
-  also for the number and size of copying data to and from the storage.
-  It is important to think about how this could impact on your costs.
+  also for the number of files, copying data to and from the storage, as
+  well as listing files (known as objects in cloud storage). It is
+  important to think about how this could impact on your costs.
 \item
   Some providers provide different levels of storage: consider if you
   want to have immediate access to your data or if you are happy to have
@@ -287,7 +306,10 @@ institution may also be able to offer recommendations.
   For managed systems, make sure that backups are done regularly.
 \item
   For unmanaged systems, check how you will be able to copy and access
-  data. Many systems require the use of command-line tools.
+  data. Many systems require the use of command-line tools such as
+  \texttt{rclone}.
+\item
+  Ensure you understand how to give others access to the data.
 \item
   Speed of access to data (particularly when more than a few GBs) can be
   limited by your bandwidth - consider how you will access large volumes
@@ -298,7 +320,7 @@ institution may also be able to offer recommendations.
   happen if there are changes to the services that are provided, they go
   out of service or they no longer meet the requirements you need. Some
   providers may use proprietary formats which might make moving the data
-  impossible.
+  very hard.
 \item
   Ensure the subscription is always maintained (if paid for) otherwise
   you may find your data are deleted.
@@ -306,26 +328,57 @@ institution may also be able to offer recommendations.
 
 Wikipedia has a very handy
 \href{https://en.wikipedia.org/wiki/Comparison_of_online_backup_services}{comparison
-of online backup options}. These would not normally be used for your
-day-to-day data storage for the data you are working on.
+of online backup options}. These would normally be used for medium to
+long-term storage or backups.
 
 Platforms such as \href{https://zenodo.org}{Zenodo} are provided for
 publication of data and other digital resources, but when datasets have
 been completed (either in a raw or finalised state) it can be worth
 thinking about this option.
 
-\hypertarget{handy-tips}{%
-\section{Handy tips}\label{handy-tips}}
+Object storage has various idiosyncrasies in terms of differences to
+file systems that are useful to be aware of. For example, files are
+known as ``objects'', S3 prefixes are not directories (Chan, 2020a) and
+S3 keys are not file paths (Chan, 2020b).
 
-Consider file size carefully so they are easy to work with. Many small
-files will take longer to copy and be harder to work with than a single
-file of the same total size. Copying lots of smaller files to
-\protect\hyperlink{cloud-storage}{cloud storage} can also increase the
-cost. Equally, avoid creating files that are more than a few GBs because
-in some cases they can be difficult to read into memory.
+\hypertarget{file-organisation}{%
+\section{File organisation}\label{file-organisation}}
+
+It is important to strike a balance between the number of files you
+produce and their size. Consider the size of data files and the number
+of files you store in a directory.
+
+\hypertarget{file-size}{%
+\subsection{File size}\label{file-size}}
+
+Consider file size carefully so they are easy to work with for yourself,
+future users and applications. Many small files will take longer to copy
+and be harder to work with than a single file of the same total size.
+Equally, avoid creating files that are more than 1 GB because in some
+cases they can be difficult to read into memory. Copying lots of smaller
+files to \protect\hyperlink{cloud-storage}{cloud storage} can also
+increase the cost which maybe a factor.
+
+\hypertarget{number-of-files-in-a-directory}{%
+\subsection{Number of files in a
+directory}\label{number-of-files-in-a-directory}}
+
+TODO
 
 \hypertarget{references}{%
 \section{References}\label{references}}
+
+Chan, A. (2020). alexwlchan. \emph{S3 keys are not file paths}.
+Retrieved from
+\url{https://alexwlchan.net/2020/08/s3-keys-are-not-file-paths/}
+{[}Accessed on 15 September 2020{]}.
+
+Chan, A. (2020). alexwlchan. \emph{S3 prefixes are not directories}.
+Retrieved from
+\url{https://alexwlchan.net/2020/08/s3-prefixes-are-not-directories/}
+{[}Accessed on 15 September 2020{]}.
+
+Craig-Wood. N. Rclone. (2014-2020). \url{https://rclone.org}
 
 The University of Edinburgh. Storage \& security. \emph{MANTRA Research
 Data Management Training}. Retrieved from
@@ -340,8 +393,8 @@ looking for files you haven't been working on for a while. Think about a
 hierarchical structure that could be repeated across all of your
 projects and one that can be easily navigated by others.
 
-\hypertarget{handy-tips-1}{%
-\section{Handy tips}\label{handy-tips-1}}
+\hypertarget{handy-tips}{%
+\section{Handy tips}\label{handy-tips}}
 
 \begin{itemize}
 \tightlist
@@ -356,7 +409,8 @@ projects and one that can be easily navigated by others.
   number of characters in a full directory path so if you have several
   sub-directories this can become a problem.
 \item
-  Avoid using acronyms.
+  Use acronyms sparingly and if necessary, use only those that are
+  well-known.
 \item
   Your directories will be most likely be listed in alphabetical order.
   Prefixes such as numbers or letters to order your directories are not
@@ -376,7 +430,12 @@ projects and one that can be easily navigated by others.
   permissions and a different \protect\hyperlink{data-backing}{backup
   schedule}.
 \item
-  Include a readme file to describe what the directory contains.
+  Include a \protect\hyperlink{readmetxt}{readme} file to describe what
+  the directory contains.
+\item
+  Think carefully about
+  \protect\hyperlink{number-of-files-in-a-directory}{how many files are
+  stored in a directory} to ensure they are easy to work with.
 \end{itemize}
 
 A good example can be seen here.
@@ -431,10 +490,10 @@ to include here, summarised as follows:
 \end{itemize}
 
 If you would like to write with formatting, Markdown is a useful
-convention that can be used. Pandoc is a very useful tool to then
-convert Markdown into different file formats such as HTML, PDF etc. as
-you so wish. Remember to save the readme in text format though so that
-it can be easily opened in years to come.
+convention that can be used. \texttt{Pandoc} is a very useful tool to
+then convert Markdown into different file formats such as HTML, PDF etc.
+as you so wish. Remember to save the readme in text format though so
+that it can be easily opened in years to come.
 
 \hypertarget{references-1}{%
 \section{References}\label{references-1}}
@@ -456,10 +515,10 @@ Having an organised directory structure and standard procedure for file
 naming can be essential in helping to locate files in the future. It
 also avoids a lot of confusion for anyone using the files.
 
-\hypertarget{handy-tips-2}{%
-\section{Handy tips}\label{handy-tips-2}}
+\hypertarget{handy-tips-1}{%
+\section{Handy tips}\label{handy-tips-1}}
 
-Some filenaming tips (Borer et al., 2009):
+Some file naming tips (Borer et al., 2009):
 
 \begin{itemize}
 \tightlist
@@ -472,8 +531,8 @@ Some filenaming tips (Borer et al., 2009):
   help you find the file at a later date.
 \item
   Stick to letters and numbers: special characters (non-ASCII
-  characters) are unfortunately not well-supported in software and can
-  cause problems.
+  characters) are unfortunately not well-supported by some software and
+  can cause problems.
 \item
   Underscores ( \_ ) and dashes ( - ) are conventionally used for
   separation of different parts of a filename. CamelCaps (starting each
@@ -502,7 +561,7 @@ ace_meteorology_data_20170234-120000.csv
 \begin{itemize}
 \tightlist
 \item
-  ace is the overaching project
+  ace is the overarching project
 \item
   meteorology is the sub-project
 \item
@@ -556,8 +615,8 @@ compatible, meaning that a file produced ten years ago may no longer be
 readable. Trends also change and now-common software applications may
 not be widely used in the future.
 
-\hypertarget{handy-tips-3}{%
-\section{Handy tips}\label{handy-tips-3}}
+\hypertarget{handy-tips-2}{%
+\section{Handy tips}\label{handy-tips-2}}
 
 File formats should be (as described by MIT information on storing your
 data, CC BY-NC):
@@ -584,7 +643,7 @@ For tabular data:
   CSV files are an easy solution if you have minimal metadata contained
   within the file. Otherwise HDF5 is a good option.
 \item
-  if converting data from a proprietory format to an open format, ensure
+  if converting data from a proprietary format to an open format, ensure
   that no data or meaningful information is lost. If this is going to be
   the case, it is worth considering keeping both copies and thoroughly
   document the proprietary software needed to create and read the
@@ -661,8 +720,8 @@ more detail in \protect\hyperlink{before-you-go}{planning} and
 \protect\hyperlink{in-the-field}{working in the field} sections of the
 guide.
 
-\hypertarget{handy-tips-4}{%
-\section{Handy tips}\label{handy-tips-4}}
+\hypertarget{handy-tips-3}{%
+\section{Handy tips}\label{handy-tips-3}}
 
 Make sure:
 
@@ -702,7 +761,7 @@ Make sure:
   and stick to it. Making changes to these (unless absolutely necessary)
   can create problems with backups because it is easy to lose track of
   what has been copied and what hasn't, which is the latest version and
-  so on.;
+  so on;
 \item
   if you will be backing up tens of GB or more of data, bear in mind how
   long a backup will take and bear that in mind when deciding how you
@@ -745,7 +804,8 @@ long it takes to do a backup.
 
 If using managed data storage such as from your institution, be sure to
 understand how often backups are done and for how long these are
-retained.
+retained. It is also important to be able to
+\protect\hyperlink{file-restoration}{restore your files easily}.
 
 For your regular backups, depending on how often you do your backups,
 you might decide to have a backup cycle where you do one per month and
@@ -790,6 +850,11 @@ it contains the files you expect. Checksums are a unique identifier of a
 file: if it's content changes in any way, then it's checksum also
 changes. Comparing checksums of your original files and the backup is a
 very handy way to ensure that the backup contains the files you expect.
+
+\href{https://en.wikipedia.org/wiki/Md5sum}{md5sum} and
+\href{https://en.wikipedia.org/wiki/Sha1sum}{sha1sum} are two examples
+of computer programs that compute checksums of files and would be
+suitable for this purpose.
 
 \hypertarget{file-restoration}{%
 \subsection{File restoration}\label{file-restoration}}
@@ -840,6 +905,14 @@ Wikipedia. Checksum. \emph{Wikipedia The Free Encyclopedia}. Retrieved
 from \url{https://en.wikipedia.org/wiki/Checksum} {[}Accessed on 28 July
 2020{]}.
 
+Wikipedia. md5sum. \emph{Wikipedia The Free Encyclopedia}. Retrieved
+from \url{https://en.wikipedia.org/wiki/Md5sum} {[}Accessed on 15
+September 2020{]}.
+
+Wikipedia. sha1sum. \emph{Wikipedia The Free Encyclopedia}. Retrieved
+from \url{https://en.wikipedia.org/wiki/Sha1sum} {[}Accessed on 15
+September 2020{]}.
+
 \hypertarget{working-on-your-data}{%
 \chapter{Working on your data}\label{working-on-your-data}}
 
@@ -855,7 +928,7 @@ you were doing after a long field season away. Making this information
 clearly available alongside the dataset to someone else such as a future
 user of your data, would allow them to reproduce your work.
 Reproducibility is becoming ever more important to ensure scientific
-validiy (Peng, 2012).
+validity (Peng, 2012).
 
 \hypertarget{raw-data}{%
 \section{Raw data}\label{raw-data}}
@@ -887,11 +960,13 @@ the origins of these problems.
 
 Using scripted languages to do any file manipulation is the ideal way to
 record what you have done to data files and demonstrate how a
-preliminary dataset has been created. Steps can easily get lost or
-forgotten if using software such as Excel. If you do use such software,
-maintaining full documentation about every step of the processing and
-outputting different versions of the dataset at crucial stages is a way
-to ensure you can demonstrate the provenance of a dataset.
+preliminary dataset has been created. Steps can easily get lost,
+forgotten or critical errors introduced without you realising (eg.
+Ziemann et al., 2016), if using spreadsheets or making direct changes.
+If you do use such methods, maintaining full documentation about every
+step of the processing and outputting different versions of the dataset
+at crucial stages is a way to ensure you can demonstrate the provenance
+of a dataset.
 
 When working on processing, quality checking and making other changes to
 produce the preliminary dataset, creating different versions of the
@@ -901,9 +976,9 @@ you to go back to a certain place if you find errors or want to change
 your methods.
 
 File versions can be named using the date (in the format YYYYMMDD) or
-version numbers, such as v01\_01, v01\_02. Including the date in this
-format, or version numbers that have leading zeros ensure that files are
-listed in order when viewing them.
+version numbers, such as \texttt{v01\_01}, \texttt{v01\_02}. Including
+the date in this format, or version numbers that have leading zeros
+ensure that files are listed in order when viewing them.
 
 \protect\hyperlink{backing-up-data}{Backups} of any edited files should
 be done on a regular basis.
@@ -985,9 +1060,9 @@ happened to your dataset, recording its provenance.
 \begin{itemize}
 \tightlist
 \item
-  \href{https://datascience.ch/renku/}{RENKU}
+  RENKU \url{https://datascience.ch/renku/}
 \item
-  \href{https://wholetale.org/}{Whole Tale}
+  Whole Tale \url{https://wholetale.org/}
 \end{itemize}
 
 \hypertarget{references-5}{%
@@ -997,6 +1072,11 @@ Peng R. D. (2011). Reproducible research in computational science.
 Science (New York, N.Y.), 334(6060), 1226--1227. doi:
 \href{https://doi.org/10.1126/science.1213847}{10.1126/science.1213847}
 
+Ziemann, M., Eren, Y., \& El-Osta, A. (2016). Gene name errors are
+widespread in the scientific literature. Genome Biology, 17(1), 177.
+doi:
+\href{https://doi.org/10.1186/s13059-016-1044-7}{10.1186/s13059-016-1044-7}
+
 \hypertarget{collecting-samples}{%
 \chapter{Collecting samples}\label{collecting-samples}}
 
@@ -1005,7 +1085,7 @@ depends on ``proper collection, processing and handling of samples''
 (Smith et al., 2015), planning for which begins before sample
 collection.
 
-Our main aims when considering good practise for collection of samples
+Our main aims when considering good practice for collection of samples
 are:
 
 \begin{itemize}
@@ -1081,7 +1161,7 @@ these samples.
   very aware of mistakes that can be made if for some reason you need to
   put a sample in the ``wrong'' or a ``wrongly labelled'' container.
 \item
-  Some groups may use a barcoding system to record and label samples.
+  Some groups may use a bar coding system to record and label samples.
   There are various costs associated with setting up and maintaining
   such a system, but it may be worth consideration and the investment if
   you are going to be collecting thousands of samples (Copp et al.,
@@ -1306,7 +1386,7 @@ the future, wondering what the data are. Make sure you know how to
 ``select'' which variables are saved into the data files.
 
 If data storage is limited, maybe you need to consider which periods of
-time are more crucial (ie. data collection only at night, or for five
+time are more crucial (i.e.~data collection only at night, or for five
 minutes every hour, one-minute resolution instead of one-second). All of
 this should be considered with your experiment in mind to ensure it is
 not compromised. Don't forget to take into account local sunrise and
@@ -1333,7 +1413,7 @@ the number of days you expect to be collecting data for.
 Always round estimates up. It is better to overestimate.
 
 \textbf{Do I have enough data storage for the planned data collection,
-plus extra for unforseen circumstances?}
+plus extra for unforeseen circumstances?}
 
 You will likely need to undertake initial set-up tests in the field
 before or during deployment which could use up extra storage space. This
@@ -1685,8 +1765,8 @@ one fails. Always ensure you record:
 \item
   details of problems (if there were any)
 \item
-  location of installation on the platform or on parent instrument (eg.
-  side of ship, height on mast, which part of CTD rosette)
+  location of installation on the platform or on parent instrument
+  (e.g.~side of ship, height on mast, which part of CTD rosette)
 \item
   which data files each instrument corresponds to
 \end{itemize}
@@ -1787,7 +1867,7 @@ to avoid problems which will differ between operating systems and
 software. Avoid interfering with the file-writing process, so it is best
 to test or check files that belong to a secondary copy if possible.
 
-For data that is being recorded continuously, it would be good practise
+For data that is being recorded continuously, it would be good practice
 to check files at least once a day, or more often if time allows. Events
 such as bad weather may mean you need to check the data more regularly.
 
@@ -1808,8 +1888,8 @@ Check the integrity of your backups on a regular basis: make sure the
 files that are backed up are the same as the originals and that you can
 read them correctly.
 
-\hypertarget{handy-tips-5}{%
-\subsection{Handy tips}\label{handy-tips-5}}
+\hypertarget{handy-tips-4}{%
+\subsection{Handy tips}\label{handy-tips-4}}
 
 \begin{itemize}
 \tightlist
@@ -1825,7 +1905,7 @@ read them correctly.
 \hypertarget{recording-data-by-hand}{%
 \section{Recording data by hand}\label{recording-data-by-hand}}
 
-If collecting data in a notebook by hand, it is good practise to
+If collecting data in a notebook by hand, it is good practice to
 \protect\hyperlink{data-backup-and-digitisation}{digitise the data} as
 soon as possible. Digitised data files, metadata and documentation
 should be considered as valuable as any other data file: consider the
@@ -1838,7 +1918,7 @@ should be considered as valuable as any other data file: consider the
 up} or \protect\hyperlink{data-backup-and-digitisation}{digitising your
 data}}{Backing up or digitising your data}}\label{backing-up-or-digitising-your-data}}
 
-Ideally hand-written data should be digited as soon as possible after
+Ideally hand-written data should be digitised as soon as possible after
 data collection and at least once a day. A simple first backup can be
 done by photographing your notes in case the unthinkable happens and you
 lose your notebook. Recording hand-written notes in a structured manner
@@ -1854,7 +1934,7 @@ you go} for details of what you can prepare in advance to save time in
 the field.
 
 If adding to a data file with new observations, using the date to denote
-different versions of the file is helpful eg.,
+different versions of the file is helpful e.g.,
 \texttt{project\_datatype\_observations\_YYYYMMDD.csv}
 
 Don't forget to \protect\hyperlink{backing-up-data}{backup} your
@@ -1920,6 +2000,13 @@ Remember to digitise this information if you would ordinarily record it
 in a notebook and treat these files like you would any other data, using
 secure \protect\hyperlink{storing-data}{storage} and regular
 \protect\hyperlink{backing-up-data}{backups}.
+
+Take photographs of as many things as you can! Your instrument set-up,
+makes, models and serial numbers of equipment equipment, notebooks,
+field sites, laboratory setting, your notebooks and anything that could
+affect your experiment directly or indirectly. This is hugely valuable
+metadata and should be carefully
+\protect\hyperlink{backing-up-data}{backed-up}.
 
 \hypertarget{upon-your-return}{%
 \chapter{Upon your return}\label{upon-your-return}}
