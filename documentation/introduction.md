@@ -20,3 +20,7 @@ This guide is applicable to all file types and "kinds" of data.
 We also consider good practice of sample collection from a data management point of view. This section has a particular focus on numbering and collection of metadata about samples.
 
 Finally, we consider field work, and more precisely polar field work (although the same principles apply anywhere) in the broad sense of not working at your institution. It could be at a field camp, on a well-established base, on a ship or any other platform, the remote operation of an instrument and wherever else you might be taken by your research.
+
+### 
+
+We would greatly welcome feedback by way of comments, suggestions, corrections or ideas for further development of this guide. Ongoing development is done in a Github repository: [https://github.com/Swiss-Polar-Institute/data-management-guidance](https://github.com/Swiss-Polar-Institute/data-management-guidance). Feel free to get in touch using [Github issues](https://github.com/Swiss-Polar-Institute/data-management-guidance/issues) or email [jenny.thomas@epfl.ch](jenny.thomas@epfl.ch). 
