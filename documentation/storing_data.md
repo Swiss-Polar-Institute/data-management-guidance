@@ -53,20 +53,23 @@ Portable hard drives are commonly used for [backing up](#data-backup) data in th
 
 Cloud storage is becoming the norm in many cases, particularly where the data volume is getting into hundreds of GBs. There are many types of cloud storage that you can set up yourself or buy as a managed service, but there are a few considerations to take into account. Many institutions now also offer this either as part of their standard storage or as an extra service, particularly for those dealing with larger volumes of data. Research data management staff in your institution may also be able to offer recommendations.
 
-* If you are storing personal data, it is essential to understand the location of the physical servers and ensure this complies with regulations.
-* Access rights are also important. Consider who might have access to the data, if you use read-only or write access rights and where the data are physically stored.
+* If you are storing personal data, it is essential to understand the location of the physical servers and ensure this complies with regulations such as GDPR or of your institution.
+* Access rights are also important. Consider who might have access to the data, if you use read-only or write access rights.
 * Check the privacy policy carefully. 
-* Some cloud storage providers charge not only for the data storage, but also for the number and size of copying data to and from the storage. It is important to think about how this could impact on your costs.
+* Some cloud storage providers charge not only for the data storage, but also for the number of files, copying data to and from the storage, as well as listing files (known as objects in cloud storage). It is important to think about how this could impact on your costs.
 * Some providers provide different levels of storage: consider if you want to have immediate access to your data or if you are happy to have it in "cold storage" where it may take a while to access it - this is often a low-cost option and good for long-term backups of data that you are not actively working on.
 * For managed systems, make sure that backups are done regularly.
-* For unmanaged systems, check how you will be able to copy and access data. Many systems require the use of command-line tools.
+* For unmanaged systems, check how you will be able to copy and access data. Many systems require the use of command-line tools such as ``rclone``. 
+* Ensure you understand how to give others access to the data.
 * Speed of access to data (particularly when more than a few GBs) can be limited by your bandwidth - consider how you will access large volumes of data carefully.
-* Always check that you are able to move your data to another provider at a reasonable cost and in a reasonable time manner. This could happen if there are changes to the services that are provided, they go out of service or they no longer meet the requirements you need. Some providers may use proprietary formats which might make moving the data impossible.
+* Always check that you are able to move your data to another provider at a reasonable cost and in a reasonable time manner. This could happen if there are changes to the services that are provided, they go out of service or they no longer meet the requirements you need. Some providers may use proprietary formats which might make moving the data very hard.
 * Ensure the subscription is always maintained (if paid for) otherwise you may find your data are deleted.  
 
-Wikipedia has a very handy [comparison of online backup options](https://en.wikipedia.org/wiki/Comparison_of_online_backup_services). These would not normally be used for day-to-day data storage for the data you are working on.
+Wikipedia has a very handy [comparison of online backup options](https://en.wikipedia.org/wiki/Comparison_of_online_backup_services). These would normally be used for medium to long-term storage or backups.
 
 Platforms such as [Zenodo](https://zenodo.org) are provided for publication of data and other digital resources, but when datasets have been completed (either in a raw or finalised state) it can be worth thinking about this option.
+
+Object storage has various idiosyncrasies in terms of differences to file systems that are useful to be aware of. For example, files are known as "objects", S3 prefixes are not directories (Chan, 2020a) and S3 keys are not file paths (Chan, 2020b).
 
 ### File organisation
 
@@ -82,4 +85,8 @@ TODO
 
 ### References
  
+Chan, A. (2020). alexwlchan. *S3 keys are not file paths*. Retrieved from [https://alexwlchan.net/2020/08/s3-keys-are-not-file-paths/](https://alexwlchan.net/2020/08/s3-keys-are-not-file-paths/) [Accessed on 15 September 2020].
+ 
+Chan, A. (2020). alexwlchan. *S3 prefixes are not directories*. Retrieved from [https://alexwlchan.net/2020/08/s3-prefixes-are-not-directories/](https://alexwlchan.net/2020/08/s3-prefixes-are-not-directories/) [Accessed on 15 September 2020]. 
+
 The University of Edinburgh. Storage & security. *MANTRA Research Data Management Training*. Retrieved from [https://mantra.edina.ac.uk/storageandsecurity](https://mantra.edina.ac.uk/storageandsecurity) [Accessed on 28 July 2020].
