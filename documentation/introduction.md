@@ -13,10 +13,10 @@ The second part is a guide for data management in the field and is broken into t
 
 #### Scope
 
-Research data includes raw data (directly recorded by hand or from an instrument), processed data (any files that have been modified in any way), documentation, metadata, supporting data files, code, plots and any other files associated with your research. 
+Research data includes raw data directly recorded by hand or from an instrument, processed data which are any files that have been modified, documentation, metadata, supporting data files, code, plots and any other files associated with your research. 
 
 This guide is applicable to all file types and "kinds" of data. 
 
-We also consider good practice (from a data management point of view) of sample collection. This section has a particular focus on numbering and collection of metadata about samples.
+We also consider good practice of sample collection from a data management point of view. This section has a particular focus on numbering and collection of metadata about samples.
 
 Finally, we consider field work, and more precisely polar field work (although the same principles apply anywhere) in the broad sense of not working at your institution. It could be at a field camp, on a well-established base, on a ship or any other platform, the remote operation of an instrument and wherever else you might be taken by your research.
