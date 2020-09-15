@@ -63,4 +63,6 @@ If recording further information about the samples such as identifying different
 
 Ensure you follow the [metadata](#metadata) guide, paying particular attention at this point to recording where and when your data and samples were collected. Metadata is most accurate when recorded as soon as possible - don't leave it until the end of your field campaign to make notes.
 
-Remember to digitise this information if you would ordinarily record it in a notebook and treat these files like you would any other data, using secure [storage](#storing-data) and regular [backups](#backing-up-data)..
+Remember to digitise this information if you would ordinarily record it in a notebook and treat these files like you would any other data, using secure [storage](#storing-data) and regular [backups](#backing-up-data).
+
+Take photographs of as many things as you can! Your instrument set-up, makes, models and serial numbers of equipment equipment, notebooks, field sites, laboratory setting, your notebooks and anything that could affect your experiment directly or indirectly. This is hugely valuable metadata and should be carefully [backed-up](#backing-up-data).

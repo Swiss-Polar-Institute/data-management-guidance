@@ -67,7 +67,7 @@ It is important to have a good understanding of your instrument, associated soft
 
 Some software automatically writes "false" data from variables which is not actually being collected, and therefore should not be recorded in the data file. This easily causes confusion for yourself and others in the future, wondering what the data are. Make sure you know how to "select" which variables are saved into the data files.  
     
-If data storage is limited, maybe you need to consider which periods of time are more crucial (ie. data collection only at night, or for five minutes every hour, one-minute resolution instead of one-second). All of this should be considered with your experiment in mind to ensure it is not compromised. Don't forget to take into account local sunrise and sunset times if this is an important factor, particularly if the instrument is going to be installed on a moving platform such as a ship.
+If data storage is limited, maybe you need to consider which periods of time are more crucial (i.e. data collection only at night, or for five minutes every hour, one-minute resolution instead of one-second). All of this should be considered with your experiment in mind to ensure it is not compromised. Don't forget to take into account local sunrise and sunset times if this is an important factor, particularly if the instrument is going to be installed on a moving platform such as a ship.
 
 **Do I really understand how big each data file will be?**  
 
