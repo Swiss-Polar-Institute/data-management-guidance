@@ -15,11 +15,11 @@ In preparation for working on the data, performing quality checking, applying ca
 
 ### Versions of files
 
-Using scripted languages to do any file manipulation is the ideal way to record what you have done to data files and demonstrate how a preliminary dataset has been created. Steps can easily get lost or forgotten if using software such as Excel. If you do use such software, maintaining full documentation about every step of the processing and outputting different versions of the dataset at crucial stages is a way to ensure you can demonstrate the provenance of a dataset.
+Using scripted languages to do any file manipulation is the ideal way to record what you have done to data files and demonstrate how a preliminary dataset has been created. Steps can easily get lost, forgotten or critical errors introduced without you realising (eg. Ziemann et al., 2016), if using spreadsheets or making direct changes. If you do use such methods, maintaining full documentation about every step of the processing and outputting different versions of the dataset at crucial stages is a way to ensure you can demonstrate the provenance of a dataset.
 
 When working on processing, quality checking and making other changes to produce the preliminary dataset, creating different versions of the files after each step rather than overwriting files, is a valuable way of ensuring you can follow all steps that have been undertaken and allow you to go back to a certain place if you find errors or want to change your methods.
 
-File versions can be named using the date (in the format YYYYMMDD) or version numbers, such as v01_01, v01_02. Including the date in this format, or version numbers that have leading zeros ensure that files are listed in order when viewing them.
+File versions can be named using the date (in the format YYYYMMDD) or version numbers, such as ``v01_01``, ``v01_02``. Including the date in this format, or version numbers that have leading zeros ensure that files are listed in order when viewing them.
 
 [Backups](#backing-up-data) of any edited files should be done on a regular basis.
 
@@ -50,9 +50,11 @@ Refer to the [metadata](#metadata) section for full details of what information 
 
 Some tools also exist which allow you to record exactly what has happened to your dataset, recording its provenance. 
 
-* [RENKU](https://datascience.ch/renku/)
-* [Whole Tale](https://wholetale.org/)
+* RENKU [https://datascience.ch/renku/](https://datascience.ch/renku/)
+* Whole Tale [https://wholetale.org/](https://wholetale.org/)
 
 ### References
 
 Peng R. D. (2011). Reproducible research in computational science. Science (New York, N.Y.), 334(6060), 1226–1227. doi: [10.1126/science.1213847](https://doi.org/10.1126/science.1213847)
+
+Ziemann, M., Eren, Y., & El-Osta, A. (2016). Gene name errors are widespread in the scientific literature. Genome Biology, 17(1), 177. doi: [10.1186/s13059-016-1044-7](https://doi.org/10.1186/s13059-016-1044-7)
