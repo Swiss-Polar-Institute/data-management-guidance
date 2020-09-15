@@ -25,7 +25,8 @@ Remember that for [backups](#data-backup) of data, it is important to have them 
 Networked data storage, often known as an institution file server, is often provided as standard by institutions. 
 
 * This is often a handy place to store your data for easy access whilst working at your institution.
-* It is often backed up on a regular basis, but familiarise yourself with the backup schedule. 
+* Always familiarise yourself with the backup schedule. 
+* Check if recovery of previous versions of files is necessary (it might only be possible if a hard drive is corrupt for example, rather than if you overwrite a file by mistake). Find out if you are able to recover previous versions of files yourself, or if you need the help of an administrator.
 * Check access rights: would you have a personal area of data storage, or would it be shared amongst your lab or a wider group? Think if you need the data to have restricted access, particularly if it is sensitive (protected species) or contains personal data. Access should also be limited to avoid changing or deleting files accidentally. Make sure that primary raw data are read-only for yourself and others.
 * It is worth checking if it is easy to allow external collaborators to access your data, although this is more often done through other means. 
 * Check what limits there are on the volume of storage: if you are collecting large volumes of data, you may need to budget for asking them for more data storage.
