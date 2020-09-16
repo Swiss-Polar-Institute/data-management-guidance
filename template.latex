@@ -8,8 +8,9 @@ $endif$$endif$%
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$if(beamer)$ignorenonframetext,$if(handout)$handout,$endif$$if(aspectratio)$aspectratio=$aspectratio$,$endif$$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\rhead{Overleaf}
-\lhead{Guides and tutorials}
+\fancyhead[LE,LO]{SPI logo}
+\fancyhead[RE,RO]{}
+\fancyfoot[CE,CO]{\thepage}
 $if(beamer)$
 $if(background-image)$
 \usebackgroundtemplate{%
