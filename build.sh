@@ -10,4 +10,4 @@ pandoc --pdf-engine=xelatex  --variable subparagraph --toc --toc-depth=2 --top-l
 #pdflatex  data_management_guidance_draft.tex #needs a different engine
 
 #pandoc --pdf-engine=xelatex data_management_guidance_draft.tex -o data_management_guidance_draft.pdf converts the tex to pdf but doesn't output it in the nice format
-pandoc --pdf-engine=xelatex -V 'mainfont:LiberationSerif' --variable subparagraph --toc --toc-depth=2 --top-level-division=part -V linkcolor:blue -f latex data_management_guidance_draft.tex -s -o data_management_guidance_draft.pdf # formatting is all to pot
+pandoc --pdf-engine=xelatex -V 'mainfont:Times.ttf' -V 'monofont:AndaleMono' --variable subparagraph --toc --toc-depth=2 --top-level-division=part -V linkcolor:blue -f latex data_management_guidance_draft.tex -s -o data_management_guidance_draft.pdf # formatting is all to pot
