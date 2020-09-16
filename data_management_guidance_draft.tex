@@ -5,9 +5,10 @@
 \documentclass[a4paper,oneside]{report}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhead[LE,LO]{SPI logo}
-\fancyhead[RE,RO]{}
-\fancyfoot[CE,CO]{\thepage}
+\fancyhead[L]{\setlength{\unitlength}{1mm}
+\begin{picture}(0,0)
+\put(5,0){\includegraphics{spi_logo.png}}
+\end{picture}}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
