@@ -14,6 +14,8 @@
 \else % if luatex or xelatex
   \usepackage{unicode-math}
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+    \setmainfont[]{Times.ttf}
+    \setmonofont[Mapping=tex-ansi]{AndaleMono}
 \fi
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -50,9 +52,6 @@
 \def\fps@figure{htbp}
 \makeatother
 
-\usepackage{titlesec}
-\titleformat{\chapter}{\normalfont\bfseries\Huge}{\thechapter.}{10pt}{}
-\newpagestyle{mystyle}{\sethead[][\thechapter.\enspace\chaptertitle][]{}{\thesection~\sectiontitle}{}\setfoot{}{\thepage}{}}
 
 \title{Data management in the field}
 \author{Jen Thomas, Swiss Polar Institute}
