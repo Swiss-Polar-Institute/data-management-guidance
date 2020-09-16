@@ -10,8 +10,11 @@ $endif$$endif$%
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead[LE,LO]{\includegraphics[scale=0.8]{spi_logo.png}}
-\fancyhead[RE,RO]{}
 \fancyfoot[CE,CO]{\thepage}
+\renewcommand{\chaptermark}[1]{%
+\markboth{\MakeUppercase{%
+\chaptername}\ \thechapter.%
+\ #1}{}}
 $if(beamer)$
 $if(background-image)$
 \usebackgroundtemplate{%
