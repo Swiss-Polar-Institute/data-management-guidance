@@ -13,6 +13,8 @@ classoption:
 - oneside
 documentclass:
 - report
-pagenumbering:
-- location={footer, middle}
+mainfont:
+- Times.ttf
+monofont:
+- AndaleMono
 ---
