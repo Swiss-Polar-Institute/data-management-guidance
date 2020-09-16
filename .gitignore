@@ -1,0 +1,8 @@
+venv/
+.idea/
+/*.aux
+/*.docx
+/*.log
+/*.out
+/*.pdf
+/*.toc
