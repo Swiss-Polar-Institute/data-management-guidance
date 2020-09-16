@@ -13,8 +13,4 @@ classoption:
 - oneside
 documentclass:
 - report
-mainfont:
-- Times.ttf
-monofont:
-- AndaleMono
 ---
