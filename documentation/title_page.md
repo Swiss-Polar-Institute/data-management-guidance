@@ -13,10 +13,8 @@ classoption:
 - oneside
 documentclass:
 - report
-mainfont: 
-- DejaVuSerif.ttf
-monofont: 
-- DejaVuSansMono.ttf
+pagenumbering:
+- location={footer, middle}
 header-includes:
   - \usepackage{titlesec}
   - \titleformat{\chapter}{\normalfont\bfseries\Huge}{\thechapter.}{10pt}{}
