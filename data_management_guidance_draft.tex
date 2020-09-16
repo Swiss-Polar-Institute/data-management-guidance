@@ -4,14 +4,7 @@
 %
 \documentclass[a4paper,oneside]{report}
 \usepackage{graphicx}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[LE,LO]{\includegraphics[scale=0.8]{spi_logo.png}}
-\fancyfoot[CE,CO]{\thepage}
-\renewcommand{\chaptermark}[1]{%
-\markboth{\MakeUppercase{%
-\chaptername}\ \thechapter.%
-\ #1}{}}
+
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -63,6 +56,15 @@
 \title{Data management in the field}
 \author{Jen Thomas, Swiss Polar Institute}
 \date{July 2020}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LE,LO]{\includegraphics[scale=0.8]{spi_logo.png}}
+\fancyfoot[CE,CO]{\thepage}
+\renewcommand{\chaptermark}[1]{%
+\markboth{\MakeUppercase{%
+\chaptername}\ \thechapter.%
+\ #1}{}}
 
 \begin{document}
 \maketitle

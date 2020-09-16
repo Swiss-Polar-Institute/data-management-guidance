@@ -7,14 +7,7 @@ $endif$$if(dir)$$if(latex-dir-rtl)$
 $endif$$endif$%
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$if(beamer)$ignorenonframetext,$if(handout)$handout,$endif$$if(aspectratio)$aspectratio=$aspectratio$,$endif$$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
 \usepackage{graphicx}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[LE,LO]{\includegraphics[scale=0.8]{spi_logo.png}}
-\fancyfoot[CE,CO]{\thepage}
-\renewcommand{\chaptermark}[1]{%
-\markboth{\MakeUppercase{%
-\chaptername}\ \thechapter.%
-\ #1}{}}
+
 $if(beamer)$
 $if(background-image)$
 \usebackgroundtemplate{%
@@ -350,6 +343,15 @@ $if(logo)$
 \logo{\includegraphics{$logo$}}
 $endif$
 $endif$
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LE,LO]{\includegraphics[scale=0.8]{spi_logo.png}}
+\fancyfoot[CE,CO]{\thepage}
+\renewcommand{\chaptermark}[1]{%
+\markboth{\MakeUppercase{%
+\chaptername}\ \thechapter.%
+\ #1}{}}
 
 \begin{document}
 $if(title)$
