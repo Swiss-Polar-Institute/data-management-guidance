@@ -1,7 +1,7 @@
 ---
 title: Data management in the field
 author: Jen Thomas, Swiss Polar Institute
-date: July 2020
+date: September 2020
 papersize: a4
 geometry:
 - top=25mm
