@@ -363,11 +363,14 @@ $endif$
   \fancyhead[LE,LO]{\includegraphics[scale=1]{spi_logo.png} \\ EPFL ENT SPI \\ GR C2 505 \\ Station 2 \\ CH-1015 Lausanne, Switzerland}
   \fancyhead[CE,CO]{Phone: +41 21 693 76 74 \\ +41 21 693 10 74 \\ Web: www.swisspolar.ch}
   \fancyfoot[C]{\includegraphics[scale=0.25]{spi_funders_logos_png.png}}
-  \
+  \renewcommand{\headrulewidth}{0pt}
 }
 
 \usepackage{xpatch}
 \xapptocmd{\titlepage}{\thispagestyle{titlepagestyle}}{}{}
+
+
+
 
 \begin{document}
 $if(title)$
