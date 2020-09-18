@@ -345,10 +345,12 @@ $endif$
 $endif$
 
 \usepackage{fancyhdr}
+
 \pagestyle{fancy}
+
 \fancyhead[L]{\includegraphics[scale=0.7]{spi_logo.png}}
 \fancyfoot[C]{\thepage}
-
+  
 \renewcommand{\chaptermark}[1]{%
 \markboth{\MakeUppercase{%
 \chaptername}\ \thechapter.%
@@ -360,6 +362,7 @@ $endif$
   \fancyfoot[L]{\date{$date$}}
   \setlength{\headheight}{21pt} % set height of header so it is not affected by header on title page
   \setlength{\footskip}{21pt} % set height of footer so it is not affected by header on title page
+  \setlength{\voffset}{10mm}
 }
 
 \fancypagestyle{titlepagestyle}

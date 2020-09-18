@@ -1,4 +1,4 @@
-personal_ws-1.1 en 128 
+personal_ws-1.1 en 130 
 PLoS
 Peng
 FieldSiteA
@@ -26,6 +26,7 @@ DejaVuSansMono
 Pandoc
 El
 Barcodes
+includefoot
 Downie
 checksums
 RENKU
@@ -97,6 +98,7 @@ wip
 Ziemann
 txt
 singlesided
+includehead
 oneside
 YYYYMMDD
 SeaDataNet
