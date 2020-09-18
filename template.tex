@@ -353,6 +353,11 @@ $endif$
 \chaptername}\ \thechapter.%
 \ #1}{}}
 
+\fancypagestyle{plain}{%
+  \fancyhead[LE,LO]{\includegraphics[scale=0.8]{spi_logo.png}}
+\fancyfoot[CE,CO]{\thepage}
+}
+
 \begin{document}
 $if(title)$
 $if(beamer)$
