@@ -71,8 +71,15 @@
 \fancyfoot[CE,CO]{\thepage}
 }
 
+\fancypagestyle{titlepagestyle}
+{
+  \fancyhead[LE,LO]{\includegraphics[scale=0.7]{spi_logo.png}}
+   \fancyfoot[C]{}%\emph{This text needs to appear on the title page}}
+}
+
 \begin{document}
 \maketitle
+\thispagestyle{titlepagestyle}
 
 {
 \hypersetup{linkcolor=}

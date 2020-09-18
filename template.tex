@@ -358,12 +358,19 @@ $endif$
 \fancyfoot[CE,CO]{\thepage}
 }
 
+\fancypagestyle{titlepagestyle}
+{
+  \fancyhead[LE,LO]{\includegraphics[scale=0.7]{spi_logo.png}}
+   \fancyfoot[C]{}%\emph{This text needs to appear on the title page}}
+}
+
 \begin{document}
 $if(title)$
 $if(beamer)$
 \frame{\titlepage}
 $else$
 \maketitle
+\thispagestyle{titlepagestyle}
 $endif$
 $if(abstract)$
 \begin{abstract}
