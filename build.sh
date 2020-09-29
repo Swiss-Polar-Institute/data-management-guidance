@@ -22,7 +22,7 @@ pdflatex  data_management_guidance_draft.tex
 pdflatex  data_management_guidance_draft.tex
 
 # Generate a docx output
-# pandoc -t docx data_management_guidance_draft.tex -o data_management_guidance_draft.docx
+pandoc -t docx data_management_guidance_draft.tex -o data_management_guidance_draft.docx
 
 # Example of using a reference doc to format an output docx file
 #pandoc --reference-doc='/home/jen/projects/spi_data_management/SPI_document_template.docx' -t docx data_management_guidance_draft.tex -o data_management_guidance_draft.docx
