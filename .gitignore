@@ -9,11 +9,3 @@ venv/
 /*.dvi
 spi*
 /data_management_guidance_draft.tex
-test_files/spi*
-test_files/*.aux
-test_files/*.docx
-test_files/*.log
-test_files/*.out
-test_files/*.pdf
-test_files/*.toc
-test_files/*.dvi
