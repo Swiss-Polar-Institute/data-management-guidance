@@ -9,6 +9,7 @@ find . -name "*.md" -exec aspell -d en -x --home-dir=. check {} \;
 pandoc --pdf-engine=xelatex \
   --variable subparagraph \
   --toc --toc-depth=2 \
+  -V fontsize=12pt \
   --top-level-division=part \
   -V linkcolor:blue \
    --template template.tex \
