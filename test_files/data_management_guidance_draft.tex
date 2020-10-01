@@ -57,15 +57,27 @@
 \author{Jen Thomas, Swiss Polar Institute}
 \date{September 2020}
 \usepackage{showframe}[geometry]
+% test using this new package for the formatting
+%\usepackage{scrlayer-scrpage}
+%\ohead{}% clear the outer head
+%\ihead{\includegraphics[scale=0.35]{spi_logo_hd.png}}
+%\addtokomafont{pagehead}{\sffamily}
+%\addtokomafont{pagefoot}{\small}% Making the foot extra tiny to demonstrate
+%\addtokomafont{pagenumber}{\small\bfseries\color{black}}% that the page number can be controlled on its own.
+%\cfoot*{\pagemark}% the pagenumber in the outer part of the foot, also on plain pages
+%\ifoot*{\date}% Name and title beneath each other in the inner part of the foot
+%\setlength{\footheight}{24.0pt}
 
+%
 \usepackage{fancyhdr} % other pages
 \pagestyle{fancy}
 \fancyhead[LE,LO]{\includegraphics[scale=0.35]{spi_logo_hd.png}}
 \fancyfoot[CE,CO]{\fontsize{11}{11}\selectfont \thepage}
 \fancyfoot[L]{\fontsize{10}{11}\selectfont \date{September 2020}}
-\setlength\textheight{680pt}
-  \setlength{\headsep}{20pt}
-  \setlength{\headheight}{21pt} % set height of header so it is not affected by header on title page
+\setlength\textheight{660pt}
+  \setlength{\headsep}{15pt}
+  \setlength{\topmargin}{1pt}
+  \setlength{\headheight}{12pt} % set height of header so it is not affected by header on title page
 \setlength{\footskip}{5pt} % set height of footer so it is not affected by header on title page
 
 \renewcommand{\chaptermark}[1]{%
@@ -77,7 +89,7 @@
   \fancyhead[L]{\includegraphics[scale=0.35]{spi_logo_hd.png}} % add SPI logo
   \fancyfoot[C]{\fontsize{11}{11}\selectfont \thepage} % add centred page number
   \fancyfoot[L]{\fontsize{10}{11}\selectfont \date{September 2020}}
-  \setlength\textheight{680pt}
+  \setlength\textheight{660pt}
   \setlength{\headsep}{20pt}
   \setlength{\headheight}{21pt} % set height of header so it is not affected by header on title page
   \setlength{\footskip}{11pt} % set height of footer so it is not affected by header on title page
