@@ -6,7 +6,7 @@ papersize: a4
 geometry:
 - top=25mm
 - left=20mm
-- bottom=25mm
+- bottom=20mm
 - right=20mm
 - heightrounded
 classoption:
