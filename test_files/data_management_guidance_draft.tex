@@ -1,0 +1,2078 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+%
+\documentclass[12pt,a4paper,oneside]{report}
+\usepackage{graphicx}
+
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{mathptmx} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+            pdftitle={Data management in the field},
+            pdfauthor={Jen Thomas, Swiss Polar Institute},
+            colorlinks=true,
+            linkcolor=blue,
+            citecolor=Blue,
+            urlcolor=Blue,
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[top=25mm,left=20mm,bottom=20mm,right=20mm,heightrounded]{geometry}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\title{Data management in the field}
+\author{Jen Thomas, Swiss Polar Institute}
+\date{September 2020}
+\usepackage{showframe}[geometry]
+\usepackage{fancyhdr} % other pages
+\pagestyle{fancy}
+\fancyhead[LE,LO]{\includegraphics[scale=0.35]{spi_logo_hd.png}}
+\fancyfoot[CE,CO]{\fontsize{11}{11}\selectfont \thepage}
+\fancyfoot[L]{\fontsize{10}{11}\selectfont \date{September 2020}}
+\setlength\textheight{680pt}
+  \setlength{\headsep}{20pt}
+  \setlength{\headheight}{21pt} % set height of header so it is not affected by header on title page
+\setlength{\footskip}{5pt} % set height of footer so it is not affected by header on title page
+
+\renewcommand{\chaptermark}[1]{%
+\markboth{\MakeUppercase{%
+\chaptername}\ \thechapter.%
+\ #1}{}}
+
+\fancypagestyle{plain}{%  first page of chapters
+  \fancyhead[L]{\includegraphics[scale=0.35]{spi_logo_hd.png}} % add SPI logo
+  \fancyfoot[C]{\fontsize{11}{11}\selectfont \thepage} % add centred page number
+  \fancyfoot[L]{\fontsize{10}{11}\selectfont \date{September 2020}}
+  \setlength\textheight{680pt}
+  \setlength{\headsep}{20pt}
+  \setlength{\headheight}{21pt} % set height of header so it is not affected by header on title page
+  \setlength{\footskip}{11pt} % set height of footer so it is not affected by header on title page
+}
+
+\fancypagestyle{titlepagestyle}
+{
+  \fancyhead[L]{\includegraphics[scale=0.6]{spi_logo_hd.png}\\ \hrulefill \\ EPFL ENT SPI \\ GR C2 505 \\ Station 2 \\ CH-1015 Lausanne, Switzerland}
+  \fancyhead[C]{Phone: +41 21 693 76 74 \\ +41 21 693 10 74 \\ Web: www.swisspolar.ch}
+  \fancyfoot[C]{\includegraphics[scale=0.25]{spi_funders_logos_png.png}}
+  \renewcommand{\headrulewidth}{0pt} % do not display header line
+}
+
+\usepackage{xpatch}
+\xapptocmd{\titlepage}{\thispagestyle{titlepagestyle}}{}{} % apply titlepagestyle
+
+\begin{document}
+\maketitle
+
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{introduction}{%
+\chapter{Introduction}\label{introduction}}
+
+\hypertarget{benefits-of-good-data-management}{%
+\section{Benefits of good data
+management}\label{benefits-of-good-data-management}}
+
+Setting time aside for carefully managing data and samples from the
+beginning of a project, will save a lot of time in the long run.
+Investment of time in good preparation and management of data files,
+software, documentation and associated files is an investment for the
+future. Detailed documentation, organised files and well-kept backups
+will make life a lot easier for your future self and others.
+
+\hypertarget{what-this-guide-covers}{%
+\section{What this guide covers}\label{what-this-guide-covers}}
+
+In this guide we cover good research data management practice with a
+focus on field work, although the general guidelines are applicable in
+any circumstances. The first part of the guide is general and can be
+applied throughout all stages of the research life cycle.
+
+The second part is a guide for data management in the field and is
+broken into three sections: planning data management for fieldwork, some
+key points to remember whilst in the field and a brief set of
+considerations for returning to your institution. We regularly refer
+back to the key sections of the first part of the document and recommend
+that the reader is familiar with this before reading the field guide.
+
+\hypertarget{scope}{%
+\subsection{Scope}\label{scope}}
+
+Research data includes raw data directly recorded by hand or from an
+instrument, processed data which are any files that have been modified,
+documentation, metadata, supporting data files, code, plots and any
+other files associated with your research.
+
+This guide is applicable to all file types and ``kinds'' of data.
+
+We also consider good practice of sample collection from a data
+management point of view. This section has a particular focus on
+numbering and collection of metadata about samples.
+
+Finally, we consider field work, and more precisely polar field work
+(although the same principles apply anywhere) in the broad sense of not
+working at your institution. It could be at a field camp, on a
+well-established base, on a ship or any other platform, the remote
+operation of an instrument and wherever else you might be taken by your
+research.
+
+\hypertarget{further-development-of-this-guide}{%
+\section{Further development of this
+guide}\label{further-development-of-this-guide}}
+
+We would greatly welcome feedback by way of comments, suggestions,
+corrections or ideas for further development of this guide. Ongoing
+development is done in a Github repository:
+\url{https://github.com/Swiss-Polar-Institute/data-management-guidance}.
+Feel free to get in touch using
+\href{https://github.com/Swiss-Polar-Institute/data-management-guidance/issues}{Github
+issues} or email \url{jenny.thomas@epfl.ch}.
+
+\hypertarget{data-management---good-practice}{%
+\part{Data management - good
+practice}\label{data-management---good-practice}}
+
+\hypertarget{storing-data}{%
+\chapter{Storing data}\label{storing-data}}
+
+Storing your data in an organised and secure manner, will save you a lot
+of time and hassle in the long run. It is worth investing time and
+effort in ensuring a coherent
+\protect\hyperlink{directory-structure}{directory structure},
+understandable \protect\hyperlink{file-naming}{file names}, secure data
+storage and carefully thought-out
+\protect\hyperlink{data-backup}{backups}.
+
+In this section we focus on where to store your data. Suggestions are
+\emph{not} ordered by preference.
+
+\hypertarget{what-to-consider-when-deciding-where-to-store-your-data}{%
+\section{What to consider when deciding where to store your
+data}\label{what-to-consider-when-deciding-where-to-store-your-data}}
+
+Thinking carefully about what you need to be able to do with your data
+will help you to select where is best to store your data.
+
+\begin{itemize}
+\tightlist
+\item
+  What do you want to do with the data?
+\item
+  Do other people need access to your data?
+\item
+  What is the volume of your data?
+\item
+  How long do you want to use the particular storage for?
+\item
+  What budget do you have for data storage?
+\item
+  How much does the data storage cost?
+\item
+  Are your data sensitive?
+\end{itemize}
+
+\hypertarget{types-of-storage-media}{%
+\section{Types of storage media}\label{types-of-storage-media}}
+
+Remember that for \protect\hyperlink{data-backup}{backups} of data, it
+is important to have them in multiple places and on different types of
+media. Different types of media offer solutions to different problems
+and therefore you will need to consider using more than one.
+
+\hypertarget{networked-data-storage}{%
+\subsection{Networked data storage}\label{networked-data-storage}}
+
+Networked data storage, often known as an institution file server, is
+often provided as standard by institutions.
+
+\begin{itemize}
+\tightlist
+\item
+  This is often a handy place to store your data for easy access whilst
+  working at your institution.
+\item
+  Always familiarise yourself with the backup schedule.
+\item
+  Check if recovery of previous versions of files is necessary (it might
+  only be possible if a hard drive is corrupt for example, rather than
+  if you overwrite a file by mistake). Find out if you are able to
+  recover previous versions of files yourself, or if you need the help
+  of an administrator.
+\item
+  Check access rights: would you have a personal area of data storage,
+  or would it be shared amongst your lab or a wider group? Think if you
+  need the data to have restricted access, particularly if it is
+  sensitive (protected species) or contains personal data. Access should
+  also be limited to avoid changing or deleting files accidentally. Make
+  sure that primary raw data are read-only for yourself and others.
+\item
+  It is worth checking if it is easy to allow external collaborators to
+  access your data, although this is more often done through other
+  means.
+\item
+  Check what limits there are on the volume of storage: if you are
+  collecting large volumes of data, you may need to budget for asking
+  for more data storage.
+\item
+  Consider that you may need to access the data from off-site from time
+  to time and find out early on how to do this. Make sure it works,
+  there is nothing worse than trying to access data (or other file) that
+  you need in a hurry and not have what you need set up properly.
+\end{itemize}
+
+\hypertarget{personal-computers}{%
+\subsection{Personal computers}\label{personal-computers}}
+
+If using a personal computer to work on data, ensure that you have a
+master copy backed up elsewhere, that you work on a \emph{copy} of the
+\protect\hyperlink{working-on-your-data}{raw data}, and that any work
+you do is backed up on a regular basis.
+
+Failure of the hard disk, theft or damage to a personal computer or
+laptop itself could mean loss of all the data and associated files.
+
+\hypertarget{portable-media}{%
+\subsection{Portable media}\label{portable-media}}
+
+Portable hard drives are commonly used for
+\protect\hyperlink{data-backup}{backing up} data in the field but their
+use-case should be carefully considered. Some portable media types are
+not useful for long-term storage because they quickly degrade or become
+obsolete.
+
+\begin{itemize}
+\tightlist
+\item
+  Buy reputable makes of portable hard drives. If you are going to use a
+  lot of them (for example, during a particular field season), by at
+  least two different makes to avoid buying a ``bad'' batch.
+\item
+  Consider buying several medium-sized hard drives rather than one large
+  one. If one fails, at least you do not lose everything.
+\item
+  Take care of hard drives: remember that they are susceptible to
+  physical damage and depending on how many times you write to them, may
+  only last a few years.
+\item
+  Pen drives are easy to lose and shouldn't be considered as reliable
+  for data backup.
+\item
+  Consider how long it takes to back up your data and bear this in mind.
+  If using an older device, it may have USB-2 only which is considerably
+  slower than USB-3.
+\item
+  If a hard drive is lost, it can be easily read by anyone. The hard
+  drive should be encrypted if it holds any personal or sensitive data.
+\item
+  Regularly check any data that are held on portable media to ensure it
+  can still be read. Always have other backups.
+\end{itemize}
+
+\hypertarget{cloud-storage}{%
+\subsection{Cloud storage}\label{cloud-storage}}
+
+Cloud storage is becoming the norm in many cases, particularly where the
+data volume is getting into hundreds of GBs. There are many types of
+cloud storage that you can set up yourself or buy as a managed service,
+but there are a few considerations to take into account. Many
+institutions now also offer this either as part of their standard
+storage or as an extra service, particularly for those dealing with
+larger volumes of data. Research data management staff in your
+institution may also be able to offer recommendations.
+
+\begin{itemize}
+\tightlist
+\item
+  If you are storing personal data, it is essential to understand the
+  location of the physical servers and ensure this complies with
+  regulations such as GDPR or of your institution.
+\item
+  Access rights are also important. Consider who might have access to
+  the data, if you use read-only or write access rights.
+\item
+  Check the privacy policy carefully.
+\item
+  Some cloud storage providers charge not only for the data storage, but
+  also for the number of files, copying data to and from the storage, as
+  well as listing files (known as objects in cloud storage). It is
+  important to think about how this could impact on your costs.
+\item
+  Some providers provide different levels of storage: consider if you
+  want to have immediate access to your data or if you are happy to have
+  it in ``cold storage'' where it may take a while to access it - this
+  is often a low-cost option and good for long-term backups of data that
+  you are not actively working on.
+\item
+  For managed systems, make sure that backups are done regularly.
+\item
+  For unmanaged systems, check how you will be able to copy and access
+  data. Many systems require the use of command-line tools such as
+  \texttt{rclone}.
+\item
+  Ensure you understand how to give others access to the data.
+\item
+  Speed of access to data (particularly when more than a few GBs) can be
+  limited by your bandwidth - consider how you will access large volumes
+  of data carefully.
+\item
+  Always check that you are able to move your data to another provider
+  at a reasonable cost and in a reasonable time manner. This could
+  happen if there are changes to the services that are provided, they go
+  out of service or they no longer meet the requirements you need. Some
+  providers may use proprietary formats which might make moving the data
+  very hard.
+\item
+  Ensure the subscription is always maintained (if paid for) otherwise
+  you may find your data are deleted.
+\end{itemize}
+
+Wikipedia has a very handy
+\href{https://en.wikipedia.org/wiki/Comparison_of_online_backup_services}{comparison
+of online backup options}. These would normally be used for medium to
+long-term storage or backups.
+
+Platforms such as \href{https://zenodo.org}{Zenodo} are provided for
+publication of data and other digital resources, but when datasets have
+been completed (either in a raw or finalised state) it can be worth
+thinking about this option.
+
+Object storage has various idiosyncrasies in terms of differences to
+file systems that are useful to be aware of. For example, files are
+known as ``objects'', S3 prefixes are not directories (Chan, 2020a) and
+S3 keys are not file paths (Chan, 2020b).
+
+\hypertarget{file-organisation}{%
+\section{File organisation}\label{file-organisation}}
+
+It is important to strike a balance between the number of files you
+produce and their size. Consider the size of data files and the number
+of files you store in a directory.
+
+\hypertarget{file-size}{%
+\subsection{File size}\label{file-size}}
+
+Consider file size carefully so they are easy to work with for yourself,
+future users and applications. Many small files will take longer to copy
+and be harder to work with than a single file of the same total size.
+Equally, avoid creating files that are more than 1 GB because in some
+cases they can be difficult to read into memory. Copying lots of smaller
+files to \protect\hyperlink{cloud-storage}{cloud storage} can also
+increase the cost which maybe a factor.
+
+\hypertarget{number-of-files-in-a-directory}{%
+\subsection{Number of files in a
+directory}\label{number-of-files-in-a-directory}}
+
+TODO
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+Chan, A. (2020). alexwlchan. \emph{S3 keys are not file paths}.
+Retrieved from
+\url{https://alexwlchan.net/2020/08/s3-keys-are-not-file-paths/}
+{[}Accessed on 15 September 2020{]}.
+
+Chan, A. (2020). alexwlchan. \emph{S3 prefixes are not directories}.
+Retrieved from
+\url{https://alexwlchan.net/2020/08/s3-prefixes-are-not-directories/}
+{[}Accessed on 15 September 2020{]}.
+
+Craig-Wood. N. Rclone. (2014-2020). \url{https://rclone.org}
+
+The University of Edinburgh. Storage \& security. \emph{MANTRA Research
+Data Management Training}. Retrieved from
+\url{https://mantra.edina.ac.uk/storageandsecurity} {[}Accessed on 28
+July 2020{]}.
+
+\hypertarget{directory-structure}{%
+\chapter{Directory structure}\label{directory-structure}}
+
+An organised directory structure will work wonders when it comes to
+looking for files you haven't been working on for a while. Think about a
+hierarchical structure that could be repeated across all of your
+projects and one that can be easily navigated by others.
+
+\hypertarget{handy-tips}{%
+\section{Handy tips}\label{handy-tips}}
+
+\begin{itemize}
+\tightlist
+\item
+  Don't use spaces or special characters in directory names as these
+  cannot always be handled easily. Instead, consider splitting the
+  sections using underscores ( \_ ) or dashes ( - ) and writing words
+  within sections using CamelCaps (starting each word with a capital
+  letter). This can help with readability.
+\item
+  Keep names short but meaningful: some file systems have limits on the
+  number of characters in a full directory path so if you have several
+  sub-directories this can become a problem.
+\item
+  Use acronyms sparingly and if necessary, use only those that are
+  well-known.
+\item
+  Your directories will be most likely be listed in alphabetical order.
+  Prefixes such as numbers or letters to order your directories are not
+  helpful if they do not mean anything. Dates could be used if
+  appropriate but the most important thing is to name them carefully so
+  they are meaningful and provide good documentation in a
+  \protect\hyperlink{readmetxt}{readme}.
+\item
+  If you are going to store thousands or millions of files, consider a
+  more hierarchical structure such as
+  YYYY/MM/DD/YYYYMMDD\_data\_file\_name. Listing many files within one
+  directory can take a long time, making them harder to work with.
+\item
+  Working in a separate directory to your raw or finalised files is good
+  practice to avoid accidentally modifying them. Consider creating a
+  work-in-progress (``wip'') directory which could have different
+  permissions and a different \protect\hyperlink{data-backing}{backup
+  schedule}.
+\item
+  Include a \protect\hyperlink{readmetxt}{readme} file to describe what
+  the directory contains.
+\item
+  Think carefully about
+  \protect\hyperlink{number-of-files-in-a-directory}{how many files are
+  stored in a directory} to ensure they are easy to work with.
+\end{itemize}
+
+A good example can be seen here.
+
+\begin{verbatim}
+ProjectName/
+|-- Documentation
+|-- Plots
+|-- ProcessedData
+|-- RawData
+|   |-- FieldSiteA
+|   |   |-- 2018
+|   |   |-- 2019
+|   |   |-- 2020
+|   |-- FieldSiteB
+|   |   |-- 2018
+|   |   |-- 2019
+|   |   |-- 2020
+|   |-- FieldSiteC
+|       |-- 2018
+|       |-- 2019
+|       |-- 2020
+|-- readme.txt
+|-- wip
+\end{verbatim}
+
+\hypertarget{readme.txt}{%
+\section{readme.txt}\label{readme.txt}}
+
+\textbf{Always} include a readme file within a directory to describe its
+contents. This will help anyone coming to look at the files in the
+future, and will help jog your memory as well.
+
+The Gurdon Institute (Downie, 2019) provides a very useful list of what
+to include here, summarised as follows:
+
+\begin{itemize}
+\tightlist
+\item
+  summarise what is in the directory
+\item
+  use keywords for the project, data type or parameters so that they can
+  be searched in the future
+\item
+  include the name of the person(s) who created the directory and their
+  contact details
+\item
+  describe any changes made to the directory and when
+\item
+  make sure the file is written in text format (.txt) so that it can
+  easily be read in the future.
+\end{itemize}
+
+If you would like to write with formatting, Markdown is a useful
+convention that can be used. \texttt{Pandoc} is a very useful tool to
+then convert Markdown into different file formats such as HTML, PDF etc.
+as you so wish. Remember to save the readme in text format though so
+that it can be easily opened in years to come.
+
+\hypertarget{references-1}{%
+\section{References}\label{references-1}}
+
+Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009).
+Some Simple Guidelines for Effective Data Management, Ecological Society
+of America, 90(2), pp.~205--214. doi:
+\href{https://doi.org/10.1890/0012-9623-90.2.205}{10.1890/0012-9623-90.2.205}.
+
+Downie, A. (2019) Bite-sized RDM \#5 - the readme file. \emph{IT and
+Research Data Management at the Gurdon Institute}. Retrieved from
+\href{https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file/}{https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file}
+{[}Accessed 27th February 2020{]}.
+
+\hypertarget{file-naming}{%
+\chapter{File naming}\label{file-naming}}
+
+Having an organised directory structure and standard procedure for file
+naming can be essential in helping to locate files in the future. It
+also avoids a lot of confusion for anyone using the files.
+
+\hypertarget{handy-tips-1}{%
+\section{Handy tips}\label{handy-tips-1}}
+
+Some file naming tips (Borer et al., 2009):
+
+\begin{itemize}
+\tightlist
+\item
+  Use a filename which is concise and accurately reflects what is
+  contained within the file. Splitting it into separate parts, such as
+  project, title, year or location of collection, year of collection,
+  data type, version number and the file type can help to have a
+  hierarchical name and standard naming procedure. Using keywords can
+  help you find the file at a later date.
+\item
+  Stick to letters and numbers: special characters (non-ASCII
+  characters) are unfortunately not well-supported by some software and
+  can cause problems.
+\item
+  Underscores ( \_ ) and dashes ( - ) are conventionally used for
+  separation of different parts of a filename. CamelCaps (starting each
+  word with a capital letter) can be used to separate words within
+  filename sections. Avoid using spaces because this can cause some
+  problems with different systems.
+\item
+  Versioning can be done using the date in the format YYYYMMDD. Placing
+  the date at the start of the filename can be useful. If more
+  granularity is useful, then version numbering such as v01\_01, v01\_02
+  can be used as well. Placing this at the end of the filename is useful
+  although if you are getting into detailed versioning such as this, you
+  should consider using a
+  \protect\hyperlink{working-on-your-data}{versioning tool}.
+\item
+  Be consistent!
+\end{itemize}
+
+\hypertarget{examples}{%
+\section{Examples}\label{examples}}
+
+\begin{verbatim}
+ace_meteorology_data_20170234-120000.csv
+\end{verbatim}
+
+\begin{itemize}
+\tightlist
+\item
+  ace is the overarching project
+\item
+  meteorology is the sub-project
+\item
+  data signified that this is data rather than documentation
+\item
+  20170234-120000 is the first timestamp of data in the file
+\item
+  .csv is the file type (comma-separated values)
+\end{itemize}
+
+\begin{verbatim}
+ace_meteorology_ProcessedWindData_201701.csv
+\end{verbatim}
+
+\begin{itemize}
+\tightlist
+\item
+  ace is the overarching project
+\item
+  meteorology is the sub-project
+\item
+  ProcessedWindData is information about the data contained in the file
+\item
+  201701 is the subset of data in the file (only data from January 2017)
+\item
+  .csv is the file type (comma-separated values)
+\end{itemize}
+
+\hypertarget{references-2}{%
+\section{References}\label{references-2}}
+
+Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009).
+Some Simple Guidelines for Effective Data Management, Ecological Society
+of America, 90(2), pp.~205--214. doi:
+\href{https://doi.org/10.1890/0012-9623-90.2.205}{10.1890/0012-9623-90.2.205}.
+
+\hypertarget{data-file-formats}{%
+\chapter{Data file formats}\label{data-file-formats}}
+
+The format of the files you use to store data and documentation will
+directly impact how this information can be used by yourself and others
+in the future (Stanford Library, 2020)
+
+Using open data file formats helps to ensure the longevity of datasets
+(Borer et al., 2009). Open file formats are well-documented and easy to
+read by a variety of software and are more future-proof. Using file
+formats that are closed and specific to a certain piece of software
+(proprietary), have a higher probability of becoming unreadable in the
+future. As software versions change, they are not always backwards
+compatible, meaning that a file produced ten years ago may no longer be
+readable. Trends also change and now-common software applications may
+not be widely used in the future.
+
+\hypertarget{handy-tips-2}{%
+\section{Handy tips}\label{handy-tips-2}}
+
+File formats should be (as described by MIT information on storing your
+data, CC BY-NC):
+
+\begin{itemize}
+\tightlist
+\item
+  open and documented
+\item
+  commonly used by the research community
+\item
+  unencrypted
+\item
+  uncompressed
+\item
+  use standard representation (ASCII, Unicode)
+\end{itemize}
+
+For tabular data:
+
+\begin{itemize}
+\tightlist
+\item
+  CSV files are an easy solution if you have minimal metadata contained
+  within the file. Otherwise HDF5 is a good option.
+\item
+  if converting data from a proprietary format to an open format, ensure
+  that no data or meaningful information is lost. If this is going to be
+  the case, it is worth considering keeping both copies and thoroughly
+  document the proprietary software needed to create and read the
+  proprietary files (name, version, operating system; DataONE).
+\end{itemize}
+
+For documentation:
+
+\begin{itemize}
+\tightlist
+\item
+  plain text (TXT) files are simple and easily read.
+\item
+  for structured information, you could consider ODF, LaTeX or Markdown
+  for example.
+\item
+  tools such as \href{https://frictionlessdata.io/}{Frictionless Data}
+  are very useful for providing machine-readable metadata about your
+  datasets.
+\end{itemize}
+
+For other types of data (such as media or geospatial, for example)
+consult EPFL's
+\href{https://www.epfl.ch/campus/library/wp-content/uploads/2019/09/EPFL_Library_RDM_FastGuide_All.pdf\#page=4}{Research
+Data Management Fast Guide}.
+
+\hypertarget{useful-links}{%
+\section{Useful links}\label{useful-links}}
+
+Page 4 of EPFL's
+\href{https://www.epfl.ch/campus/library/wp-content/uploads/2019/09/EPFL_Library_RDM_FastGuide_All.pdf\#page=4}{Research
+Data Management Fast Guide} has a useful summary of appropriate file
+formats to use for different types of data.
+
+Frictionless Data
+\href{https://specs.frictionlessdata.io/table-schema/}{table schema} and
+\href{https://specs.frictionlessdata.io/data-package/}{data package}
+schemas are very useful for describing tabular data and datasets
+respectively.
+
+\hypertarget{references-3}{%
+\section{References}\label{references-3}}
+
+Blumer, E.N., Chaptinel, J.J., Masson, A., Reichler, F., Samath, S.,
+Varrato, F. and Milfort, F. (2019). EPFL Library Research Data
+Management Fastguides. Zenodo. doi:
+\href{https://doi.org/10.5281/zenodo.3327830}{10.5281/zenodo.3327830}
+
+DataONE. Document and store data using stable file formats.
+\emph{DataONE}. Retrieved from
+\url{https://old.dataone.org/best-practices/document-and-store-data-using-stable-file-formats}
+{[}Accessed on 24 July 2020{]}
+
+MIT. Formats. \emph{Data management}. Retrieved from
+\href{https://libraries.mit.edu/data-management/store/formats/}{https://libraries.mit.edu/data-management/store/formats}
+{[}Accessed on 24 July 2020{]}
+
+Stanford Library. Best practices for file formats. \emph{Stanford
+Libraries}. Retrieved from
+\url{https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats}
+{[}Accessed on 24 July 2020{]}
+
+\hypertarget{data-backup}{%
+\chapter{Data backup}\label{data-backup}}
+
+Ensuring you have several reliable copies of your data avoids data loss
+and gives you peace of mind. Think carefully about the type of
+\protect\hyperlink{storing-data}{data storage} you use for your backups.
+
+It is important to remember that if you are working in the field, your
+backup set-up and schedule will differ from your backups that are done
+of other data and when working back at your institution. This is covered
+more detail in \protect\hyperlink{before-you-go}{planning} and
+\protect\hyperlink{in-the-field}{working in the field} sections of the
+guide.
+
+\hypertarget{handy-tips-3}{%
+\section{Handy tips}\label{handy-tips-3}}
+
+Make sure:
+
+\begin{itemize}
+\tightlist
+\item
+  you have at least two, preferably three or more
+  \protect\hyperlink{how-much-and-how-often}{copies} of your data;
+\item
+  data are backed up on at least two different
+  \protect\hyperlink{storing-data}{types of media}, particularly for
+  preservation purposes, such as institution storage, cloud storage,
+  external hard drives;
+\item
+  that as far as possible, backups are automated. This avoids potential
+  mistakes, minimises the chances of data loss, makes it much easier to
+  do (it is less of a chore) and ensures the backups are always done in
+  the same way;
+\item
+  data are backed up on a
+  \protect\hyperlink{how-much-and-how-often}{regular basis}, but
+  particularly during collection and after making any changes;
+\item
+  that backed up versions of your data are identical to the primary
+  copy. Whilst
+  \protect\hyperlink{checking-and-restoring-backups}{checking} that
+  files have been copied, even if they are listed in the secondary
+  location, using checksums will confirm they have been copied
+  correctly;
+\item
+  that you can easily
+  \protect\hyperlink{checking-and-restoring-backups}{restore} your
+  backups;
+\item
+  decide on a \protect\hyperlink{storing-data}{directory structure} and
+  \protect\hyperlink{file-naming}{file naming} convention for your data
+  and stick to it. Making changes to these (unless absolutely necessary)
+  can create problems with backups because it is easy to lose track of
+  what has been copied and what hasn't, which is the latest version and
+  so on;
+\item
+  if you will be backing up tens of GB or more of data, bear in mind how
+  long a backup will take and bear that in mind when deciding how you
+  will arrange your backup schedule.
+\end{itemize}
+
+\hypertarget{creating-a-backup-schedule}{%
+\section{Creating a backup schedule}\label{creating-a-backup-schedule}}
+
+\hypertarget{how-much-and-how-often}{%
+\subsection{How much and how often}\label{how-much-and-how-often}}
+
+Think carefully about how often you want to backup your data and if you
+will do full backups each time, or only partial backups for files that
+have changed. Don't forget that your documentation, code, plots and
+other associated files should also be backed up alongside the data.
+Automating your backups will make everything much simpler and help to
+avoid mistakes.
+
+Arguably it is much simpler to do a full backup of your files each time
+and retain these for a certain period of time. If you are not working on
+the data or associated files any longer, then as long as the backups are
+secure and regularly checked, this could be done every month, for
+example.
+
+If however you are working on your files on a daily basis, having daily
+backups can save a lot of time if you notice an issue. In this case, you
+may consider to do daily backups of only a subset of the files.
+
+\hypertarget{size-of-backup}{%
+\subsection{Size of backup}\label{size-of-backup}}
+
+It is important to consider how much space each backup will take and
+therefore how much total space you need available for all of your
+backups. Data volume and also the number of files will both affect how
+long it takes to do a backup.
+
+\hypertarget{retention-of-backups}{%
+\subsection{Retention of backups}\label{retention-of-backups}}
+
+If using managed data storage such as from your institution, be sure to
+understand how often backups are done and for how long these are
+retained. It is also important to be able to
+\protect\hyperlink{file-restoration}{restore your files easily}.
+
+For your regular backups, depending on how often you do your backups,
+you might decide to have a backup cycle where you do one per month and
+retain them for six months, for example.
+
+If data are being stored for preservation purposes then you need to take
+into account how the data have been collected, if they have been
+published openly anywhere and their importance for the future. This
+should be planned in a data management plan.
+
+Consider also that you might not realise it now, but these data could be
+part of a long-term study in the future. For example, you might start
+collecting a set of time series data for a one-off project. If this
+project gets another set of funding for a second year in a row, you will
+then have amassed two years' worth of data. Who knows if you might end
+up then setting up an observing programme at the same site with
+automated monitoring for the next ten years. Being able to read and
+access the initial ``one-off'' dataset years into the future can provide
+an opportunity for a publication that you might not originally have
+envisaged right back at the beginning.
+
+\hypertarget{documenting-backups}{%
+\section{Documenting backups}\label{documenting-backups}}
+
+It is important to document where the files have been backed up, when,
+how often, as well as how they can be accessed and restored if
+necessary. Think of this as a backup for your future self - it might be
+a whole field season before you look back at how you organised the
+backups, so after a long time away, it is useful to pick up a short
+README file with this information and be able to restore backed-up data
+straight away.
+
+\hypertarget{checking-and-restoring-backups}{%
+\section{Checking and restoring
+backups}\label{checking-and-restoring-backups}}
+
+\hypertarget{checksums}{%
+\subsection{Checksums}\label{checksums}}
+
+It is important to check the backup when it has been completed to ensure
+it contains the files you expect. Checksums are a unique identifier of a
+file: if it's content changes in any way, then it's checksum also
+changes. Comparing checksums of your original files and the backup is a
+very handy way to ensure that the backup contains the files you expect.
+
+\href{https://en.wikipedia.org/wiki/Md5sum}{md5sum} and
+\href{https://en.wikipedia.org/wiki/Sha1sum}{sha1sum} are two examples
+of computer programs that compute checksums of files and would be
+suitable for this purpose.
+
+\hypertarget{file-restoration}{%
+\subsection{File restoration}\label{file-restoration}}
+
+Storage media can become obsolete, file permissions and access can be
+changed accidentally, and subscriptions to services are sometimes not
+renewed. There can be many possible ways in which file backups are lost.
+Regularly checking that you can still read and restore the data is
+important to ensure that there are no problems.
+
+Choosing a simple, well-understood, transparent and multi-platform tool
+will often make file restoration much simpler.
+
+If any of your data were produced using proprietary software it is
+particularly important to ensure that you can still read them on a
+regular basis. You may need a specific piece of software that requires a
+license (do you still have the license?) or even a specific version of
+software that might become outdated. Consider outputting data into an
+\protect\hyperlink{data-file-formats}{open, documented format} such as
+txt or csv - be aware that in this process you may lose some information
+or data, so it is always good practice to keep both sets of files.
+
+\hypertarget{backup-tools}{%
+\section{Backup tools}\label{backup-tools}}
+
+Many tools are available to help create backups. It is worth spending
+time finding one that meets your needs taking into account future, as
+well as current, needs. Of course it is essential to fully understand
+how the data are being saved and how they can be recovered.
+
+Your institution may have tools or subscriptions to tools that can help.
+Data managers or librarians within your institution may also be able to
+offer recommendations.
+
+Using a multi-platform tool (usable by Windows, Mac and Linux users)
+offers higher resilience, ensuring more possibilities for accessing the
+data in the future and allow access to other team members.
+
+\hypertarget{references-4}{%
+\section{References}\label{references-4}}
+
+The University of Edinburgh. MANTRA Research Data Management Training.
+Storage \& security. Retrieved from
+https://mantra.edina.ac.uk/storageandsecurity/ {[}Accessed on 28 July
+2020{]}.
+
+Wikipedia. Checksum. \emph{Wikipedia The Free Encyclopedia}. Retrieved
+from \url{https://en.wikipedia.org/wiki/Checksum} {[}Accessed on 28 July
+2020{]}.
+
+Wikipedia. md5sum. \emph{Wikipedia The Free Encyclopedia}. Retrieved
+from \url{https://en.wikipedia.org/wiki/Md5sum} {[}Accessed on 15
+September 2020{]}.
+
+Wikipedia. sha1sum. \emph{Wikipedia The Free Encyclopedia}. Retrieved
+from \url{https://en.wikipedia.org/wiki/Sha1sum} {[}Accessed on 15
+September 2020{]}.
+
+\hypertarget{working-on-your-data}{%
+\chapter{Working on your data}\label{working-on-your-data}}
+
+Here we focus on ensuring data security (not losing raw or processed
+data), integrity (not changing raw data files) and capturing the
+provenance of datasets.
+
+Careful recording of how a dataset has been produced is important
+firstly so that you or someone else can understand what has been done.
+Documenting steps as you go along is a useful reminder for when it comes
+to writing up your work for publication or for when you go back to what
+you were doing after a long field season away. Making this information
+clearly available alongside the dataset to someone else such as a future
+user of your data, would allow them to reproduce your work.
+Reproducibility is becoming ever more important to ensure scientific
+validity (Peng, 2012).
+
+\hypertarget{raw-data}{%
+\section{Raw data}\label{raw-data}}
+
+Your primary copy of the data, known as ``raw'' data, is that which
+comes directly from the instrument, sample analysis, or primary
+observation. This raw data should be saved as it is, backed up and aside
+from being copied elsewhere, \textbf{should never be modified}. The
+primary copy of the raw data should have read-only access so it can
+never be altered inadvertently. Never reorganise the primary copy of raw
+data files.
+
+\hypertarget{work-on-a-copy-of-your-raw-data}{%
+\section{Work on a copy of your raw
+data}\label{work-on-a-copy-of-your-raw-data}}
+
+In preparation for working on the data, performing quality checking,
+applying calibrations, or indeed making any change whatsoever to the
+data file, make a copy of the raw data and ensure you work on the copy.
+Ensuring you maintain a ``pristine'' version of the raw data is
+imperative: throughout the analysis process it is possible to discover
+inconsistencies and errors that may require you to go back to the raw
+data files in order to find their origins. Any changes that have
+subsequently been made may mean that it is then impossible to track down
+the origins of these problems.
+
+\hypertarget{versions-of-files}{%
+\section{Versions of files}\label{versions-of-files}}
+
+Using scripted languages to do any file manipulation is the ideal way to
+record what you have done to data files and demonstrate how a
+preliminary dataset has been created. Steps can easily get lost,
+forgotten or critical errors introduced without you realising (eg.
+Ziemann et al., 2016), if using spreadsheets or making direct changes.
+If you do use such methods, maintaining full documentation about every
+step of the processing and outputting different versions of the dataset
+at crucial stages is a way to ensure you can demonstrate the provenance
+of a dataset.
+
+When working on processing, quality checking and making other changes to
+produce the preliminary dataset, creating different versions of the
+files after each step rather than overwriting files, is a valuable way
+of ensuring you can follow all steps that have been undertaken and allow
+you to go back to a certain place if you find errors or want to change
+your methods.
+
+File versions can be named using the date (in the format YYYYMMDD) or
+version numbers, such as \texttt{v01\_01}, \texttt{v01\_02}. Including
+the date in this format, or version numbers that have leading zeros
+ensure that files are listed in order when viewing them.
+
+\protect\hyperlink{backing-up-data}{Backups} of any edited files should
+be done on a regular basis.
+
+\hypertarget{versioning-tools}{%
+\subsection{Versioning tools}\label{versioning-tools}}
+
+\begin{itemize}
+\tightlist
+\item
+  Git
+\item
+  Git-LFS
+\end{itemize}
+
+\href{https://github.com/}{Github} is commonly used as a platform for
+software versioning and is becoming more widely used for versioning of
+other non-binary files as well.
+
+\hypertarget{recording-the-provenance-of-your-data}{%
+\section{Recording the provenance of your
+data}\label{recording-the-provenance-of-your-data}}
+
+It is natural to keep notes of what you have done to data so that when
+writing up publications, you are able to explain your methods. It is
+often impossible to repeat data collection, which in polar research is
+also often extremely expensive. This ``original'' data is considered as
+\protect\hyperlink{raw-data}{raw} and should be kept as such. But any
+\protect\hyperlink{work-on-a-copy-of-your-raw-data}{work that is done on
+a copy of this raw data} should be carefully recorded.
+
+Journals are more and more asking for all supporting documentation,
+code, data and information about how plots and figures were generated,
+so organising to capture the full provenance of your data and research
+paper will save you time when you come to publish.
+
+\begin{itemize}
+\tightlist
+\item
+  Wherever possible, use scripts to do any manipulation of data, for
+  applying algorithms, quality-checking and any other processes that
+  work towards your final, output dataset. Scripts can be modified
+  easily if you spot a mistake and then re-run, rather than having to
+  run through all of your manual steps again.
+\item
+  Backup and keep different
+  \protect\hyperlink{versioning-tools}{versions} of your code so that
+  you can see where possible errors are introduced into your data or
+  processing.
+\item
+  Make sure you also document what you are doing: clearly state
+  references to algorithms, which software you are using (including the
+  version) as well as which decisions you have taken and why.
+\item
+  Ideally, you should be able to record the set-up of the computing
+  environment that you have used to run the scripts: include details of
+  the operating system, package names and versions.
+\item
+  Always keep data and code that produces plots: this could not only
+  save you time if you spot a mistake you want to correct but it could
+  be required to publish it in a journal.
+\end{itemize}
+
+Refer to the \protect\hyperlink{metadata}{metadata} section for full
+details of what information should be captured to properly describe the
+provenance of your data and samples.
+
+\hypertarget{capturing-data-provenance-tools}{%
+\subsection{Capturing data provenance
+tools}\label{capturing-data-provenance-tools}}
+
+\protect\hyperlink{versioning-tools}{Versioning tools} are very handy
+for making incremental improvements to code and even versions of data in
+the case of Git-LFS.
+
+Some tools also exist which allow you to record exactly what has
+happened to your dataset, recording its provenance.
+
+\begin{itemize}
+\tightlist
+\item
+  RENKU \url{https://datascience.ch/renku/}
+\item
+  Whole Tale \url{https://wholetale.org/}
+\end{itemize}
+
+\hypertarget{references-5}{%
+\section{References}\label{references-5}}
+
+Peng R. D. (2011). Reproducible research in computational science.
+Science (New York, N.Y.), 334(6060), 1226--1227. doi:
+\href{https://doi.org/10.1126/science.1213847}{10.1126/science.1213847}
+
+Ziemann, M., Eren, Y., \& El-Osta, A. (2016). Gene name errors are
+widespread in the scientific literature. Genome Biology, 17(1), 177.
+doi:
+\href{https://doi.org/10.1186/s13059-016-1044-7}{10.1186/s13059-016-1044-7}
+
+\hypertarget{collecting-samples}{%
+\chapter{Collecting samples}\label{collecting-samples}}
+
+Obtaining accurate results from your experiment when analysing samples,
+depends on ``proper collection, processing and handling of samples''
+(Smith et al., 2015), planning for which begins before sample
+collection.
+
+Our main aims when considering good practice for collection of samples
+are:
+
+\begin{itemize}
+\tightlist
+\item
+  accurate labelling of samples;
+\item
+  quickly identifying or finding a sample;
+\item
+  matching it to any documentation or metadata about how it was
+  collected.
+\end{itemize}
+
+Here we focus on numbering samples and recording information about their
+collection.
+
+\hypertarget{numbering-samples}{%
+\section{Numbering samples}\label{numbering-samples}}
+
+Carefully planned sample numbers will make it much easier to meet our
+aims above. Keep numbers as simple as possible to avoid mistakes and
+confusion.
+
+\hypertarget{requirements-from-other-partners}{%
+\subsection{Requirements from other
+partners}\label{requirements-from-other-partners}}
+
+If your samples belong to a larger project, make yourself aware of any
+requirements that should be met. All projects will need to ensure that
+sample numbers are unique, therefore you might be required to add a
+specific prefix or suffix to identify your samples from those of another
+part of the project.
+
+The laboratory or organisation where the samples are going to be stored
+and / or analysed may also have their own requirements for numbering.
+
+Making yourself aware of these requirements in advance will make sure
+you are not caught out having to make amendments not only to the numbers
+written on the samples themselves, but your documentation and metadata
+as well.
+
+\hypertarget{unique-identification-number-for-each-sample}{%
+\subsection{Unique identification number for each
+sample}\label{unique-identification-number-for-each-sample}}
+
+Each sample should have a unique identification number written on it -
+don't just write a short version of a longer sample number that could
+easily be confused if more than one sample from your field campaign (or
+the wider project) may end up with the same number.
+
+This unique identification number will then ``link'' that physical
+sample to the information that is recorded about its collection
+(\protect\hyperlink{recording-information-about-sample-collection-metadata}{metadata}).
+
+\hypertarget{duplicate-samples}{%
+\subsection{Duplicate samples}\label{duplicate-samples}}
+
+In some experiments, more than one sample will be taken at the same time
+and under the same conditions in order to corroborate results. These
+samples may be known as ``duplicates'' (or ``triplicates'' in the case
+of three, and so on). It is important to be able to distinguish between
+these samples.
+
+\hypertarget{further-considerations}{%
+\subsection{Further considerations}\label{further-considerations}}
+
+\begin{itemize}
+\tightlist
+\item
+  The space that you have on your sample container.
+\item
+  You might be able to label containers before sample collection - be
+  very aware of mistakes that can be made if for some reason you need to
+  put a sample in the ``wrong'' or a ``wrongly labelled'' container.
+\item
+  Some groups may use a bar coding system to record and label samples.
+  There are various costs associated with setting up and maintaining
+  such a system, but it may be worth consideration and the investment if
+  you are going to be collecting thousands of samples (Copp et al.,
+  2014).
+\end{itemize}
+
+\hypertarget{labelling}{%
+\section{Labelling}\label{labelling}}
+
+Label containers directly using permanent waterproof marker pens, or on
+an adhesive label where necessary. Never solely label the cap of a
+container: the body of the container should always be the primary label
+(Smith et al., 2015).
+
+For very small containers, it might be necessary to place the label on a
+small piece of appropriate material (to ensure neither the sample nor
+the label are damaged) inside the container.
+
+If working with alcohol for sample preservation, use pencil to label
+your samples.
+
+Carefully consider how your samples are going to be stored and
+transported to make sure they will not come into contact with any
+chemicals or conditions that may damage the labelling.
+
+\hypertarget{recording-information-about-sample-collection-metadata}{%
+\section{\texorpdfstring{Recording information about sample collection
+(\protect\hyperlink{metadata}{metadata})}{Recording information about sample collection (metadata)}}\label{recording-information-about-sample-collection-metadata}}
+
+Without \protect\hyperlink{metadata}{information about how, where and
+when samples are collected, stored, processed and curated}, it is not
+possible to interpret results correctly. Recording this information,
+known as \protect\hyperlink{metadata}{\emph{metadata}}, is essential and
+should be considered as the important as the samples themselves.
+
+Recording sample contents is essential: this information may be required
+by permitting authorities and border control when transporting samples
+back for analysis.
+
+\hypertarget{references-6}{%
+\section{References}\label{references-6}}
+
+Copp, A. J., Kennedy, T. A. and Muehlbauer, J. D. (2014) `Barcodes Are a
+Useful Tool for Labeling and Tracking Ecological Samples', Ecological
+Society of America, 95(3), pp.~293--300. doi:
+\href{https://doi.org/10.1890/0012-9623-95.3.293}{10.1890/0012-9623-95.3.293}.
+
+Smith, P. G., Morrow, R. H. and Ross, D. A. (eds) (2015) Field trials of
+health interventions: a toolbox. 3rd edn. Oxford: Oxford University
+Press.
+
+\hypertarget{field-guide}{%
+\part{Field guide}\label{field-guide}}
+
+\hypertarget{introduction-1}{%
+\chapter{Introduction}\label{introduction-1}}
+
+This section provides a guide to good data management for undertaking
+fieldwork. It is split into three distinct sections: planning before you
+go, whilst in the field, and things to consider upon your return from
+the field.
+
+Within in each section, we consider whether you will be collecting data
+from an instrument, data by hand or collecting samples and have sets of
+key points to think about.
+
+The field guide often refers to the earlier part of this document for
+information or guidance on a particular topic, such as data storage
+media. We assume you are familiar with these earlier sections and
+recommend returning to the relevant sections when you come across these
+references to have a full grasp of the context.
+
+\hypertarget{before-you-go}{%
+\chapter{Before you go}\label{before-you-go}}
+
+Collecting data in the field requires careful thinking beforehand,
+particularly if you are setting up an instrument in a remote environment
+that is difficult to reach to troubleshoot, move out of danger or to
+recover data from when the data storage is full.
+
+The main points to plan are the same, whether you are collecting
+samples, data by hand, using an instrument to gather data in an
+automated manner, or a mixture of all of these:
+
+\begin{itemize}
+\tightlist
+\item
+  carefully plan how you \textbf{organise} your saved data or recording
+  of samples so it is well thought-out;
+\item
+  ensure you have enough \textbf{\protect\hyperlink{storing-data}{data
+  storage}} or notebooks to record data;
+\item
+  ensure you can \textbf{\protect\hyperlink{backing-up-data}{back up}}
+  your data in the field;
+\item
+  plan which \textbf{metadata} (information about data) you will record
+  about the data or sample collection;
+\item
+  understand what information you need to \textbf{document} your data or
+  sample collection thoroughly.
+\end{itemize}
+
+The sections below will lead you through these points in more detail.
+Follow the links to the relevant sections for more detailed information
+and context.
+
+\hypertarget{on-site}{%
+\section{On site}\label{on-site}}
+
+In addition to these points, it is important to find out about what
+\textbf{is} and what \textbf{is not} available to you where you might be
+undertaking your field work. This will affect how you save, backup and
+possibly access data.
+
+\hypertarget{network}{%
+\subsection{Network}\label{network}}
+
+Having a connection to the local network can be useful for having
+automated backups (if there is also storage), collaborate more easily
+with others, view your data without having to access your instrument
+(very useful in bad weather) and depending on the organisation, might
+mean your data can be backed-up directly to your institution after the
+fieldwork.
+
+\textbf{Questions to ask}:
+
+\begin{itemize}
+\tightlist
+\item
+  Do you have access to a local network? If so, is this from a computer
+  based at the site, or can you connect your computer?
+\item
+  Can your instrument be connected to the network? Is there network
+  where the instrument will be based, or do you need to think about
+  taking longer cables? Is it too far away from a network point?
+\item
+  What is the speed of the network?
+\item
+  Are network cables provided?
+\item
+  Is there someone who can assist in connecting your computer or
+  instrumentation to the network, or do you need to know how to do this?
+\end{itemize}
+
+\hypertarget{data-storage}{%
+\subsection{Data storage}\label{data-storage}}
+
+Network-attached storage may be provided and therefore would offer
+another means of managed data backup. It is likely to be more secure
+than a portable hard disk if the infrastructure is well-managed.
+
+\textbf{Questions to ask}:
+
+\begin{itemize}
+\tightlist
+\item
+  Are you able to backup data to the network-attached storage? If so,
+  what capacity would be available to you?
+\item
+  Do you have read access to look at your data?
+\item
+  Is access to read data available any time? Is this possible through
+  your computer or is it through a computer based on the site?
+\item
+  Is there someone who can assist in setting up your access to the data
+  storage, or do you need to know how to do this?
+\end{itemize}
+
+\hypertarget{power-and-electricity-supply}{%
+\subsection{Power and electricity
+supply}\label{power-and-electricity-supply}}
+
+In addition to the power supply needed for your instrumentation, you may
+need to consider what is available to power extra data storage and
+associated UPSs (uninterrupted power supply; keeps instrumentation
+running using batter power for a short period if the main supply fails).
+
+\hypertarget{support}{%
+\subsection{Support}\label{support}}
+
+Some camps or bases might be able to provide some support or have strict
+rules about connecting to local networks. It really helps to understand
+these before you arrive.
+
+\hypertarget{preparing-for-data-collection-from-an-instrument}{%
+\section{Preparing for data collection from an
+instrument}\label{preparing-for-data-collection-from-an-instrument}}
+
+Whilst planning, think carefully about the following questions:
+
+\begin{itemize}
+\tightlist
+\item
+  how much data are you planning to collect?
+\item
+  do you have enough data storage for the planned data collection, plus
+  extra for unforeseen circumstances?
+\item
+  how will you organise the data files?
+\item
+  how will the data be backed-up in the field?
+\item
+  will you be able to access the data during collection?
+\item
+  what do you need to know about how your data were collected?
+\end{itemize}
+
+\hypertarget{how-much-data-are-you-planning-to-collect}{%
+\subsection{How much data are you planning to
+collect?}\label{how-much-data-are-you-planning-to-collect}}
+
+It is important to have a good understanding of your instrument,
+associated software and how the files are saved.
+
+\textbf{Which data do I need to save?}
+
+Some software automatically writes ``false'' data from variables which
+is not actually being collected, and therefore should not be recorded in
+the data file. This easily causes confusion for yourself and others in
+the future, wondering what the data are. Make sure you know how to
+``select'' which variables are saved into the data files.
+
+If data storage is limited, maybe you need to consider which periods of
+time are more crucial (i.e.~data collection only at night, or for five
+minutes every hour, one-minute resolution instead of one-second). All of
+this should be considered with your experiment in mind to ensure it is
+not compromised. Don't forget to take into account local sunrise and
+sunset times if this is an important factor, particularly if the
+instrument is going to be installed on a moving platform such as a ship.
+
+\textbf{Do I really understand how big each data file will be?}
+
+File sizes vary depending on the configuration of the instrument, the
+number of variables recorded, and importantly, the data themselves
+(i.e.~more background noise can produce higher figures and therefore
+more bytes). Ensure you configure the instrument for your needs in case
+settings have changed since you last used it. Have a proper test-run
+before going into the field with the same settings you will use in the
+field and compare test data with other similar data wherever possible.
+
+\textbf{How do I calculate how much data I am going to collect?}
+
+Once you know how much a data file produces and how many data files you
+will produce (one per hour, one per day?), think about how many MB, GB
+or TB per day that you will generate, then multiply that calculation by
+the number of days you expect to be collecting data for.
+
+Always round estimates up. It is better to overestimate.
+
+\textbf{Do I have enough data storage for the planned data collection,
+plus extra for unforeseen circumstances?}
+
+You will likely need to undertake initial set-up tests in the field
+before or during deployment which could use up extra storage space. This
+is important to do, so budget space accordingly.
+
+In the event of bad weather and not being able to access the instrument
+or other unforeseen circumstances such as your field season being
+extended, data may be collected over a longer period. Don't miss out on
+the opportunity for additional or opportunistic data collection if it
+becomes available, just because you don't have big enough data storage!
+
+Primary storage, that is where the raw copy of your data will be saved
+initially, should be of a volume that more than covers the data that you
+plan to collect. Always ensure you have a buffer of at least 20 \%,
+preferably more, and test how the files are stored thoroughly
+beforehand. If in doubt, have more storage rather than less.
+
+\textbf{Metadata and documentation}
+
+More information will follow below about planning for recording
+\protect\hyperlink{metadata}{metadata} and
+\protect\hyperlink{documentation}{documentation} in the field, but we
+must point out here, that it is important also to ensure you have enough
+data storage for these important aspects of your data collection. This
+could include spreadsheets containing notes and supplementary data,
+photographs of experiment setups, digitised hand-written notes or
+anything else that could be useful. Use of photographs and video could
+be particularly large in terms of data storage and backups, so it is
+worth bearing in mind.
+
+\hypertarget{data-storage-media}{%
+\subsection{Data storage media}\label{data-storage-media}}
+
+Carefully consider the \protect\hyperlink{storing-data}{hardware} on
+which your data will be stored, ensuring that it can withstand the
+conditions where it will be. If you don't know what to expect, find out
+from others that have been on a similar field trip or have previously
+been to the same location.
+
+At permanent field camps, bases or on ships, familiarise yourself with
+what is and just as importantly, what is not available to you for data
+storage. Consider:
+
+\begin{itemize}
+\tightlist
+\item
+  network (your access, speed, security arrangements and restrictions)
+\item
+  internet connection (your access and bandwidth)
+\item
+  data storage - this might or might not be available, but you still
+  need some portable media or a good internet connection to be able to
+  take the data home and do backups
+\end{itemize}
+
+See the main section about \protect\hyperlink{storing-data}{data storage
+media} and the earlier section of this chapter about
+\protect\hyperlink{on-site}{what might be available to you on site}, for
+more information.
+
+If your instrumentation and data storage are connected to an electrical
+supply, maybe you need to consider an external power supply such as a
+UPS, to keep them running in case of power loss. In this case, find out
+details of the
+\protect\hyperlink{power-and-electricity-supply}{electricity supply}
+where your instrumentation and data storage will be located, to ensure
+compatibility.
+
+\hypertarget{organising-data-files}{%
+\subsection{Organising data files}\label{organising-data-files}}
+
+Think carefully about the
+\protect\hyperlink{directory-structure}{directory structure} and
+\protect\hyperlink{file-naming}{filenames} you use, particularly if you
+are collecting data automatically. Refer to the relevant sections on
+this for more information and where possible, set up the instrument
+accordingly beforehand.
+
+\hypertarget{backing-up-data-in-the-field}{%
+\subsection{Backing up data in the
+field}\label{backing-up-data-in-the-field}}
+
+Always ensure you can \protect\hyperlink{backing-up-data}{back up} your
+data and metadata whilst in the field. Plan carefully to make sure these
+backups are automated as far as possible, making it much less of a chore
+and harder to make a mistake. Test out each method of backup carefully
+before you leave to ensure the method and the hardware (if applicable)
+work properly. Don't forget to test recovering backups as well.
+
+Depending on the circumstances, backups could be:
+
+\begin{itemize}
+\tightlist
+\item
+  a number of \protect\hyperlink{portable-media}{portable hard drives},
+  held by different members of the team wherever possible;
+\item
+  if others are coming and going to a field site during the season,
+  consider asking a responsible person to carry a copy of the data back
+  to your institution. This gives you a copy in a different location and
+  means it could also be placed on secure networked storage as an extra
+  precaution. It would be particularly useful if weather conditions at
+  the field site make it difficult to keep portable media safe and in
+  good condition;
+\item
+  on network-attached storage if accessible;
+\item
+  by sending files using a mobile or satellite connection from the
+  instrument (will depend on situation and cost) to cloud (or other)
+  storage.
+\end{itemize}
+
+Using on-site options such as network-attached storage or sending files
+via the Internet are really a bonus option, so always plan to have a
+backup plan in place, in case this doesn't work out.
+
+\hypertarget{accessing-data-in-the-field}{%
+\subsection{Accessing data in the
+field}\label{accessing-data-in-the-field}}
+
+Being able to access your data in the field is extremely useful and
+cannot be underestimated. In particular it allows you to:
+
+\begin{itemize}
+\tightlist
+\item
+  check the instrument is running as expected;
+\item
+  confirm data files are being saved as expected;
+\item
+  look for interesting features in the data that might indicate
+  problems. Knowing about them in near-real time can be hugely
+  advantageous when quality checking and processing data.
+\end{itemize}
+
+Setting up quick visualisations of data files saves a lot of time and
+can tell you a lot with a quick glance.
+
+If you are staying with your instrumentation, it is very likely you will
+be able to set-up the instrument, do some tests and maybe see the data
+being collected. Checking the data files periodically means you can spot
+obvious issues with the instrument early and ensure data are being saved
+as you expected (parameters, file format, frequency of records).
+
+If however you are setting up your instrumentation then expecting to
+leave it for a period of time, it is worth considering what access you
+(or others) might have to it. Running initial tests whilst still with
+the instrument in the field is essential. Once you are sure data are
+being collected as you expected, then it is useful to be able to access
+data periodically from wherever you are. This could be across a network
+(for example if you are on a ship or at a base) or even using mobile or
+satellite communications if the instrument is isolated. Even if you are
+not able to see \emph{all} of the data being collected, a small daily
+file with a subset of the data could be enough for you to check that
+everything is going well or flag up issues. Of course this is of more
+use if you or someone else is then able to go and fix the problem.
+
+For instruments that are very isolated and there is no possibility of
+being able to access them, consider if there is a way to remotely
+connect to the instrument. This might offer the possibility to restart
+it for example, or change crucial settings. Set this up and test
+thoroughly beforehand.
+
+\hypertarget{preparing-for-recording-data-by-hand}{%
+\section{Preparing for recording data by
+hand}\label{preparing-for-recording-data-by-hand}}
+
+If recording data by hand directly into a notebook, think carefully what
+you would like to record. Keep separate notes (documentation and
+\protect\hyperlink{metadata}{metadata}) about how your measurements will
+be recorded, units and any parameter abbreviations you will use in the
+field.
+
+\hypertarget{data-backup-and-digitisation}{%
+\subsection{Data backup and
+digitisation}\label{data-backup-and-digitisation}}
+
+Scan, photograph or type-up your hand-collected data and notes as soon
+as possible in the field as a form of backup but also to make it easier
+to check your data collection.
+
+If using a spreadsheet into which your hand-recorded notes will be
+copied, prepare the file template in advance and have a test-run of data
+collection and digitising of data. Where possible and appropriate, use
+drop-down lists of specified terms within your spreadsheet
+(\href{https://www.excelefficiency.com/create-drop-down-lists-in-excel/}{example
+for Excel}) to keep data entry consistent. This will allow quick data
+validation and save a lot of time cleaning data. As when collecting data
+from an instrument, early digitisation also offers the opportunity to
+produce some quick visualisations or numerical checks of data.
+
+If you will not be able to use a laptop in the field perhaps due to lack
+of electricity supply, then consider other methods. This could be taking
+a camera and carefully photographing your notes and data. Photographs of
+hand-written notes (or scans once you get back to your institution) are
+very useful in case you happen to mistranscribe some information and
+need to go back to them, as well as being a vital backup.
+
+See the section above about
+\protect\hyperlink{how-much-data-are-you-planning-to-collect}{planning
+data storage} to ensure you are prepared.
+
+\hypertarget{preparing-for-sample-collection}{%
+\section{Preparing for sample
+collection}\label{preparing-for-sample-collection}}
+
+The main things to prepare if you are going to be collecting samples
+are:
+
+\begin{itemize}
+\tightlist
+\item
+  a carefully planned numbering and labelling scheme;
+\item
+  a plan of what metadata you want to know about the samples you have
+  collected;
+\item
+  what additional documentation you will maintain;
+\item
+  how your metadata files are going to be stored and backed up whilst in
+  the field;
+\item
+  check permit requirements: they may insist on certain information
+  being kept about the samples and it is likely you will need to report
+  what you have collected. Be aware of this before you go to avoid any
+  doubt in the field;
+\item
+  check border crossing and entry requirements for the transport of your
+  samples on return: it is likely you will need to present a list of
+  samples with information about what they contain. If you are able to
+  maintain this record during your fieldwork it will save a lot of time
+  at the end of your fieldwork when you are in a rush to pack. However
+  it is important to carefully check and understand exactly what you
+  need before you go - at a remote field site you might not be able to
+  access this information.
+\end{itemize}
+
+\hypertarget{metadata}{%
+\section{\texorpdfstring{\protect\hyperlink{metadata}{Metadata}}{Metadata}}\label{metadata}}
+
+Prepare carefully how you are going to record
+\protect\hyperlink{metadata}{metadata} and see this section of the guide
+for detailed documentation about what information should be recorded.
+
+The most important thing is to be able to determine where and when you
+collected your data or samples.
+
+\hypertarget{key-points-where}{%
+\subsection{Key points: ``where''}\label{key-points-where}}
+
+Make sure you know in advance:
+
+\begin{itemize}
+\tightlist
+\item
+  how you are going to record the location - if your instrument will
+  always be in the same place you can use a hand-held GPS to record its
+  position. If you are collecting data or samples in several distinct
+  locations, a hand-held GPS will be useful to do this. If your platform
+  is moving, for example you are on a ship or an aircraft, and you are
+  constantly collecting data, you should have a device constantly
+  recording the location of the platform.
+\item
+  understand how accurate your recording of the location should be to be
+  meaningful for your experiment.
+\item
+  ensure you always have more than one source of location, particularly
+  on a moving platform.
+\item
+  be aware that local conditions such as mountainous or tree-covered
+  terrain can affect the accuracy of your location.
+\item
+  note the source of location data (device name, type, manufacturer,
+  version and serial number; see
+  \protect\hyperlink{instrumentation-and-computers}{instrumentation}
+  section below for details).
+\end{itemize}
+
+\hypertarget{key-points-when}{%
+\subsection{Key points: ``when''}\label{key-points-when}}
+
+\begin{itemize}
+\tightlist
+\item
+  it is good practice to record all science work in UTC to avoid
+  confusion with time zones.
+\item
+  depending on the accuracy required for your particular experiment,
+  ensure your timing device is set accurately. Record if you note the
+  time to the nearest day, hour, minute or second.
+\item
+  note the source of time (device name, type, manufacturer, version and
+  serial number).
+\item
+  if using networked computers or instruments, try to ensure that they
+  are all synced to ensure there is no offset.
+\item
+  if working as part of a larger project, particularly where data and
+  sample collection is simultaneous among teams, ensure you are all
+  working from the same time source.
+\item
+  properly understand if there is any offset between the instruments /
+  devices recording location, time and your data itself. If on a moving
+  platform, it is likely that you will need to match up data points to
+  the location using time.
+\end{itemize}
+
+\hypertarget{instrumentation-and-computers}{%
+\subsection{Instrumentation and
+computers}\label{instrumentation-and-computers}}
+
+Keep a detailed record of instrumentation that you use for primary and
+secondary datasets, sample collection and saving / backing up data. If
+at all possible, record this information in advance before going to the
+field and remember to take it with you.
+
+For instrumentation, record:
+
+\begin{itemize}
+\tightlist
+\item
+  name
+\item
+  type
+\item
+  manufacturer
+\item
+  version / model
+\item
+  serial number
+\end{itemize}
+
+Good documentation of instrumentation is important, particularly if
+there are any issues. Keep the details to hand in the field and with
+anyone who is able to offer support back at your institution: this makes
+it much easier to contact the manufacturer for support whilst in the
+field, or afterwards when trying to solve problems.
+
+During an expedition, it is possible that part of the instrumentation
+might change: for instance, a new sensor could be added, or swapped if
+one fails. Always ensure you record:
+
+\begin{itemize}
+\tightlist
+\item
+  date installed
+\item
+  date removed
+\item
+  details of problems (if there were any)
+\item
+  location of installation on the platform or on parent instrument
+  (e.g.~side of ship, height on mast, which part of CTD rosette)
+\item
+  which data files each instrument corresponds to
+\end{itemize}
+
+For computers and software, record:
+
+\begin{itemize}
+\tightlist
+\item
+  operating system name and version
+\item
+  software name and version
+\item
+  any particular set-up
+\end{itemize}
+
+Prepare file templates (spreadsheets are ideal) for collecting this
+information before you go in the field so nothing is forgotten.
+
+\hypertarget{documentation}{%
+\section{Documentation}\label{documentation}}
+
+Much of the specific \protect\hyperlink{metadata}{metadata} to be
+recorded has been described in detail above. Carefully prepare template
+documents that you can take and complete whilst in the field.
+
+For further documentation this can be a simple
+\protect\hyperlink{readmetxt}{readme.txt} files with headers to remind
+you which information you need to record.
+
+Notes, diagrams, photographs and any other forms of documentation should
+be backed up alongside your data.
+
+\hypertarget{travel-and-customs}{%
+\section{Travel and customs}\label{travel-and-customs}}
+
+Plan how you will get your data storage (and related) hardware to and
+from the field location with good time. Carefully check cargo
+restrictions to ensure that your hardware meets the requirements of
+carriage. Batteries that are in UPSs or other instrumentation are
+particularly regulated. Import regulations should also be carefully
+checked. Finally, don't forget to consider the regulations of countries
+through which you will be transiting, as well as your means of
+transport.
+
+Don't forget to plan for the return journey: when returning with
+portable media devices holding your carefully-collected data, think
+carefully about how you will get them back. Consider encryption of the
+device if it holds personal or sensitive data and if someone else is
+travelling back to the same location, consider carrying separate copies
+of the data.
+
+As previously discussed in the section about
+\protect\hyperlink{preparing-for-sample-collection}{preparation for
+sample collection}, it is important to understand the requirements of
+customs and other permits that are required so you can record such
+information (\protect\hyperlink{metadata}{metadata}) whilst in the
+field, avoiding a rush at the end of your field work to complete such
+documentation.
+
+\hypertarget{in-the-field}{%
+\chapter{In the field}\label{in-the-field}}
+
+\hypertarget{data-collection-from-an-instrument}{%
+\section{Data collection from an
+instrument}\label{data-collection-from-an-instrument}}
+
+Automation, careful setup and testing are key. Much of your setup for
+\protect\hyperlink{storing-data}{data storage} should already be planned
+and in place before you begin work in the field. Refer to the
+\protect\hyperlink{before-you-go}{planning} section for what to think
+about and prepare before you arrive in the field.
+
+\hypertarget{initial-setup-and-testing}{%
+\subsection{Initial setup and testing}\label{initial-setup-and-testing}}
+
+Retaining data and keeping careful notes
+(\protect\hyperlink{metadata}{metadata}) about initial setup and tests
+in the field is essential in case you notice any problems later on.
+
+Firstly check that you can read a data file. If files are saved in
+proprietary formats, then make sure you have access to the software you
+need to be able to check them carefully.
+
+Check that data files contain data for the parameters you expect in the
+correct units. Ensure the files are being saved in the
+\protect\hyperlink{directory-structure}{directory structure} and with
+the \protect\hyperlink{file-naming}{filenames} that you expect. Now is
+the time to make any necessary changes.
+
+\hypertarget{periodic-checking-of-data}{%
+\subsection{Periodic checking of data}\label{periodic-checking-of-data}}
+
+If you are able to access your data whilst in the field, take advantage
+of being able to check files are being saved correctly and that they can
+be read. Consult the software documentation for how is best to do this,
+to avoid problems which will differ between operating systems and
+software. Avoid interfering with the file-writing process, so it is best
+to test or check files that belong to a secondary copy if possible.
+
+For data that is being recorded continuously, it would be good practice
+to check files at least once a day, or more often if time allows. Events
+such as bad weather may mean you need to check the data more regularly.
+
+If you are able to visualise your data in some way, this is a very nice
+way to spot anomalies in the data which may in turn help you spot an
+instrument problem which you might subsequently be able to fix to get
+your data collection back on track.
+
+\hypertarget{backups}{%
+\subsection{\texorpdfstring{\protect\hyperlink{backing-up-data}{Backups}}{Backups}}\label{backups}}
+
+\protect\hyperlink{backing-up-data}{Backups} should be automated
+wherever possible. If this is not possible, make sure they are done on
+at least a daily basis and kept in more than one place. You should have
+at least two backups of your data.
+
+Check the integrity of your backups on a regular basis: make sure the
+files that are backed up are the same as the originals and that you can
+read them correctly.
+
+\hypertarget{handy-tips-4}{%
+\subsection{Handy tips}\label{handy-tips-4}}
+
+\begin{itemize}
+\tightlist
+\item
+  Unless you have forgotten (or would like to add) an additional
+  parameter to a dataset, do not change what is collected in a dataset
+  part way through a field campaign. This adds much unneeded complexity
+  and confusion when trying to read the data files during the
+  post-processing stages. In particular, do not change the format of
+  fields or parameter names.
+\end{itemize}
+
+\hypertarget{recording-data-by-hand}{%
+\section{Recording data by hand}\label{recording-data-by-hand}}
+
+If collecting data in a notebook by hand, it is good practice to
+\protect\hyperlink{data-backup-and-digitisation}{digitise the data} as
+soon as possible. Digitised data files, metadata and documentation
+should be considered as valuable as any other data file: consider the
+\protect\hyperlink{file-naming}{file name},
+\protect\hyperlink{directory-structure}{directory structure} and
+\protect\hyperlink{backing-up-data}{backups}.
+
+\hypertarget{backing-up-or-digitising-your-data}{%
+\subsection{\texorpdfstring{\protect\hyperlink{backing-up-data}{Backing
+up} or \protect\hyperlink{data-backup-and-digitisation}{digitising your
+data}}{Backing up or digitising your data}}\label{backing-up-or-digitising-your-data}}
+
+Ideally hand-written data should be digitised as soon as possible after
+data collection and at least once a day. A simple first backup can be
+done by photographing your notes in case the unthinkable happens and you
+lose your notebook. Recording hand-written notes in a structured manner
+such as in a spreadsheet though, cannot be underestimated and this
+should be done as regularly as possible as well (at least daily). This
+means you can embellish any shorthand you have used before you forget
+what it means, or follow up on anything you needed to query. In
+particular in cases where you might be recording species observed for
+example, you can follow up on any missing identifications before you
+forget key details. See the previous chapter about what to
+\protect\hyperlink{preparing-for-data-collection-by-hand}{prepare before
+you go} for details of what you can prepare in advance to save time in
+the field.
+
+If adding to a data file with new observations, using the date to denote
+different versions of the file is helpful e.g.,
+\texttt{project\_datatype\_observations\_YYYYMMDD.csv}
+
+Don't forget to \protect\hyperlink{backing-up-data}{backup} your
+digitised data as well.
+
+\hypertarget{sample-collection}{%
+\section{\texorpdfstring{\protect\hyperlink{collecting-samples}{Sample
+collection}}{Sample collection}}\label{sample-collection}}
+
+Record \protect\hyperlink{metadata}{metadata} about
+\protect\hyperlink{collecting-samples}{sample collection} as accurately
+and as soon as possible. Cross-checking this information is useful to
+avoid mistakes.
+
+Ensure you are able to find samples easily from your records,
+particularly if you are participating in a long field campaign.
+Recording their storage location and box / crate number is also useful
+in case you need to find them again, such as on arrival at customs. Also
+be sure to note if they are destroyed during any sample analysis that
+you undertake whilst in the field: you don't want to be searching for a
+sample that no longer exists!
+
+Finally, keep an accurate record of what is contained in each sample
+according to what is required for
+\protect\hyperlink{travel-and-customs}{permits and border entry
+requirements} and where the sample is being sent for analysis following
+the field work.
+
+\hypertarget{data-from-sample-analysis}{%
+\section{Data from sample analysis}\label{data-from-sample-analysis}}
+
+In some cases, you might collect samples in the field and then process
+them whilst still away from your home laboratory. If using
+instrumentation to process samples, please refer to the section about
+\protect\hyperlink{data-collection-from-an-instrument}{data collection
+from an instrument}.
+
+Your field setup will very much dictate how you are able to record data
+from sample analysis. If you have to record numerical values from
+processing consider if you will be able to have a laptop or computer in
+the lab, or if will you be noting the values by hand. If the former,
+then treat this as
+\protect\hyperlink{data-collection-from-an-instrument}{data collection
+from an instrument}, taking good care to regularly save and backup data
+files. If the latter, then refer to the section,
+\protect\hyperlink{recording-data-by-hand}{recording data by hand}. This
+data should be digitised as soon as possible and backed up securely.
+
+If recording further information about the samples such as identifying
+different species of plant, then please refer to the section,
+\protect\hyperlink{recording-data-by-hand}{recording data by hand}.
+
+\hypertarget{recording-metadata}{%
+\section{Recording metadata}\label{recording-metadata}}
+
+Ensure you follow the \protect\hyperlink{metadata}{metadata} guide,
+paying particular attention at this point to recording where and when
+your data and samples were collected. Metadata is most accurate when
+recorded as soon as possible - don't leave it until the end of your
+field campaign to make notes.
+
+Remember to digitise this information if you would ordinarily record it
+in a notebook and treat these files like you would any other data, using
+secure \protect\hyperlink{storing-data}{storage} and regular
+\protect\hyperlink{backing-up-data}{backups}.
+
+Take photographs of as many things as you can! Your instrument set-up,
+makes, models and serial numbers of equipment equipment, notebooks,
+field sites, laboratory setting, your notebooks and anything that could
+affect your experiment directly or indirectly. This is hugely valuable
+metadata and should be carefully
+\protect\hyperlink{backing-up-data}{backed-up}.
+
+\hypertarget{upon-your-return}{%
+\chapter{Upon your return}\label{upon-your-return}}
+
+When returning from the field, data management \textbf{priorities} would
+be to:
+
+\begin{itemize}
+\tightlist
+\item
+  backup data (data, metadata and documentation) to networked storage:
+  ensure the primary copy is read-only;
+\item
+  ensure safe storage of samples;
+\item
+  ensure safe storage of hand-written notes.
+\end{itemize}
+
+\textbf{Further considerations} will then be to:
+
+\begin{itemize}
+\tightlist
+\item
+  check metadata and documentation and add any extra information whilst
+  it is still clear in your mind;
+\item
+  document clearly where your data are backed up and how they can be
+  accessed; ;
+\item
+  organise a \textbf{copy} of your data in an area where you are able to
+  \protect\hyperlink{working-on-your-data}{work on it}.
+\end{itemize}
+
+\end{document}
