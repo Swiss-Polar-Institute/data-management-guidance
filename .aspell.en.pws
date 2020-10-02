@@ -1,4 +1,4 @@
-personal_ws-1.1 en 128 
+personal_ws-1.1 en 129 
 PLoS
 Peng
 FieldSiteA
@@ -63,6 +63,7 @@ DejaVuSerif
 setmonofont
 discoverable
 pagestyle
+newpage
 DOIs
 defaultfontfeatures
 Reichler

@@ -14,4 +14,3 @@ When returning from the field, data management **priorities** would be to:
 * organise a **copy** of your data in an area where you are able to [work on it](#working-on-your-data).
 
 
-
