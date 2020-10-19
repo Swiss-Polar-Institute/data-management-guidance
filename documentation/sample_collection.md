@@ -1,7 +1,7 @@
 
 ## Collecting samples
 
-Obtaining accurate results from your experiment when analysing samples, depends on "proper collection, processing and handling of samples" (Smith et al., 2015), planning for which begins before sample collection. 
+Obtaining accurate results from your experiment when analysing samples, depends on "proper collection, processing and handling of samples" [@smithFieldTrialsHealth2015], planning for which begins before sample collection. 
 
 Our main aims when considering good practice for collection of samples are: 
 
@@ -37,11 +37,11 @@ In some experiments, more than one sample will be taken at the same time and und
 
 * The space that you have on your sample container.
 * You might be able to label containers before sample collection - be very aware of mistakes that can be made if for some reason you need to put a sample in the "wrong" or a "wrongly labelled" container.
-* Some groups may use a bar coding system to record and label samples. There are various costs associated with setting up and maintaining such a system, but it may be worth consideration and the investment if you are going to be collecting thousands of samples (Copp et al., 2014).  
+* Some groups may use a bar coding system to record and label samples. There are various costs associated with setting up and maintaining such a system, but it may be worth consideration and the investment if you are going to be collecting thousands of samples [@coppBarcodesAreUseful2014].  
 
 ### Labelling
 
-Label containers directly using permanent waterproof marker pens, or on an adhesive label where necessary. Never solely label the cap of a container: the body of the container should always be the primary label (Smith et al., 2015).
+Label containers directly using permanent waterproof marker pens, or on an adhesive label where necessary. Never solely label the cap of a container: the body of the container should always be the primary label [@smithFieldTrialsHealth2015].
 
 For very small containers, it might be necessary to place the label on a small piece of appropriate material (to ensure neither the sample nor the label are damaged) inside the container.
 
