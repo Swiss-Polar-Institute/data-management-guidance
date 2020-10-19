@@ -1,11 +1,11 @@
 
 ## Metadata
 
-Metadata is the "data that provides information about the data" (Merriam Webster, 2020).
+Metadata is a description of the data [@mccarthyPresentedEighthInternationala, @grayScientificDataManagement2005a, @michenerMetainformationConceptsEcological2005], giving information about the "who, what, when, where, why and how" [@recknagelEcologicalInformatics2018a]. Put in other words, it is "data about data" [@fegrausMaximizingValueEcological2005].
 
-Without information about how data and samples were collected, final results cannot be interpreted correctly (Smith et al., 2015). Metadata is also documentation that is a reminder to your future self (and others) of what your data or samples are. 
+Information about a dataset quickly deteriorates over time [@michenerNONGEOSPATIALMETADATAECOLOGICAL1997a]. Metadata is documentation that is a reminder to your future self (and others) of what your data or samples are. Without information about how data and samples were collected, final results cannot be interpreted correctly [@smithFieldTrialsHealth2015].  
 
-Will you remember in 10 years what a particular acronym was? Do you remember why a sample was collected in an unexpected location? Would someone else know that a set of particular air filters may have picked up abnormally high levels of a particular particle because at the time you passed through a plume of smoke?  
+To get you thinking: will you remember in 10 years what a particular acronym was? Do you remember why a sample was collected in an unexpected location? Would someone else know that a set of particular air filters may have picked up abnormally high levels of a particular particle because at the time you passed through a plume of smoke?  
 
 ### How is metadata used?
 
@@ -23,7 +23,7 @@ Metadata allows not only you but others to **interpret and understand** your fin
 
 **Validation** of datasets as part of the publication review process is becoming the norm. 
 
-It is often a requirement of funders, and is good practice, to **publish your dataset** so that it is available for other researchers and the general public. Many platforms or repositories that provide these publishing services require a certain amount of metadata to ensure that your dataset is discoverable. It is also in your interest to give as much information as possible so that a future user properly understands the suitability of the dataset for their purposes as well as its limitations. Giving a good description of the dataset means a potential user is much more likely to use it in the future. In addition to possible citations arising from sharing datasets in the first place, research has shown that citing datasets clearly in a publication lead to more citations and goes some way to giving further credibility to a publication because it is more reproducible (Colavizza et al., 2020). 
+It is often a requirement of funders, and is good practice, to **publish your dataset** so that it is available for other researchers and the general public. Many platforms or repositories that provide these publishing services require a certain amount of metadata to ensure that your dataset is discoverable. It is also in your interest to give as much information as possible so that a future user properly understands the suitability of the dataset for their purposes as well as its limitations. Giving a good description of the dataset means a potential user is much more likely to use it in the future. In addition to possible citations arising from sharing datasets in the first place, research has shown that citing datasets clearly in a publication lead to more citations and goes some way to giving further credibility to a publication because it is more reproducible [@colavizzaCitationAdvantageLinking2020]. 
 
 Of course there may be others who would like to do a **similar study* or try to **replicate your results**.
 
@@ -73,7 +73,7 @@ Ideally someone should be able to follow their whole life history from collectio
 It is easy to lose information and context of data and samples when they have come to an end. More detailed information, particularly about methods, might be lost because it cannot all fit in a journal article.
 
 * Maintaining a good description of a project to which your dataset and samples will contribute is useful background information for anyone who might need or want to use them in the future. 
-* Include what the study set out to do, how it contributes new knowledge to the field, what the research questions/hypotheses were, what methodologies were used, and which instruments and measures were used (The University of Edinburgh).
+* Include what the study set out to do, how it contributes new knowledge to the field, what the research questions/hypotheses were, what methodologies were used, and which instruments and measures were used [@theuniversityofedinburghDocumentationMetadataCitation].
 
 ### Machine-readable metadata
 
@@ -81,9 +81,9 @@ If we structure and document our data correctly, it can be easily read by machin
 
 Some machine-readable metadata schemas to consider are: 
 
-* [schema.org]() - good for describing any digital object
-* [Frictionless Data]() - good for describing data files as well as the dataset as a whole
-* [DataCite]() - often used for dataset Digital Object Identifiers (DOIs)
+* [schema.org](schema.org) - good for describing any digital object
+* [Frictionless Data](https://frictionlessdata.io/) - good for describing data files as well as the dataset as a whole
+* DataCite Metadata Schema [@datacitemetadataworkinggroupDataCiteMetadataSchema2019a] - often used for dataset Digital Object Identifiers (DOIs)
 
 ### Controlled vocabularies
 
@@ -93,19 +93,15 @@ There are many controlled vocabularies, so it helps to look into this closely wi
 
 Some commonly used ones are: 
 
-* [SeaDataNet]() - oceanography terms at many levels
-* [Global Change Master Directory (GCMD)]() - environmental data keywords, instrument names, geographical names and more
-* [Climate and Forecast (CF) Convention]() - parameter names with definitions and units, mostly related to climate, forecasting and atmospheric science. 
+* [SeaDataNet](https://www.seadatanet.org/) - oceanography terms at many levels
+* [Global Change Master Directory (GCMD) Keywords](https://earthdata.nasa.gov/earth-observation-data/find-data/gcmd/gcmd-keywords) - environmental data keywords, instrument names, geographical names and more
+* [Climate and Forecast (CF) Convention](http://cfconventions.org/) - parameter names with definitions and units, mostly related to climate, forecasting and atmospheric science. 
 
 It is very difficult to have complete and exhaustive lists as science is constantly evolving, so many of these sets of controlled vocabularies allow users to request additions. Do consider doing this if there is a term that you would like to be added. 
 
 ### References
 
-Cambridge University Press. *Litter*. Cambridge Essential Dictionary. Retrieved from: [https://dictionary.cambridge.org/dictionary/essential-british-english/litter](https://dictionary.cambridge.org/dictionary/essential-british-english/litter). Accessed 31 July 2020.
- 
 Colavizza, G., Hrynaszkiewicz, I., Staden, I., Whitaker, K. and McGillivray, B. (2020) ‘The citation advantage of linking publications to research data’, PLoS ONE, 15(4), pp. 1–18. doi: [10.1371/journal.pone.0230416](https://doi.org/10.1371/journal.pone.0230416).
-
-Merriam-Webster. *Metadata*. Merriam-Webster.com Dictionary. Retrieved from: [https://www.merriam-webster.com/dictionary/metadata](https://www.merriam-webster.com/dictionary/metadata). Accessed 31 July 2020. 
 
 Smith, P. G., Morrow, R. H. and Ross, D. A. (eds) (2015) Field trials of health interventions: a toolbox. 3rd edn. Oxford: Oxford University Press.
 
