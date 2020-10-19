@@ -71,7 +71,7 @@ Wikipedia has a very handy [comparison of online backup options](https://en.wiki
 
 Platforms such as [Zenodo](https://zenodo.org) are provided for publication of data and other digital resources, but when datasets have been completed (either in a raw or finalised state) it can be worth thinking about this option.
 
-Object storage has various idiosyncrasies in terms of differences to file systems that are useful to be aware of. For example, files are known as "objects", S3 prefixes are not directories (Chan, 2020a) and S3 keys are not file paths (Chan, 2020b).
+Object storage has various idiosyncrasies in terms of differences to file systems that are useful to be aware of. For example, files are known as "objects", S3 prefixes are not directories [@chanS3PrefixesAre2020] and S3 keys are not file paths [@chanS3KeysAre2020].
 
 ### File organisation
 
