@@ -3,7 +3,7 @@
 
 Here we focus on ensuring data security (not losing raw or processed data), integrity (not changing raw data files) and capturing the provenance of datasets. 
 
-Careful recording of how a dataset has been produced is important firstly so that you or someone else can understand what has been done. Documenting steps as you go along is a useful reminder for when it comes to writing up your work for publication or for when you go back to what you were doing after a long field season away. Making this information clearly available alongside the dataset to someone else such as a future user of your data, would allow them to reproduce your work. Reproducibility is becoming ever more important to ensure scientific validity (Peng, 2012).  
+Careful recording of how a dataset has been produced is important firstly so that you or someone else can understand what has been done. Documenting steps as you go along is a useful reminder for when it comes to writing up your work for publication or for when you go back to what you were doing after a long field season away. Making this information clearly available alongside the dataset to someone else such as a future user of your data, would allow them to reproduce your work. Reproducibility is becoming ever more important to ensure scientific validity [@pengReproducibleResearchComputational2011].  
 
 ### Raw data
 
@@ -15,7 +15,7 @@ In preparation for working on the data, performing quality checking, applying ca
 
 ### Versions of files
 
-Using scripted languages to do any file manipulation is the ideal way to record what you have done to data files and demonstrate how a preliminary dataset has been created. Steps can easily get lost, forgotten or critical errors introduced without you realising (eg. Ziemann et al., 2016), if using spreadsheets or making direct changes. If you do use such methods, maintaining full documentation about every step of the processing and outputting different versions of the dataset at crucial stages is a way to ensure you can demonstrate the provenance of a dataset.
+Using scripted languages to do any file manipulation is the ideal way to record what you have done to data files and demonstrate how a preliminary dataset has been created. Steps can easily get lost, forgotten or critical errors introduced without you realising (eg. [@ziemannGeneNameErrors2016]), if using spreadsheets or making direct changes. If you do use such methods, maintaining full documentation about every step of the processing and outputting different versions of the dataset at crucial stages is a way to ensure you can demonstrate the provenance of a dataset.
 
 When working on processing, quality checking and making other changes to produce the preliminary dataset, creating different versions of the files after each step rather than overwriting files, is a valuable way of ensuring you can follow all steps that have been undertaken and allow you to go back to a certain place if you find errors or want to change your methods.
 
