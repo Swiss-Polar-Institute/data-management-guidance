@@ -5,7 +5,7 @@ Having an organised directory structure and standard procedure for file naming c
 
 ### Handy tips
 
-Some file naming tips (Borer et al., 2009):
+Some file naming tips [@borerSimpleGuidelinesEffective2009]:
 
 * Use a filename which is concise and accurately reflects what is contained within the file. Splitting it into separate parts, such as project, title, year or location of collection, year of collection, data type, version number and the file type can help to have a hierarchical name and standard naming procedure. Using keywords can help you find the file at a later date.
 * Stick to letters and numbers: special characters (non-ASCII characters) are unfortunately not well-supported by some software and can cause problems.
