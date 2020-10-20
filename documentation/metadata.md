@@ -85,7 +85,7 @@ If we structure and document our data correctly, it can be easily read by machin
 
 Some machine-readable metadata schemas to consider are: 
 
-* [schema.org](schema.org) - good for describing any digital object
+* [schema.org](https://schema.org) - good for describing any digital object
 * [Frictionless Data](https://frictionlessdata.io/) - good for describing data files as well as the dataset as a whole
 * DataCite Metadata Schema [@datacitemetadataworkinggroupDataCiteMetadataSchema2019a] - often used for dataset Digital Object Identifiers (DOIs)
 
