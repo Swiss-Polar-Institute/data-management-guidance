@@ -42,7 +42,7 @@ Network-attached storage may be provided and therefore would offer another means
 
 #### Power and electricity supply
 
-In addition to the power supply needed for your instrumentation, you may need to consider what is available to power extra data storage and associated UPSs (uninterrupted power supply; keeps instrumentation running using batter power for a short period if the main supply fails). 
+In addition to the power supply needed for your instrumentation, you may need to consider what is available to power extra data storage and associated UPSs (uninterrupted power supply; keeps instrumentation running using battery power for a short period if the main supply fails). 
 
 #### Support
 
