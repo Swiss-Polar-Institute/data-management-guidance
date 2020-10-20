@@ -13,7 +13,7 @@ An organised directory structure will work wonders when it comes to looking for 
 ### Structure
 
 * If you are going to store thousands or millions of files, consider a more hierarchical structure such as YYYY/MM/DD/YYYYMMDD_data_file_name. Listing many files within one directory can take a long time, making them harder to work with.
-* Working in a separate directory to your raw or finalised files is good practice to avoid accidentally modifying them. Consider creating a work-in-progress ("wip") directory which could have different permissions and a different [backup schedule](#backing-up-data). 
+* Working in a separate directory to your raw or finalised files is good practice to avoid accidentally modifying them. Consider creating a work-in-progress ("wip") directory which could have different permissions and a different [backup schedule](#data-backup). 
 * Think carefully about [how many files are stored in a directory](#number-of-files-in-a-directory) to ensure they are easy to work with.
 * Include a [readme](#readme.txt) file to describe what the directory contains.
 

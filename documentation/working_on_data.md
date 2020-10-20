@@ -27,10 +27,14 @@ File versions can be named using the date (in the format YYYYMMDD) or version nu
 
 #### Versioning tools
 
-* Git 
-* Git-LFS
+Only a couple are mentioned here but there are many different tools available. Two of the most commonly used are: 
 
-[Github](https://github.com/) is commonly used as a platform for software versioning and is becoming more widely used for versioning of other non-binary files as well.
+* Git - commonly used for software versioning
+* Git-LFS - used for data file and software versioning
+
+[Github](https://github.com/) is commonly used as a platform for software versioning. 
+
+It is worth checking with your institution if the have anything already set-up for your use.
 
 ### Recording the provenance of your data
 
