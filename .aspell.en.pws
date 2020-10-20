@@ -1,17 +1,20 @@
-personal_ws-1.1 en 140 
+personal_ws-1.1 en 155 
 PLoS
 Peng
 FieldSiteA
 FieldSiteB
 FieldSiteC
 titlesec
+SchemaOrg
 dataset
 readme
 CamelCaps
 al
 RawData
 titleformat
+wholetaleWholeTale
 sha
+GitHubWhereWorld
 normalfont
 fontspec
 Colavizza
@@ -52,6 +55,7 @@ KeysAre
 Osta
 McGillivray
 NaN
+swissdatasciencecenterRenku
 md
 Milfort
 CTD
@@ -63,6 +67,7 @@ Chaptinel
 Lucida
 csv
 documentclass
+earthsciencedataandinformationsystemearthscienceprojectsdivisiongoddardspaceflightcentergsfcnationalaeronauticsandspaceadministrationnasaGlobalChangeMaster
 dataoneDocumentStoreDataa
 yyy
 DejaVuSerif
@@ -74,6 +79,7 @@ DOIs
 defaultfontfeatures
 Reichler
 ProcessedData
+FrictionlessData
 GBs
 papersize
 ODF
@@ -85,6 +91,7 @@ fancyhdr
 th
 unmanaged
 ttf
+cookBestPracticesPreparing
 pagenumbering
 HDF
 newpagestyle
@@ -99,7 +106,9 @@ heightrounded
 DataONE
 TODO
 classoption
+wikipediacontributorsMd
 Seabloom
+wikipediacontributorsChecksum
 sethead
 wip
 Ziemann
@@ -109,6 +118,7 @@ oneside
 YYYYMMDD
 SeaDataNet
 datasets
+wikipediacontributorsSha
 wikipediaSha
 unencrypted
 nocite
@@ -125,7 +135,9 @@ Varrato
 UPSs
 DataCite
 Gurdon
+CFConventionsHome
 Samath
+theuniversityofedinburghStorageSecurity
 GCMD
 michenerMetainformationConceptsEcological
 Schildhauer
@@ -135,7 +147,10 @@ programme
 RDM
 fancyhead
 reproducibility
+githubinc
+greenbeltmd
 chanS
+wikipediacontributorsComparisonOnlineBackup
 Copp
 thechapter
 Muehlbauer
