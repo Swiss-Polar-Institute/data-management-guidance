@@ -11,6 +11,8 @@ pandoc --pdf-engine=xelatex \
   --filter pandoc-citeproc --csl /usr/share/citation-style-language/styles/harvard-cite-them-right.csl \
   --variable subparagraph \
   --toc --toc-depth=2 \
+  --number-sections \
+  -V secnumdepth:5 \
   -V fontsize=12pt \
   --top-level-division=part \
   -V linkcolor:blue \
