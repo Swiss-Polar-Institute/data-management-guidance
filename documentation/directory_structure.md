@@ -51,9 +51,3 @@ The Gurdon Institute [@downieBitesizedRDMReadme] provides a very useful list of 
 * make sure the file is written in text format (.txt) so that it can easily be read in the future.
 
 If you would like to write with formatting, Markdown is a useful convention that can be used. ``Pandoc`` is a very useful tool to then convert Markdown into different file formats such as HTML, PDF etc. as you so wish. Remember to save the readme in text format though so that it can be easily opened in years to come.
-
-### References
-
-Borer, E. T., Seabloom, E. W., Jones, M. B. and Schildhauer, M. (2009). Some Simple Guidelines for Effective Data Management, Ecological Society of America, 90(2), pp. 205–214. doi: [10.1890/0012-9623-90.2.205](https://doi.org/10.1890/0012-9623-90.2.205).
-
-Downie, A. (2019) Bite-sized RDM #5 - the readme file. *IT and Research Data Management at the Gurdon Institute*. Retrieved from [https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file](https://gurdoncomputing.blog/2019/12/02/bite-sized-research-data-management-5-the-readme-file/) [Accessed 27th February 2020].
