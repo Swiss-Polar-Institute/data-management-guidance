@@ -54,10 +54,3 @@ Carefully consider how your samples are going to be stored and transported to ma
 Without [information about how, where and when samples are collected, stored, processed and curated](#metadata), it is not possible to interpret results correctly. Recording this information, known as [*metadata*](#metadata), is essential and should be considered as the important as the samples themselves.
 
 Recording sample contents is essential: this information may be required by permitting authorities and border control when transporting samples back for analysis.
-
-### References
-
-Copp, A. J., Kennedy, T. A. and Muehlbauer, J. D. (2014) ‘Barcodes Are a Useful Tool for Labeling and Tracking Ecological Samples’, Ecological Society of America, 95(3), pp. 293–300. doi: [10.1890/0012-9623-95.3.293](https://doi.org/10.1890/0012-9623-95.3.293).
-
-Smith, P. G., Morrow, R. H. and Ross, D. A. (eds) (2015) Field trials of health interventions: a toolbox. 3rd edn. Oxford: Oxford University Press.
-
