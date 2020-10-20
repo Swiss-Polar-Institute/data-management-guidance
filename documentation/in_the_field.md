@@ -21,15 +21,13 @@ For data that is being recorded continuously, it would be good practice to check
 
 If you are able to visualise your data in some way, this is a very nice way to spot anomalies in the data which may in turn help you spot an instrument problem which you might subsequently be able to fix to get your data collection back on track.
 
+Unless you have forgotten or need to add a parameter to a dataset, do not change what is collected in a dataset part way through a field campaign. This adds much unneeded complexity and confusion when trying to read the data files during the post-processing stages. In particular, do not change the format of fields or parameter names during data collection. Testing data collection before travelling and before starting data collection in the field should help to prevent this kind of problems.
+
 #### [Backups](#backing-up-data)
 
 [Backups](#backing-up-data) should be automated wherever possible. If this is not possible, make sure they are done on at least a daily basis and kept in more than one place. You should have at least two backups of your data.
 
 Check the integrity of your backups on a regular basis: make sure the files that are backed up are the same as the originals and that you can read them correctly.
-
-#### Handy tips
-
-* Unless you have forgotten (or would like to add) an additional parameter to a dataset, do not change what is collected in a dataset part way through a field campaign. This adds much unneeded complexity and confusion when trying to read the data files during the post-processing stages. In particular, do not change the format of fields or parameter names.
 
 ### Recording data by hand
 
