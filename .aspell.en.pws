@@ -1,4 +1,4 @@
-personal_ws-1.1 en 135 
+personal_ws-1.1 en 138 
 PLoS
 Peng
 FieldSiteA
@@ -33,6 +33,7 @@ RENKU
 mystyle
 readmetxt
 et
+PrefixesAre
 EPFL's
 MatchLowercase
 bfseries
@@ -46,6 +47,7 @@ findable
 Frictionless
 geospatial
 usepackage
+KeysAre
 Osta
 McGillivray
 NaN
@@ -131,6 +133,7 @@ programme
 RDM
 fancyhead
 reproducibility
+chanS
 Copp
 thechapter
 Muehlbauer

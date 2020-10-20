@@ -42,7 +42,7 @@ ProjectName/
 
 **Always** include a readme file within a directory to describe its contents. This will help anyone coming to look at the files in the future, and will help jog your memory as well. 
 
-The Gurdon Institute [@downieBitesizedRDMReadme] provides a very useful list of what to include here, summarised as follows:
+The Gurdon Institute [@downieBitesizedRDMReadme2019] provides a very useful list of what to include here, summarised as follows:
 
 * summarise what is in the directory
 * use keywords for the project, data type or parameters so that they can be searched in the future

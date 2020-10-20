@@ -61,7 +61,7 @@ Cloud storage is becoming the norm in many cases, particularly where the data vo
 * Some cloud storage providers charge not only for the data storage, but also for the number of files, copying data to and from the storage, as well as listing files (known as objects in cloud storage). It is important to think about how this could impact on your costs.
 * Some providers provide different levels of storage: consider if you want to have immediate access to your data or if you are happy to have it in "cold storage" where it may take a while to access it - this is often a low-cost option and good for long-term backups of data that you are not actively working on.
 * For managed systems, make sure that backups are done regularly.
-* For unmanaged systems, check how you will be able to copy and access data. Many systems require the use of command-line tools such as ``rclone`` [@craig-woodRclone]. 
+* For unmanaged systems, check how you will be able to copy and access data. Many systems require the use of command-line tools such as ``rclone`` [@craig-woodRclone2014]. 
 * Ensure you understand how to give others access to the data.
 * Speed of access to data (particularly when more than a few GBs) can be limited by your bandwidth - consider how you will access large volumes of data carefully.
 * Always check that you are able to move your data to another provider at a reasonable cost and in a reasonable time manner. This could happen if there are changes to the services that are provided, they go out of service or they no longer meet the requirements you need. Some providers may use proprietary formats which might make moving the data very hard.
@@ -71,7 +71,7 @@ Wikipedia has a very handy [comparison of online backup options](https://en.wiki
 
 Platforms such as [Zenodo](https://zenodo.org) are provided for publication of data and other digital resources, but when datasets have been completed (either in a raw or finalised state) it can be worth thinking about this option.
 
-Object storage has various idiosyncrasies in terms of differences to file systems that are useful to be aware of. For example, files are known as "objects", "S3 prefixes are not directories" [@chanS3PrefixesAre2020] and "S3 keys are not file paths" [@chanS3KeysAre2020].
+Object storage has various idiosyncrasies in terms of differences to file systems that are useful to be aware of. For example, files are known as objects and there is no concept of directories [@chanS3KeysAre2020; @chanS3PrefixesAre2020].
 
 ### File organisation
 

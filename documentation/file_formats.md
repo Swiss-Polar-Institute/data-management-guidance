@@ -26,7 +26,7 @@ For documentation:
 * for structured information, you could consider ODF, LaTeX or Markdown for example.
 * tools such as [Frictionless Data](https://frictionlessdata.io/) are very useful for providing machine-readable metadata about your datasets.
 
-For other types of data (such as media or geospatial, for example) consult EPFL's [Research Data Management Fast Guide](https://www.epfl.ch/campus/library/wp-content/uploads/2019/09/EPFL_Library_RDM_FastGuide_All.pdf#page=4)[@blumerEPFLLibraryResearch].
+For other types of data (such as media or geospatial, for example) consult EPFL's [Research Data Management Fast Guide](https://www.epfl.ch/campus/library/wp-content/uploads/2019/09/EPFL_Library_RDM_FastGuide_All.pdf#page=4) [@blumerEPFLLibraryResearch2019].
 
 ### Useful links
 
