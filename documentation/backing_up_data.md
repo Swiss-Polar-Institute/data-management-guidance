@@ -30,7 +30,7 @@ If however you are working on your files on a daily basis, having daily backups 
  
 #### Size of backup
 
-It is important to consider how much space each backup will take and therefore how much total space you need available for all of your backups. Data volume and also the number of files will both affect how long it takes to do a backup.
+It is important to consider how much space each backup will take and therefore how much total space you need available for all of your backups. Data volume and also the number of files will both affect how long the backup takes to complete.
 
 #### Retention of backups
 
@@ -50,7 +50,7 @@ It is important to document where the files have been backed up, when, how often
 
 #### Checksums
 
-It is important to check the backup when it has been completed to ensure it contains the files you expect. Checksums are a unique identifier of a file: if it's content changes in any way, then it's checksum also changes. Comparing checksums of your original files and the backup is a very handy way to ensure that the backup contains the files you expect. 
+It is important to check the backup when it has been completed to ensure it contains the files you expect. [Checksums](https://en.wikipedia.org/wiki/Checksum) are a unique identifier of a file: if its content changes in any way, then its checksum also changes. Comparing checksums of your original files and the backup is a very handy way to ensure that the backup contains the files you expect. 
 
 [md5sum](https://en.wikipedia.org/wiki/Md5sum) and [sha1sum](https://en.wikipedia.org/wiki/Sha1sum) are two examples of computer programs that compute checksums of files and would be suitable for this purpose.  
 
