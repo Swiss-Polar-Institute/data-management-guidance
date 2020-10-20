@@ -7,7 +7,7 @@ The main points to plan are the same, whether you are collecting samples, data b
 
 * carefully plan how you **organise** your saved data or recording of samples so it is well thought-out;
 * ensure you have enough **[data storage](#storing-data)** or notebooks to record data;
-* ensure you can **[back up](#backing-up-data)** your data in the field;
+* ensure you can **[back up](#data-backup)** your data in the field;
 * plan which **metadata** (information about data) you will record about the data or sample collection;
 * understand what information you need to **document** your data or sample collection thoroughly.
 
@@ -93,7 +93,7 @@ More information will follow below about planning for recording [metadata](#meta
 
 #### Data storage media
 
-Carefully consider the [hardware](#storing-data) on which your data will be stored, ensuring that it can withstand the conditions where it will be. If you don't know what to expect, find out from others that have been on a similar field trip or have previously been to the same location. 
+Carefully consider the [hardware](#types-of-storage-media) on which your data will be stored, ensuring that it can withstand the conditions where it will be. If you don't know what to expect, find out from others that have been on a similar field trip or have previously been to the same location. 
 
 At permanent field camps, bases or on ships, familiarise yourself with what is and just as importantly, what is not available to you for data storage. Consider: 
 
@@ -101,7 +101,7 @@ At permanent field camps, bases or on ships, familiarise yourself with what is a
 * internet connection (your access and bandwidth)
 * data storage - this might or might not be available, but you still need some portable media or a good internet connection to be able to take the data home and do backups
 
-See the main section about [data storage media](#storing-data) and the earlier section of this chapter about [what might be available to you on site](#on-site), for more information. 
+See the main section about [data storage media](#types-of-storage-media) and the earlier section of this chapter about [what might be available to you at your field site](#on-site), for more information. 
 
 If your instrumentation and data storage are connected to an electrical supply, maybe you need to consider an external power supply such as a UPS, to keep them running in case of power loss. In this case, find out details of the [electricity supply](#power-and-electricity-supply) where your instrumentation and data storage will be located, to ensure compatibility.
 
@@ -111,7 +111,7 @@ Think carefully about the [directory structure](#directory-structure) and [filen
 
 #### Backing up data in the field
 
-Always ensure you can [back up](#backing-up-data) your data and metadata whilst in the field. Plan carefully to make sure these backups are automated as far as possible, making it much less of a chore and harder to make a mistake. Test out each method of backup carefully before you leave to ensure the method and the hardware (if applicable) work properly. Don't forget to test recovering backups as well. 
+Always ensure you can [back up](#data-backup) your data and metadata whilst in the field. Plan carefully to make sure these backups are automated as far as possible, making it much less of a chore and harder to make a mistake. Test out each method of backup carefully before you leave to ensure the method and the hardware (if applicable) work properly. Don't forget to test recovering backups as well. 
 
 Depending on the circumstances, backups could be:
 
@@ -163,7 +163,7 @@ The main things to prepare if you are going to be collecting samples are:
 * check permit requirements: they may insist on certain information being kept about the samples and it is likely you will need to report what you have collected. Be aware of this before you go to avoid any doubt in the field;
 * check border crossing and entry requirements for the transport of your samples on return: it is likely you will need to present a list of samples with information about what they contain. If you are able to maintain this record during your fieldwork it will save a lot of time at the end of your fieldwork when you are in a rush to pack. However it is important to carefully check and understand exactly what you need before you go - at a remote field site you might not be able to access this information.
 
-### [Metadata](#metadata)
+### Metadata
 
 Prepare carefully how you are going to record [metadata](#metadata) and see this section of the guide for detailed documentation about what information should be recorded.
 

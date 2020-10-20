@@ -25,23 +25,23 @@ Unless you have forgotten or need to add a parameter to a dataset, do not change
 
 #### Backups
 
-[Backups](#backing-up-data) should be automated wherever possible. If this is not possible, make sure they are done on at least a daily basis and kept in more than one place. You should have at least two backups of your data.
+[Backups](#data-backup) should be automated wherever possible. If this is not possible, make sure they are done on at least a daily basis and kept in more than one place. You should have at least two backups of your data.
 
 Check the integrity of your backups on a regular basis: make sure the files that are backed up are the same as the originals and that you can read them correctly.
 
 ### Recording data by hand
 
-If collecting data in a notebook by hand, it is good practice to [digitise the data](#data-backup-and-digitisation) as soon as possible. Digitised data files, metadata and documentation should be considered as valuable as any other data file: consider the [file name](#file-naming), [directory structure](#directory-structure) and [backups](#backing-up-data).
+If collecting data in a notebook by hand, it is good practice to [digitise the data](#data-backup-and-digitisation) as soon as possible. Digitised data files, metadata and documentation should be considered as valuable as any other data file: consider the [file name](#file-naming), [directory structure](#directory-structure) and [backups](#data-backup).
 
 #### Backing up or digitising your data
 
-Ideally hand-written data should be digitised as soon as possible after data collection and at least once a day. A simple first backup can be done by photographing your notes in case the unthinkable happens and you lose your notebook. Recording hand-written notes in a structured manner such as in a spreadsheet though, cannot be underestimated and this should be done as regularly as possible as well (at least daily). This means you can embellish any shorthand you have used before you forget what it means, or follow up on anything you needed to query. In particular in cases where you might be recording species observed for example, you can follow up on any missing identifications before you forget key details. See the previous chapter about what to [prepare before you go](#preparing-for-data-collection-by-hand) for details of what you can prepare in advance to save time in the field.
+Ideally hand-written data should be digitised as soon as possible after data collection and at least once a day. A simple first backup can be done by photographing your notes in case the unthinkable happens and you lose your notebook. Recording hand-written notes in a structured manner such as in a spreadsheet though, cannot be underestimated and this should be done as regularly as possible as well (at least daily). This means you can embellish any shorthand you have used before you forget what it means, or follow up on anything you needed to query. In particular in cases where you might be recording species observed for example, you can follow up on any missing identifications before you forget key details. See the previous chapter about what to [prepare before you go](#preparing-for-recording-data-by-hand) for details of what you can prepare in advance to save time in the field.
 
 If adding to a data file with new observations, using the date to denote different versions of the file is helpful e.g., ``project_datatype_observations_YYYYMMDD.csv``
 
 Don't forget to [backup](#backing-up-data) your digitised data as well.
 
-### [Sample collection](#collecting-samples)
+### Sample collection
 
 Record [metadata](#metadata) about [sample collection](#collecting-samples) as accurately and as soon as possible. Cross-checking this information is useful to avoid mistakes.
 
@@ -61,6 +61,6 @@ If recording further information about the samples such as identifying different
 
 Ensure you follow the [metadata](#metadata) section of the guide, paying particular attention at this point to recording where and when your data and samples were collected. Metadata is most accurate when recorded as soon as possible - don't leave it until the end of your field campaign to make notes.
 
-Remember to digitise this information if you would ordinarily record it in a notebook and treat these files like you would any other data, using secure [storage](#storing-data) and regular [backups](#backing-up-data).
+Remember to digitise this information if you would ordinarily record it in a notebook and treat these files like you would any other data, using secure [storage](#storing-data) and regular [backups](#data-backup).
 
-Take photographs of as many things as you can! Your instrument set-up, makes, models and serial numbers of equipment equipment, notebooks, field sites, laboratory setting, your notebooks and anything that could affect your experiment directly or indirectly. This is hugely valuable metadata and should be carefully [backed-up](#backing-up-data).
+Take photographs of as many things as you can! Your instrument set-up, makes, models and serial numbers of equipment equipment, notebooks, field sites, laboratory setting, your notebooks and anything that could affect your experiment directly or indirectly. This is hugely valuable metadata and should be carefully [backed-up](#data-backup).
