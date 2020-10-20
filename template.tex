@@ -379,6 +379,7 @@ $endif$
 \xapptocmd{\titlepage}{\thispagestyle{titlepagestyle}}{}{} % apply titlepagestyle
 
 \begin{document}
+\frenchspacing % Keeps the space after a full stop smaller (specially when it's left-right justified)
 $if(title)$
 $if(beamer)$
 \frame{\titlepage}
