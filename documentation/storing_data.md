@@ -84,13 +84,3 @@ Consider file size carefully so they are easy to work with for human users and a
 #### Number of files in a directory
 
 In addition to the [size of files](#file-size), it is important to consider the number of files in a directory. Whilst in the majority of modern file systems the number of files within a directory is not technically limited, having more than a few thousand in one directory can make them more tricky to work with. As a guide, around 10,000 files could be considered as a sensible maximum number within one directory but it will greatly depend on the technologies being used. If data collection will produce something around this number, consider splitting them into sub-directories. 
-
-### References
- 
-Chan, A. (2020). alexwlchan. *S3 keys are not file paths*. Retrieved from [https://alexwlchan.net/2020/08/s3-keys-are-not-file-paths/](https://alexwlchan.net/2020/08/s3-keys-are-not-file-paths/) [Accessed on 15 September 2020].
- 
-Chan, A. (2020). alexwlchan. *S3 prefixes are not directories*. Retrieved from [https://alexwlchan.net/2020/08/s3-prefixes-are-not-directories/](https://alexwlchan.net/2020/08/s3-prefixes-are-not-directories/) [Accessed on 15 September 2020]. 
-
-Craig-Wood. N. Rclone. (2014-2020). [https://rclone.org](https://rclone.org)
-
-The University of Edinburgh. Storage & security. *MANTRA Research Data Management Training*. Retrieved from [https://mantra.edina.ac.uk/storageandsecurity](https://mantra.edina.ac.uk/storageandsecurity) [Accessed on 28 July 2020].
