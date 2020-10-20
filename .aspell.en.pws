@@ -1,4 +1,4 @@
-personal_ws-1.1 en 132 
+personal_ws-1.1 en 135 
 PLoS
 Peng
 FieldSiteA
@@ -27,6 +27,7 @@ Pandoc
 El
 Barcodes
 Downie
+zenodoZenodoResearchShared
 checksums
 RENKU
 mystyle
@@ -104,7 +105,9 @@ oneside
 YYYYMMDD
 SeaDataNet
 datasets
+wikipediaSha
 unencrypted
+nocite
 YYYY
 alexwlchan
 funders

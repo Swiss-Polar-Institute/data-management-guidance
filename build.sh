@@ -8,7 +8,7 @@ find . -name "*.md" -exec aspell -d en -x --home-dir=. check {} \;
 # Generate tex file output using a template
 pandoc --pdf-engine=xelatex \
   --bibliography data_management_guidance.bib \
-  --filter pandoc-citeproc --csl /usr/share/citation-style-language/styles/apa.csl \
+  --filter pandoc-citeproc --csl /usr/share/citation-style-language/styles/harvard-cite-them-right.csl \
   --variable subparagraph \
   --toc --toc-depth=2 \
   -V fontsize=12pt \
