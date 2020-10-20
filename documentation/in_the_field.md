@@ -59,7 +59,7 @@ If recording further information about the samples such as identifying different
 
 ### Recording metadata
 
-Ensure you follow the [metadata](#metadata) guide, paying particular attention at this point to recording where and when your data and samples were collected. Metadata is most accurate when recorded as soon as possible - don't leave it until the end of your field campaign to make notes.
+Ensure you follow the [metadata](#metadata) section of the guide, paying particular attention at this point to recording where and when your data and samples were collected. Metadata is most accurate when recorded as soon as possible - don't leave it until the end of your field campaign to make notes.
 
 Remember to digitise this information if you would ordinarily record it in a notebook and treat these files like you would any other data, using secure [storage](#storing-data) and regular [backups](#backing-up-data).
 
