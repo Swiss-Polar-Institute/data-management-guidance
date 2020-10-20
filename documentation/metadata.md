@@ -5,9 +5,9 @@ We begin with metadata because without this essential information, data loses a 
 
 ### What is metadata and why is it important?
 
-Metadata is a description of data [@mccarthyPresentedEighthInternationala; @grayScientificDataManagement2005a; @michenerMetainformationConceptsEcological2005], giving information about the "who, what, when, where, why and how" [@recknagelEcologicalInformatics2018a]. Put in other words, it is "data about data" [@fegrausMaximizingValueEcological2005].
+Metadata is a description of data [@mccarthyMetadataManagementLarge1982; @grayScientificDataManagement2005a; @michenerMetainformationConceptsEcological2005], giving information about the "who, what, when, where, why and how" [@recknagelEcologicalInformatics2018a]. Put in other words, it is "data about data" [@fegrausMaximizingValueEcological2005].
 
-Information about a dataset quickly deteriorates over time [@michenerNONGEOSPATIALMETADATAECOLOGICAL1997a]. Metadata is documentation that is a reminder to your future self (and others). Without information about how data and samples were collected, final results cannot be interpreted correctly [@smithFieldTrialsHealth2015].  
+Information about a dataset quickly deteriorates over time [@michenerNongeospatialMetadataEcological1997]. Metadata is documentation that is a reminder to your future self (and others). Without information about how data and samples were collected, final results cannot be interpreted correctly [@smithFieldTrialsHealth2015].  
 
 To get you thinking: will you remember in 10 years what a particular acronym was in your data file? Do you remember why a sample was collected in an unexpected location? How would someone else know that a particular sample contained many more insects than the others because you couldn't find it one day and it was left out an extra night?  
 
@@ -29,7 +29,7 @@ Metadata allows not only you but others to **interpret and understand** your fin
 
 It is often a requirement of funders, and is good practice, to **publish your dataset** so that it is available for other researchers and the general public. Many platforms or repositories that provide these publishing services require a certain amount of metadata to ensure that your dataset is discoverable. It is also in your interest to give as much information as possible so that a future user properly understands the suitability of the dataset for their purposes as well as its limitations. Giving a good description of the dataset means a potential user is much more likely to use it in the future. In addition to possible citations arising from sharing datasets in the first place, research has shown that citing datasets clearly in a publication lead to more citations and goes some way to giving further credibility to a publication because it is more reproducible [@colavizzaCitationAdvantageLinking2020]. 
 
-Of course there may be others who would like to do a **similar study* or try to **replicate your results**.
+Of course there may be others who would like to do a **similar study** or try to **replicate your results**.
 
 ### Levels of metadata
 
