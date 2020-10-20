@@ -7,7 +7,7 @@ Using open data file formats helps to ensure the longevity of datasets [@borerSi
 
 ### How to choose a file format
 
-Depending on the type of files under considertation, there will be many choices of file format to use, but for the reasons described above, file formats should be [@thelibrariesofthemassachusettsinstituteoftechnologyFileFormatsLongterm; @dataoneDocumentStoreDataa]: 
+Depending on the type of files under consideration, there will be many choices of file format to use, but for the reasons described above, file formats should be [@thelibrariesofthemassachusettsinstituteoftechnologyFileFormatsLongterm; @dataoneDocumentStoreDataa]: 
 
 * an open and documented standard
 * commonly used by the research community (where possible)
@@ -26,7 +26,8 @@ For other types of data (such as media or geospatial) consult EPFL's [Research D
 
 #### For documentation 
 
-Consider and combination of the following for recording documentation about data:
+Consider a combination of the following for recording documentation about data:
+
 * plain text (TXT) files are simple and easily read by humans.
 * for formatted information, you could consider PDF, LaTeX or Markdown for example.
 * tools such as [Frictionless Data](https://frictionlessdata.io/) are very useful for creating machine-readable metadata about your datasets.

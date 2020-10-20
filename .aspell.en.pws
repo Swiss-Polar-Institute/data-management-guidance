@@ -1,4 +1,4 @@
-personal_ws-1.1 en 138 
+personal_ws-1.1 en 140 
 PLoS
 Peng
 FieldSiteA
@@ -26,6 +26,7 @@ DejaVuSansMono
 Pandoc
 El
 Barcodes
+considertation
 Downie
 zenodoZenodoResearchShared
 checksums
@@ -92,6 +93,7 @@ thesection
 mainfont
 Blumer
 schemas
+ziemannGeneNameErrors
 Staden
 heightrounded
 DataONE

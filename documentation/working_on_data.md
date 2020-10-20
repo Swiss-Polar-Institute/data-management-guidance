@@ -17,7 +17,7 @@ It is advisable to use a scripting language to make any changes to your working 
 
 ### Versions of files
 
-Using scripted languages to do any file manipulation is the ideal way to record what you have done to data files and demonstrate how a preliminary dataset has been created. Steps can easily get lost, forgotten or critical errors introduced without you realising (eg. [@ziemannGeneNameErrors2016]), if using spreadsheets or making direct changes. If you do use such methods, maintaining full documentation about every step of the processing and outputting different versions of the dataset at crucial stages is a way to ensure you can demonstrate the provenance of a dataset.
+Using scripted languages to do any file manipulation is the ideal way to record what you have done to data files and demonstrate how a preliminary dataset has been created. Steps can easily get lost, forgotten or critical errors introduced without you realising (eg. @ziemannGeneNameErrors2016), if using spreadsheets or making direct changes. If you do use such methods, maintaining full documentation about every step of the processing and outputting different versions of the dataset at crucial stages is a way to ensure you can demonstrate the provenance of a dataset.
 
 When working on processing, quality checking and making other changes to produce the preliminary dataset, creating different versions of the files after each step rather than overwriting files, is a valuable way of ensuring you can follow all steps that have been undertaken and allow you to go back to a certain place if you find errors or want to change your methods.
 
@@ -46,7 +46,7 @@ Journals are more and more asking for all supporting documentation, code, data a
 
 Refer to the [metadata](#metadata) section for full details of what information should be captured to properly describe the provenance of your data and samples.
 
-#### Capturing data provenance tools
+#### Tools for capturing data provenance
 
 [Versioning tools](#versioning-tools) are very handy for making incremental improvements to code and even versions of data in the case of Git-LFS.
 
@@ -54,9 +54,3 @@ Some tools also exist which allow you to record exactly what has happened to you
 
 * RENKU [https://datascience.ch/renku/](https://datascience.ch/renku/)
 * Whole Tale [https://wholetale.org/](https://wholetale.org/)
-
-### References
-
-Peng R. D. (2011). Reproducible research in computational science. Science (New York, N.Y.), 334(6060), 1226–1227. doi: [10.1126/science.1213847](https://doi.org/10.1126/science.1213847)
-
-Ziemann, M., Eren, Y., & El-Osta, A. (2016). Gene name errors are widespread in the scientific literature. Genome Biology, 17(1), 177. doi: [10.1186/s13059-016-1044-7](https://doi.org/10.1186/s13059-016-1044-7)
