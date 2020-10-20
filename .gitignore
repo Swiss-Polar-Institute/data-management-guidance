@@ -7,6 +7,6 @@ venv/
 /*.pdf
 /*.toc
 /*.dvi
+/*.png
 spi*
-white.png
 /data_management_guidance_draft.tex
