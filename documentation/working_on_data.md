@@ -34,7 +34,7 @@ Only a couple are mentioned here but there are many different tools available. T
 
 [Github](https://github.com/) is commonly used as a platform for software versioning. 
 
-It is worth checking with your institution if the have anything already set-up for your use.
+It is worth checking with your institution if they have anything already set-up for your use.
 
 ### Recording the provenance of your data
 
