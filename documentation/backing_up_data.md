@@ -68,4 +68,4 @@ Many tools are available to help create backups. It is worth spending time findi
 
 Your institution may have tools or subscriptions to tools that can help. Data managers or librarians within your institution may also be able to offer recommendations. 
 
-Using a multi-platform tool (usable by Windows, Mac and Linux users) offers higher resilience, ensuring more possibilities for accessing the data in the future and allow access to other team members. 
+Using a multi-platform tool (such as for Windows, Mac, Linux and other operating system users) offers higher resilience, ensuring more possibilities for accessing the data in the future and allow access to other team members. 
