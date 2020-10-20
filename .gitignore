@@ -8,4 +8,5 @@ venv/
 /*.toc
 /*.dvi
 spi*
+white.png
 /data_management_guidance_draft.tex
