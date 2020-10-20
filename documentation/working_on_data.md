@@ -7,11 +7,13 @@ Careful recording of how a dataset has been produced is important firstly so tha
 
 ### Raw data
 
-Your primary copy of the data, known as "raw" data, is that which comes directly from the instrument, sample analysis, or primary observation. This raw data should be saved as it is, backed up and aside from being copied elsewhere, **should never be modified**. The primary copy of the raw data should have read-only access so it can never be altered inadvertently. Never reorganise the primary copy of raw data files.
+Your primary copy of the data, known as "raw" data, is that which comes directly from the instrument, sample analysis, or primary observation. This raw data should be saved as it is, backed up and **should never be modified**. The primary copy of the raw data should have read-only access so it can never be altered inadvertently. Never reorganise or alter the primary copy of raw data files.
 
 ### Work on a copy of your raw data
 
 In preparation for working on the data, performing quality checking, applying calibrations, or indeed making any change whatsoever to the data file, make a copy of the raw data and ensure you work on the copy. Ensuring you maintain a "pristine" version of the raw data is imperative: throughout the analysis process it is possible to discover inconsistencies and errors that may require you to go back to the raw data files in order to find their origins. Any changes that have subsequently been made may mean that it is then impossible to track down the origins of these problems.
+
+It is advisable to use a scripting language to make any changes to your working copy of the data files because this makes it much easier to keep track of what has been done [@borerSimpleGuidelinesEffective2009].  
 
 ### Versions of files
 
@@ -36,7 +38,7 @@ It is natural to keep notes of what you have done to data so that when writing u
 
 Journals are more and more asking for all supporting documentation, code, data and information about how plots and figures were generated, so organising to capture the full provenance of your data and research paper will save you time when you come to publish. 
  
-* Wherever possible, use scripts to do any manipulation of data, for applying algorithms, quality-checking and any other processes that work towards your final, output dataset. Scripts can be modified easily if you spot a mistake and then re-run, rather than having to run through all of your manual steps again.
+* Wherever possible, use a scripting language to do any manipulation of data, for applying algorithms, quality-checking and any other processes that work towards your final, output dataset. Scripts can be modified easily if you spot a mistake and then re-run, rather than having to run through all of your manual steps again.
 * Backup and keep different [versions](#versioning-tools) of your code so that you can see where possible errors are introduced into your data or processing.
 * Make sure you also document what you are doing: clearly state references to algorithms, which software you are using (including the version) as well as which decisions you have taken and why.
 * Ideally, you should be able to record the set-up of the computing environment that you have used to run the scripts: include details of the operating system, package names and versions. 
