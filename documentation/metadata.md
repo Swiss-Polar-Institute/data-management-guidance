@@ -1,11 +1,15 @@
 
 ## Metadata
 
-Metadata is a description of the data [@mccarthyPresentedEighthInternationala, @grayScientificDataManagement2005a, @michenerMetainformationConceptsEcological2005], giving information about the "who, what, when, where, why and how" [@recknagelEcologicalInformatics2018a]. Put in other words, it is "data about data" [@fegrausMaximizingValueEcological2005].
+We begin with metadata because without this essential information, data loses a huge amount of its value and understanding. It will also give a good overview of what else is to come but please do follow the links to the other sections of this guide to find further information in context.
 
-Information about a dataset quickly deteriorates over time [@michenerNONGEOSPATIALMETADATAECOLOGICAL1997a]. Metadata is documentation that is a reminder to your future self (and others) of what your data or samples are. Without information about how data and samples were collected, final results cannot be interpreted correctly [@smithFieldTrialsHealth2015].  
+### What is metadata and why is it important?
 
-To get you thinking: will you remember in 10 years what a particular acronym was? Do you remember why a sample was collected in an unexpected location? Would someone else know that a set of particular air filters may have picked up abnormally high levels of a particular particle because at the time you passed through a plume of smoke?  
+Metadata is a description of data [@mccarthyPresentedEighthInternationala; @grayScientificDataManagement2005a; @michenerMetainformationConceptsEcological2005], giving information about the "who, what, when, where, why and how" [@recknagelEcologicalInformatics2018a]. Put in other words, it is "data about data" [@fegrausMaximizingValueEcological2005].
+
+Information about a dataset quickly deteriorates over time [@michenerNONGEOSPATIALMETADATAECOLOGICAL1997a]. Metadata is documentation that is a reminder to your future self (and others). Without information about how data and samples were collected, final results cannot be interpreted correctly [@smithFieldTrialsHealth2015].  
+
+To get you thinking: will you remember in 10 years what a particular acronym was in your data file? Do you remember why a sample was collected in an unexpected location? How would someone else know that a particular sample contained many more insects than the others because you couldn't find it one day and it was left out an extra night?  
 
 ### How is metadata used?
 

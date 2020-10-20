@@ -44,9 +44,9 @@ Network-attached storage may be provided and therefore would offer another means
 
 In addition to the power supply needed for your instrumentation, you may need to consider what is available to power extra data storage and associated UPSs (uninterrupted power supply; keeps instrumentation running using battery power for a short period if the main supply fails). 
 
-#### Support
+#### Support and restrictions
 
-Some camps or bases might be able to provide some support or have strict rules about connecting to local networks. It really helps to understand these before you arrive. 
+Some camps or bases might be able to provide some IT support or have strict rules about connecting to local networks for example. It helps to understand these limitations properly before you arrive so planning can be done accordingly. 
 
 ### Preparing for data collection from an instrument
 
@@ -69,7 +69,7 @@ Some software automatically writes "false" data from variables which is not actu
     
 If data storage is limited, maybe you need to consider which periods of time are more crucial (i.e. data collection only at night, or for five minutes every hour, one-minute resolution instead of one-second). All of this should be considered with your experiment in mind to ensure it is not compromised. Don't forget to take into account local sunrise and sunset times if this is an important factor, particularly if the instrument is going to be installed on a moving platform such as a ship.
 
-**Do I really understand how big each data file will be?**  
+**Do I understand how big each data file will be?**  
 
 File sizes vary depending on the configuration of the instrument, the number of variables recorded, and importantly, the data themselves (i.e. more background noise can produce higher figures and therefore more bytes). Ensure you configure the instrument for your needs in case settings have changed since you last used it. Have a proper test-run before going into the field with the same settings you will use in the field and compare test data with other similar data wherever possible.
 

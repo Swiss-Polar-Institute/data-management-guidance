@@ -16,7 +16,7 @@ pandoc --pdf-engine=xelatex \
   -V linkcolor:blue \
    --template template.tex \
    -f markdown \
-   documentation/title_page.md documentation/introduction.md documentation/good_dm_practice.md documentation/storing_data.md documentation/directory_structure.md documentation/file_naming.md documentation/file_formats.md documentation/backing_up_data.md documentation/working_on_data.md documentation/sample_collection.md documentation/field_guide_introduction.md documentation/planning_before_go.md documentation/in_the_field.md documentation/return_from_field.md documentation/bibliography.md \
+   documentation/title_page.md documentation/introduction.md documentation/good_dm_practice.md documentation/metadata.md documentation/storing_data.md documentation/directory_structure.md documentation/file_naming.md documentation/file_formats.md documentation/backing_up_data.md documentation/working_on_data.md documentation/sample_collection.md documentation/field_guide_introduction.md documentation/planning_before_go.md documentation/in_the_field.md documentation/return_from_field.md documentation/bibliography.md \
    -s -o data_management_guidance_draft.tex
 
 pdflatex  data_management_guidance_draft.tex
