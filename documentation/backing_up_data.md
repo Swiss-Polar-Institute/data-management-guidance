@@ -61,10 +61,10 @@ Using a multi-platform tool (such as for Windows, Mac, Linux and other operating
 
 Make sure:
 
-* you have at least two, preferably three or more [copies](#how-much-and-how-often) of your data;
+* you have at least two, preferably three or more [copies](#how-many-and-how-often) of your data;
 * data are backed up on at least two different [types of media](#storing-data), particularly for preservation purposes, such as institution storage, cloud storage, external hard drives;
 * that as far as possible, backups are automated. This avoids potential mistakes, minimises the chances of data loss, makes it much easier to do (it is less of a chore) and ensures the backups are always done in the same way;
-* data are backed up on a [regular basis](#how-much-and-how-often), but particularly during collection and after making any changes;
+* data are backed up on a [regular basis](#how-many-and-how-often), but particularly during collection and after making any changes;
 * that backed up versions of your data are identical to the primary copy. Whilst [checking](#checking-and-restoring-backups) that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
 * that you can easily [restore](#checking-and-restoring-backups) your backups;
 * decide on a [directory structure](#storing-data) and [file naming](#file-naming) convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on;
