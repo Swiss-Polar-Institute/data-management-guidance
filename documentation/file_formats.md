@@ -26,20 +26,10 @@ For documentation:
 * for structured information, you could consider ODF, LaTeX or Markdown for example.
 * tools such as [Frictionless Data](https://frictionlessdata.io/) are very useful for providing machine-readable metadata about your datasets.
 
-For other types of data (such as media or geospatial, for example) consult EPFL's [Research Data Management Fast Guide](https://www.epfl.ch/campus/library/wp-content/uploads/2019/09/EPFL_Library_RDM_FastGuide_All.pdf#page=4).
+For other types of data (such as media or geospatial, for example) consult EPFL's [Research Data Management Fast Guide](https://www.epfl.ch/campus/library/wp-content/uploads/2019/09/EPFL_Library_RDM_FastGuide_All.pdf#page=4)[@blumerEPFLLibraryResearch].
 
 ### Useful links
 
 Page 4 of EPFL's [Research Data Management Fast Guide](https://www.epfl.ch/campus/library/wp-content/uploads/2019/09/EPFL_Library_RDM_FastGuide_All.pdf#page=4) has a useful summary of appropriate file formats to use for different types of data.
 
 Frictionless Data [table schema](https://specs.frictionlessdata.io/table-schema/) and [data package](https://specs.frictionlessdata.io/data-package/) schemas are very useful for describing tabular data and datasets respectively.  
-
-### References
-
-Blumer, E.N., Chaptinel, J.J., Masson, A., Reichler, F., Samath, S., Varrato, F. and Milfort, F. (2019). EPFL Library Research Data Management Fastguides. Zenodo. doi: [10.5281/zenodo.3327830](https://doi.org/10.5281/zenodo.3327830)
-
-DataONE. Document and store data using stable file formats. *DataONE*. Retrieved from [https://old.dataone.org/best-practices/document-and-store-data-using-stable-file-formats](https://old.dataone.org/best-practices/document-and-store-data-using-stable-file-formats) [Accessed on 24 July 2020]
-
-MIT. Formats. *Data management*. Retrieved from [https://libraries.mit.edu/data-management/store/formats](https://libraries.mit.edu/data-management/store/formats/) [Accessed on 24 July 2020]
-
-Stanford Library. Best practices for file formats. *Stanford Libraries*. Retrieved from [https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats](https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats) [Accessed on 24 July 2020]
