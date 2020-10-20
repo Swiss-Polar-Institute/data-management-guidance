@@ -15,7 +15,7 @@ Check that data files contain data for the parameters you expect in the correct 
 
 #### Periodic checking of data
 
-If you are able to access your data whilst in the field, take advantage of being able to check files are being saved correctly and that they can be read.  Consult the software documentation for how is best to do this, to avoid problems which will differ between operating systems and software. Avoid interfering with the file-writing process, so it is best to test or check files that belong to a secondary copy if possible.
+If you are able to access your data whilst in the field, take advantage of being able to check files are being saved correctly and that they can be read. Consult the software documentation for how is best to do this, to avoid problems which will differ between operating systems and software. Avoid interfering with the file-writing process, so it is best to test or check files that belong to a secondary copy if possible.
 
 For data that is being recorded continuously, it would be good practice to check files at least once a day, or more often if time allows. Events such as bad weather may mean you need to check the data more regularly.
 

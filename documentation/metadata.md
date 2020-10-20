@@ -77,7 +77,7 @@ It is easy to lose information and context of data and samples when they have co
 
 ### Machine-readable metadata
 
-If we structure and document our data correctly, it can be easily read by machines (i.e computers). It is important for humans to be able to understand if a dataset is fit for their purpose, something normally achieved by reading documentation. However it is possible to make metadata machine-readable as well to ensure that datasets are more easily findable in searches, are easier to combine with other datasets and also meet community standards to be able to compare like-for-like more easily. 
+If we structure and document our data correctly, it can be easily read by machines (i.e computers). It is important for humans to be able to understand if a dataset is fit for their purpose, something normally achieved by reading documentation. However it is possible to make metadata machine-readable as well to ensure that datasets are more easily findable in searches, are easier to combine with other datasets and also meet community standards to be able to compare like-for-like datasets more easily. 
 
 Some machine-readable metadata schemas to consider are: 
 
@@ -98,11 +98,3 @@ Some commonly used ones are:
 * [Climate and Forecast (CF) Convention](http://cfconventions.org/) - parameter names with definitions and units, mostly related to climate, forecasting and atmospheric science. 
 
 It is very difficult to have complete and exhaustive lists as science is constantly evolving, so many of these sets of controlled vocabularies allow users to request additions. Do consider doing this if there is a term that you would like to be added. 
-
-### References
-
-Colavizza, G., Hrynaszkiewicz, I., Staden, I., Whitaker, K. and McGillivray, B. (2020) ‘The citation advantage of linking publications to research data’, PLoS ONE, 15(4), pp. 1–18. doi: [10.1371/journal.pone.0230416](https://doi.org/10.1371/journal.pone.0230416).
-
-Smith, P. G., Morrow, R. H. and Ross, D. A. (eds) (2015) Field trials of health interventions: a toolbox. 3rd edn. Oxford: Oxford University Press.
-
-The University of Edinburgh. MANTRA Research Data Management Training. Documentation, metadata, citation. Retrieved from [https://mantra.edina.ac.uk/documentation_metadata_citation/](https://mantra.edina.ac.uk/documentation_metadata_citation/). Accessed on 31 July 2020.
