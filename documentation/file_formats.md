@@ -26,6 +26,7 @@ For other types of data (such as media or geospatial) consult EPFL's [Research D
 
 #### For documentation 
 
-* plain text (TXT) files are simple and easily read.
-* for structured information, you could consider ODF, LaTeX or Markdown for example.
-* tools such as [Frictionless Data](https://frictionlessdata.io/) are very useful for providing machine-readable metadata about your datasets.
+Consider and combination of the following for recording documentation about data:
+* plain text (TXT) files are simple and easily read by humans.
+* for formatted information, you could consider PDF, LaTeX or Markdown for example.
+* tools such as [Frictionless Data](https://frictionlessdata.io/) are very useful for creating machine-readable metadata about your datasets.
