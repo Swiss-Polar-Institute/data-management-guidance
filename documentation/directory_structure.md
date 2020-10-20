@@ -7,15 +7,15 @@ An organised directory structure will work wonders when it comes to looking for 
 
 * Don't use spaces or special characters in directory names as these cannot always be handled easily. Instead, consider splitting the sections using underscores ( _ ) or dashes ( - ) and writing words within sections using CamelCaps (starting each word with a capital letter). This can help with readability.
 * Keep names short but meaningful: some file systems have limits on the number of characters in a full directory path so if you have several sub-directories this can become a problem.
-* Use acronyms sparingly and if necessary, use only those that are well-known. Always explain them fully in the [readme file](#readmetxt).
-* Your directories will be most likely be listed in alphabetical order. Prefixes such as numbers or letters to order your directories are not helpful if they do not mean anything. Dates could be used if appropriate but the most important thing is to name them carefully so they are meaningful and provide good documentation in a [readme file](#readmetxt). 
+* Use acronyms sparingly and if necessary, use only those that are well-known. Always explain them fully in the [readme file](#readme.txt).
+* Your directories will be most likely be listed in alphabetical order. Prefixes such as numbers or letters to order your directories are not helpful if they do not mean anything. Dates could be used if appropriate but the most important thing is to name them carefully so they are meaningful and provide good documentation in a [readme file](#readme.txt). 
 
 ### Structure
 
 * If you are going to store thousands or millions of files, consider a more hierarchical structure such as YYYY/MM/DD/YYYYMMDD_data_file_name. Listing many files within one directory can take a long time, making them harder to work with.
 * Working in a separate directory to your raw or finalised files is good practice to avoid accidentally modifying them. Consider creating a work-in-progress ("wip") directory which could have different permissions and a different [backup schedule](#data-backing). 
 * Think carefully about [how many files are stored in a directory](#number-of-files-in-a-directory) to ensure they are easy to work with.
-* Include a [readme](#readmetxt) file to describe what the directory contains.
+* Include a [readme](#readme.txt) file to describe what the directory contains.
 
 A good example can be seen here.
 

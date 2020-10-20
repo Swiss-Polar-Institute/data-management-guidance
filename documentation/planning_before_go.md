@@ -221,7 +221,7 @@ Prepare file templates (spreadsheets are ideal) for collecting this information 
 
 Much of the specific [metadata](#metadata) to be recorded has been described in detail above. Carefully prepare template documents that you can take and complete whilst in the field. 
 
-For further documentation this can be a simple [readme.txt](#readmetxt) files with headers to remind you which information you need to record.
+For further documentation this can be a simple [readme.txt](#readme.txt) files with headers to remind you which information you need to record.
 
 Notes, diagrams, photographs and any other forms of documentation should be backed up alongside your data.
 
