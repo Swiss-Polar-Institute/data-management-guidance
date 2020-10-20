@@ -69,13 +69,3 @@ Many tools are available to help create backups. It is worth spending time findi
 Your institution may have tools or subscriptions to tools that can help. Data managers or librarians within your institution may also be able to offer recommendations. 
 
 Using a multi-platform tool (usable by Windows, Mac and Linux users) offers higher resilience, ensuring more possibilities for accessing the data in the future and allow access to other team members. 
-
-### References
-
-The University of Edinburgh. MANTRA Research Data Management Training. Storage & security. Retrieved from https://mantra.edina.ac.uk/storageandsecurity/ [Accessed on 28 July 2020].
-
-Wikipedia. Checksum. *Wikipedia The Free Encyclopedia*. Retrieved from [https://en.wikipedia.org/wiki/Checksum](https://en.wikipedia.org/wiki/Checksum) [Accessed on 28 July 2020].
-
-Wikipedia. md5sum.  *Wikipedia The Free Encyclopedia*. Retrieved from [https://en.wikipedia.org/wiki/Md5sum](https://en.wikipedia.org/wiki/Md5sum) [Accessed on 15 September 2020].
-
-Wikipedia. sha1sum.  *Wikipedia The Free Encyclopedia*. Retrieved from [https://en.wikipedia.org/wiki/Sha1sum](https://en.wikipedia.org/wiki/Sha1sum) [Accessed on 15 September 2020].
