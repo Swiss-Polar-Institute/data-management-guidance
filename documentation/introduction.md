@@ -23,4 +23,4 @@ Finally, we consider field work, and more precisely polar field work (although t
 
 ### Further development of this guide
 
-We would greatly welcome feedback by way of comments, suggestions, corrections or ideas for further development of this guide. Ongoing development is done in a Github repository: [https://github.com/Swiss-Polar-Institute/data-management-guidance](https://github.com/Swiss-Polar-Institute/data-management-guidance). Feel free to get in touch using [Github issues](https://github.com/Swiss-Polar-Institute/data-management-guidance/issues) or email [jenny.thomas@epfl.ch](jenny.thomas@epfl.ch). 
+We would greatly welcome feedback by way of comments, suggestions, corrections or ideas for further development of this guide. Ongoing development is done in a Github repository: [https://github.com/Swiss-Polar-Institute/data-management-guidance](https://github.com/Swiss-Polar-Institute/data-management-guidance). Feel free to get in touch using [Github issues](https://github.com/Swiss-Polar-Institute/data-management-guidance/issues) or email [jenny.thomas@epfl.ch](mailto:jenny.thomas@epfl.ch). 
