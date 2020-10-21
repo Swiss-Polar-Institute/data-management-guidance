@@ -10,3 +10,5 @@ venv/
 /*.png
 spi*
 /data_management_guidance_draft.tex
+/rendered/
+/variables.yml
