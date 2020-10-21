@@ -27,7 +27,7 @@ Making yourself aware of these requirements in advance will make sure you are no
 
 Each sample should have a unique identification number written on it - don't just write a short version of a longer sample number that could easily be confused if more than one sample from your field campaign (or the wider project) may end up with the same number.
 
-This unique identification number will then "link" that physical sample to the information that is recorded about its collection ([metadata](#recording-information-about-sample-collection-metadata)).
+This unique identification number will then "link" that physical sample to the information that is recorded about its collection ([metadata](#recording-information-about-sample-collection)).
 
 #### Duplicate samples
 
@@ -49,7 +49,7 @@ If working with alcohol for sample preservation, use pencil to label your sample
 
 Carefully consider how your samples are going to be stored and transported to make sure they will not come into contact with any chemicals or conditions that may damage the labelling.
 
-### Recording information about sample collection ([metadata](#metadata))
+### Recording information about sample collection
 
 Without [information about how, where and when samples are collected, stored, processed and curated](#metadata), it is not possible to interpret results correctly. Recording this information, known as [*metadata*](#metadata), is essential and should be considered as the important as the samples themselves.
 

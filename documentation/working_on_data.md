@@ -23,7 +23,7 @@ When working on processing, quality checking and making other changes to produce
 
 File versions can be named using the date (in the format YYYYMMDD) or version numbers, such as ``v01_01``, ``v01_02``. Including the date in this format, or version numbers that have leading zeros ensure that files are listed in order when viewing them.
 
-[Backups](#backing-up-data) of any edited files should be done on a regular basis.
+[Backups](#data-backup) of any edited files should be done on a regular basis.
 
 #### Versioning tools
 
@@ -43,7 +43,7 @@ It is natural to keep notes of what you have done to data so that when writing u
 Journals are more and more asking for all supporting documentation, code, data and information about how plots and figures were generated, so organising to capture the full provenance of your data and research paper will save you time when you come to publish. 
  
 * Wherever possible, use a scripting language to do any manipulation of data, for applying algorithms, quality-checking and any other processes that work towards your final, output dataset. Scripts can be modified easily if you spot a mistake and then re-run, rather than having to run through all of your manual steps again.
-* Backup and keep different [versions](#versioning-tools) of your code so that you can see where possible errors are introduced into your data or processing.
+* Backup and keep different [versions](#versions-of-files) of your code so that you can see where possible errors are introduced into your data or processing.
 * Make sure you also document what you are doing: clearly state references to algorithms, which software you are using (including the version) as well as which decisions you have taken and why.
 * Ideally, you should be able to record the set-up of the computing environment that you have used to run the scripts: include details of the operating system, package names and versions. 
 * Always keep data and code that produces plots: this could not only save you time if you spot a mistake you want to correct but it could be required to publish it in a journal.
