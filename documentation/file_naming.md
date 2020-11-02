@@ -16,20 +16,20 @@ Some key points adapted from @borerSimpleGuidelinesEffective2009:
 ### Examples
 
 ~~~~
-ace_meteorology_data_20170234-120000.csv
+ace_meteorology_data_20170130-120000.csv
 ~~~~	
 
-* ace is the overarching project
+* ace is the overarching project - the acronym should be described in the readme.txt file, which should be stored with the files
 * meteorology is the sub-project
 * data signified that this is data rather than documentation
-* 20170234-120000 is the first timestamp of data in the file
+* 20170130-120000 is the first timestamp of data in the file
 * .csv is the file type (comma-separated values)	
 
 ~~~~
 ace_meteorology_ProcessedWindData_201701.csv
 ~~~~
 
-* ace is the overarching project
+* ace is the overarching project - the acronym should be described in the readme.txt file, which should be stored with the files
 * meteorology is the sub-project
 * ProcessedWindData is information about the data contained in the file
 * 201701 is the subset of data in the file (only data from January 2017)
