@@ -5,8 +5,6 @@ It is worth investing time and effort in ensuring a coherent [directory structur
 
 ### Directory structure
 
-#### Overall hierarchy
-
 Consider a set of higher level directories that can be used across projects. Working in a separate directory to raw or finalised files is good practice to avoid accidentally modifying them (see the section about [working on data](#working-on-your-data) for more information). For this reason, consider creating a work-in-progress ("wip") directory which can have different permissions and a different [backup schedule](#data-backup). 
 
 Directories containing data may be organised according to the project and it is important to consider the [number of files in a directory](#number-of-files-in-a-directory) and [size of files](#file-size).
@@ -59,7 +57,7 @@ Some key points adapted from @borerSimpleGuidelinesEffective2009:
 * Describe how files are named within a readme.txt file.
 * Be consistent!
 
-### Examples
+#### Examples
 
 ~~~~
 ace_meteorology_data_20170130-120000.csv
