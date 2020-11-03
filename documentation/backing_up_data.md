@@ -47,15 +47,13 @@ Storage media can become obsolete, file permissions and access can be changed ac
 
 Choosing a simple, well-understood, transparent and multi-platform tool will often make file restoration much simpler.
 
-If any of your data were produced using proprietary software it is particularly important to ensure that you can still read them on a regular basis. You may need a specific piece of software that requires a license (do you still have the license?) or even a specific version of software that might become outdated. Consider outputting data into an [open, documented format](#data-file-formats) such as txt or csv - be aware that in this process you may lose some information or data, so it is always good practice to keep both sets of files. 
+If any of your data were produced using proprietary software it is particularly important to ensure that you can still read them on a regular basis. You may need a specific piece of software that requires a license (do you still have the license?) or even a specific version of software that might become outdated. Consider outputting data into an [open, documented format](#data-file-formats) such as TXT or CSV - be aware that in this process you may lose some information or data, so it is always good practice to keep both sets of files. 
 
 ### Backup tools
 
 Many tools are available to help create backups. It is worth spending time finding one that meets your needs taking into account future, as well as current, needs. Of course it is essential to fully understand how the data are being saved and how they can be recovered.  
 
-Your institution may have tools or subscriptions to tools that can help. Data managers or librarians within your institution may also be able to offer recommendations. 
-
-Using a multi-platform tool (such as for Windows, Mac, Linux and other operating system users) offers higher resilience, ensuring more possibilities for accessing the data in the future and allow access to other team members. 
+Using a multi-platform tool (such as for Windows, Mac, Linux and other operating system users) offers higher resilience, ensuring more possibilities for accessing the data in the future and allow access to other team members. Some institutions may have tools or recommendations that can help. 
 
 ### Summary of key points
 

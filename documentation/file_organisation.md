@@ -12,7 +12,7 @@ Directories containing data may be organised according to the project and it is 
 An example directory structure can be seen here.
 
 ~~~
-projectName/
+projectName
 |-- documentation
 |-- plots
 |-- processedData
