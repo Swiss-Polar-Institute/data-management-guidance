@@ -1,13 +1,13 @@
 
 ## Storing data
 
-Storing your data in an organised and secure manner, will save you a lot of time and hassle in the long run. It is worth investing time and effort in ensuring a coherent [directory structure](#directory-structure), understandable [file names](#file-naming), secure data storage and carefully thought-out [backups](#data-backup).
+Storing data in an organised and secure manner, will save a lot of time and hassle in the long run. 
 
-In this section we focus on where to store your data. Suggestions are *not* ordered by preference.
+In this section we focus on types of data storage. Suggestions are *not* ordered by preference.
 
 ### What to consider when deciding where to store your data
 
-Thinking carefully about what you need to be able to do with your data will help you to select where is best to store your data.
+Thinking carefully about what you need to be able to do with your data will help to select the most suitable storage.
 
 * What do you want to do with the data? 
 * Do other people need access to your data?
@@ -72,15 +72,3 @@ Wikipedia has a very handy [comparison of online backup options](https://en.wiki
 Platforms such as [Zenodo](https://zenodo.org) are provided for publication of data and other digital resources, but when datasets have been completed (either in a raw or finalised state) it can be worth thinking about this option.
 
 Object storage has various idiosyncrasies in terms of differences to file systems that are useful to be aware of. For example, files are known as objects and there is no concept of directories [@chanS3KeysAre2020; @chanS3PrefixesAre2020].
-
-### File organisation
-
-It is important to strike a balance between the number of files you produce and their size. Consider the size of data files and the number of files you store in a directory. 
-
-#### File size
-
-Consider file size carefully so they are easy to work with for human users and applications. Many small files will take longer to copy and be harder to work with than a single file of the same total size. Copying lots of smaller files to [cloud storage](#cloud-storage) can also increase the cost which may be a factor to consider. Equally, avoid creating files that are more than 1 GB because in some cases they can be difficult to read into memory and cause other problems. 
-
-#### Number of files in a directory
-
-In addition to the [size of files](#file-size), it is important to consider the number of files in a directory. Whilst in the majority of modern file systems the number of files within a directory is not technically limited, having more than a few thousand in one directory can make them more tricky to work with. As a guide, around 10,000 files could be considered as a sensible maximum number within one directory but it will greatly depend on the technologies being used. If data collection will produce something around this number, consider splitting them into sub-directories. 

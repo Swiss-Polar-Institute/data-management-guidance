@@ -26,11 +26,11 @@ ace_meteorology_data_20170130-120000.csv
 * .csv is the file type (comma-separated values)	
 
 ~~~~
-ace_meteorology_ProcessedWindData_201701.csv
+ace_meteorology_processedWindData_201701.csv
 ~~~~
 
 * ace is the overarching project - the acronym should be described in the readme.txt file, which should be stored with the files
 * meteorology is the sub-project
-* ProcessedWindData is information about the data contained in the file
+* processedWindData is information about the data contained in the file
 * 201701 is the subset of data in the file (only data from January 2017)
 * .csv is the file type (comma-separated values)
