@@ -39,7 +39,7 @@ Ideally hand-written data should be digitised as soon as possible after data col
 
 If adding to a data file with new observations, using the date to denote different versions of the file is helpful e.g., ``project_datatype_observations_YYYYMMDD.csv``
 
-Don't forget to [backup](#backing-up-data) your digitised data as well.
+Don't forget to [backup](#data-backup) your digitised data as well.
 
 ### Sample collection
 

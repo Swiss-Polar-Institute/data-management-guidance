@@ -1,16 +1,16 @@
 personal_ws-1.1 en 156 
 PLoS
 Peng
-FieldSiteA
-FieldSiteB
-FieldSiteC
+fieldSiteA
+fieldSiteB
+fieldSiteC
 titlesec
 SchemaOrg
 dataset
 readme
-CamelCaps
+camelCaps
 al
-RawData
+rawData
 titleformat
 wholetaleWholeTale
 borerSimpleGuidelinesEffective
@@ -61,7 +61,7 @@ md
 Milfort
 CTD
 Eren
-ProjectName
+projectName
 doi
 fancyfoot
 Chaptinel
@@ -79,7 +79,7 @@ newpage
 DOIs
 defaultfontfeatures
 Reichler
-ProcessedData
+processedData
 FrictionlessData
 GBs
 papersize
@@ -126,7 +126,7 @@ nocite
 YYYY
 alexwlchan
 funders
-ProcessedWindData
+processedWindData
 LaTeX
 setmainfont
 chaptertitle
