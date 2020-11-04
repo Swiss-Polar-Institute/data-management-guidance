@@ -4,7 +4,7 @@
 find documentation/ -name "*.md" -exec aspell -d en -x --home-dir=. check {} \;
 
 # Include variables that can be set in the document eg. for version numbers
-echo "git_commit: $(git log -n 1 --pretty=format:'%h')" >> variables.yml
+echo "git_commit: $(git log -n 1 --pretty=format:'%h')" > variables.yml
 
 # Create a rendered version which includes the variables from the yaml file
 mkdir -p rendered
