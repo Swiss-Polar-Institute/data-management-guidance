@@ -1,8 +1,9 @@
-personal_ws-1.1 en 157 
+personal_ws-1.1 en 158 
 PLoS
 Peng
 fieldSiteA
 fieldSiteB
+pdflatex
 fieldSiteC
 titlesec
 SchemaOrg
@@ -27,7 +28,7 @@ rclone
 GDPR
 setfoot
 DejaVuSansMono
-Pandoc
+pandoc
 El
 Barcodes
 considertation
