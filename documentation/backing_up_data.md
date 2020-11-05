@@ -1,69 +1,69 @@
 
 ## Data backup
 
-Ensuring you have several reliable copies of your data avoids data loss and gives you peace of mind. Think carefully about the type of [data storage](#storing-data) you use for your backups.
+Ensuring you have several reliable copies of data avoids data loss and gives peace of mind. 
 
-It is important to remember that if you are working in the field, your backup set-up and schedule will differ from your backups that are done of other data and when working back at your institution. This is covered more detail in [planning](#before-you-go) and [working in the field](#in-the-field) sections of the guide.
+Backup set-up and schedule will differ when working in the field. This is covered in more detail in the [planning](#before-you-go) and [working in the field](#in-the-field) sections of the guide.
 
 ### Creating a backup schedule
 
 #### How many and how often
 
-Think carefully about how often you want to backup your data and if you will do full backups each time, or only partial backups for files that have changed. Don't forget that your documentation, code, plots and other associated files should also be backed up alongside the data. Automating your backups will make everything much simpler and help to avoid mistakes.
+Think carefully about how often data should be backed up and if full backups or partial backups ofr files that have changed, are needed. Documentation, code, plots and other associated files should also be backed up alongside the data. Automating backups will make everything much simpler and helps to avoid mistakes.
 
-Arguably it is much simpler to do a full backup of your files each time and retain these for a certain period of time. If you are not working on the data or associated files any longer, then as long as the backups are secure and regularly checked, this could be done every month, for example. 
+Arguably it is much simpler to do a full backup of files each time and retain these for a certain period of time. If data and associated files are not being worked on any longer, then as long as the backups are secure and regularly checked, these could be backed up every month, for example. 
 
-If however you are working on your files on a daily basis, having daily backups can save a lot of time if you notice an issue. In this case, you may consider to do daily backups of only a subset of the files. 
+If however files are being worked on, on a daily basis, daily backups can be very useful. In this case, a backup of a subset of the files may be considered. 
  
 #### Size of backup
 
-It is important to consider how much space each backup will take and therefore how much total space you need available for all of your backups. Data volume and also the number of files will both affect how long the backup takes to complete.
+It is important to consider how much space each backup will take and therefore how much total space is required for all of your backups. Data volume and also the number of files will both affect how long the backup takes to complete.
 
 #### Retention of backups
 
-If using managed data storage such as from your institution, be sure to understand how often backups are done and for how long these are retained. It is also important to be able to [restore your files easily](#file-restoration).
+If using managed data storage be sure to understand how often backups are done and for how long these are retained.
 
-For your regular backups, depending on how often you do your backups, you might decide to have a backup cycle where you do one per month and retain them for six months, for example.  
+For regular backups, a backup cycle should be considered, where each backup is retained for a certain period of time before being deleted. For example, if ten backups of files are retained and these backups are done once per week, when a new backup is done (and verified), the oldest would then be deleted. 
 
-If data are being stored for preservation purposes then you need to take into account how the data have been collected, if they have been published openly anywhere and their importance for the future. This should be planned in a data management plan.
-
-Consider also that you might not realise it now, but these data could be part of a long-term study in the future. For example, you might start collecting a set of time series data for a one-off project. If this project gets another set of funding for a second year in a row, you will then have amassed two years' worth of data. Who knows if you might end up then setting up an observing programme at the same site with automated monitoring for the next ten years. Being able to read and access the initial "one-off" dataset years into the future can provide an opportunity for a publication that you might not originally have envisaged right back at the beginning.  
+The long-term preservation of data should always be planned in a data management plan at the outset of a project (sometimes this is required as part of a project proposal). In planning this long-term storage, take into account how the data have been collected, if they have been published openly anywhere and their importance for future work. 
 
 ### Documenting backups
 
-It is important to document where the files have been backed up, when, how often, as well as how they can be accessed and restored if necessary. Think of this as a backup for your future self - it might be a whole field season before you look back at how you organised the backups, so after a long time away, it is useful to pick up a short README file with this information and be able to restore backed-up data straight away.
+It is important to document where the files have been backed up, when, how often, as well as how they can be accessed and restored if necessary. Whilst restoring a backup should be done on a regular basis to ensure it is still available, there are times (such as after a long field season) that this information will not be as fresh, so good documentation is vital. A short [README](#README.txt) file with this information would allow anyone to be able to restore backed-up data straight away.
 
-### Checking and restoring backups
+### Verifying a backup
+
+It is important to check a backup when it has finished to ensure it contains the files as expected. This check should check not only the number of files and that the correct files are present in the backup, but also that the files have not been changed in any way.
 
 #### Checksums
 
-It is important to check the backup when it has been completed to ensure it contains the files you expect. [Checksums](https://en.wikipedia.org/wiki/Checksum) are a unique identifier of a file: if its content changes in any way, then its checksum also changes. Comparing checksums of your original files and the backup is a very handy way to ensure that the backup contains the files you expect. 
+ [Checksums](https://en.wikipedia.org/wiki/Checksum) are a unique identifier of a file: if its content changes in any way, then its checksum also changes. Comparing checksums of the original files and the backed-up files is one method to verify the backed-up files are as expected. 
 
 [md5sum](https://en.wikipedia.org/wiki/Md5sum) and [sha1sum](https://en.wikipedia.org/wiki/Sha1sum) are two examples of computer programs that compute checksums of files and would be suitable for this purpose.  
 
-#### File restoration
+### Backup restoration
 
-Storage media can become obsolete, file permissions and access can be changed accidentally, and subscriptions to services are sometimes not renewed. There can be many possible ways in which file backups are lost. Regularly checking that you can still read and restore the data is important to ensure that there are no problems.
+There can be many possible ways in which file backups are lost: storage media become obsolete, file permissions and access can be changed accidentally, and subscriptions to services are sometimes not renewed. Regularly checking that files can still be read and restored is important to ensure that there are no problems.
 
-Choosing a simple, well-understood, transparent and multi-platform tool will often make file restoration much simpler.
+Choosing a simple, well-understood, transparent and multi-platform [tool](#backup-tools) to do backups will often make file restoration much simpler, but this should be chosen with care.
 
-If any of your data were produced using proprietary software it is particularly important to ensure that you can still read them on a regular basis. You may need a specific piece of software that requires a license (do you still have the license?) or even a specific version of software that might become outdated. Consider outputting data into an [open, documented format](#data-file-formats) such as TXT or CSV - be aware that in this process you may lose some information or data, so it is always good practice to keep both sets of files. 
+If any data were produced using proprietary software it is particularly important to ensure that they can be read on a regular basis. Consider outputting data into an [open, documented format](#data-file-formats) such as TXT or CSV - be aware that in this process some information or data may be lost, so it is always good practice to keep both sets of files. 
 
-### Backup tools
+#### Backup tools
 
-Many tools are available to help create backups. It is worth spending time finding one that meets your needs taking into account future, as well as current, needs. Of course it is essential to fully understand how the data are being saved and how they can be recovered.  
+Many tools are available to help create backups. It is worth spending time finding one taking into account future, as well as current, needs. Of course it is essential to fully understand how the data are being saved and how they can be restored.  
 
-Using a multi-platform tool (such as for Windows, Mac, Linux and other operating system users) offers higher resilience, ensuring more possibilities for accessing the data in the future and allow access to other team members. Some institutions may have tools or recommendations that can help. 
+Using a multi-platform tool (such as for Windows, Mac, Linux and other operating system users) offers higher resilience, ensuring more possibilities for accessing the data in the futures. Some institutions may have tools or recommendations that can help. 
 
 ### Summary of key points
 
 Make sure:
 
-* you have at least two, preferably three or more [copies](#how-many-and-how-often) of your data;
+* at least two, preferably three or more [copies](#how-many-and-how-often) of data are kept;
 * data are backed up on at least two different [types of media](#storing-data), particularly for preservation purposes, such as institution storage, cloud storage, external hard drives;
-* that as far as possible, backups are automated. This avoids potential mistakes, minimises the chances of data loss, makes it much easier to do (it is less of a chore) and ensures the backups are always done in the same way;
+* as far as possible, backups are automated. This avoids potential mistakes, minimises the chances of data loss, makes it much easier to do (it is less of a chore) and ensures the backups are always done in the same way;
 * data are backed up on a [regular basis](#how-many-and-how-often), but particularly during collection and after making any changes;
-* that backed up versions of your data are identical to the primary copy. Whilst [checking](#checking-and-restoring-backups) that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
-* that you can easily [restore](#checking-and-restoring-backups) your backups;
-* decide on a [directory structure](#storing-data) and [file naming](#file-naming) convention for your data and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what hasn't, which is the latest version and so on;
-* if you will be backing up tens of GB or more of data, bear in mind how long a backup will take and consider this when deciding how you will arrange your backup schedule.
+* backed up versions of data are identical to the primary copy (i.e. verified). Whilst [checking](#checking-and-restoring-backups) that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
+* backups can be easily [restored](#checking-and-restoring-backups);
+* decide on a [directory structure](#storing-data) and [file naming](#file-naming) convention and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what has not, which is the latest version, and so on;
+* bear in mind how long a backup will take and consider this when deciding how backups will be done and scheduled.
