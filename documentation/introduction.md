@@ -3,7 +3,7 @@
 
 ### Benefits of good data management
 
-Setting time aside for carefully managing data and samples from the beginning of a project, will save a lot of time in the long run. Investment of time in good preparation and management of data files, software, documentation and associated files is an investment for the future. Detailed documentation, organised files and well-kept backups will make life a lot easier for your future self and others.
+Setting time aside for carefully managing data and samples from the beginning of a project will save a lot of time in the long run. Investment of time in good preparation and management of data files, software, documentation and associated files is an investment for the future. Detailed documentation, organised files and well-kept backups will make life a lot easier for your future self and others.
 
 ### What this guide covers
 

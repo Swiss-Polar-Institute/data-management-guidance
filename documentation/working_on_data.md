@@ -7,7 +7,7 @@ Careful recording of how a dataset has been produced is important firstly so tha
 
 ### Raw data
 
-Your primary copy of the data, known as "raw" data, is that which comes directly from the instrument, sample analysis, or primary observation. This raw data should be saved as it is, backed up and **should never be modified**. The primary copy of the raw data should have read-only access so it can never be altered inadvertently. Never reorganise or alter the primary copy of raw data files.
+The original copy of the data, known as "raw" data, is that which comes directly from the instrument, sample analysis, or primary observation. This raw data should be saved as it is, backed up and **should never be modified**. The primary copy of the raw data should have read-only access so it can never be altered inadvertently. Never reorganise or alter the primary copy of raw data files.
 
 ### Work on a copy of your raw data
 
@@ -17,17 +17,32 @@ It is advisable to use a scripting language to make any changes to your working 
 
 ### Versions of files
 
-Using scripted languages to do any file manipulation is the ideal way to record what you have done to data files and demonstrate how a preliminary dataset has been created. Steps can easily get lost, forgotten or critical errors introduced without you realising (eg. @ziemannGeneNameErrors2016), if using spreadsheets or making direct changes. If you do use such methods, maintaining full documentation about every step of the processing and outputting different versions of the dataset at crucial stages is a way to ensure you can demonstrate the provenance of a dataset.
+Using scripted languages to do any file manipulation is the ideal way to record what has been done to data files and demonstrate how a dataset has been created. Steps can easily get lost, forgotten or critical errors introduced without realising (eg. @ziemannGeneNameErrors2016), if using spreadsheets or making direct changes. Whichever method is used, maintaining full documentation about every step of the processing and outputting different versions of the dataset at crucial stages is a way to ensure the provenance of a dataset can be demonstrated.
 
-When working on processing, quality checking and making other changes to produce the preliminary dataset, creating different versions of the files after each step rather than overwriting files, is a valuable way of ensuring you can follow all steps that have been undertaken and allow you to go back to a certain place if you find errors or want to change your methods.
+When working on processing, quality checking and making other changes to produce the preliminary dataset, creating different versions of the files after each step rather than overwriting files, is a valuable way of ensuring all steps can be followed and help to get back to a certain step to investigate errors or make other changes.
 
 File versions can be named using the date (in the format YYYYMMDD) or version numbers, such as ``v01_01``, ``v01_02``. Including the date in this format, or version numbers that have leading zeros ensure that files are listed in order when viewing them.
 
 [Backups](#data-backup) of any edited files should be done on a regular basis.
 
+### Recording the provenance of your data
+
+It is often impossible to repeat data collection, which in polar research is also often extremely expensive. This "original" data is considered as [raw](#raw-data) and should be kept as such. But any [work that is done on a copy of this raw data](#work-on-a-copy-of-your-raw-data) should be carefully recorded. It is natural to keep notes of what has been done to data so that when writing up publications, methods can be written more easily. 
+
+More often journals are asking that all supporting documentation, code, data and information about how plots and figures were generated be available, so organising how to capture the full provenance of datasets and research paper will save a lot of time when ready to publish. 
+ 
+* Wherever possible, use a scripting language to do any manipulation of data, for applying algorithms, quality-checking and any other processes that work towards the final, output dataset. Scripts can be modified easily if a mistake is spotted and then re-run, rather than having to run through a set of manual steps again.
+* Backup and keep different [versions](#versions-of-files) of any code so that it is possible to see where errors are introduced into data or processing.
+* Make sure clear documentation is kept: clearly state references to algorithms, which software and packages (including the version) as well as which the decisions taken and why.
+* Ideally, record the set-up of the computing environment that has been used to run the scripts: include details of the operating system, package names and versions. 
+* Always keep data and code that produces plots: this could not only save time if a mistake needs correcting but it could also be required to publish it in a journal.
+
+Refer to the [metadata](#metadata) section for full details of what information should be captured to properly describe the provenance of your data and samples.
+
+### Tools
 #### Versioning tools
 
-Only a couple are mentioned here but there are many different tools available. Two of the most commonly used are: 
+Versioning tools capture any changes that are made between files, allowing a user to go back and Only a couple are mentioned here but there are many different tools available. Two of the most commonly used are: 
 
 * Git - commonly used for software versioning
 * Git-LFS - used for data file and software versioning
@@ -35,20 +50,6 @@ Only a couple are mentioned here but there are many different tools available. T
 [Github](https://github.com/) is commonly used as a platform for software versioning. 
 
 It is worth checking with your institution if they have anything already set-up for your use.
-
-### Recording the provenance of your data
-
-It is natural to keep notes of what you have done to data so that when writing up publications, you are able to explain your methods. It is often impossible to repeat data collection, which in polar research is also often extremely expensive. This "original" data is considered as [raw](#raw-data) and should be kept as such. But any [work that is done on a copy of this raw data](#work-on-a-copy-of-your-raw-data) should be carefully recorded.
-
-Journals are more and more asking for all supporting documentation, code, data and information about how plots and figures were generated, so organising to capture the full provenance of your data and research paper will save you time when you come to publish. 
- 
-* Wherever possible, use a scripting language to do any manipulation of data, for applying algorithms, quality-checking and any other processes that work towards your final, output dataset. Scripts can be modified easily if you spot a mistake and then re-run, rather than having to run through all of your manual steps again.
-* Backup and keep different [versions](#versions-of-files) of your code so that you can see where possible errors are introduced into your data or processing.
-* Make sure you also document what you are doing: clearly state references to algorithms, which software you are using (including the version) as well as which decisions you have taken and why.
-* Ideally, you should be able to record the set-up of the computing environment that you have used to run the scripts: include details of the operating system, package names and versions. 
-* Always keep data and code that produces plots: this could not only save you time if you spot a mistake you want to correct but it could be required to publish it in a journal.
-
-Refer to the [metadata](#metadata) section for full details of what information should be captured to properly describe the provenance of your data and samples.
 
 #### Tools for capturing data provenance
 
