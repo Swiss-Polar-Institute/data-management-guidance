@@ -17,6 +17,8 @@ do
 	mustache variables.yml "$file" > "rendered/$file_basename"
 done
 
+OUTPUT_BASE_NAME="data_management_guidance_in_the_field"
+
 # Generate tex file output using a template
 pandoc --pdf-engine=xelatex \
   --bibliography data_management_guidance.bib \
@@ -31,14 +33,14 @@ pandoc --pdf-engine=xelatex \
    --template template.tex \
    -f markdown \
    rendered/title_page.md rendered/introduction.md rendered/good_dm_practice.md rendered/metadata.md rendered/storing_data.md rendered/file_organisation.md rendered/file_formats.md rendered/backing_up_data.md rendered/working_on_data.md rendered/sample_collection.md rendered/field_guide_introduction.md rendered/planning_before_go.md rendered/in_the_field.md rendered/return_from_field.md rendered/bibliography.md \
-   -s -o data_management_guidance_draft.tex
-pdflatex data_management_guidance_draft.tex
-pdflatex data_management_guidance_draft.tex
-pdflatex data_management_guidance_draft.tex
-pdflatex data_management_guidance_draft.tex
+   -s -o "$OUTPUT_BASE_NAME.tex"
+pdflatex "$OUTPUT_BASE_NAME.tex"
+pdflatex "$OUTPUT_BASE_NAME.tex"
+pdflatex "$OUTPUT_BASE_NAME.tex"
+pdflatex "$OUTPUT_BASE_NAME.tex"
 
 # Generate a docx output
-pandoc -t docx data_management_guidance_draft.tex -o data_management_guidance_draft.docx
+pandoc -t docx "$OUTPUT_BASE_NAME.tex" -o "$OUTPUT_BASE_NAME.docx"
 
 # Example of using a reference doc to format an output docx file
-#pandoc --reference-doc='/home/jen/projects/spi_data_management/SPI_document_template.docx' -t docx data_management_guidance_draft.tex -o data_management_guidance_draft.docx
+#pandoc --reference-doc='/home/jen/projects/spi_data_management/SPI_document_template.docx' -t docx "$OUTPUT_BASE_NAME.tex" -o "$OUTPUT_BASE_NAME.docx"
