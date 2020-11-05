@@ -1,33 +1,35 @@
 
 ## In the field
 
+Careful preparation and a good routine in the field can help to manage data well and avoid frustration through lack of documentation and bad organisation of files. A careful routine of spending time backing up data, transcribing hand-written notes or data, and checking records of samples at the end of each day is vital to good data management. 
+
 ### Data collection from an instrument
 
-Automation, careful setup and testing are key. Much of your setup for [data storage](#storing-data) should already be planned and in place before you begin work in the field. Refer to the [planning](#before-you-go) section for what to think about and prepare before you arrive in the field.
+Automation, careful setup and testing are key. Much of the setup for [data storage](#storing-data) should already be planned and in place before beginning work in the field. Refer to the [planning](#before-you-go) section for what to think about and prepare before arriving in the field.
 
 #### Initial setup and testing
 
-Retaining data and keeping careful notes ([metadata](#metadata)) about initial setup and tests in the field is essential in case you notice any problems later on.
+Retaining data and keeping careful notes ([metadata](#metadata)) about initial setup and tests in the field is essential in case any problems are noticed later on.
 
-Firstly check that you can read a data file. If files are saved in proprietary formats, then make sure you have access to the software you need to be able to check them carefully.
+Firstly check that data files can be read. If files are saved in proprietary formats, then make sure the software that is required to read them is available.
 
-Check that data files contain data for the parameters you expect in the correct units. Ensure the files are being saved in the [directory structure](#directory-structure) and with the [filenames](#file-naming) that you expect. Now is the time to make any necessary changes.
+Check that data files contain data for the expected parameters in the correct units. Ensure the files are being saved in the [directory structure](#directory-structure) and with the [filenames](#file-naming) that are expected. Now is the time to make any necessary changes, before "real" data collection begins.
 
 #### Periodic checking of data
 
-If you are able to access your data whilst in the field, take advantage of being able to check files are being saved correctly and that they can be read. Consult the software documentation for how is best to do this, to avoid problems which will differ between operating systems and software. Avoid interfering with the file-writing process, so it is best to test or check files that belong to a secondary copy if possible.
+If it is possible to access the data whilst in the field, take advantage of being able to check that files are being saved correctly and that they can be read. Consult the software documentation for how is best to do this, to avoid problems. Make a copy of the primary data files to avoid interfering with the file-writing process; check the copies rather than the files that are being written.
 
-For data that is being recorded continuously, it would be good practice to check files at least once a day, or more often if time allows. Events such as bad weather may mean you need to check the data more regularly.
+For data that is being recorded continuously, it would be good practice to check files at least once a day, or more often if time allows. Events such as bad weather may mean data need to be checked more regularly.
 
-If you are able to visualise your data in some way, this is a very nice way to spot anomalies in the data which may in turn help you spot an instrument problem which you might subsequently be able to fix to get your data collection back on track.
+If it is possible to visualise the data in some way, this is a very nice way to spot anomalies which may in turn help to spot an instrument problem which could be fixed and get the data collection back on track.
 
-Unless you have forgotten or need to add a parameter to a dataset, do not change what is collected in a dataset part way through a field campaign. This adds much unneeded complexity and confusion when trying to read the data files during the post-processing stages. In particular, do not change the format of fields or parameter names during data collection. Testing data collection before travelling and before starting data collection in the field should help to prevent this kind of problems.
+Do not change what is collected in a dataset part way through a field campaign unless a parameter has been forgotten. This adds much unneeded complexity and confusion when trying to read the data files during the post-processing stages. In particular, do not change the format of fields or parameter names during data collection. Testing data collection before travelling and before starting data collection in the field should help to prevent this kind of problems. Any changes that are made should be clearly documented, including details of which files are affected.
 
 #### Backups
 
-[Backups](#data-backup) should be automated wherever possible. If this is not possible, make sure they are done on at least a daily basis and kept in more than one place. You should have at least two backups of your data.
+[Backups](#data-backup) should be automated wherever possible. If this is not possible, make sure they are done on at least a daily basis and kept in more than one place. At least two backups of the data should be kept, preferably more.
 
-Check the integrity of your backups on a regular basis: make sure the files that are backed up are the same as the originals and that you can read them correctly.
+Check the integrity of the backups on a regular basis: make sure the files that are backed up are the same as the originals and that they can be read correctly.
 
 ### Recording data by hand
 
@@ -35,32 +37,30 @@ If collecting data in a notebook by hand, it is good practice to [digitise the d
 
 #### Backing up or digitising your data
 
-Ideally hand-written data should be digitised as soon as possible after data collection and at least once a day. A simple first backup can be done by photographing your notes in case the unthinkable happens and you lose your notebook. Recording hand-written notes in a structured manner such as in a spreadsheet though, cannot be underestimated and this should be done as regularly as possible as well (at least daily). This means you can embellish any shorthand you have used before you forget what it means, or follow up on anything you needed to query. In particular in cases where you might be recording species observed for example, you can follow up on any missing identifications before you forget key details. See the previous chapter about what to [prepare before you go](#preparing-for-recording-data-by-hand) for details of what you can prepare in advance to save time in the field.
+Ideally hand-written data should be digitised as soon as possible after data collection and at least once a day. A simple first backup can be done by photographing notes in case the unthinkable happens and the notebook is lost (keep the camera and notebook separately). Recording hand-written notes in a structured manner such as in a spreadsheet, cannot be underestimated and this should be done as regularly as possible as well (at least daily). This allows embellishment of any shorthand that has been used before forgetting what it means, or follow up on any queries. In particular when recording species for example, it is then possible to follow up on missing identifications before key details are forgotten or lost. See the previous chapter about what to [prepare beforehand](#preparing-for-recording-data-by-hand) to save time in the field.
 
-If adding to a data file with new observations, using the date to denote different versions of the file is helpful e.g., ``project_datatype_observations_YYYYMMDD.csv``
+If adding to a data file with new observations each day, using the date to denote different versions of the file is helpful e.g., ``project_datatype_observations_YYYYMMDD.csv``. This acts as an additional backup: if the last day's file is lost, at least only the latest data has been lost. 
 
-Don't forget to [backup](#data-backup) your digitised data as well.
+Do not forget to [backup](#data-backup) digitised data as well.
 
 ### Sample collection
 
-Record [metadata](#metadata) about [sample collection](#collecting-samples) as accurately and as soon as possible. Cross-checking this information is useful to avoid mistakes.
+Record [metadata](#metadata) about [sample collection](#collecting-samples) as accurately and as soon as possible. Cross-checking this information is useful to spot mistakes.
 
-Ensure you are able to find samples easily from your records, particularly if you are participating in a long field campaign. Recording their storage location and box / crate number is also useful in case you need to find them again, such as on arrival at customs. Also be sure to note if they are destroyed during any sample analysis that you undertake whilst in the field: you don't want to be searching for a sample that no longer exists!
+Ensure samples can be easily found at the field site from the records that are kept, particularly if participating in a long field campaign. Recording their storage location and box / crate number is also useful in case they need to be found, such as on arrival at customs. Be sure to note if they are destroyed during any sample analysis that is undertaken whilst in the field to avoid wasting time searching for a sample that no longer exists!
 
 Finally, keep an accurate record of what is contained in each sample according to what is required for [permits and border entry requirements](#travel-and-customs) and where the sample is being sent for analysis following the field work.
 
 ### Data from sample analysis
 
-In some cases, you might collect samples in the field and then process them whilst still away from your home laboratory. If using instrumentation to process samples, please refer to the section about [data collection from an instrument](#data-collection-from-an-instrument).
-
-Your field setup will very much dictate how you are able to record data from sample analysis. If you have to record numerical values from processing consider if you will be able to have a laptop or computer in the lab, or if will you be noting the values by hand. If the former, then treat this as [data collection from an instrument](#data-collection-from-an-instrument), taking good care to regularly save and backup data files. If the latter, then refer to the section, [recording data by hand](#recording-data-by-hand). This data should be digitised as soon as possible and backed up securely.
+In some cases, samples may be collected and processed in the field. The field setup will very much dictate how data from sample analysis can be recorded. Consider if it will be possible to have a laptop or computer in the lab, or if values will be noted by hand. If the former, then treat this as [data collection from an instrument](#data-collection-from-an-instrument), taking good care to regularly save and backup data files. If the latter, then refer to the section, [recording data by hand](#recording-data-by-hand). This data should be digitised as soon as possible and backed up securely.
 
 If recording further information about the samples such as identifying different species of plant, then please refer to the section, [recording data by hand](#recording-data-by-hand).
 
 ### Recording metadata
 
-Ensure you follow the [metadata](#metadata) section of the guide, paying particular attention at this point to recording where and when your data and samples were collected. Metadata is most accurate when recorded as soon as possible - don't leave it until the end of your field campaign to make notes.
+Ensure the [metadata](#metadata) section of this guide is followed, paying particular attention to recording where and when samples and data were recorded. Metadata is most accurate when recorded as soon as possible - don't leave it until the end of the field campaign to make notes.
 
-Remember to digitise this information if you would ordinarily record it in a notebook and treat these files like you would any other data, using secure [storage](#storing-data) and regular [backups](#data-backup).
+Remember to digitise this information if it would ordinarily be recorded in a notebook and treat these files like any other data, using secure [storage](#storing-data) and regular [backups](#data-backup).
 
-Take photographs of as many things as you can! Your instrument set-up, makes, models and serial numbers of equipment equipment, notebooks, field sites, laboratory setting, your notebooks and anything that could affect your experiment directly or indirectly. This is hugely valuable metadata and should be carefully [backed-up](#data-backup).
+Take photographs of as many things as possible! The instrument set-up, makes, models and serial numbers of equipment equipment, notebooks, field sites, laboratory setting, notebooks and anything that could affect the experiment directly or indirectly. This is hugely valuable metadata and should be carefully [backed-up](#data-backup).
