@@ -36,7 +36,7 @@ In some experiments, more than one sample will be taken at the same time and und
 #### Further considerations
 
 * Space that is available on the sample container.
-* Be very aware of mistakes that can be made by early labelling if for some reason samples may end up being collected in the "wrong" or a "wrongly labelled" container.
+* Be very aware of mistakes that can be made by early labelling if for some reason samples may end up being collected in a "wrongly labelled" container.
 * Some groups may use a bar coding system to record and label samples. There are various costs associated with setting up and maintaining such a system, but it may be worth consideration and the investment if large numbers of samples are going to be collected [@coppBarcodesAreUseful2014].  
 
 ### Labelling
