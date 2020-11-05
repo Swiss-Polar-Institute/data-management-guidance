@@ -3,13 +3,13 @@
 
 ### Benefits of good data management
 
-Setting time aside for carefully managing data and samples from the beginning of a project will save a lot of time in the long run. Investment of time in good preparation and management of data files, software, documentation and associated files is an investment for the future. Detailed documentation, organised files and well-kept backups will make life a lot easier for your future self and others.
+Investment of time in good preparation and management of data files, software, documentation and associated files is an investment for the future. Setting time aside for preparing detailed documentation, organised files and well-kept backups, as part of a routine when managing data and samples, will make life a lot easier for your future self and others.
 
 ### What this guide covers
 
 In this guide we cover good research data management practice with a focus on field work, although the general guidelines are applicable in any circumstances. The first part of the guide is general and can be applied throughout all stages of the research life cycle. 
 
-The second part is a guide for data management in the field and is broken into three sections: planning data management for fieldwork, some key points to remember whilst in the field and a brief set of considerations for returning to your institution. We regularly refer back to the key sections of the first part of the document and recommend that the reader is familiar with this before reading the field guide.
+The second part is a guide for data management in the field and is broken into three sections: planning data management for fieldwork, some key points to remember whilst in the field and a brief set of priorities for after returning. We regularly refer back to the key sections of the first part of the document and recommend that the reader is familiar with this before reading the field guide part.
 
 #### Scope
 

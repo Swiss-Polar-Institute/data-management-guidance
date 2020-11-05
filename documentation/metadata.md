@@ -9,7 +9,7 @@ Metadata is a description of data [@mccarthyMetadataManagementLarge1982; @graySc
 
 Information about a dataset quickly deteriorates over time [@michenerNongeospatialMetadataEcological1997]. Metadata is documentation that is a reminder to your future self (and others). Without information about how data and samples were collected, final results cannot be interpreted correctly [@smithFieldTrialsHealth2015].  
 
-To get you thinking: will you remember in 10 years what a particular acronym was in your data file? Do you remember why a sample was collected in an unexpected location? How would someone else know that a particular sample contained many more insects than the others because you couldn't find it one day and it was left out an extra night?  
+Will you remember in 10 years what a particular acronym was in your data file? Do you remember why a sample was collected in an unexpected location? How would someone else know that a particular sample contained many more insects than the others because it couldn't be found one day and was left out an extra night?  
 
 ### How is metadata used?
 

@@ -9,6 +9,8 @@ When returning from the field, data management **priorities** are to:
 
 **Further considerations** will then be to: 
 
-* check metadata and documentation and add any extra information whilst it is still clear;
+* check metadata and documentation and add any extra information whilst it is still fresh;
 * document clearly where data are backed up and how they can be accessed;
 * organise a **copy** of the raw data where it can be [worked on](#working-on-your-data).
+
+Follow the guide to [working on data](#working-on-your-data) to follow best practice.
