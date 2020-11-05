@@ -33,11 +33,11 @@ It is important to document where the files have been backed up, when, how often
 
 ### Verifying a backup
 
-It is important to check a backup when it has finished to ensure it contains the files as expected. This check should check not only the number of files and that the correct files are present in the backup, but also that the files have not been changed in any way.
+It is important to verify a backup when it has finished to ensure it contains the files as expected. This verification should check not only the number of files and that the correct files are present in the backup, but also that the files have not been changed in any way.
 
 #### Checksums
 
- [Checksums](https://en.wikipedia.org/wiki/Checksum) are a unique identifier of a file: if its content changes in any way, then its checksum also changes. Comparing checksums of the original files and the backed-up files is one method to verify the backed-up files are as expected. 
+ [Checksums](https://en.wikipedia.org/wiki/Checksum) are like a fingerprint of a file: if its content changes in any way, then its checksum also changes. Comparing checksums of the original files and the backed-up files is one method to verify the backed-up files are as expected. 
 
 [md5sum](https://en.wikipedia.org/wiki/Md5sum) and [sha1sum](https://en.wikipedia.org/wiki/Sha1sum) are two examples of computer programs that compute checksums of files and would be suitable for this purpose.  
 
