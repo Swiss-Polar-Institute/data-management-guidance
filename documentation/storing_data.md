@@ -42,32 +42,33 @@ Failure of the hard disk, theft or damage to a personal computer or laptop itsel
 
 Portable hard drives are commonly used for [backing up](#data-backup) data in the field but their use-case should be carefully considered. Some portable media types are not useful for long-term storage because they quickly degrade or become obsolete. 
 
-* Buy reputable makes of portable hard drives. If you are going to use a lot of them (for example, during a particular field season), by at least two different makes to avoid buying a "bad" batch. 
-* Consider buying several medium-sized hard drives rather than one large one. If one fails, at least you do not lose everything.
-* Take care of hard drives: remember that they are susceptible to physical damage and depending on how many times you write to them, may only last a few years.
-* Pen drives are easy to lose and shouldn't be considered as reliable for data backup. 
+* Buy reputable makes of portable hard drives. If considering using a lot of them (for example, during a particular field season), by at least two different makes to avoid buying a "bad" batch. 
+* Consider buying several medium-sized hard drives rather than one large one. If one fails, this does not mean everything is lost.
+* Take care of hard drives: they are susceptible to physical damage and depending on how many times they are written to, may only last a few years.
+* Pen drives are easy to lose and should not be considered as reliable for data backup. 
 * Consider how long it takes to back up your data and bear this in mind. If using an older device, it may have USB-2 only which is considerably slower than USB-3.
 * If a hard drive is lost, it can be easily read by anyone. The hard drive should be encrypted if it holds any personal or sensitive data.
 * Regularly check any data that are held on portable media to ensure it can still be read. Always have other backups. 
 
 #### Cloud storage
 
-Cloud storage is becoming the norm in many cases, particularly where the data volume is getting into hundreds of GBs. There are many types of cloud storage that you can set up yourself or buy as a managed service, but there are a few considerations to take into account. Many institutions now also offer this either as part of their standard storage or as an extra service, particularly for those dealing with larger volumes of data. Research data management staff in your institution may also be able to offer recommendations.
+Cloud storage is becoming the norm in many cases. There are many types of cloud storage that can be set up or bought as a managed or unmanaged service, but there are a few considerations to take into account. 
 
-* If you are storing personal data, it is essential to understand the location of the physical servers and ensure this complies with regulations such as GDPR or of your institution.
-* Access rights are also important. Consider who might have access to the data, if you use read-only or write access rights.
-* Check the privacy policy carefully. 
-* Some cloud storage providers charge not only for the data storage, but also for the number of files, copying data to and from the storage, as well as listing files (known as objects in cloud storage). It is important to think about how this could impact on your costs.
-* Some providers provide different levels of storage: consider if you want to have immediate access to your data or if you are happy to have it in "cold storage" where it may take a while to access it - this is often a low-cost option and good for long-term backups of data that you are not actively working on.
+* If files contain personal data, it is essential to understand the location of the physical servers of the cloud storage and ensure this complies with regulations such as GDPR or those of the institution.
+* Consider who might have access to the data and how access rights are administered.
+* Check the privacy policy carefully to make sure the files cannot be used in any way by the cloud storage company. 
+* Some cloud storage providers charge not only for the data storage, but also for the number of files, copying data to and from the storage, as well as listing files (known as objects in cloud storage - see below). It is important to think about how this could impact on costs.
+* Some providers provide different levels of storage: consider immediate access to data is required, or if slightly slower access, sometimes known as "cold storage", would be sufficient. The latter is often a low-cost option and good for long-term backups of data that are not actively being worked on.
 * For managed systems, make sure that backups are done regularly.
-* For unmanaged systems, check how you will be able to copy and access data. Many systems require the use of command-line tools such as ``rclone`` [@craig-woodRclone2014]. 
-* Ensure you understand how to give others access to the data.
-* Speed of access to data (particularly when more than a few GBs) can be limited by your bandwidth - consider how you will access large volumes of data carefully.
-* Always check that you are able to move your data to another provider at a reasonable cost and in a reasonable time manner. This could happen if there are changes to the services that are provided, they go out of service or they no longer meet the requirements you need. Some providers may use proprietary formats which might make moving the data very hard.
-* Ensure the subscription is always maintained (if paid for) otherwise you may find your data are deleted.  
+* For unmanaged systems, some understanding of the system will be needed to copy and access files, change access rights and verify data. Many systems require the use of command-line tools such as ``rclone`` [@craig-woodRclone2014]. 
+* Speed of access to data can be limited by bandwidth. Consider access to large volumes of data carefully.
+* Always ensure it is easy to move data to another provider at a reasonable cost and in a reasonable time frame, for instance if there are changes to the services that are provided. Note that some providers may use proprietary formats which might make moving the data very hard, or the same provider may be required to access the data: this is not a recommended solution to data storage.
+* Ensure the subscription is always maintained (if paid for) otherwise data may be deleted.  
 
 Wikipedia has a very handy [comparison of online backup options](https://en.wikipedia.org/wiki/Comparison_of_online_backup_services). These would normally be used for medium to long-term storage or backups.
 
 Platforms such as [Zenodo](https://zenodo.org) are provided for publication of data and other digital resources, but when datasets have been completed (either in a raw or finalised state) it can be worth thinking about this option.
 
-Object storage has various idiosyncrasies in terms of differences to file systems that are useful to be aware of. For example, files are known as objects and there is no concept of directories [@chanS3KeysAre2020; @chanS3PrefixesAre2020].
+##### Note about object storage 
+
+Many cloud service providers (as well as institutions) are now using object storage on which data are stored, rather than file storage, particularly for large data volumes or large numbers of files. Object storage has various idiosyncrasies in terms of differences to file systems that are useful to be aware of. For example, files are known as objects and there is no concept of directories [@chanS3KeysAre2020; @chanS3PrefixesAre2020]. It is worth checking the details of how to access such file storage and work with the files if this kind of storage is available.
