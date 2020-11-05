@@ -108,7 +108,7 @@ If instrumentation and data storage are connected to an electrical supply, consi
 
 #### Organising data files
 
-Think carefully about the [directory structure](#directory-structure) and [filenames](#file-naming) you use, particularly if you are collecting data automatically. Refer to the relevant sections on this for more information and where possible, set up the instrument beforehand.
+Think carefully about the [directory structure](#directory-structure) and [filenames](#file-and-directory-naming) you use, particularly if you are collecting data automatically. Refer to the relevant sections on this for more information and where possible, set up the instrument beforehand.
 
 #### Backing up data in the field
 
@@ -222,7 +222,7 @@ Prepare file templates (spreadsheets or plain text files are ideal) for collecti
 
 Much of the specific [metadata](#metadata) to be recorded has been described in detail above. Carefully prepare template documents that can be taken and completed in the field. 
 
-For further documentation about methods, problems encountered and anything else, this can be a simple [README](#README.txt) file with headers as reminders of information should be recorded.
+For further documentation about methods, problems encountered and anything else, this can be a simple [README](#readme.txt) file with headers as reminders of information should be recorded.
 
 Notes, diagrams, photographs and any other forms of documentation should be backed up alongside your data.
 

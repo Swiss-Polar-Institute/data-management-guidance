@@ -13,7 +13,7 @@ Retaining data and keeping careful notes ([metadata](#metadata)) about initial s
 
 Firstly check that data files can be read. If files are saved in proprietary formats, then make sure the software that is required to read them is available.
 
-Check that data files contain data for the expected parameters in the correct units. Ensure the files are being saved in the [directory structure](#directory-structure) and with the [filenames](#file-naming) that are expected. Now is the time to make any necessary changes, before "real" data collection begins.
+Check that data files contain data for the expected parameters in the correct units. Ensure the files are being saved in the [directory structure](#directory-structure) and with the [filenames](#file-and-directory-naming) that are expected. Now is the time to make any necessary changes, before "real" data collection begins.
 
 #### Periodic checking of data
 
@@ -33,7 +33,7 @@ Check the integrity of the backups on a regular basis: make sure the files that 
 
 ### Recording data by hand
 
-If collecting data in a notebook by hand, it is good practice to [digitise the data](#data-backup-and-digitisation) as soon as possible. Digitised data files, metadata and documentation should be considered as valuable as any other data file: consider the [file name](#file-naming), [directory structure](#directory-structure) and [backups](#data-backup).
+If collecting data in a notebook by hand, it is good practice to [digitise the data](#data-backup-and-digitisation) as soon as possible. Digitised data files, metadata and documentation should be considered as valuable as any other data file: consider the [file name](#file-and-directory-naming), [directory structure](#directory-structure) and [backups](#data-backup).
 
 #### Backing up or digitising your data
 

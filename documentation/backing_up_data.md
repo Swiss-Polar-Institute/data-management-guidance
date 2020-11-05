@@ -29,7 +29,7 @@ The long-term preservation of data should always be planned in a data management
 
 ### Documenting backups
 
-It is important to document where the files have been backed up, when, how often, as well as how they can be accessed and restored if necessary. Whilst restoring a backup should be done on a regular basis to ensure it is still available, there are times (such as after a long field season) that this information will not be as fresh, so good documentation is vital. A short [README](#README.txt) file with this information would allow anyone to be able to restore backed-up data straight away.
+It is important to document where the files have been backed up, when, how often, as well as how they can be accessed and restored if necessary. Whilst restoring a backup should be done on a regular basis to ensure it is still available, there are times (such as after a long field season) that this information will not be as fresh, so good documentation is vital. A short [README](#readme.txt) file with this information would allow anyone to be able to restore backed-up data straight away.
 
 ### Verifying a backup
 
@@ -63,7 +63,7 @@ Make sure:
 * data are backed up on at least two different [types of media](#storing-data), particularly for preservation purposes, such as institution storage, cloud storage, external hard drives;
 * as far as possible, backups are automated. This avoids potential mistakes, minimises the chances of data loss, makes it much easier to do (it is less of a chore) and ensures the backups are always done in the same way;
 * data are backed up on a [regular basis](#how-many-and-how-often), but particularly during collection and after making any changes;
-* backed up versions of data are identical to the primary copy (i.e. verified). Whilst [checking](#checking-and-restoring-backups) that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
-* backups can be easily [restored](#checking-and-restoring-backups);
-* decide on a [directory structure](#storing-data) and [file naming](#file-naming) convention and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what has not, which is the latest version, and so on;
+* backed up versions of data are identical to the primary copy (i.e. verified). Whilst [checking](#verifying-a-backup) that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
+* backups can be easily [restored](#backup-restoration);
+* decide on a [directory structure](#storing-data) and [file naming](#file-and-directory-naming) convention and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what has not, which is the latest version, and so on;
 * bear in mind how long a backup will take and consider this when deciding how backups will be done and scheduled.

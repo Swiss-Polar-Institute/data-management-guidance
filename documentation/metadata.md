@@ -43,13 +43,13 @@ Ideally someone should be able to follow the life history of a sample from colle
 
 **Data file storage**
 
-* Ensure a [README](#README.txt) file is kept with data, explaining what the files are and where they originated.  
+* Ensure a [README](#readme.txt) file is kept with data, explaining what the files are and where they originated.  
 
 **Data file contents or database**
 
-* Try to avoid acronyms in parameter names, or if they are necessary, write clear explanations in a [README](#README.txt) file.
-* Write a [README](#README.txt) file with full details of each parameter name, a description and units.
-* Consider the use of flags (with a clear description of what they mean in a [README](#README.txt) file) to identify data points that do not meet certain criteria or that should be noted as being different. Do this in preference to colour coding or other specific formatting within a spreadsheet: it is easy to forget precisely what is meant by different colours and if when converting the file to CSV format, all of this information is lost. Additionally, if these data are used within data processing scripts, the information described by the formatting would be lost.
+* Try to avoid acronyms in parameter names, or if they are necessary, write clear explanations in a [README](#readme.txt) file.
+* Write a [README](#readme.txt) file with full details of each parameter name, a description and units.
+* Consider the use of flags (with a clear description of what they mean in a [README](#readme.txt) file) to identify data points that do not meet certain criteria or that should be noted as being different. Do this in preference to colour coding or other specific formatting within a spreadsheet: it is easy to forget precisely what is meant by different colours and if when converting the file to CSV format, all of this information is lost. Additionally, if these data are used within data processing scripts, the information described by the formatting would be lost.
 * Note what value is used for missing values. For example, a common convention is to use NaN for values that are missing.  
 
 **Data file transfer**

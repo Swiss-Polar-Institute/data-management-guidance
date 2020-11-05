@@ -1,7 +1,7 @@
 
 ## File organisation
 
-It is worth investing time and effort in ensuring a coherent [directory structure](#directory-structure), understandable [file names](#file-naming), secure data storage and carefully thought-out [backups](#data-backup). Collaboration with others and future work can be made easier by good organisation at the beginning.
+It is worth investing time and effort in ensuring a coherent [directory structure](#directory-structure), understandable [file names](#file-and-directory-naming), secure data storage and carefully thought-out [backups](#data-backup). Collaboration with others and future work can be made easier by good organisation at the beginning.
 
 ### Directory structure
 
@@ -48,7 +48,7 @@ In addition to the [size of files](#file-size), it is important to consider the 
 Some key points adapted from @borerSimpleGuidelinesEffective2009:
 
 * Use a file or directory name which accurately reflects what is contained within it. Splitting it into separate parts, such as project, title, year or location of collection, year of collection, data type, version number and the file type can help to have a hierarchical name and standard naming procedure. Using keywords can help to find files at a later date.
-* Use acronyms sparingly and only if necessary; use only those that are well-known. Always explain them fully in the [README file](#README.txt).
+* Use acronyms sparingly and only if necessary; use only those that are well-known. Always explain them fully in the [README file](#readme.txt).
 * Some file systems have a limited number of characters that can be used in a full file path (directory path plus the filename) so keep names concise.
 * Stick to letters and numbers: special characters (non-ASCII characters) are unfortunately not well-supported by some software and can cause problems.
 * Avoid using spaces because they can cause some problems with different file systems.
@@ -56,7 +56,7 @@ Some key points adapted from @borerSimpleGuidelinesEffective2009:
 * Versioning can be done using the date in the format YYYYMMDD. Placing the date at the start of the filename can be useful. If more granularity is useful, then version numbering such as v01_01, v01_02 can be used as well. Placing this at the end of the filename is useful although if detailed versioning such as this is required, consider using a [versioning tool](#versions-of-files).
 * Directories will most likely be listed in alphabetical order. Prefixes such as numbers or letters to order directories are not helpful if they do not mean anything. 
 * If using numbers for versioning, dates or in other meaningful ways, always use leading zeros, e.g. for sites that are numbered from one to ten, 01, 02, ..., 10 should be used. 
-* Describe how files are named within a [README file](#README.txt).
+* Describe how files are named within a [README file](#readme.txt).
 * Be consistent!
 
 #### Examples
