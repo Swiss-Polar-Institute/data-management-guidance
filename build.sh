@@ -19,6 +19,9 @@ done
 
 OUTPUT_BASE_NAME="data_management_guidance_in_the_field"
 
+curl "https://swisspolar.ch/wp-content/uploads/2019/10/Logo-Swiss-Polar-Institute-HD.png" -o spi_logo_hd.png
+curl "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" -o by.png
+
 # Generate tex file output using a template
 pandoc --pdf-engine=xelatex \
   --bibliography data_management_guidance.bib \
