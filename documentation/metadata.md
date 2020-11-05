@@ -1,15 +1,15 @@
 
 ## Metadata
 
-We begin with metadata because without this essential information, data loses a huge amount of its value and understanding. It will also give a good overview of what else is to come but please do follow the links to the other sections of this guide to find further information in context.
+We begin with metadata because without this essential information, data loses a huge amount of its value and understanding. This section also gives an overview of what else is to come but please do follow the links to the other sections of this guide to find further information in the right context.
 
 ### What is metadata and why is it important?
 
-Metadata is a description of data [@mccarthyMetadataManagementLarge1982; @grayScientificDataManagement2005a; @michenerMetainformationConceptsEcological2005], giving information about the "who, what, when, where, why and how" [@recknagelEcologicalInformatics2018a]. Put in other words, it is "data about data" [@fegrausMaximizingValueEcological2005].
+Metadata is a description of data [@mccarthyMetadataManagementLarge1982; @grayScientificDataManagement2005a; @michenerMetainformationConceptsEcological2005], giving information about the "who, what, when, where, why and how" [@recknagelEcologicalInformatics2018a]. Put another way, it is "data about data" [@fegrausMaximizingValueEcological2005].
 
-Information about a dataset quickly deteriorates over time [@michenerNongeospatialMetadataEcological1997]. Metadata is documentation that is a reminder to your future self (and others). Without information about how data and samples were collected, final results cannot be interpreted correctly [@smithFieldTrialsHealth2015].  
+Information about a dataset quickly deteriorates over time [@michenerNongeospatialMetadataEcological1997]. This information, metadata, is documentation that is a reminder to your future self (and others). Without information about how data and samples were collected, final results cannot be interpreted correctly [@smithFieldTrialsHealth2015].  
 
-Will you remember in 10 years what a particular acronym was in your data file? Do you remember why a sample was collected in an unexpected location? How would someone else know that a particular sample contained many more insects than the others because it couldn't be found one day and was left out an extra night?  
+Will an acronym that was used in a data file, mean something to someone in ten years? Why was a sample collected in an unexpected location? One particular sample contained more insects than another because it was left out for an extra night: how would this be explained if this information was not recorded?  
 
 ### How is metadata used?
 
