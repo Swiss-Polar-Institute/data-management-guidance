@@ -133,64 +133,64 @@ Being able to access data in the field during collection is extremely useful and
 
 Setting up quick visualisations of data files saves a lot of time provides a lot of information with a quick glance. 
 
-If you are staying with your instrumentation, it is very likely you will be able to set-up the instrument, do some tests and maybe see the data being collected. Checking the data files periodically means you can spot obvious issues with the instrument early and ensure data are being saved as you expected (parameters, file format, frequency of records).
+If instrumentation is nearby and easy to access, checking the data files periodically helps to spot obvious issues with the instrument early on, and ensure data are being saved as expected (check parameters, file format, frequency of records).
 
-If however you are setting up your instrumentation then expecting to leave it for a period of time, it is worth considering what access you (or others) might have to it. Running initial tests whilst still with the instrument in the field is essential. Once you are sure data are being collected as you expected, then it is useful to be able to access data periodically from wherever you are. This could be across a network (for example if you are on a ship or at a base) or even using mobile or satellite communications if the instrument is isolated. Even if you are not able to see *all* of the data being collected, a small daily file with a subset of the data could be enough for you to check that everything is going well or flag up issues. Of course this is of more use if you or someone else is then able to go and fix the problem. 
+If instrumentation is going to be left for a period of time, it is worth considering what access will be possible. Running initial tests whilst still with the instrument in the field is essential. Once data collection has been confirmed, then it is still useful to be able to access data periodically. This could be across a network (for example if on a ship or at a base) or even using mobile or satellite communications if the instrument is isolated. Even if only a subset of the data can be useful: a small daily file with a subset of the data could be enough to check that everything is going well or flag up issues. Of course this is of more use if someone is then able to go and fix the problem. 
 
-For instruments that are very isolated and there is no possibility of being able to access them, consider if there is a way to remotely connect to the instrument. This might offer the possibility to restart it for example, or change crucial settings. Set this up and test thoroughly beforehand.    
+For instruments that are very isolated and there is no possibility of being able to access them, consider if there is a way to remotely connect to the instrument. This might offer the possibility to restart it for example, or change crucial settings. Set this up and test it thoroughly beforehand.    
 
 ### Preparing for recording data by hand
 
-If recording data by hand directly into a notebook, think carefully what you would like to record. Keep separate notes (documentation and [metadata](#metadata)) about how your measurements will be recorded, units and any parameter abbreviations you will use in the field. 
+If recording data by hand directly into a notebook, think carefully what information should be recorded. Keep separate notes (documentation and [metadata](#metadata)) about how measurements will be recorded, units and any parameter abbreviations that will be used in the field. 
 
 #### Data backup and digitisation
 
-Scan, photograph or type-up your hand-collected data and notes as soon as possible in the field as a form of backup but also to make it easier to check your data collection. 
+Scan, photograph or type-up hand-collected data and notes as soon as possible in the field as a form of backup but also to make it easier to check data collection. 
 
-If using a spreadsheet into which your hand-recorded notes will be copied, prepare the file template in advance and have a test-run of data collection and digitising of data. Where possible and appropriate, use drop-down lists of specified terms within your spreadsheet ([example for Excel](https://www.excelefficiency.com/create-drop-down-lists-in-excel/)) to keep data entry consistent. This will allow quick data validation and save a lot of time cleaning data. As when collecting data from an instrument, early digitisation also offers the opportunity to produce some quick visualisations or numerical checks of data.
+If using a spreadsheet to transcribe hand-recorded notes, prepare the file template in advance and have a test-run of data collection and digitising of data. Where possible and appropriate, use drop-down lists of specified terms within the spreadsheet ([example for Excel](https://www.excelefficiency.com/create-drop-down-lists-in-excel/)) to keep data entry consistent. This will allow quick data validation and save a lot of time cleaning data. As when collecting data from an instrument, early digitisation also offers the opportunity to produce some quick visualisations or numerical checks of data.
 
-If you will not be able to use a laptop in the field perhaps due to lack of electricity supply, then consider other methods. This could be taking a camera and carefully photographing your notes and data. Photographs of hand-written notes (or scans once you get back to your institution) are very useful in case you happen to mistranscribe some information and need to go back to them, as well as being a vital backup.
+If it will not be possible to use a laptop in the field, then consider other methods such as taking a camera and carefully photographing hand-written notes and data. Photographs or scans of hand-written notes are very useful to verify data entry, as well as being a vital backup.
 
-See the section above about [planning data storage](#how-much-data-are-you-planning-to-collect) to ensure you are prepared. 
+Even though data may not being collected directly from an instrument, calculate a data storage budget for the digitised data, not forgetting separate backups.  
 
 ### Preparing for sample collection
 
-The main things to prepare if you are going to be collecting samples are: 
+The following should be considered when planning sample collection in the field: 
 
 * a carefully planned numbering and labelling scheme;
-* a plan of what metadata you want to know about the samples you have collected;
-* what additional documentation you will maintain;
-* how your metadata files are going to be stored and backed up whilst in the field;
-* check permit requirements: they may insist on certain information being kept about the samples and it is likely you will need to report what you have collected. Be aware of this before you go to avoid any doubt in the field;
-* check border crossing and entry requirements for the transport of your samples on return: it is likely you will need to present a list of samples with information about what they contain. If you are able to maintain this record during your fieldwork it will save a lot of time at the end of your fieldwork when you are in a rush to pack. However it is important to carefully check and understand exactly what you need before you go - at a remote field site you might not be able to access this information.
+* a plan of what metadata will be needed to fully document the sampling;
+* any additional documentation that will be maintained;
+* how metadata files are going to be stored and backed up whilst in the field (calculate data storage budget);
+* check permit requirements: permit authorities may insist on certain information being kept about the samples and it is likely this will need to be reported. Be aware of this beforehand to avoid any doubt in the field or on the return journey;
+* check border crossing and entry requirements for the transport of samples: it is likely a list of samples with information about what they contain, will need to be presented. Carefully check and understand exactly what is required before travelling to the field site where it might not be able to access this information.
 
 ### Metadata
 
-Prepare carefully how you are going to record [metadata](#metadata) and see this section of the guide for detailed documentation about what information should be recorded.
-
-The most important thing is to be able to determine where and when you collected your data or samples. 
+Prepare files or a notebook template to record [metadata](#metadata) before leaving to avoid forgetting anything. Do not be afraid to add extra information though whilst in the field. 
 
 #### Key points: "where"
-Make sure you know in advance: 
 
-* how you are going to record the location - if your instrument will always be in the same place you can use a hand-held GPS to record its position. If you are collecting data or samples in several distinct locations, a hand-held GPS will be useful to do this. If your platform is moving, for example you are on a ship or an aircraft, and you are constantly collecting data, you should have a device constantly recording the location of the platform. 
-* understand how accurate your recording of the location should be to be meaningful for your experiment. 
-* ensure you always have more than one source of location, particularly on a moving platform.
-* be aware that local conditions such as mountainous or tree-covered terrain can affect the accuracy of your location. 
-* note the source of location data (device name, type, manufacturer, version and serial number; see [instrumentation](#instrumentation-and-computers) section below for details).
+Prepare in advance:
+
+* how sample or data collection location will be recorded - if the instrument will always be in the same place, a hand-held GPS can be used to record its location. If collecting data or samples in several distinct locations, a hand-held GPS will also be useful to do this. If the platform is moving, for example a ship or an aircraft, it is important to have a device that is constantly recording the location of the platform. 
+* understand the position of the instrument in relation to the geolocation device, particularly on a large ship and if very accurate positions are required.
+* understand how accurate the location needs to be, to be meaningful for the experiment. 
+* ensure there is always more than one source of location data, particularly on a moving platform.
+* be aware that local conditions such as mountainous or tree-covered terrain can affect the accuracy of this data. 
+* note the source and accuracy of location data (position to nearest x metres, number of satellites; device name, type, manufacturer, version and serial number; see [instrumentation](#instrumentation-and-computers) section below for details).
 
 #### Key points: "when"
 
-* it is good practice to record all science work in UTC to avoid confusion with time zones. 
-* depending on the accuracy required for your particular experiment, ensure your timing device is set accurately. Record if you note the time to the nearest day, hour, minute or second.
-* note the source of time (device name, type, manufacturer, version and serial number).
-* if using networked computers or instruments, try to ensure that they are all synced to ensure there is no offset. 
-* if working as part of a larger project, particularly where data and sample collection is simultaneous among teams, ensure you are all working from the same time source.
-* properly understand if there is any offset between the instruments / devices recording location, time and your data itself. If on a moving platform, it is likely that you will need to match up data points to the location using time.
+* It is good practice to record all science work in UTC to avoid confusion with time zones. 
+* Ensure the timing device is set accurately. Record if the time is recorded to the nearest day, hour, minute or second.
+* Note the source of time (device name, type, manufacturer, version and serial number).
+* If using networked computers or instruments, ensure that they are all synced or any offset is recorded. 
+* If working as part of a larger project, particularly where data and sample collection is simultaneous among teams, ensure everyone is working from the same time source.
+* Find out if there is any offset between the instruments / devices recording location, time and the data itself because if working on a moving platform, it is likely that data points will need to be "matched" to the location using time.
 
 #### Instrumentation and computers
 
-Keep a detailed record of instrumentation that you use for primary and secondary datasets, sample collection and saving / backing up data. If at all possible, record this information in advance before going to the field and remember to take it with you.
+Keep a detailed record of instrumentation that is used for primary and secondary datasets, sample collection and saving / backing up data. If at all possible, record this information in advance before going to the field and remember to take it into the field.
 
 For instrumentation, record: 
 
@@ -200,36 +200,36 @@ For instrumentation, record:
 * version / model
 * serial number
 
-Good documentation of instrumentation is important, particularly if there are any issues. Keep the details to hand in the field and with anyone who is able to offer support back at your institution: this makes it much easier to contact the manufacturer for support whilst in the field, or afterwards when trying to solve problems. 
+Good documentation of instrumentation is important, particularly if there are any issues. Keep the details to hand in the field and with anyone who is able to offer support back at the institution: this makes it much easier to contact the manufacturer for support whilst in the field, or afterwards when trying to solve problems. 
 
-During an expedition, it is possible that part of the instrumentation might change: for instance, a new sensor could be added, or swapped if one fails. Always ensure you record: 
+During an expedition, it is possible that part of the instrumentation might change: for instance, a new sensor could be added, or swapped if one fails. Always record: 
 
 * date installed 
 * date removed
 * details of problems (if there were any)
 * location of installation on the platform or on parent instrument (e.g. side of ship, height on mast, which part of CTD rosette)
-* which data files each instrument corresponds to
+* data files to which each instrument corresponds.
 
 For computers and software, record: 
 
 * operating system name and version
-* software name and version
-* any particular set-up
+* software name and version, including any packages
+* any particular set-up and computing environment.
 
-Prepare file templates (spreadsheets are ideal) for collecting this information before you go in the field so nothing is forgotten.
+Prepare file templates (spreadsheets or plain text files are ideal) for collecting this information before going into the field so nothing is forgotten.
 
 ### Documentation
 
-Much of the specific [metadata](#metadata) to be recorded has been described in detail above. Carefully prepare template documents that you can take and complete whilst in the field. 
+Much of the specific [metadata](#metadata) to be recorded has been described in detail above. Carefully prepare template documents that can be taken and completed in the field. 
 
-For further documentation this can be a simple [readme.txt](#readme.txt) files with headers to remind you which information you need to record.
+For further documentation about methods, problems encountered and anything else, this can be a simple [README](#README.txt) file with headers as reminders of information should be recorded.
 
 Notes, diagrams, photographs and any other forms of documentation should be backed up alongside your data.
 
 ### Travel and customs
 
-Plan how you will get your data storage (and related) hardware to and from the field location with good time. Carefully check cargo restrictions to ensure that your hardware meets the requirements of carriage. Batteries that are in UPSs or other instrumentation are particularly regulated. Import regulations should also be carefully checked. Finally, don't forget to consider the regulations of countries through which you will be transiting, as well as your means of transport. 
+Plan how data storage (and related) hardware to and from the field location with good time. Carefully check cargo restrictions to ensure that hardware meets the requirements of carriage. Batteries that are in UPSs or other instrumentation are particularly regulated. Import regulations should also be carefully checked. Finally, do not forget to consider the regulations of countries that will be transited, as well as modes of transport. 
 
-Don't forget to plan for the return journey: when returning with portable media devices holding your carefully-collected data, think carefully about how you will get them back. Consider encryption of the device if it holds personal or sensitive data and if someone else is travelling back to the same location, consider carrying separate copies of the data.
+Plan for the return journey: when returning with portable media devices holding carefully-collected data, think carefully about how they will be transported. Consider encryption of the device if it holds personal or sensitive data and if someone else is travelling back to the same location, consider asking them to carry a separate copy of the data.
 
-As previously discussed in the section about [preparation for sample collection](#preparing-for-sample-collection), it is important to understand the requirements of customs and other permits that are required so you can record such information ([metadata](#metadata)) whilst in the field, avoiding a rush at the end of your field work to complete such documentation.
+As previously discussed in the section about [preparation for sample collection](#preparing-for-sample-collection), it is important to understand the requirements of customs and other permits that are required so this information ([metadata](#metadata)) can be recorded whilst in the field.
