@@ -17,7 +17,7 @@ Metadata serves as a **useful reminder** from the inception of a project, right 
 
 Think also of **reproducibility**: for publications it is likely a set of detailed methods of how data were produced and results derived. Keeping these notes will save a lot of time and avoid forgotten details when writing up a project.
 
-When **collaborating** with others, it is likely that they will need access to the data or will work on data resulting from samples. Having metadata readily available ensures they are able to interpret and use the data in a suitable way. If samples or data are part of a larger project, the person compiling all of the results will need to know where and when they were collected to give context as well.
+When **collaborating** with others, it is likely that they will need access to the data or will work on data resulting from samples. Having metadata readily available ensures they are able to interpret and use the data in a suitable way. One source of metadata provided alongside the data saves extra time that would be used by multiple explanations of the same points and avoids confusion or misinterpretation.
 
 Detailed metadata allows others to **interpret and understand** data and results. 
 
@@ -49,8 +49,8 @@ Ideally someone should be able to follow the life history of a sample from colle
 
 * Try to avoid acronyms in parameter names, or if they are necessary, write clear explanations in a [README](#readme.txt) file.
 * Write a [README](#readme.txt) file with full details of each parameter name, a description and units.
-* Consider the use of flags (with a clear description of what they mean in a [README](#readme.txt) file) to identify data points that do not meet certain criteria or that should be noted as being different. Do this in preference to colour coding or other specific formatting within a spreadsheet: it is easy to forget precisely what is meant by different colours and if when converting the file to CSV format, all of this information is lost. Additionally, if these data are used within data processing scripts, the information described by the formatting would be lost.
-* Note what value is used for missing values. For example, a common convention is to use NaN for values that are missing.  
+* Consider the use of flags (with a clear description of what they mean in a [README](#readme.txt) file) to identify data points that do not meet certain criteria or that should be noted as being different. Do this in preference to colour coding or other specific formatting within a spreadsheet: it is easy to forget precisely what is meant by different colours and if when converting the file to comma-separated values (CSV) format, all of this information is lost. Additionally, if these data are used within data processing scripts, the information described by the formatting would be very hard to use.
+* Note what value is used for missing values. For example, a common convention is to use NaN (not a number) for values that are missing.  
 
 **Data file transfer**
 
@@ -60,7 +60,7 @@ Ideally someone should be able to follow the life history of a sample from colle
 **Data file manipulation and processing**
 
 * Wherever possible, use scripts to manipulate data files as this creates a precise copy of exactly what has been done whilst working on the data. It is also good practice to keep human-readable notes to go alongside this, particularly about which decisions were taken and why. 
-* Read more about [working on your data](#working-on-your-data) which has more details on capturing the [provenance of your data](#recording-the-provenance-of-your-data).
+* Read more about [working on data](#working-on-your-data) which has more details about capturing the [provenance of data](#recording-the-provenance-of-data).
 
 **Datasets**
 

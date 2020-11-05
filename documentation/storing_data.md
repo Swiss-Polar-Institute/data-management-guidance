@@ -57,7 +57,7 @@ Cloud storage is becoming the norm in many cases. There are many types of cloud 
 * If files contain personal data, it is essential to understand the location of the physical servers of the cloud storage and ensure this complies with regulations such as GDPR or those of the institution.
 * Consider who might have access to the data and how access rights are administered.
 * Check the privacy policy carefully to make sure the files cannot be used in any way by the cloud storage company. 
-* Some cloud storage providers charge not only for the data storage, but also for the number of files, copying data to and from the storage, as well as listing files (known as objects in cloud storage - see below). It is important to think about how this could impact on costs.
+* Some cloud storage providers charge not only for the data storage, but also for the number of files, copying data to and from the storage, as well as listing files. It is important to think about how this could impact on costs.
 * Some providers provide different levels of storage: consider immediate access to data is required, or if slightly slower access, sometimes known as "cold storage", would be sufficient. The latter is often a low-cost option and good for long-term backups of data that are not actively being worked on.
 * For managed systems, make sure that backups are done regularly.
 * For unmanaged systems, some understanding of the system will be needed to copy and access files, change access rights and verify data. Many systems require the use of command-line tools such as ``rclone`` [@craig-woodRclone2014]. 
@@ -71,4 +71,4 @@ Platforms such as [Zenodo](https://zenodo.org) are provided for publication of d
 
 ##### Note about object storage 
 
-Many cloud service providers (as well as institutions) are now using object storage on which data are stored, rather than file storage, particularly for large data volumes or large numbers of files. Object storage has various idiosyncrasies in terms of differences to file systems that are useful to be aware of. For example, files are known as objects and there is no concept of directories [@chanS3KeysAre2020; @chanS3PrefixesAre2020]. It is essential to understand the details of how to work with the files if this kind of storage is being considered.
+Many cloud service providers (as well as institutions) are now using object storage to store data, rather than file storage, particularly for large data volumes or large numbers of files. Object storage has various idiosyncrasies in terms of differences to file systems that are useful to be aware of. For example, files are known as objects and there is no concept of directories [@chanS3KeysAre2020; @chanS3PrefixesAre2020]. It is essential to understand the details of how to work with the files if this kind of storage is being considered.

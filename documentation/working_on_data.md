@@ -23,7 +23,7 @@ File versions can be named using the date (in the format YYYYMMDD) or version nu
 
 [Backups](#data-backup) of any edited files should be done on a regular basis.
 
-### Recording the provenance of your data
+### Recording the provenance of data
 
 It is often impossible to repeat data collection, which in polar research is also often extremely expensive. This "original" data is considered as [raw](#raw-data) and should be kept as such. But any [work that is done on a copy of this raw data](#work-on-a-copy-of-raw-data) should be carefully recorded. It is natural to keep notes of what has been done throughout the process of collecting and working on data so that when writing up publications, methods can be written more easily. 
 
