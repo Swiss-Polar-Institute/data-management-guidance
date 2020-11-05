@@ -65,21 +65,21 @@ Some key points adapted from @borerSimpleGuidelinesEffective2009:
 ace_meteorology_data_20170130-120000.csv
 ~~~~	
 
-* ace is the overarching project - the acronym should be described in the README file, which should be stored with the files
-* meteorology is the sub-project
-* data signifies that this is data rather than documentation
-* 20170130-120000 is the first timestamp of data in the file (the meaning of a date/time should always be clarified in the README file)
-* .csv is the file type (comma-separated values)	
+* ```ace``` is the overarching project - the acronym should be described in the README file, which should be stored with the files
+* ```meteorology``` is the sub-project
+* ```data``` signifies that this is data rather than documentation
+* ```20170130-120000``` is the first timestamp of data in the file (the meaning of a date/time should always be clarified in the README file)
+* ```.csv``` is the file type (comma-separated values)	
 
 ~~~~
 ace_meteorology_processedWindData_201701.csv
 ~~~~
 
-* ace is the overarching project - the acronym should be described in the README file, which should be stored with the files
-* meteorology is the sub-project
-* processedWindData is information about the data contained in the file
-* 201701 is the subset of data in the file (data from January 2017. The meaning of a date/time should always be clarified in the README file))
-* .csv is the file type (comma-separated values)
+* ```ace``` is the overarching project - the acronym should be described in the README file, which should be stored with the files
+* ```meteorology``` is the sub-project
+* ```processedWindData``` is information about the data contained in the file
+* ```201701``` is the subset of data in the file (data from January 2017. The meaning of a date/time should always be clarified in the README file))
+* ```.csv``` is the file type (comma-separated values)
 
 ### README.txt
 
@@ -95,4 +95,4 @@ The Gurdon Institute [@downieBitesizedRDMReadme2019] provides a very useful list
 * details of backups: how often and where to, how they can be accessed
 * make sure the file is written in plain text format so that it can easily be read in the future.
 
-Markdown is a useful convention that can be used to provide basic formatting of the text. ``Pandoc`` is a tool that can be used to convert Markdown into different file formats such as HTML, PDF or others as required. Saving the README file in plain text format is good practice so that it can be easily opened in years to come.
+Markdown is a useful convention that can be used to provide basic formatting of the text and as plain text, is also easily read by humans. ``Pandoc`` is a tool that can be used to convert Markdown into different file formats such as HTML, PDF or others as required. Saving the README file in plain text format is good practice so that it can be easily opened in years to come.
