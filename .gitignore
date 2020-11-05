@@ -7,8 +7,6 @@ venv/
 /*.pdf
 /*.toc
 /*.dvi
-/*.png
-spi*
-/data_management_guidance_draft.tex
+/data_management_guidance_in_the_field.tex
 /rendered/
 /variables.yml
