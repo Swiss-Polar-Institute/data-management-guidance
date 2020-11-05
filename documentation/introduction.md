@@ -7,7 +7,7 @@ Investment of time in good preparation and management of data files, software, d
 
 ### What this guide covers
 
-In this guide we cover good research data management practice with a focus on field work, although the general guidelines are applicable in any circumstances. The first part of the guide is general and can be applied throughout all stages of the research life cycle. 
+In this guide we cover good research data management practice with a focus on field work, although the general guidelines are applicable to all data management. The first part of the guide is general and can be applied throughout all stages of the research life cycle. 
 
 The second part is a guide for data management in the field and is broken into three sections: planning data management for fieldwork, some key points to remember whilst in the field and a brief set of priorities for after returning. We regularly refer back to the key sections of the first part of the document and recommend that the reader is familiar with this before reading the field guide part.
 
@@ -23,6 +23,6 @@ Finally, we consider field work, and more precisely polar field work (although t
 
 ### Further development of this guide
 
-Ongoing development of this document is done in a Github repository: [https://github.com/Swiss-Polar-Institute/data-management-guidance](https://github.com/Swiss-Polar-Institute/data-management-guidance) and the latest PDF version is published online: [https://doi.org/10.5281/zenodo.4185227](https://doi.org/10.5281/zenodo.4185227). Text is written in Markdown, then [Pandoc](https://pandoc.org/MANUAL.html) is used to convert it to LaTeX and then PDF format. 
+Ongoing development of this document is done in a GitHub repository: [https://github.com/Swiss-Polar-Institute/data-management-guidance](https://github.com/Swiss-Polar-Institute/data-management-guidance) and the latest PDF version is published online: [https://doi.org/10.5281/zenodo.4185227](https://doi.org/10.5281/zenodo.4185227). Text is written in Markdown, then [Pandoc](https://pandoc.org/MANUAL.html) is used to convert it to LaTeX and then PDF format. 
 
-We would greatly welcome feedback by way of comments, suggestions, corrections, questions or ideas for further development of this guide.  Feel free to get in touch using [Github issues](https://github.com/Swiss-Polar-Institute/data-management-guidance/issues) or email [jenny.thomas@epfl.ch](mailto:jenny.thomas@epfl.ch).
+We would greatly welcome feedback by way of comments, suggestions, corrections, questions or ideas for further development of this guide. Feel free to get in touch using [GitHub issues](https://github.com/Swiss-Polar-Institute/data-management-guidance/issues) or email [jenny.thomas@epfl.ch](mailto:jenny.thomas@epfl.ch).
