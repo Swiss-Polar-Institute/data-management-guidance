@@ -62,13 +62,13 @@ Whilst planning, think carefully about the following questions:
 
 #### How much data are you planning to collect?
 
-It is important to have a good understanding of any instrumentatopm, associated software and how the files are saved. 
+It is important to have a good understanding of any instrumentation, associated software and how the files are saved. 
 
 **Which data do I need to save?**  
 
 Some software automatically writes "false" data from variables which are not actually being recorded or of interest to the particular experiment, and therefore should not be recorded in the data file. This causes confusion for others looking at the data files in the future. Check how to "select" which variables are saved into the data files.  
     
-If data storage is limited adn 24-hour recording is not possible, consider which periods of time are more crucial (i.e. data collection only at night, or for five minutes every hour, one-minute resolution instead of one-second). All of this should be considered with your experiment in mind to ensure it is not compromised. Do not forget to take into account local sunrise and sunset times if this is an important factor, particularly if the instrument is going to be installed on a moving platform such as a ship.
+If data storage is limited and 24-hour recording is not possible, consider which periods of time are more crucial (i.e. data collection only at night, or for five minutes every hour, one-minute resolution instead of one-second). All of this should be considered with your experiment in mind to ensure it is not compromised. Do not forget to take into account local sunrise and sunset times if this is an important factor, particularly if the instrument is going to be installed on a moving platform such as a ship.
 
 **Do I understand how big each data file will be?**  
 

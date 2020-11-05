@@ -9,7 +9,7 @@ Backup set-up and schedule will differ when working in the field. This is covere
 
 #### How many and how often
 
-Think carefully about how often data should be backed up and if full backups or partial backups ofr files that have changed, are needed. Documentation, code, plots and other associated files should also be backed up alongside the data. Automating backups will make everything much simpler and helps to avoid mistakes.
+Think carefully about how often data should be backed up and if full backups or partial backups for files that have changed, are needed. Documentation, code, plots and other associated files should also be backed up alongside the data. Automating backups will make everything much simpler and helps to avoid mistakes.
 
 Arguably it is much simpler to do a full backup of files each time and retain these for a certain period of time. If data and associated files are not being worked on any longer, then as long as the backups are secure and regularly checked, these could be backed up every month, for example. 
 

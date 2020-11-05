@@ -1,7 +1,7 @@
 
 ## Data file formats
 
-The format of data and accompanying documnetation files will directly impact how this information can be used in the future [@stanforduniversitylibrariesBestPracticesFile].
+The format of data and accompanying documentation files will directly impact how this information can be used in the future [@stanforduniversitylibrariesBestPracticesFile].
 
 Using open data file formats helps to ensure the longevity of datasets [@borerSimpleGuidelinesEffective2009]. Open file formats are well-documented and easy to read by a variety of software and are more future-proof. Using file formats that are closed and specific to a certain piece of software (proprietary), have a higher probability of becoming unreadable in the future. As software versions change, they are not always backwards compatible, meaning that a file produced ten years ago may no longer be readable. Trends also change and now-common software applications may not be widely used in the future.
 
