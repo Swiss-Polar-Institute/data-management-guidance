@@ -4,14 +4,14 @@ set -e  # if a command fails it stops the execution
 set -u  # script fails if trying to access to an undefined variable
 
 # Run spell checker
-find documentation/ -name "*.md" -exec aspell -d en -x --home-dir=. check {} \;
+find content/ -name "*.md" -exec aspell -d en -x --home-dir=. check {} \;
 
 # Include variables that can be set in the document eg. for version numbers
 echo "git_commit: $(git log -n 1 --pretty=format:'%h')" > variables.yml
 
 # Create a rendered version which includes the variables from the yaml file
 mkdir -p rendered
-for file in documentation/*
+for file in content/*
 do 
 	file_basename=$(basename "$file")
 	mustache variables.yml "$file" > "rendered/$file_basename"
