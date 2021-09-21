@@ -9,4 +9,4 @@
 
 * Update title page: date, version and DOI
 * Update introduction: what this guide covers, contact email address
-* Update 
+* Update metadata: refine text
