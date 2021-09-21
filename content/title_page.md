@@ -1,9 +1,9 @@
 ---
 title: Data management in the field
 author: Jen Thomas, Swiss Polar Institute
-date: November 2020
-version: Version 1.0
-doi: 10.5281/zenodo.4185228
+date: September 2021
+version: Version 1.1
+doi: 10.5281/zenodo.xxxxxxx
 papersize: a4
 geometry:
 - top=25mm
