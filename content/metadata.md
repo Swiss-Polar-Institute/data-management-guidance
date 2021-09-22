@@ -27,59 +27,58 @@ Detailed metadata allows others to **interpret and understand** data and results
 
 It is often a requirement of funders, and is good practice, to **publish data** openly so that it is available for other researchers and the general public. Many platforms or repositories that provide these publishing services require a certain amount of metadata to ensure that your dataset is discoverable. It is also in the dataset producer's interest to give as much information as possible so that a future user properly understands the suitability of the dataset for their purposes, as well as its limitations. Providing a good description of a dataset means a potential user is much more likely to use it in the future. In addition to citations arising from sharing datasets, research has shown that citing datasets clearly in a publication lead to more citations and goes some way to giving further credibility to a publication because it is more reproducible [@colavizzaCitationAdvantageLinking2020]. 
 
-### Levels of metadata
+### What should be recorded?
 
-Information will be captured at different stages of a project. 
+Metadata should be captured about different aspects of a project. 
 
-**Samples**
+#### Samples
 
-* Record details of how samples were collected. Include where, when, by whom, methods, particular conditions that might affect their collection or resulting data. Also note specific details of any instruments (include manufacturer, model, serial number and set-up). 
-* Record how the samples were stored and what happened to them between collection and processing. Information could include mode of travel, storage temperature and conditions, and preparation for processing. 
-* Record details of how samples were processed. Include where and when the processing was done, as well as who it, techniques, protocols, guides and which standards were used. Also include specific details of any instruments that were used (manufacturer, model, serial number and set-up). 
-* Record where they are currently stored (or if they were destroyed as part of the processing) and how they can be found. 
-* Include information about any supporting datasets that may have been collected at the time of sample collection. 
-* Include information about where datasets resulting from processed samples, can be found.
+It should be possible to follow the life history of a sample from its collection to the final dataset, then be able to find the sample in its final resting place (or know that it no longer exists). 
 
-Ideally, it should be possible to follow the life history of a sample from its collection to the final dataset, then be able to find the sample in its final resting place (or know that it no longer exists). 
+**Collection:** include where, when, by whom, methods and particular conditions that might affect sample collection or resulting data. Also note specific details of any instruments (include manufacturer, model, serial number and set-up) used for sample collection. 
 
-**Data file storage**
+**Storage conditions:** record how the samples were stored and what happened to them between collection and processing. Information could include mode of travel, storage temperature and conditions, and how they were preparated for processing. 
 
-* Ensure a [README](#readme.txt) file is kept with data, explaining what the files are and where they originated from.  
+**Storage location:** record where samples are currently stored (or if they were destroyed as part of the processing) and how they can be found.
 
-**Data file contents or database**
+**Processing:** include where and when the processing was done, as well as who did it, techniques, protocols, guides and which standards were used. Also include specific details of any instruments that were used (manufacturer, model, serial number and set-up). 
 
-* Write a [README](#readme.txt) file with full details of each parameter name, a description and units.
-* Consider the use of flags (with a clear description of what they mean in a [README](#readme.txt) file) to identify data points that do not meet certain criteria or that should be noted as being different. Do this in preference to colour coding or other specific formatting within a spreadsheet: it is easy to forget precisely what is meant by different colours and when converting the file to comma-separated values (CSV) format, all of this information is lost.
-* Note how missing values are recorded. For example, a common convention is to use NaN (not a number) for values that are missing.  
+**Supporting datasets:** include information about any supporting datasets (e.g. meteorological conditions) from the time of sample collection. 
 
-**Data file transfer**
+**Resulting datasets:** describe where datasets resulting from processed samples can be found and how they are linked to a particular sample. 
 
-* Keep full records of how data files were produced. 
-* Note any changes and problems that occur in data saving, creation or transfer. 
+#### Data files
 
-\setlength{\fboxrule}{0.8pt}
-\fcolorbox{gray}{lightgray}{Example
- Data were produced by xxx instrument and saved directly onto a connected laptop which ran Windows 10. Software yyy (version 1.1 by Company Name) saved the files containing 24-hours of data with a one-second resolution. Data were backed up automatically onto a portable hard drive once a day at 20:00 using rclone (version 0.3). The laptop crashed on the 30th of March 2020 and the data recorded before 16:34 on this day, were lost. After the expedition, data were copied to network attached storage at Institution X using rclone (version 0.3) and are backed up on a daily basis at 01:00 to the off-site cloud storage. Another backup of the raw data was transferred to Amazon deep glacier storage straight after the expedition.}
+Keep a [README](#readme.txt) file alongside the data. Information within the README file will depend on the complexity of the data and how they are stored.
 
-**Data file manipulation and processing**
+**File description:** explain what the files are and their purpose. Include each parameter name, a full description and units. Describe in full any acronyms or shorthand that are used within the data files.
 
-* Wherever possible, use scripts to manipulate data files as this creates a record of what has been done whilst working on the data. Keep and backup these scripts as if they were data. It is also good practice to keep human-readable notes to go alongside this, particularly about which decisions were taken and why. 
-* Read more about [working on data](#working-on-your-data) which has more details about capturing the [provenance of data](#recording-the-provenance-of-data).
+**File access:** describe who has access to the files and if there are any limitations on what should happen to them (e.g. if there is an embargo on access)
+ 
+ **Data collection:** describe by whom, where, when and how the data were collected. The conditions and instrument (manufacturer, model, serial number and set-up) used for collection are particularly important. Describe any problems that occurred during data collection and any known problems with the data files. This might include times when the instrument malfunctioned, particular conditions that might affect the parameters of interest, periods of missing data or anomalies that were noted.  
 
-**Datasets**
+**Data file transfer:** keep full records of how data files were saved, backed up and transferred between different storage types. Where possible, use scripts to do this and keep them as a record.  
 
-* Note details of the rights holders of the dataset (person, if applicable, and organisation) and who contributed to the production of the dataset, as well as what they did. Full details of authors, contributors and funders are normally asked for when publishing a dataset.
+***
+_Example_
 
-**Project**
+ Data were produced by xxx instrument and saved directly onto a connected laptop which ran Windows 10. Software yyy (version 1.1 by Company Name) saved the files containing 24 hours of data with a one-second resolution. Data were backed up automatically onto a portable hard drive once a day at 20:00 using rclone (version 0.3). The laptop crashed on 30th March 2020 and the data recorded before 16:34 on this day, were lost. After the expedition, data were copied to network attached storage at Institution X using rclone (version 0.3) and are backed up on a daily basis at 01:00 to the off-site cloud storage. Another backup of the raw data was transferred to Amazon deep glacier storage straight after the expedition.
+ 
+ ***
 
-It is easy to lose information and context of data and samples when projects come to an end. More detailed information, particularly about methods, might be lost because it cannot all fit in a journal article.
+**Data file manipulation and processing:** wherever possible, use scripts to manipulate data files as this creates a record of what has been done whilst working on the data. Keep and backup these scripts as if they were data. It is also good practice to keep human-readable notes alongside this, particularly about which decisions were taken and why. 
 
-* Maintaining a good description of a project to which datasets and samples contribute, is useful background information. 
-* Include what the study set out to do, how it contributes new knowledge to the field, what the research questions/hypotheses were, what methodologies were used, and which instruments and measures were used [@theuniversityofedinburghDocumentationMetadataCitation].
+**Dataset rights holders:** note details of the rights holders of the dataset (person(s) and / or organisation(s)), who contributed to the production of the dataset, as well as what they did. Full details of authors, contributors and funders are normally asked for when publishing a dataset.
+
+#### Project
+
+It is easy to lose information about the context of data and samples when projects come to an end. More detailed information, particularly about methods, might be lost because it cannot all fit in a journal article.
+
+**Project description:** maintain a good description of the project to which datasets and samples contribute. Include what the study set out to do, how it contributes new knowledge to the field, what the research questions/hypotheses were, and which methodologies, instruments and measures were used [@theuniversityofedinburghDocumentationMetadataCitation2021].
 
 ### Machine-readable metadata
 
-If metadata are structured and documented correctly, they can be easily read by machines (i.e computers). It is important for humans to be able to understand if a dataset is fit for their purpose, something normally achieved by reading documentation, but advantages of machine-readable metadata are to ensure that datasets are discoverable in searches, easier to combine with other datasets and meet community standards which in turn allows comparison of similar datasets. 
+If metadata are structured and documented correctly, they can be easily read by machines (computers). It is important for humans to be able to understand if a dataset is fit for their purpose, something normally achieved by reading documentation. The advantages of machine-readable metadata are to ensure that datasets are discoverable in searches, easier to combine with other datasets and meet community standards, which in turn allows comparison of similar datasets. 
 
 Some machine-readable metadata schemas to consider are: 
 
@@ -93,7 +92,7 @@ A controlled vocabulary normally provides a set of keywords or parameter names t
 
 There are many controlled vocabularies, so it pays to look into this closely within a particular discipline or ask for assistance as necessary. 
 
-Some commonly used ones are: 
+Some commonly used vocabularies are: 
 
 * [SeaDataNet](https://www.seadatanet.org/) - oceanography terms at many levels
 * [Global Change Master Directory (GCMD) Keywords](https://earthdata.nasa.gov/earth-observation-data/find-data/gcmd/gcmd-keywords) - environmental data keywords, instrument names, geographical names and more
