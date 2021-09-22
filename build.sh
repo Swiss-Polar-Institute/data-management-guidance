@@ -17,7 +17,8 @@ do
 	mustache variables.yml "$file" > "rendered/$file_basename"
 done
 
-OUTPUT_BASE_NAME="data_management_guidance_in_the_field"
+# OUTPUT_BASE_NAME="data_management_guidance_in_the_field"
+OUTPUT_BASE_NAME="data_management_guidance_draft"
 
 SPI_LOGO_HD_FILE=spi_logo_hd.png
 if [ ! -f "$SPI_LOGO_HD_FILE" ]

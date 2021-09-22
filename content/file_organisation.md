@@ -5,9 +5,11 @@ It is worth investing time and effort in ensuring a coherent [directory structur
 
 ### Directory structure
 
-Consider a set of higher level directories that can be used across projects. Working in a separate directory to raw or finalised files is good practice to avoid accidentally modifying them (see the section about [working on data](#working-on-your-data) for more information). For this reason, consider creating a work-in-progress ("wip") directory which can have different permissions and a different [backup schedule](#data-backup). 
+Consider a set of higher level directories that can be used consistently across projects. 
 
-Directories containing data may be organised according to the project and it is important to consider the [number of files in a directory](#number-of-files-in-a-directory) and [size of files](#file-size).
+Raw or finalised data files should not be worked on directly to avoid modifying them accidentally (see the section about [working on data](#working-on-your-data) for more information). For this reason, consider creating a work-in-progress ("wip") directory which can have different permissions and a different [backup schedule](#data-backup). 
+
+Directories containing data may be organised according to the project. It is important to consider the [number of files in a directory](#number-of-files-in-a-directory) and [size of files](#file-size) to make them easier to work with.
 
 An example directory structure can be seen below.
 
