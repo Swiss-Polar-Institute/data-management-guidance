@@ -1,4 +1,4 @@
-personal_ws-1.1 en 160 
+personal_ws-1.1 en 168 
 PLoS
 Peng
 fieldSiteA
@@ -9,6 +9,8 @@ titlesec
 SchemaOrg
 dataset
 readme
+colorbox
+textcolor
 camelCaps
 al
 rawData
@@ -44,11 +46,14 @@ EPFL's
 MatchLowercase
 bfseries
 grayScientificDataManagement
+darkgray
 LFS
 NetCDF
 edn
 monofont
 Zenodo
+lightgray
+fbox
 tex
 findable
 Frictionless
@@ -63,6 +68,7 @@ md
 Milfort
 CTD
 Eren
+fcolorbox
 projectName
 doi
 fancyfoot
@@ -158,4 +164,6 @@ wikipediacontributorsComparisonOnlineBackup
 Copp
 thechapter
 Verison
+fboxrule
 Muehlbauer
+setlength

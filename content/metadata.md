@@ -56,9 +56,10 @@ Ideally, it should be possible to follow the life history of a sample from its c
 
 * Keep full records of how data files were produced. 
 * Note any changes and problems that occur in data saving, creation or transfer. 
-~~~
-**Example**: Data were produced by xxx instrument and saved directly onto a connected laptop which ran Windows 10. Software yyy (version 1.1 by Company Name) saved the files containing 24-hours of data with a one-second resolution. Data were backed up automatically onto a portable hard drive once a day at 20:00 using rclone (version 0.3). The laptop crashed on the 30th of March 2020 and the data recorded before 16:34 on this day, were lost. After the expedition, data were copied to network attached storage at Institution X using rclone (version 0.3) and are backed up on a daily basis at 01:00 to the off-site cloud storage. Another backup of the raw data was transferred to Amazon deep glacier storage straight after the expedition.
-~~~
+
+\setlength{\fboxrule}{0.8pt}
+\fcolorbox{gray}{lightgray}{Example
+ Data were produced by xxx instrument and saved directly onto a connected laptop which ran Windows 10. Software yyy (version 1.1 by Company Name) saved the files containing 24-hours of data with a one-second resolution. Data were backed up automatically onto a portable hard drive once a day at 20:00 using rclone (version 0.3). The laptop crashed on the 30th of March 2020 and the data recorded before 16:34 on this day, were lost. After the expedition, data were copied to network attached storage at Institution X using rclone (version 0.3) and are backed up on a daily basis at 01:00 to the off-site cloud storage. Another backup of the raw data was transferred to Amazon deep glacier storage straight after the expedition.}
 
 **Data file manipulation and processing**
 
