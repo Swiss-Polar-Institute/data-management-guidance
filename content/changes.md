@@ -14,3 +14,4 @@
 * Update file organisation: refine text
 * Update file formats: refine text
 * Update backing up data: refine text
+* Update sample collection: refine text
