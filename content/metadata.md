@@ -37,7 +37,7 @@ It should be possible to follow the life history of a sample from its collection
 
 **Collection:** include where, when, by whom, methods and particular conditions that might affect sample collection or resulting data. Also note specific details of any instruments (include manufacturer, model, serial number and set-up) used for sample collection. 
 
-**Storage conditions:** record how the samples were stored and what happened to them between collection and processing. Information could include mode of travel, storage temperature and conditions, and how they were preparated for processing. 
+**Storage conditions:** record how the samples were stored and what happened to them between collection and processing. Information could include mode of travel, storage temperature and conditions, and how they were prepared for processing. 
 
 **Storage location:** record where samples are currently stored (or if they were destroyed as part of the processing) and how they can be found.
 

@@ -9,7 +9,7 @@ Consider a set of higher level directories that can be used consistently across 
 
 Raw or finalised data files should not be worked on directly to avoid modifying them accidentally (see the section about [working on data](#working-on-your-data) for more information). For this reason, consider creating a work-in-progress ("wip") directory which can have different permissions and a different [backup schedule](#data-backup). 
 
-Directories containing data may be organised according to the project. It is important to consider the [number of files in a directory](#number-of-files-in-a-directory) and [size of files](#file-size) to make them easier to work with.
+Directories containing data may be organised differently according to the project. It is important to consider the [number of files in a directory](#number-of-files-in-a-directory) and [size of files](#file-size) to make them easier to work with.
 
 An example directory structure can be seen below.
 
@@ -28,18 +28,18 @@ projectName
 |   |   |-- 2019
 |   |   |-- 2020
 |   |-- fieldSiteC
-|       |-- 2018
-|       |-- 2019
-|       |-- 2020
+|   |   |-- 2018
+|   |   |-- 2019
+|   |   |-- 2020
 |-- README.txt
 |-- wip
 ~~~ 
 
 #### File size
 
-Consider file size carefully so they are easy to work with for human users and applications. Many small files will take longer to copy and be harder to work with than a single file of the same total size. Copying lots of smaller files to [cloud storage](#cloud-storage) can also increase the cost which may be a factor to consider. 
+Many small files will take longer to copy and be harder to work with than a single file of the same total size. Copying lots of smaller files to [cloud storage](#cloud-storage) can also increase the cost, which may be a factor to consider. 
 
-Avoid creating files that are more than 1 GB in size because in some cases they can be difficult to read into memory. 
+Avoid creating files that are more than 1 GB in size because in some cases, they can be difficult to read into memory. 
 
 #### Number of files in a directory
 
@@ -51,21 +51,21 @@ Some key points adapted from @borerSimpleGuidelinesEffective2009:
 
 * Use a file or directory name which accurately reflects what is contained within it. Splitting it into separate parts, such as project, title, year or location of collection, year of collection, data type, version number and the file type can help to have a hierarchical name and standard naming procedure. Using keywords can help to find files at a later date.
 * Use acronyms sparingly and only if necessary; use only those that are well-known. Always explain them fully in the [README file](#readme.txt).
-* Some file systems have a limited number of characters that can be used in a full file path (directory path plus the filename) so keep names concise.
-* Stick to letters and numbers: special characters (non-ASCII characters) are unfortunately not well-supported by some software and can cause problems.
-* Avoid using spaces because they can cause some problems with different file systems.
-* Underscores ( _ ) and dashes ( - ) are conventionally used for separation of different parts of a filename. camelCaps (starting each word with a capital letter) can be used to separate words within filename sections. 
-* Versioning can be done using the date in the format YYYYMMDD. Placing the date at the start of the filename can be useful. If more granularity is useful, then version numbering such as v01_01, v01_02 can be used as well. Placing this at the end of the filename is useful although if detailed versioning such as this is required, consider using a [versioning tool](#versions-of-files).
+* Some file systems have a limited number of characters that can be used in the full file path (directory path plus the filename) so keep names concise.
+* Stick to letters and numbers: special characters (non-ASCII characters) are unfortunately not well-supported by some software and can cause problems. Underscores ( _ ) and dashes ( - ) are conventionally used for separation of different parts of a filename. Avoid using spaces because they can cause some problems with different file systems.
+* camelCaps (starting each word with a capital letter) can be used to separate words within filename sections. 
+* Versioning can be done using the date in the format YYYYMMDD. Placing the date at the start of the filename can be useful. If more granularity is useful, then version numbering such as v01_01, v01_02 can be used as well. Placing this at the end of the filename is useful, although if detailed versioning such as this is required, consider using a [versioning tool](#versions-of-files).
 * Directories will most likely be listed in alphabetical order. Prefixes such as numbers or letters to order directories are not helpful if they do not mean anything. 
 * If using numbers for versioning, dates or in other meaningful ways, always use leading zeros, e.g. for sites that are numbered from one to ten, 01, 02, ..., 10 should be used. 
 * Describe how files are named within a [README file](#readme.txt).
 * Be consistent!
 
-#### Examples
+***
 
-~~~~
+_Example_
+```
 ace_meteorology_data_20170130-120000.csv
-~~~~	
+```	
 
 * ```ace``` is the overarching project - the acronym should be described in the README file, which should be stored with the files
 * ```meteorology``` is the sub-project
@@ -73,15 +73,20 @@ ace_meteorology_data_20170130-120000.csv
 * ```20170130-120000``` is the first timestamp of data in the file (the meaning of a date/time should always be clarified in the README file)
 * ```.csv``` is the file type (comma-separated values)	
 
-~~~~
+***
+
+_Example_
+```
 ace_meteorology_processedWindData_201701.csv
-~~~~
+```
 
 * ```ace``` is the overarching project - the acronym should be described in the README file, which should be stored with the files
 * ```meteorology``` is the sub-project
 * ```processedWindData``` is information about the data contained in the file
 * ```201701``` is the subset of data in the file (data from January 2017. The meaning of a date/time should always be clarified in the README file))
 * ```.csv``` is the file type (comma-separated values)
+
+***
 
 ### README.txt
 
@@ -97,4 +102,4 @@ The Gurdon Institute [@downieBitesizedRDMReadme2019] provides a very useful list
 * details of backups: how often and where to, how they can be accessed
 * make sure the file is written in plain text format so that it can easily be read in the future.
 
-Markdown is a useful convention that can be used to provide basic formatting of the text and as plain text, is also easily read by humans. ``Pandoc`` is a tool that can be used to convert Markdown into different file formats such as HTML, PDF or others as required. Saving the README file in plain text format is good practice so that it can be easily opened in years to come.
+Saving the README file in plain text format is good practice so that it can be easily opened in years to come.
