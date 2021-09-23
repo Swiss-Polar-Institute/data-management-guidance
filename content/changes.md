@@ -16,3 +16,4 @@
 * Update backing up data: refine text
 * Update sample collection: refine text
 * Update field guide introduction: refine text
+* Update planning before you go: refine text, add example data storage calculation

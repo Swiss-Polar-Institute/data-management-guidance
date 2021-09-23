@@ -1,7 +1,7 @@
 
-## Before you go
+## Planning
 
-Collecting data in the field requires careful thinking beforehand, particularly if setting up an instrument in a remote environment that is difficult to reach to troubleshoot, move out of danger or to recover data from when the data storage is full. 
+Collecting data in the field requires careful preparation beforehand, particularly if setting up an instrument in a remote environment that is difficult to reach to troubleshoot, move out of danger or to recover data from when the data storage is full. 
 
 The main points to plan are the same, whether collecting samples, data by hand, using an instrument to gather data in an automated manner, or a mixture of all of these: 
 
@@ -9,18 +9,16 @@ The main points to plan are the same, whether collecting samples, data by hand, 
 * carefully plan how saved data and recording of samples will be **organised**;
 * plan for enough **[data storage](#storing-data)** or notebooks to record data;
 * ensure data can be **[backed-up](#data-backup)** in the field;
-* plan which **metadata** (information about data) will be recorded about the data or sample collection;
-* understand which information is needed to **document** data or sample collection thoroughly.
+* plan which **[metadata](#metadata)** will be recorded about the data or sample collection;
+* understand what is needed to get the data and samples home safely.
 
-The sections below will discuss these points in more detail. Follow the links to the relevant sections in the earlier part of this guide for more detailed information and context.
-
-### On site
+### What is available on-site?
 
 Resources and support that **are** and **are not** available at the fieldwork site can hugely impact on data and sample collection. This will affect how data are saved, backed-up and accessed whilst on site. It is useful to get advice from others that have previously visited the site if this is possible, but always double-check details in case changes have been made since previous years.
 
 #### Network 
 
-A connection to the local network can be useful for automated, secure backups (if there is also storage), collaborating more easily with others, viewing data without having to access the instrument (very useful in bad weather or if the instrument's location makes it tricky to access) and depending on the organisation, might mean data can be backed-up directly to another institution after the fieldwork.
+A connection to the local IT network can be useful for automated, secure backups (if there is also storage), collaborating more easily with others, viewing data without having to access the instrument (very useful in bad weather or if the instrument's location makes it tricky to access) and depending on the site, might mean data can be backed-up to a remote location.
 
 **Questions to ask**:
 
@@ -37,8 +35,8 @@ Network-attached storage may be provided and therefore would offer another means
 **Questions to ask**:
 
 * Are you able to backup data to the network-attached storage? If so, what capacity would be available to you?
-* Do you have read access to look at your data?
-* Is access to read data available any time? Is this possible through your computer or is it through a computer based on the site?
+* Do you have read-access to look at your data?
+* Is access to read data available any time? Is this possible through your own computer or is it through a computer based on the site?
 * Is there someone who can assist in setting up your access to the data storage, or do you need to know how to do this?
 
 #### Power and electricity supply
@@ -66,7 +64,7 @@ It is important to have a good understanding of any instrumentation, associated 
 
 **Which data do I need to save?**  
 
-Some software automatically writes "false" data from variables which are not actually being recorded or of interest to the particular experiment, and therefore should not be recorded in the data file. This causes confusion for others looking at the data files in the future. Check how to "select" which variables are saved into the data files.  
+Some software automatically writes "false" data from variables which are not actually being recorded or are not of interest to the particular experiment. These should not be recorded in the data file because they can cause confusion for others looking at the data files in the future. Check how to "select" which variables are saved into the data files.  
     
 If data storage is limited and 24-hour recording is not possible, consider which periods of time are more crucial (i.e. data collection only at night, or for five minutes every hour, one-minute resolution instead of one-second). All of this should be considered with your experiment in mind to ensure it is not compromised. Do not forget to take into account local sunrise and sunset times if this is an important factor, particularly if the instrument is going to be installed on a moving platform such as a ship.
 
@@ -78,7 +76,29 @@ File sizes vary depending on the configuration of the instrument, the number of 
 
 Following the verification of expected file size after a test-run, calculate how many data files will be produced (one per hour, one per day?) and use this to calculate an estimate of daily storage that will be produced. Multiply that calculation by the number of days of data collection.
 
-Always round estimates up. It is better to overestimate. 
+Always round estimates up. It is better to overestimate.
+
+***
+
+_Example_
+
+An 8 MB file is produced each day. Data will be recorded for a planned field season of 8 weeks (56 days), but there is a potential that it could be for up to 16 weeks (112 days) if we cannot make it back to the instrument on the first occasion.
+
+8 weeks: $8 * 56 = 448 MB$
+
+16 weeks: $16 * 56= 896 MB$
+
+On the second instrument, six different files are produced when a certain event occurs. When the event occurs, data are recorded for a period of 36 hours and each file contains an hours worth of data. That means $6 * 36 = 216$ files are produced during an event. Each file can contain up to 600 MB of data. 
+
+For an event: $216 * 600 = 129600 MB = 129600 / 1024 GB = 126.56 GB$
+
+During a period of 8 weeks, we expect an event to take place once a week, but to be certain about data storage, we plan for two events a week. This means $8 * 2 = 16$ events, or $16 * 2 = 32$ events if the instruments are left for the full 16-week period. 
+
+8 weeks: $126.56 * 16 = 2025 GB = 2025 / 1024 TB = 1.98 TB$
+
+16 weeks: $126.56 * 32 = 4050 GB = 4050 / 1024 TB = 3.96 TB$
+
+***
 
 **Do I have enough data storage for the planned data collection, plus extra for unforeseen circumstances?** 
 
@@ -86,15 +106,17 @@ Where possible, do some initial set-up tests in the field before or during deplo
 
 In the event of bad weather and not being able to access the instrument or other unforeseen circumstances such as the field season being extended, data may be collected over a longer period of time. Don't miss out on the opportunity for additional or opportunistic data collection if it becomes available, just because there is not enough data storage is available!
 
-Primary storage, that is where the raw copy of the data will be saved initially, should be of a volume that more than covers planned data collection. Always ensure a buffer of at least 20 %, preferably more, and test how the files are stored thoroughly beforehand. If in doubt, have more storage rather than less.
+Primary storage, that is where the raw copy of the data will be saved initially, should be of a volume that more than covers planned data collection. Always ensure a buffer of at least 20 %, preferably more, and test how the files are stored thoroughly beforehand. If in doubt, have more storage rather than less. 
+
+NOTE: in the example above, a 5TB hard drive would probably be a good choice in case it is not possible to get to the instrument to change it.
 
 **Metadata and documentation**
 
-More information will follow below about planning for recording [metadata](#metadata) and [documentation](#documentation) in the field, but we must point out here, that it is important also to ensure enough data storage has been budgeted for these important aspects of data collection as well. This could include spreadsheets containing notes and supplementary data, photographs of experiment setups, digitised hand-written notes or anything else that could be useful. Photographs and video could be particularly large in terms of data storage and backups so bear this in mind. 
+Ensure enough data storage has been budgeted for these important aspects of data collection as well. This could include spreadsheets containing notes and supplementary data, photographs of experiment setups, digitised hand-written notes or anything else that could be useful. Photographs and video could be particularly large in terms of data storage and backups so bear this in mind. 
 
 #### Data storage media
 
-Carefully consider the [hardware](#types-of-storage-media) on which data will be stored, ensuring that it can withstand the conditions of the field site. Wherever possible find out from others that have been on a similar field trip or have previously been to the same location. 
+Carefully consider the [hardware](#types-of-storage-media) on which data will be stored, ensuring that it can withstand the conditions of the field site. 
 
 Many permanent field sites have some kind of provision for data storage but details should be checked carefully: 
 
@@ -112,11 +134,11 @@ Think carefully about the [directory structure](#directory-structure) and [filen
 
 #### Backing up data in the field
 
-Always ensure data and metadata can be [backed-up](#data-backup)  whilst in the field. Plan carefully to make sure these backups are automated as far as possible, making it much less of a chore and harder to make a mistake. Test out each method of backup carefully before leaving to ensure the method and the hardware (if applicable) work properly. Don't forget to verify and test recovery of backups as well. 
+Always ensure data and metadata can be [backed-up](#data-backup) whilst in the field. Plan carefully to make sure these backups are automated as far as possible, making it much less of a chore and harder to make a mistake. Test out each method of backup carefully before leaving to ensure the method and the hardware (if applicable) work properly. Don't forget to verify and test recovery of backups as well. 
 
 Depending on the circumstances, backups could be:
 
-* a number of [portable hard drives](#portable-media), held by different members of the team wherever possible;
+* a number of [portable hard drives](#portable-media), held by different members of the team or stored in different locations and rotated;
 * if others are coming and going to a field site during the season, consider asking a responsible person to carry a copy of the data back to the institution. This provides a copy in a different location and means it could also be placed on secure networked storage away from the field site as an extra precaution. It would be particularly useful if conditions at the field site make it difficult to keep portable media safe and in good condition;
 * on network-attached storage if accessible;
 * by sending files using a mobile or satellite connection from the instrument (this will depend on situation and cost) to cloud storage.
@@ -127,17 +149,17 @@ Using on-site options such as network-attached storage or sending files via the 
 
 Being able to access data in the field during collection is extremely useful and cannot be underestimated. In particular it allows:
  
-* checking the instrument is running as expected;
+* checks that the instrument is running as expected;
 * confirmation that data files are being saved as expected;
-* observation of interesting features in the data that might indicate problems. Knowing about them in near-real time can be hugely advantageous when quality checking and processing data. 
+* observation of interesting features in the data that might indicate problems. Knowing about them in near-real time can be hugely advantageous when quality-checking and processing data. 
 
-Setting up quick visualisations of data files saves a lot of time provides a lot of information with a quick glance. 
+Setting up quick visualisations of data files saves a lot of time and provides a lot of information with a quick glance. 
 
-If instrumentation is nearby and easy to access, checking the data files periodically helps to spot obvious issues with the instrument early on, and ensure data are being saved as expected (check parameters, file format, frequency of records).
+If the instrumentation is nearby and easy to access, checking the data files periodically helps to spot obvious issues with the instrument early on, and ensures data are being saved as expected (check parameters, file format, frequency of records).
 
-If instrumentation is going to be left for a period of time, it is worth considering what access will be possible. Running initial tests whilst still with the instrument in the field is essential. Once data collection has been confirmed, then it is still useful to be able to access data periodically. This could be across a network (for example if on a ship or at a base) or even using mobile or satellite communications if the instrument is isolated. Even if only a subset of the data can be useful: a small daily file with a subset of the data could be enough to check that everything is going well or flag up issues. Of course this is of more use if someone is then able to go and fix the problem. 
+If instrumentation is going to be left for a period of time, it is worth considering what access will be possible. Running initial tests whilst still with the instrument in the field is essential. Once data collection has been confirmed, then it is still useful to be able to access data periodically. This could be across a network (for example if on a ship or at a base) or even using mobile or satellite communications if the instrument is isolated. Even if only a subset of the data can be received, a small daily file with a subset of the data could be enough to check that everything is going well or flag up issues. Of course, this is of more use if someone is then able to go and fix the problem. 
 
-For instruments that are very isolated and there is no possibility of being able to access them, consider if there is a way to remotely connect to the instrument. This might offer the possibility to restart it for example, or change crucial settings. Set this up and test it thoroughly beforehand.    
+For instruments that are very isolated and there is no possibility of being able to access them, consider if there is a way to remotely connect to the instrument. This might offer the possibility to restart it, for example, or change crucial settings. Set this up and test it thoroughly beforehand.    
 
 ### Preparing for recording data by hand
 
@@ -147,7 +169,7 @@ If recording data by hand directly into a notebook, think carefully what informa
 
 Scan, photograph or type-up hand-collected data and notes as soon as possible in the field as a form of backup but also to make it easier to check data collection. 
 
-If using a spreadsheet to transcribe hand-recorded notes, prepare the file template in advance and have a test-run of data collection and digitising of data. Where possible and appropriate, use drop-down lists of specified terms within the spreadsheet ([example for Excel](https://www.excelefficiency.com/create-drop-down-lists-in-excel/)) to keep data entry consistent. This will allow quick data validation and save a lot of time cleaning data. As when collecting data from an instrument, early digitisation also offers the opportunity to produce some quick visualisations or numerical checks of data.
+If using a spreadsheet to transcribe hand-recorded notes, prepare the file template in advance and have a test-run of data collection and digitising of data. Where possible and appropriate, use drop-down lists of specified terms within the spreadsheet ([example for Excel](https://www.excelefficiency.com/create-drop-down-lists-in-excel/)) to keep data entry consistent. This will allow quick data validation and save a lot of time cleaning data. As when collecting data from an instrument, early digitisation also offers the opportunity to produce some quick visualisations or numerical checks of data. 
 
 If it will not be possible to use a laptop in the field, then consider other methods such as taking a camera and carefully photographing hand-written notes and data. Photographs or scans of hand-written notes are very useful to verify data entry, as well as being a vital backup.
 
@@ -157,12 +179,12 @@ Even though data may not being collected directly from an instrument, calculate 
 
 The following should be considered when planning sample collection in the field: 
 
-* a carefully planned numbering and labelling scheme;
+* a carefully planned labelling scheme;
 * a plan of what metadata will be needed to fully document the sampling;
-* any additional documentation that will be maintained;
+* any additional documentation;
 * how metadata files are going to be stored and backed up whilst in the field (calculate data storage budget);
 * check permit requirements: permit authorities may insist on certain information being kept about the samples and it is likely this will need to be reported. Be aware of this beforehand to avoid any doubt in the field or on the return journey;
-* check border crossing and entry requirements for the transport of samples: it is likely a list of samples with information about what they contain, will need to be presented. Carefully check and understand exactly what is required before travelling to the field site where it might not be able to access this information.
+* check customs, border crossing and entry requirements for the transport of samples: it is likely a list of samples with information about what they contain, will need to be presented. Carefully check and understand exactly what is required before travelling to the field site where it might not be able to access this information.
 
 ### Metadata
 
@@ -181,10 +203,10 @@ Prepare in advance:
 
 #### Key points: "when"
 
-* It is good practice to record all science work in UTC to avoid confusion with time zones. 
+* It is good practice to record all scientific work in UTC to avoid confusion with time zones. 
 * Ensure the timing device is set accurately. Record if the time is recorded to the nearest day, hour, minute or second.
 * Note the source of time (device name, type, manufacturer, version and serial number).
-* If using networked computers or instruments, ensure that they are all synced or any offset is recorded. 
+* If using networked computers or instruments, ensure that they are all synced. 
 * If working as part of a larger project, particularly where data and sample collection is simultaneous among teams, ensure everyone is working from the same time source.
 * Find out if there is any offset between the instruments / devices recording location, time and the data itself because if working on a moving platform, it is likely that data points will need to be "matched" to the location using time.
 
@@ -200,7 +222,7 @@ For instrumentation, record:
 * version / model
 * serial number
 
-Good documentation of instrumentation is important, particularly if there are any issues. Keep the details to hand in the field and with anyone who is able to offer support back at the institution: this makes it much easier to contact the manufacturer for support whilst in the field, or afterwards when trying to solve problems. 
+Good documentation of instrumentation is important, particularly in case of issues. Keep the details to hand in the field and with anyone who is able to offer support back at the institution: this makes it much easier to contact the manufacturer for support whilst in the field, or afterwards when trying to solve problems. 
 
 During an expedition, it is possible that part of the instrumentation might change: for instance, a new sensor could be added, or swapped if one fails. Always record: 
 
@@ -230,6 +252,6 @@ Notes, diagrams, photographs and any other forms of documentation should be back
 
 Plan how data storage (and related) hardware to and from the field location with good time. Carefully check cargo restrictions to ensure that hardware meets the requirements of carriage. Batteries that are in UPSs or other instrumentation are particularly regulated. Import regulations should also be carefully checked. Finally, do not forget to consider the regulations of countries that will be transited, as well as modes of transport. 
 
-Plan for the return journey: when returning with portable media devices holding carefully-collected data, think carefully about how they will be transported. Consider encryption of the device if it holds personal or sensitive data and if someone else is travelling back to the same location, consider asking them to carry a separate copy of the data.
+Plan for the return journey: when returning with portable media devices holding carefully-collected data, think about how they will be transported. Consider encryption of the device if it holds personal or sensitive data and if someone else is travelling back to the same location, ask them to carry a separate copy of the data.
 
 As previously discussed in the section about [preparation for sample collection](#preparing-for-sample-collection), it is important to understand the requirements of customs and other permits that are required so this information ([metadata](#metadata)) can be recorded whilst in the field.
