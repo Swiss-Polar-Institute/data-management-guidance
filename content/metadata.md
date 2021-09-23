@@ -29,7 +29,7 @@ It is often a requirement of funders, and is good practice, to **publish data** 
 
 ### What should be recorded?
 
-Metadata should be captured about different aspects of a project. 
+Metadata should be captured about different aspects of a project and at all stages. 
 
 #### Samples
 
@@ -59,17 +59,17 @@ Keep a [README](#readme.txt) file alongside the data. Information within the REA
 
 **Data file transfer:** keep full records of how data files were saved, backed up and transferred between different storage types. Where possible, use scripts to do this and keep them as a record.  
 
-***
-_Example_
-
- Data were produced by xxx instrument and saved directly onto a connected laptop which ran Windows 10. Software yyy (version 1.1 by Company Name) saved the files containing 24 hours of data with a one-second resolution. Data were backed up automatically onto a portable hard drive once a day at 20:00 using rclone (version 0.3). The laptop crashed on 30th March 2020 and the data recorded before 16:34 on this day, were lost. After the expedition, data were copied to network attached storage at Institution X using rclone (version 0.3) and are backed up on a daily basis at 01:00 to the off-site cloud storage. Another backup of the raw data was transferred to Amazon deep glacier storage straight after the expedition.
- 
- ***
-
 **Data file manipulation and processing:** wherever possible, use scripts to manipulate data files as this creates a record of what has been done whilst working on the data. Keep and backup these scripts as if they were data. It is also good practice to keep human-readable notes alongside this, particularly about which decisions were taken and why. 
 
 **Dataset rights holders:** note details of the rights holders of the dataset (person(s) and / or organisation(s)), who contributed to the production of the dataset, as well as what they did. Full details of authors, contributors and funders are normally asked for when publishing a dataset.
 
+***
+_Example_
+
+ Data were produced by xxx instrument and saved directly onto a connected laptop which ran Windows 10. Software yyy (version 1.1 by Company Name) saved the files containing 24 hours of data with one-second resolution. Data were backed up automatically onto a portable hard drive once a day at 20:00 using rclone (version 0.3). The laptop crashed on 30th March 2020 and the data recorded before 16:34 UTC on this day, were lost. After the expedition, data were copied to network attached storage at Institution X using rclone (version 0.3). Another backup of the raw data was transferred to Amazon deep glacier storage using rclone (version 3.0) straight after the expedition. Both copies of the data are read-only for all users. They should be copied elsewhere for further processing. 
+ 
+ ***
+ 
 #### Project
 
 It is easy to lose information about the context of data and samples when projects come to an end. More detailed information, particularly about methods, might be lost because it cannot all fit in a journal article.
