@@ -13,3 +13,4 @@
 * Update storing data: add section "data publication", refine text, reformat
 * Update file organisation: refine text
 * Update file formats: refine text
+* Update backing up data: refine text
