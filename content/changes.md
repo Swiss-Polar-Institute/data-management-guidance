@@ -11,3 +11,5 @@
 * Update introduction: what this guide covers, contact email address
 * Update metadata: refine text, TODO add examples
 * Update storing data: add section "data publication", refine text, reformat
+* Update file organisation: refine text
+* Update file formats: refine text
