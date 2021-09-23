@@ -34,7 +34,7 @@ fi
 # Generate tex file output using a template
 pandoc --pdf-engine=xelatex \
   --bibliography data_management_guidance.bib \
-  --filter pandoc-citeproc --csl /usr/share/citation-style-language/styles/harvard-cite-them-right.csl \
+  --filter pandoc-citeproc --csl /usr/share/citation-style-language/styles/harvard-cite-them-right-no-et-al.csl \
   --variable subparagraph \
   --toc --toc-depth=2 \
   --number-sections \
