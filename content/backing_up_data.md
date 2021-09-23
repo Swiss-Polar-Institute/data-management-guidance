@@ -1,9 +1,9 @@
 
 ## Data backup
 
-Ensuring you have several reliable copies of data avoids data loss and gives peace of mind. 
+Ensuring you have several reliable copies of data avoids data loss. 
 
-Backup set-up and schedule will differ when working in the field. This is covered in more detail in the [planning](#before-you-go) and [working in the field](#in-the-field) sections of the guide.
+Backup set-up and schedules will differ when working in the field. This is covered in more detail in the [planning](#before-you-go) and [working in the field](#in-the-field) sections of the guide.
 
 ### Creating a backup schedule
 
@@ -11,13 +11,13 @@ Backup set-up and schedule will differ when working in the field. This is covere
 
 Think carefully about how often data should be backed up and if full backups or partial backups for files that have changed, are needed. Documentation, code, plots and other associated files should also be backed up alongside the data. Automating backups will make everything much simpler and helps to avoid mistakes.
 
-Arguably it is much simpler to do a full backup of files each time and retain these for a certain period of time. If data and associated files are not being worked on any longer, then as long as the backups are secure and regularly checked, these could be backed up every month, for example. 
+Arguably it is much simpler to do a full backup of files each time and retain these for a certain period of time. If data and associated files are not being worked on any longer, then as long as the backups are secure and regularly checked, these could be backed up less often. 
 
-If however files are being worked on, on a daily basis, daily backups can be very useful. In this case, a backup of a subset of the files may be considered. 
+If however files are being worked on on a daily basis, daily backups should be done. In this case, a backup of a subset of the files may be considered. 
  
 #### Size of backup
 
-It is important to consider how much space each backup will take and therefore how much total space is required for all of your backups. Data volume and also the number of files will both affect how long the backup takes to complete.
+It is important to consider how much space each backup will take and therefore how much total space is required for all backups. Data volume and the number of files will both affect how long the backup takes to complete.
 
 #### Retention of backups
 
@@ -29,7 +29,7 @@ The long-term preservation of data should always be planned in a data management
 
 ### Documenting backups
 
-It is important to document where the files have been backed up, when, how often, as well as how they can be accessed and restored if necessary. Whilst restoring a backup should be done on a regular basis to ensure it is still available, there are times (such as after a long field season) that this information will not be as fresh, so good documentation is vital. A short [README](#readme.txt) file with this information would allow anyone to be able to restore backed-up data straight away.
+It is important to document where the files have been backed up, when, how often, as well as how they can be accessed and restored if necessary. Whilst restoring a backup should be done on a regular basis to ensure it is still available, there are times (such as after a long field season) that this information will not be as fresh, so good documentation is vital. A short [README](#readme.txt) file with this information should allow anyone to be able to restore backed-up data straight away.
 
 ### Verifying a backup
 
@@ -51,9 +51,9 @@ If any data were produced using proprietary software it is particularly importan
 
 #### Backup tools
 
-Many tools are available to help create backups. It is worth spending time finding one taking into account future, as well as current, needs. Of course it is essential to fully understand how the data are being saved and how they can be restored.  
+Many tools are available to help create backups. It is worth spending time finding one, taking into account future and current needs. It is essential to fully understand how the data are being saved and how they can be restored.  
 
-Using a multi-platform tool (such as for Windows, Mac, Linux and other operating system users) offers higher resilience, ensuring more possibilities for accessing the data in the futures. Some institutions may have tools or recommendations that can help. 
+Using a multi-platform tool (such as for Windows, Mac, Linux and other operating system users) offers higher resilience, ensuring more possibilities for accessing the data in the future. Some institutions may have tools or recommendations that can help. 
 
 ### Summary of key points
 
