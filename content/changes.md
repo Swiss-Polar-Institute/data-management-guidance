@@ -15,3 +15,4 @@
 * Update file formats: refine text
 * Update backing up data: refine text
 * Update sample collection: refine text
+* Update field guide introduction: refine text
