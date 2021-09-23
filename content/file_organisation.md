@@ -49,16 +49,21 @@ In addition to the [size of files](#file-size), it is important to consider the 
 
 Some key points adapted from @borerSimpleGuidelinesEffective2009:
 
-* Use a file or directory name which accurately reflects what is contained within it. Splitting it into separate parts, such as project, title, year or location of collection, year of collection, data type, version number and the file type can help to have a hierarchical name and standard naming procedure. Using keywords can help to find files at a later date.
-* Use acronyms sparingly and only if necessary; use only those that are well-known. Always explain them fully in the [README file](#readme.txt).
-* Some file systems have a limited number of characters that can be used in the full file path (directory path plus the filename) so keep names concise.
-* Stick to letters and numbers: special characters (non-ASCII characters) are unfortunately not well-supported by some software and can cause problems. Underscores ( _ ) and dashes ( - ) are conventionally used for separation of different parts of a filename. Avoid using spaces because they can cause some problems with different file systems.
-* camelCaps (starting each word with a capital letter) can be used to separate words within filename sections. 
-* Versioning can be done using the date in the format YYYYMMDD. Placing the date at the start of the filename can be useful. If more granularity is useful, then version numbering such as v01_01, v01_02 can be used as well. Placing this at the end of the filename is useful, although if detailed versioning such as this is required, consider using a [versioning tool](#versions-of-files).
-* Directories will most likely be listed in alphabetical order. Prefixes such as numbers or letters to order directories are not helpful if they do not mean anything. 
-* If using numbers for versioning, dates or in other meaningful ways, always use leading zeros, e.g. for sites that are numbered from one to ten, 01, 02, ..., 10 should be used. 
-* Describe how files are named within a [README file](#readme.txt).
-* Be consistent!
+**Reflect contents:** use a file or directory name which accurately reflects what is contained within it. Splitting it into separate parts, such as project, title, year or location of collection, year of collection, data type, version number and the file type can help to have a hierarchical name and standard naming procedure. 
+
+**Acronyms:** use sparingly and only if necessary. Always explain them fully in the [README file](#readme.txt).
+
+**Be concise:** some file systems have a limited number of characters that can be used in the full file path (directory path plus the filename) so keep names concise.
+
+**Stick to letters and numbers:** special characters (non-ASCII characters) are unfortunately not well-supported by some software and can cause problems. Underscores ( _ ) and dashes ( - ) are conventionally used for separation of different parts of a filename. Avoid using spaces because they can cause some problems with different file systems.  camelCaps (starting each word with a capital letter) can be used to separate words within filename sections. 
+
+**Versioning:** this can be done using the date in the format YYYYMMDD. Placing the date at the start of the filename can be useful. If more granularity is useful, then version numbering such as v01_01, v01_02 can be used as well. Placing this at the end of the filename is useful, although if detailed versioning such as this is required, consider using a [versioning tool](#versions-of-files).
+
+Files and directories will most likely be listed in alphabetical order. Prefixes, such as numbers or letters, used to order them are not helpful if they do not mean anything. If using numbers for versioning, dates or in other meaningful ways, always use leading zeros, e.g. for sites that are numbered from one to ten, 01, 02, ..., 10 should be used. 
+
+**Describe naming:** describe how files are named within a [README file](#readme.txt).
+
+**Be consistent!**
 
 ***
 
@@ -101,5 +106,3 @@ The Gurdon Institute [@downieBitesizedRDMReadme2019] provides a very useful list
 * explain file naming conventions
 * details of backups: how often and where to, how they can be accessed
 * make sure the file is written in plain text format so that it can easily be read in the future.
-
-Saving the README file in plain text format is good practice so that it can be easily opened in years to come.
