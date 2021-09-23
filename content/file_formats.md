@@ -32,5 +32,5 @@ For other types of data (such as media or geospatial) EPFL's [Research Data Mana
 Consider a combination of the following for recording documentation about data:
 
 * plain text (TXT) files are simple and easily read by humans;
-* for formatted information, you could consider PDF, LaTeX or Markdown for example;
+* for formatted information, consider PDF, LaTeX, reStructuredText or Markdown;
 * tools such as [Frictionless Data](https://frictionlessdata.io/) are very useful for creating machine-readable metadata about your datasets.
