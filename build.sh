@@ -39,7 +39,7 @@ pandoc --pdf-engine=xelatex \
   --toc --toc-depth=2 \
   --number-sections \
   -V secnumdepth:5 \
-  -V fontsize=12pt \
+  -V fontsize=11pt \
   --top-level-division=part \
   -V linkcolor:blue \
    --template template.tex \
