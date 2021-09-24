@@ -1,7 +1,7 @@
 
 ## In the field
 
-Careful preparation and a good routine in the field can help to manage data well and avoid frustration through lack of documentation and bad organisation of files. A careful routine of spending time backing up data, transcribing hand-written notes or data, and checking records of samples at the end of each day is vital to good data management. 
+Careful preparation and a good routine in the field can help to manage data well and avoid frustration through lack of documentation and bad organisation of files. A careful routine of spending time backing up data, transcribing hand-written notes or data, and checking records of samples at the end of each day is vital. 
 
 ### Data collection from an instrument
 
@@ -9,25 +9,25 @@ Automation, careful setup and testing are key. Much of the setup for [data stora
 
 #### Initial setup and testing
 
-Retaining data and keeping careful notes ([metadata](#metadata)) about initial setup and tests in the field is essential in case any problems are noticed later on.
+Retaining data and keeping notes ([metadata](#metadata)) about initial setup and tests in the field is essential in case any problems are noticed later on.
 
-Firstly check that data files can be read. If files are saved in proprietary formats, then make sure the software that is required to read them is available.
+Firstly, check that data files can be read. If files are saved in proprietary formats, then make sure the software that is required to read them, is available.
 
-Check that data files contain data for the expected parameters in the correct units. Ensure the files are being saved in the [directory structure](#directory-structure) and with the [filenames](#file-and-directory-naming) that are expected. Now is the time to make any necessary changes, before "real" data collection begins.
+Check that data files contain data for the expected parameters in the correct units. Ensure the files are being saved in the [directory structure](#directory-structure) and with the [filenames](#file-and-directory-naming) that are expected. Now is the time to make any changes, before "real" data collection begins. Test doing a backup and recovering (opening and checking) the files. 
 
 #### Periodic checking of data
 
-If it is possible to access the data whilst in the field, take advantage of being able to check that files are being saved correctly and that they can be read. Consult the software documentation for how is best to do this, to avoid problems. Make a copy of the primary data files to avoid interfering with the file-writing process; check the copies rather than the files that are being written.
+If it is possible to access the data whilst in the field, check that files are being saved correctly and that they can be read. Consult the software documentation for how is best to do this, to avoid problems. Make a copy of the primary data files to avoid interfering with the file-writing process; check copies of files rather than the files that are being written.
 
-For data that is being recorded continuously, it would be good practice to check files at least once a day, or more often if time allows. Events such as bad weather may mean data need to be checked more regularly.
+For data that is being recorded continuously, it is good practice to check files at least once a day, or more often if time allows. Events such as bad weather may mean data need to be checked more regularly.
 
-If it is possible to visualise the data in some way, this is a very nice way to spot anomalies which may in turn help to spot an instrument problem which could be fixed and get the data collection back on track.
+If it is possible to visualise the data, this helps to spot anomalies which may in turn help to spot an instrument problem which could subsequently be fixed and get the data collection back on track.
 
-Do not change what is collected in a dataset part way through a field campaign unless a parameter has been forgotten. This adds much unneeded complexity and confusion when trying to read the data files during the post-processing stages. In particular, do not change the format of fields or parameter names during data collection. Testing data collection before travelling and before starting data collection in the field should help to prevent this kind of problems. Any changes that are made should be clearly documented, including details of which files are affected.
+Do not change parameters that are recorded as part of a dataset, part way through a field campaign unless a parameter has been forgotten. This adds much unneeded complexity and confusion when trying to read the data files during the post-processing stages. In particular, do not change the format of fields or parameter names during data collection. Testing data collection before starting data collection in the field should help to prevent this kind of problem. Any changes that are made should be clearly documented, including details of which files are affected.
 
 #### Backups
 
-[Backups](#data-backup) should be automated wherever possible. If this is not possible, make sure they are done on at least a daily basis and kept in more than one place. At least two backups of the data should be kept, preferably more.
+[Backups](#data-backup) should be automated wherever possible. If this is not possible, make sure they are done on at least a daily basis and are stored in more than one place. At least two backups of the data should be kept, preferably more.
 
 Check the integrity of the backups on a regular basis: make sure the files that are backed up are the same as the originals and that they can be read correctly.
 
@@ -37,7 +37,7 @@ If collecting data in a notebook by hand, it is good practice to [digitise the d
 
 #### Backing up or digitising your data
 
-Ideally hand-written data should be digitised as soon as possible after data collection and at least once a day. A simple first backup can be done by photographing notes in case the unthinkable happens and the notebook is lost (keep the camera and notebook separately). Recording hand-written notes in a structured manner such as in a spreadsheet, cannot be underestimated and this should be done as regularly as possible as well (at least daily). This allows embellishment of any shorthand that has been used before forgetting what it means, or follow up on any queries. In particular when recording species for example, it is then possible to follow up on missing identifications before key details are forgotten or lost. See the previous chapter about what to [prepare beforehand](#preparing-for-recording-data-by-hand) to save time in the field.
+Hand-written data should be digitised as soon as possible after data collection and at least once a day. A simple first backup can be done by photographing notes in case the unthinkable happens and the notebook is lost (keep the camera and notebook separately). Digitising hand-written notes in a structured manner such as in a spreadsheet, cannot be underestimated and this should be done as regularly as possible as well (at least daily). This allows embellishment of any shorthand that has been used before it is forgotten, or any queries to be followed-up. In particular, when recording species, it is possible to follow up on missing identifications before key details are forgotten or lost. See the previous chapter about what to [prepare beforehand](#preparing-for-recording-data-by-hand) to save time in the field.
 
 If adding to a data file with new observations each day, using the date to denote different versions of the file is helpful e.g., ``project_datatype_observations_YYYYMMDD.csv``. This acts as an additional backup: if the last day's file is lost, at least only the latest data has been lost. 
 
@@ -47,7 +47,7 @@ Do not forget to [backup](#data-backup) digitised data as well.
 
 Record [metadata](#metadata) about [sample collection](#collecting-samples) as accurately and as soon as possible. Cross-checking this information is useful to spot mistakes.
 
-Ensure samples can be easily found at the field site from the records that are kept, particularly if participating in a long field campaign. Recording their storage location and box / crate number is also useful in case they need to be found, such as on arrival at customs. Be sure to note if they are destroyed during any sample analysis that is undertaken whilst in the field to avoid wasting time searching for a sample that no longer exists!
+Ensure samples can be easily found at the field site from the records that are kept, particularly if participating in a long field campaign. Recording their storage location and box / crate number is also useful in case they need to be found, such as on arrival at customs. Be sure to note if they are destroyed during sample analysis that is done whilst in the field, to avoid wasting time searching for a sample that no longer exists!
 
 Finally, keep an accurate record of what is contained in each sample according to what is required for [permits and border entry requirements](#travel-and-customs) and where the sample is being sent for analysis following the field work.
 
