@@ -5,7 +5,7 @@ When returning from the field, data management **priorities** are to:
 
 * backup data (data, metadata and documentation) to networked (or other suitable) storage: ensure the primary copy is read-only;
 * ensure safe storage of samples;
-* ensure safe storage of hand-written notes.
+* ensure safe storage of hand-written notes. Some institutions may have an archiving service in which these could be placed.
 
 **Further considerations** will then be to: 
 
