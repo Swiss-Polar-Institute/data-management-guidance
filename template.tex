@@ -321,7 +321,7 @@ $endfor$
 $endif$
 
 $if(title)$
-\title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
+\title{$title$}
 $endif$
 $if(subtitle)$
 \providecommand{\subtitle}[1]{}
@@ -334,7 +334,7 @@ $if(institute)$
 \providecommand{\institute}[1]{}
 \institute{$for(institute)$$institute$$sep$ \and $endfor$}
 $endif$
-\date{$date$}
+\date{$date$ \\ {\includegraphics[scale=0.5]{by.png}} \\ DOI: \href{https://doi.org/$doi$}{$doi$} }
 $if(beamer)$
 $if(titlegraphic)$
 \titlegraphic{\includegraphics{$titlegraphic$}}
@@ -369,8 +369,8 @@ $endif$
 
 \fancypagestyle{titlepagestyle}
 {
-  \fancyhead[C]{\parbox[b]{4.5cm}{Phone: +41 21 693 76 74 \\ Phone: +41 21 693 10 74 \\ Web: www.swisspolar.ch}}
-  \fancyhead[L]{\includegraphics[scale=0.6]{spi_logo_hd.png}\\ \hrulefill \\ EPFL ENT SPI \\ GR C2 505 \\ Station 2 \\ CH-1015 Lausanne, Switzerland}
+  % \fancyhead[C]{\parbox[b]{4.5cm}{Phone: +41 21 693 76 74 \\ Phone: +41 21 693 10 74 \\ Web: www.swisspolar.ch}}
+  \fancyhead[L]{\includegraphics[scale=0.6]{spi_logo_hd.png}}
   \fancyfoot[C]{\includegraphics[scale=0.15]{spi_contact_details.png}}
   \fancyfoot[L]{\includegraphics[scale=0.15]{compass.png}}
   % \fancyfoot[R]{DOI \href{https://doi.org/$doi$}{$doi$}}
