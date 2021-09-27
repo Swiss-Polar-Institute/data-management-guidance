@@ -9,7 +9,10 @@ Metadata is a description of data [@mccarthyMetadataManagementLarge1982; @graySc
 
 Information about a dataset quickly deteriorates over time [@michenerNongeospatialMetadataEcological1997]. This information, metadata, is documentation that is a reminder to your future self (and others). Without information about how data and samples were collected, final results cannot be interpreted correctly [@smithFieldTrialsHealth2015].  
 
+![Metadata decreases over time](metadata_decrease_over_time.png)
+
 The following questions are just some examples of things that might affect data or sample collection. Considering these questions will help to think about what metadata should be recorded in the field.
+
 * Will an acronym that was used in a data file, mean something to someone in ten years? 
 * Why was a sample collected in an unexpected location? 
 * Why does a particular sample contain double the number of invertebrates than the other samples from the same location? (This sample wasn't collected on time because of access problems due to poor weather).
@@ -66,7 +69,7 @@ Keep a [README](#readme.txt) file alongside the data. Information within the REA
 ***
 _Example_
 
- Data were produced by xxx instrument and saved directly onto a connected laptop which ran Windows 10. Software yyy (version 1.1 by Company Name) saved the files containing 24 hours of data with one-second resolution. Data were backed up automatically onto a portable hard drive once a day at 20:00 using rclone (version 0.3). The laptop crashed on 30th March 2020 and the data recorded before 16:34 UTC on this day, were lost. After the expedition, data were copied to network attached storage at Institution X using rclone (version 0.3). Another backup of the raw data was transferred to Amazon deep glacier storage using rclone (version 3.0) straight after the expedition. Both copies of the data are read-only for all users. They should be copied elsewhere for further processing. 
+ Data were produced by xxx instrument and saved directly onto a connected laptop which ran Windows 10. Software yyy (version 1.1 by Company Name) saved the files containing 24 hours of data with one-second resolution. Data were backed up automatically onto a portable hard drive once a day at 20:00 using rclone (version 0.3). The laptop crashed on 30th March 2020 and the data recorded before 16:34 UTC on this day, were lost. After the expedition, data were copied to network attached storage at Institution X using rclone (version 0.3). Another backup of the raw data was transferred to Amazon Deep Glacier storage using rclone (version 3.0) straight after the expedition. Both copies of the data are read-only for all users. They should be copied elsewhere for further processing. 
  
  ***
  
@@ -78,7 +81,7 @@ It is easy to lose information about the context of data and samples when projec
 
 ### Machine-readable metadata
 
-If metadata are structured and documented correctly, they can be easily read by machines (computers). It is important for humans to be able to understand if a dataset is fit for their purpose, something normally achieved by reading documentation. The advantages of machine-readable metadata are to ensure that datasets are discoverable in searches, easier to combine with other datasets and meet community standards, which in turn allows comparison of similar datasets. 
+If metadata are structured and documented correctly, they can be easily read by machines (software). It is important for humans to be able to understand if a dataset is fit for their purpose, something normally achieved by reading documentation. The advantages of machine-readable metadata are to ensure that datasets are discoverable in searches, easier to combine with other datasets and meet community standards, which in turn allows comparison of similar datasets. 
 
 Some machine-readable metadata schemas to consider are: 
 
