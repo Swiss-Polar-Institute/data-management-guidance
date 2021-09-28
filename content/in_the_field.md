@@ -1,11 +1,11 @@
 
 ## In the field
 
-Careful preparation and a good routine in the field can help to manage data well and avoid frustration through lack of documentation and bad organisation of files. A careful routine of spending time backing up data, transcribing hand-written notes or data, and checking records of samples at the end of each day is vital. 
+Careful preparation and a good routine in the field can help to manage data well and avoid frustration through lack of documentation and bad organisation of files. A careful routine backing up data, transcribing hand-written notes or data, and checking records of samples at the end of each day, is vital. 
 
 ### Data collection from an instrument
 
-Automation, careful setup and testing are key. Much of the setup for [data storage](#storing-data) should already be planned and in place before beginning work in the field. Refer to the [planning](#before-you-go) section for what to think about and prepare before arriving in the field.
+Automation, careful setup and testing are key. Much of the setup for [data storage](#storing-data) should already be planned and in place before beginning work in the field. Refer to the [planning](#before-you-go) section for what to prepare before arriving in the field.
 
 #### Initial setup and testing
 
@@ -37,7 +37,7 @@ If collecting data in a notebook by hand, it is good practice to [digitise the d
 
 #### Backing up or digitising your data
 
-Hand-written data should be digitised as soon as possible after data collection and at least once a day. A simple first backup can be done by photographing notes in case the unthinkable happens and the notebook is lost (keep the camera and notebook separately). Digitising hand-written notes in a structured manner such as in a spreadsheet, cannot be underestimated and this should be done as regularly as possible as well (at least daily). This allows embellishment of any shorthand that has been used before it is forgotten, or any queries to be followed-up. In particular, when recording species, it is possible to follow up on missing identifications before key details are forgotten or lost. See the previous chapter about what to [prepare beforehand](#preparing-for-recording-data-by-hand) to save time in the field.
+Hand-written data should be digitised as soon as possible after data collection and at least once a day. A simple first backup can be done by photographing notes in case the unthinkable happens and the notebook is lost (keep the camera and notebook separately). Digitising hand-written notes in a structured manner such as in a spreadsheet, cannot be underestimated and this should be done as regularly as possible (at least daily). This allows embellishment of any shorthand that has been used before it is forgotten, or any queries to be followed-up. In particular, when recording species, it is possible to follow up on missing identifications before key details are forgotten. See the previous chapter about what to [prepare beforehand](#preparing-for-recording-data-by-hand) to save time in the field.
 
 If adding to a data file with new observations each day, using the date to denote different versions of the file is helpful e.g., ``project_datatype_observations_YYYYMMDD.csv``. This acts as an additional backup: if the last day's file is lost, at least only the latest data has been lost. 
 
@@ -49,13 +49,13 @@ Record [metadata](#metadata) about [sample collection](#collecting-samples) as a
 
 Ensure samples can be easily found at the field site from the records that are kept, particularly if participating in a long field campaign. Recording their storage location and box / crate number is also useful in case they need to be found, such as on arrival at customs. Be sure to note if they are destroyed during sample analysis that is done whilst in the field, to avoid wasting time searching for a sample that no longer exists!
 
-Finally, keep an accurate record of what is contained in each sample according to what is required for [permits and border entry requirements](#travel-and-customs) and where the sample is being sent for analysis following the field work.
+Finally, keep an accurate record of what is contained in each sample according to what is required for [permits, border entry requirements](#travel-and-customs) and where the sample is being sent for analysis following field work.
 
 ### Data from sample analysis
 
-In some cases, samples may be collected and processed in the field. The field setup will very much dictate how data from sample analysis can be recorded. Consider if it will be possible to have a laptop or computer in the lab, or if values will be noted by hand. If the former, then treat this as [data collection from an instrument](#data-collection-from-an-instrument), taking good care to regularly save and backup data files. If the latter, then refer to the section, [recording data by hand](#recording-data-by-hand). This data should be digitised as soon as possible and backed up securely.
+In some cases, samples may be collected and processed in the field. The field setup will very much dictate how data from sample analysis can be recorded. Consider if it will be possible to have a laptop or computer in the lab, or if values will be noted by hand. If the former, then treat this as [data collection from an instrument](#data-collection-from-an-instrument), taking good care to regularly save and backup data files. If the latter, then refer to the section [recording data by hand](#recording-data-by-hand). This data should be digitised as soon as possible and backed up securely.
 
-If recording further information about the samples such as identifying different species of plant, then please refer to the section, [recording data by hand](#recording-data-by-hand).
+If recording further information about the samples such as identifying different species of plant, then refer to the section, [recording data by hand](#recording-data-by-hand).
 
 ### Recording metadata
 
