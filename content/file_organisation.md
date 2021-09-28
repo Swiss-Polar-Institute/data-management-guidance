@@ -1,17 +1,18 @@
 
 ## File organisation
 
-It is worth investing time and effort in ensuring a coherent [directory structure](#directory-structure), understandable [file names](#file-and-directory-naming), secure data storage and carefully thought-out [backups](#data-backup). Collaboration with others and future work can be made easier by good organisation at the beginning.
+It is worth investing time and effort in ensuring a coherent [directory structure](#directory-structure) and understandable [file names](#file-and-directory-naming).
 
 ### Directory structure
 
 Consider a set of higher level directories that can be used consistently across projects. 
 
-Raw or finalised data files should not be worked on directly to avoid modifying them accidentally (see the section about [working on data](#working-on-your-data) for more information). For this reason, consider creating a work-in-progress ("wip") directory which can have different permissions and a different [backup schedule](#data-backup). 
+Raw or finalised data files should not be worked on directly, to avoid modifying them accidentally (see the section about [working on data](#working-on-your-data)). For this reason, consider creating a work-in-progress ("wip") directory which can have different permissions and a different [backup schedule](#data-backup). 
 
 Directories containing data may be organised differently according to the project. It is important to consider the [number of files in a directory](#number-of-files-in-a-directory) and [size of files](#file-size) to make them easier to work with.
 
-An example directory structure can be seen below.
+***
+_Example_
 
 ~~~
 projectName
@@ -33,7 +34,9 @@ projectName
 |   |   |-- 2020
 |-- README.txt
 |-- wip
-~~~ 
+~~~
+
+***
 
 #### File size
 
@@ -59,7 +62,7 @@ Some key points adapted from @borerSimpleGuidelinesEffective2009:
 
 **Versioning:** this can be done using the date in the format YYYYMMDD. Placing the date at the start of the filename can be useful. If more granularity is useful, then version numbering such as v01_01, v01_02 can be used as well. Placing this at the end of the filename is useful, although if detailed versioning such as this is required, consider using a [versioning tool](#versions-of-files).
 
-Files and directories will most likely be listed in alphabetical order. Prefixes, such as numbers or letters, used to order them are not helpful if they do not mean anything. If using numbers for versioning, dates or in other meaningful ways, always use leading zeros, e.g. for sites that are numbered from one to ten, 01, 02, ..., 10 should be used. 
+Files and directories will most likely be listed in alphabetical order. Prefixes, such as numbers or letters, used to order them are not helpful if they do not mean anything. If using numbers for versioning, always use leading zeros, e.g. for sites that are numbered from one to ten, 01, 02, ..., 10 should be used. 
 
 **Describe naming:** describe how files are named within a [README file](#readme.txt).
 
@@ -74,7 +77,7 @@ ace_meteorology_data_20170130-120000.csv
 
 * ```ace``` is the overarching project - the acronym should be described in the README file, which should be stored with the files
 * ```meteorology``` is the sub-project
-* ```data``` signifies that this is data rather than documentation
+* ```data``` shows that this is data rather than documentation
 * ```20170130-120000``` is the first timestamp of data in the file (the meaning of a date/time should always be clarified in the README file)
 * ```.csv``` is the file type (comma-separated values)	
 
@@ -88,14 +91,14 @@ ace_meteorology_processedWindData_201701.csv
 * ```ace``` is the overarching project - the acronym should be described in the README file, which should be stored with the files
 * ```meteorology``` is the sub-project
 * ```processedWindData``` is information about the data contained in the file
-* ```201701``` is the subset of data in the file (data from January 2017. The meaning of a date/time should always be clarified in the README file))
+* ```201701``` is the subset of data in the file (data from January 2017. The meaning of a date/time should always be clarified in the README file)
 * ```.csv``` is the file type (comma-separated values)
 
 ***
 
 ### README.txt
 
-**Always** include a README file within a directory to describe its contents. This will help anyone coming to look at the files in the future. 
+**Always** include a README file within a directory to describe its contents. This will help anyone looking at the files in the future. 
 
 The Gurdon Institute [@downieBitesizedRDMReadme2019] provides a very useful list of what to include here, summarised as follows:
 
