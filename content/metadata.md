@@ -9,8 +9,6 @@ Metadata is a description of data [@mccarthyMetadataManagementLarge1982; @graySc
 
 Information about a dataset quickly deteriorates over time [@michenerNongeospatialMetadataEcological1997]. This information, metadata, is documentation that is a reminder to your future self (and others). Without information about how data and samples were collected, final results cannot be interpreted correctly [@smithFieldTrialsHealth2015].  
 
-![Metadata decreases over time](metadata_decrease_over_time.png){ width=50% }
-
 The following questions are just some examples of things that might affect data or sample collection. Considering these questions will help to think about what metadata should be recorded in the field.
 
 * Will an acronym that was used in a data file, mean something to someone in ten years? 
