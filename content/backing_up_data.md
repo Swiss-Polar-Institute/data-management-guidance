@@ -1,15 +1,17 @@
 
 ## Data backup
 
-Ensuring you have several reliable copies of data avoids data loss. 
+Ensuring you have several reliable copies of data during and after fieldwork, helps to avoids data loss. 
 
-Backup set-up and schedules will differ when working in the field. This is covered in more detail in the [planning](#before-you-go) and [working in the field](#in-the-field) sections of the guide.
+Set-up and schedules will differ when working in the field or at an institution. This is covered in more detail in the [planning](#before-you-go) and [working in the field](#in-the-field) sections of the guide.
 
 ### Creating a backup schedule
 
 #### How many and how often
 
-Think carefully about how often data should be backed up and if full backups or partial backups for files that have changed, are needed. Documentation, code, plots and other associated files should also be backed up alongside the data. Automating backups will make everything much simpler and helps to avoid mistakes.
+Think carefully about how often data should be backed up and if full or partial backups for files that have changed, are needed. Documentation, code, plots and other associated files should also be backed up alongside the data. 
+
+Automating backups will make everything much simpler and helps to avoid mistakes.
 
 Arguably it is much simpler to do a full backup of files each time and retain these for a certain period of time. If data and associated files are not being worked on any longer, then as long as the backups are secure and regularly checked, these could be backed up less often. 
 
@@ -21,11 +23,11 @@ It is important to consider how much space each backup will take and therefore h
 
 #### Retention of backups
 
-If using managed data storage be sure to understand how often backups are done and for how long these are retained.
+If using managed data storage, be sure to understand how often backups are done and for how long these are retained.
 
-For regular backups, a backup cycle should be considered, where each backup is retained for a certain period of time before being deleted. For example, if ten backups of files are retained and these backups are done once per week, when a new backup is done (and verified), the oldest would then be deleted. 
+For regular backups, a backup cycle should be considered, where each backup is retained for a certain period of time before being deleted. For example, if ten backups of files are retained and these backups are done once per week, when a new backup is done (and verified), the oldest would then be deleted. Cycling of backups should be automated.
 
-The long-term preservation of data should always be planned in a data management plan at the outset of a project (sometimes this is required as part of a project proposal). In planning this long-term storage, take into account how the data have been collected, if they have been published openly anywhere and their importance for future work. 
+The long-term preservation of data should always be planned in a data management plan at the outset of a project (sometimes this is required as part of a project proposal). When planning this long-term storage, take into account how the data have been collected, if they have been published openly anywhere and their importance for future work. 
 
 ### Documenting backups
 
@@ -37,7 +39,7 @@ It is important to verify a backup when it has finished to ensure it contains th
 
 #### Checksums
 
- [Checksums](https://en.wikipedia.org/wiki/Checksum) are like a fingerprint of a file: if its content changes in any way, then its checksum also changes. Comparing checksums of the original files and the backed-up files is one method to verify the backed-up files are as expected. 
+ A [Checksums](https://en.wikipedia.org/wiki/Checksum) is like a fingerprint of a file: if its content changes in any way, then its checksum also changes. Comparing checksums of the original and backed-up files is one method to verify the backed-up files are as expected. 
 
 [md5sum](https://en.wikipedia.org/wiki/Md5sum) and [sha1sum](https://en.wikipedia.org/wiki/Sha1sum) are two examples of computer programs that compute checksums of files and would be suitable for this purpose.  
 
@@ -66,4 +68,4 @@ Make sure:
 * backed up versions of data are identical to the primary copy (i.e. verified). Whilst [checking](#verifying-a-backup) that files have been copied, even if they are listed in the secondary location, using checksums will confirm they have been copied correctly;
 * backups can be easily [restored](#backup-restoration);
 * decide on a [directory structure](#storing-data) and [file naming](#file-and-directory-naming) convention and stick to it. Making changes to these (unless absolutely necessary) can create problems with backups because it is easy to lose track of what has been copied and what has not, which is the latest version, and so on;
-* bear in mind how long a backup will take and consider this when deciding how backups will be done and scheduled.
+* bear in mind how long a backup will take and consider this when deciding how backups will be scheduled.
