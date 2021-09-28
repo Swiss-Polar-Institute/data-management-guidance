@@ -77,6 +77,20 @@ It is easy to lose information about the context of data and samples when projec
 
 **Project description:** maintain a good description of the project to which datasets and samples contribute. Include what the study set out to do, how it contributes new knowledge to the field, what the research questions/hypotheses were, and which methodologies, instruments and measures were used [@theuniversityofedinburghDocumentationMetadataCitation2021].
 
+### README.txt
+
+**Always** include a README file within a directory to describe its contents. This will help anyone looking at the files in the future. 
+
+The Gurdon Institute [@downieBitesizedRDMReadme2019] provides a very useful list of what to include here, summarised as follows:
+
+* summarise what is in the directory
+* use keywords for the project, data type or parameters so that they can be searched in the future
+* include the name of the person(s) who created the directory and their contact details
+* describe any changes made to the directory and when
+* explain file naming conventions
+* details of backups: how often and where to, how they can be accessed
+* make sure the file is written in plain text format so that it can easily be read in the future.
+
 ### Machine-readable metadata
 
 It is important for humans to be able to understand if a dataset is fit for their purpose, something normally achieved by reading documentation. However, if metadata are structured and documented correctly, they can be easily read by machines (software). The advantages of machine-readable metadata are to ensure that datasets are discoverable in searches, easier to combine with other datasets and meet community standards, which in turn allows comparison of similar datasets. 

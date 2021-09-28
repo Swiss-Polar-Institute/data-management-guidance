@@ -95,17 +95,3 @@ ace_meteorology_processedWindData_201701.csv
 * ```.csv``` is the file type (comma-separated values)
 
 ***
-
-### README.txt
-
-**Always** include a README file within a directory to describe its contents. This will help anyone looking at the files in the future. 
-
-The Gurdon Institute [@downieBitesizedRDMReadme2019] provides a very useful list of what to include here, summarised as follows:
-
-* summarise what is in the directory
-* use keywords for the project, data type or parameters so that they can be searched in the future
-* include the name of the person(s) who created the directory and their contact details
-* describe any changes made to the directory and when
-* explain file naming conventions
-* details of backups: how often and where to, how they can be accessed
-* make sure the file is written in plain text format so that it can easily be read in the future.
