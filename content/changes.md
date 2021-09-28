@@ -9,10 +9,10 @@
 
 * Update title page: date, version and DOI
 * Update introduction: what this guide covers, contact email address
-* Update metadata: refine text, TODO add examples
+* Update metadata: refine text, add README section, TODO add examples
 * Update storing data: add section "data publication" and "set them up" within portable media, refine text, reformat
-* Update file organisation: refine text
-* Update file formats: refine text
+* Update file organisation: move README section, refine text
+* Update file formats: add section "for metadata", refine text
 * Update backing up data: refine text
 * Update sample collection: refine text
 * Update field guide introduction: refine text
