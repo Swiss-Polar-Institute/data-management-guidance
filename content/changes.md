@@ -19,3 +19,5 @@
 * Update planning before you go: refine text, add example data storage calculation, reformat
 * Update in the field: add section "verifying metadata", refine text
 * Update upon return: refine text
+
+Git commit: {{git_commit}}
