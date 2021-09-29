@@ -3,7 +3,7 @@
 
 Ensuring you have several reliable copies of data during and after fieldwork, helps to avoids data loss. 
 
-Set-up and schedules will differ when working in the field or at an institution. This is covered in more detail in the [planning](#before-you-go) and [working in the field](#in-the-field) sections of the guide.
+Set-up and schedules will differ when working in the field or at an institution. This is covered in more detail in the [planning](#planning) and [working in the field](#in-the-field) sections of the guide.
 
 ### Creating a backup schedule
 

@@ -5,7 +5,7 @@ Careful preparation and a good routine in the field can help to manage data well
 
 ### Data collection from an instrument
 
-Automation, careful setup and testing are key. Much of the setup for [data storage](#storing-data) should already be planned and in place before beginning work in the field. Refer to the [planning](#before-you-go) section for what to prepare before arriving in the field.
+Automation, careful setup and testing are key. Much of the setup for [data storage](#storing-data) should already be planned and in place before beginning work in the field. Refer to the [planning](#planning) section for what to prepare before arriving in the field.
 
 #### Initial setup and testing
 
