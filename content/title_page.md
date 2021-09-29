@@ -1,6 +1,5 @@
 ---
 title: Data management in the field
-subtitle: test
 author: Jen Thomas, Swiss Polar Institute
 date: September 2021
 version: Version 1.1
