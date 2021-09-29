@@ -50,15 +50,15 @@ In addition to the [size of files](#file-size), it is important to consider the 
 
 ***
 
-_Example_
+_Examples_
 
 A directory structure for data collected in hourly files to avoid too many files in the same directory: 
 
 ~~~
- YYYY/MM/DD/HH/YYYY-MM-DD-HHmmSS-waves.bin
+YYYY/MM/DD/HH/YYYY-MM-DD-HHmmSS-waves.bin
 ~~~
 
-If there were files with different names another possibility is to put files in subdirectories, such as:
+If there were files with different names another possibility is to put files in sub-directories, such as:
 
 ~~~
 A/m/Amie.txt

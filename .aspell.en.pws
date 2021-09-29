@@ -1,7 +1,8 @@
-personal_ws-1.1 en 171 
+personal_ws-1.1 en 180 
 PLoS
 Peng
 fieldSiteA
+HHmmSS
 fieldSiteB
 pdflatex
 fieldSiteC
@@ -23,6 +24,8 @@ normalfont
 fontspec
 Colavizza
 EPFL
+ec
+ebc
 mistranscribe
 Fastguides
 eg
@@ -38,6 +41,7 @@ considertation
 Downie
 zenodoZenodoResearchShared
 checksums
+instrumentName
 RENKU
 mystyle
 readmetxt
@@ -50,6 +54,7 @@ grayScientificDataManagement
 darkgray
 LFS
 NetCDF
+HH
 edn
 monofont
 Zenodo
@@ -106,6 +111,7 @@ cookBestPracticesPreparing
 pagenumbering
 HDF
 newpagestyle
+antarctica
 sectiontitle
 thesection
 mainfont
@@ -125,6 +131,7 @@ wip
 Ziemann
 txt
 singlesided
+baf
 oneside
 YYYYMMDD
 SeaDataNet
@@ -166,7 +173,9 @@ chanS
 wikipediacontributorsComparisonOnlineBackup
 Copp
 thechapter
+Pre
 Verison
 fboxrule
 Muehlbauer
 setlength
+dba
