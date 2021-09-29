@@ -48,6 +48,32 @@ Avoid creating files that are more than 1 GB in size because in some cases, they
 
 In addition to the [size of files](#file-size), it is important to consider the number of files in a directory. Whilst in the majority of modern file systems the number of files within a directory is not technically limited, having more than a few thousand in one directory can make them more tricky to work with. As a guide, around 10,000 files could be considered as a sensible maximum number within one directory but it will greatly depend on the technologies being used. If data collection will produce around this number, consider splitting them into sub-directories. 
 
+***
+
+_Example_
+
+A directory structure for data collected in hourly files to avoid too many files in the same directory: 
+
+~~~
+ YYYY/MM/DD/HH/YYYY-MM-DD-HHmmSS-waves.bin
+~~~
+
+If there were files with different names another possibility is to put files in subdirectories, such as:
+
+~~~
+A/m/Amie.txt
+J/o/John.txt
+~~~
+
+A more complex example would be to store files with the hash as a filename and a database table linking the logical filename with the hashed name. The first characters of the hash would be used for the directory structure. The database table would show: 
+
+~~~
+1, Amie.txt, a/9/a9564ebc3289b7a14551baf8ad5ec60a.txt
+2, John.txt, 0/5/056a3c5c319c5288dba5f48ac619ab70.txt
+~~~
+
+***
+
 ### File and directory naming
 
 Some key points adapted from @borerSimpleGuidelinesEffective2009:
