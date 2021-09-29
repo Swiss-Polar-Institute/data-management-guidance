@@ -50,7 +50,7 @@ It should be possible to follow the life history of a sample from its collection
 
 #### Data files
 
-Keep a [README](#readme.txt) file alongside the data. Information within the README file will depend on the complexity of the data and how they are stored. It might include some or all of the following:
+Keep a [README](#readme.txt) file alongside the data. Information within the README file will depend on the complexity of the data and how they are stored. It might include some or all of the following information about the files and data itself:
 
 **File description:** explain what the files are and their purpose. Include each parameter name, a full description and units. Describe in full any acronyms or shorthand that are used within the data files.
 
@@ -60,17 +60,11 @@ Keep a [README](#readme.txt) file alongside the data. Information within the REA
 
 **Data file transfer:** keep full records of how data files were saved, backed up and transferred between different storage types during collection and afterwards. Where possible, use scripts to do this and keep them as a record.  
 
-**Data file manipulation and processing:** wherever possible, use scripts to manipulate data files as this creates a record of what has been done whilst working on the data. Keep and backup these scripts. It is also good practice to keep human-readable notes alongside this, particularly about which decisions were taken and why. 
+**Data file manipulation and processing:** wherever possible, use scripts to manipulate data files as this creates a record of what has been done whilst working on the data. Keep and backup these scripts. It is also good practice to keep human-readable notes alongside this, particularly about which decisions were taken and why. When describing data files, if no processing has been done to the files, also make this clear.
 
 **Dataset rights holders:** note details of the rights holders of the dataset (person(s) and / or organisation(s)), who contributed to the production of the dataset, as well as what they did. Full details of authors, contributors and funders are normally asked for when publishing a dataset.
 
-***
-_Example_
 
- Data were produced by xxx instrument and saved directly onto a connected laptop which ran Windows 10. Software yyy (version 1.1 by Company Name) saved the files containing 24 hours of data with one-second resolution. Data were backed up automatically onto a portable hard drive once a day at 20:00 using rclone (version 0.3). The laptop crashed on 30th March 2020 and the data recorded before 16:34 UTC on this day, were lost. After the expedition, data were copied to network attached storage at Institution X using rclone (version 0.3). Another backup of the raw data was transferred to Amazon Deep Glacier storage using rclone (version 3.0) straight after the expedition. Both copies of the data are read-only for all users. They should be copied elsewhere for further processing. 
- 
- ***
- 
 #### Project
 
 It is easy to lose information about the context of data and samples when projects come to an end. More detailed information, particularly about methods, might be lost because it cannot all fit in a journal article.
@@ -89,7 +83,35 @@ The Gurdon Institute [@downieBitesizedRDMReadme2019] provides a very useful list
 * describe any changes made to the directory and when
 * explain file naming conventions
 * details of backups: how often and where to, how they can be accessed
-* make sure the file is written in plain text format so that it can easily be read in the future.
+* make sure the file is written and saved in plain text format so that it can easily be read in the future.
+
+***
+_Example_
+
+ -- Data collection --
+ An instrument (name, manufacturer, model, serial number) was installed on the southern side of a building at a station in Antarctica (name, coordinates, altitude). The instrument was installed from 20th December 2020 until 20th December 2021. Testing was done from 20th - 31st December 2020 and 24-hour data collection began on 1st January 2021. 
+ 
+ The instrument operated 24-hours a day, saving data directly onto a connected laptop which ran Windows 10. Software (name, version number, reference) saved the files containing 24 hours of data with one-second resolution. Data were saved into daily files, named in the format instrumentName_antarctica_YYYYMMDD.csv where YYYYMMDD is the date (UTC) on which the data were recorded. No processing of the data was done in the field; these data are as-recorded. Data are in ASCII format and can be read by text editors, spreadsheet software and other software. Parameters follow definitions of the Climate and Forecast (CF) Metadata Conventions.
+ 
+ -- Data backup in the field --
+ Data were backed up automatically onto a portable hard drive once a day at 20:00 using rclone (version 0.3). Hard drives were rotated every week and each time they were swapped, data were copied to a third hard drive.
+ 
+ -- Instrument calibrations --
+ Instrument calibrations were done once a week on a Monday. During the calibration, the instrument did not operate normally, but instead data for the calibrations were saved. These are part of the normal data files. A record of calibration dates and times can be found in the file instrument_calibrations.csv.
+ 
+ -- Data transfer --
+ After the expedition, data were copied to network attached storage at Institution X using rclone (version 0.3). Another backup of the raw data was transferred to Amazon Deep Glacier storage using rclone (version 3.0) straight after the expedition. Both copies of the data are read-only for all users. They should be copied elsewhere for further processing. 
+
+-- Log --
+ The laptop crashed on 30th March 2021 and the data recorded before 16:34 UTC on this day, were lost.
+ Bad weather meant the hard drives couldn't be changed on 6th June 2021 so one remained with an extra 4 days of backups. 
+ The calibration was not done on 7th June 2021 because the instrument could not be accessed due to bad weather.
+ An interruption in the power supply to the instrument occurred on 12th July 2021 and the instrument could not be accessed and the power supply fixed until 19th July 2021. There are no data from this period. 
+ 
+ -- Project --
+ Data were collected as part of the project, "Meteorology in Antarctica", funded by the Antarctic Funding Organisation (grant number ABC1234, PI: name). Data are owned by PI and PhD student (names). Data were collected by PhD student A, assistant B and assistant C. 
+  
+ ***
 
 ### Machine-readable metadata
 
