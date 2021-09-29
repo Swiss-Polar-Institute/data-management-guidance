@@ -64,3 +64,17 @@ Ensure the [metadata](#metadata) section of this guide is followed, paying parti
 Remember to digitise this information if it would ordinarily be recorded in a notebook and treat these files like any other data, using secure [storage](#storing-data) and regular [backups](#data-backup).
 
 Take photographs of as many things as possible! The instrument set-up, makes, models and serial numbers of equipment equipment, notebooks, field sites, laboratory setting, notebooks and anything that could affect the experiment directly or indirectly. This is hugely valuable metadata and should be carefully [backed-up](#data-backup).
+
+### Verifying metadata
+
+We have already discussed checking data whilst you are in the field to ensure that instrumentation or measurements are going to plan. It is just as important to make sure that metadata are correct. 
+
+**Plot coordinates on a map:** prepare and take a very simple map background which allows you to see the context of your study area. Plot any data or sample collection points, routes or important locations on the map as a way to verify that recorded coordinates are correct. This could help to spot errors in navigation devices (particularly if they are recording constantly), errors in transcribing positions or simple confusion of latitude and longitude. 
+
+**Bounding box for coordinates:** verification of latitudes and longitudes can also be done on data entry, by restricting them to a bounding box in which you are working. Identifying the minimum and maximum permitted latitude and longitude can help to have a quick check in a recording sheet. 
+
+**Check dates and times:** depending on your field site, you may be working in different time zones, recording information in UTC or even changing time zone regularly. This all adds to confusion in the field. Always record time zone changes and keep a record of how many hours ahead or behind UTC you are. It is worth regularly checking dates and times of data and sample collection in your records. Do they make sense? Do they follow on from each other in the correct way? Were you in the field at that time? Plots can help, as can simple addition and subtraction of times in a spreadsheet.
+
+**Sets of possible values:** for many parameters that are recorded by hand or as metadata, it is often possible to restrict them to a set of possible values. For example, it may be that you are collecting on three types of material: water, sediment and vegetation. Or perhaps the temperature is being recorded each time you collect a sample; given the location and time of year, you know that it would be very unlikely that the temperature would be outside of the range of -5 to +15 degrees C. In common spreadsheet software it is possible to restrict values entered into a column. Otherwise, simple checks or plots can be done on a regular basis to make sure these limits are not violated. Be strict with yourself; this will save a lot of time later on.
+
+Whilst it is very common to record this kind of metadata in a spreadsheet, investment in putting together a simple database which includes parameter value constraints as mentioned above, can really be worth it. Resulting data will be cleaner and contain less mistakes which are easily made at the point of data entry.
